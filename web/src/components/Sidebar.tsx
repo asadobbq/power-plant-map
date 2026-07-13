@@ -160,6 +160,10 @@ export default function Sidebar(p: Props) {
       )}
 
       <footer className="sb-foot">
+        <div className="sb-disclaimer">
+          본 서비스는 공공데이터를 재구성한 <b>비공식 안내 서비스</b>입니다. 혜택·지원금은 추정치이며
+          법적 판정이 아닙니다. 정확한 정보는 관할 지자체·발전사·전력거래소 공식 자료를 확인하세요.
+        </div>
         <div>기준일 {p.generatedAt}</div>
         {p.sources.map((s, i) => (
           <div key={i} className="src">
