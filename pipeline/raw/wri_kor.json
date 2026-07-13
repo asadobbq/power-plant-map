@@ -1,0 +1,926 @@
+[
+ {
+  "name": "Andong Kowaco",
+  "fuel": "Hydro",
+  "mw": "90.0",
+  "lat": "36.5847",
+  "lng": "128.7739"
+ },
+ {
+  "name": "Ansan Project",
+  "fuel": "Gas",
+  "mw": "834.0",
+  "lat": "37.2952",
+  "lng": "126.7788"
+ },
+ {
+  "name": "Anyang CHP",
+  "fuel": "Gas",
+  "mw": "493.0",
+  "lat": "37.3936",
+  "lng": "126.9671"
+ },
+ {
+  "name": "Asan Baebang CHP",
+  "fuel": "Gas",
+  "mw": "113.9",
+  "lat": "36.9909",
+  "lng": "126.7135"
+ },
+ {
+  "name": "Asan Hyundai",
+  "fuel": "Solar",
+  "mw": "10.0",
+  "lat": "36.8490",
+  "lng": "126.8740"
+ },
+ {
+  "name": "Baekje",
+  "fuel": "Hydro",
+  "mw": "2.6",
+  "lat": "36.3174",
+  "lng": "126.9401"
+ },
+ {
+  "name": "Boogeo-seom",
+  "fuel": "Solar",
+  "mw": "6.0",
+  "lat": "37.8590",
+  "lng": "127.6800"
+ },
+ {
+  "name": "Boryeong (CC)",
+  "fuel": "Gas",
+  "mw": "1800.0",
+  "lat": "36.3951",
+  "lng": "126.4860"
+ },
+ {
+  "name": "Boryeong (poryang)",
+  "fuel": "Coal",
+  "mw": "4000.0",
+  "lat": "36.4020",
+  "lng": "126.4900"
+ },
+ {
+  "name": "Boryeong Hydro Unit",
+  "fuel": "Hydro",
+  "mw": "7.5",
+  "lat": "36.3995",
+  "lng": "126.4870"
+ },
+ {
+  "name": "Bucheon Power",
+  "fuel": "Gas",
+  "mw": "473.0",
+  "lat": "37.5225",
+  "lng": "126.7640"
+ },
+ {
+  "name": "Bugok",
+  "fuel": "Gas",
+  "mw": "1503.0",
+  "lat": "36.9590",
+  "lng": "126.7825"
+ },
+ {
+  "name": "Bugok Biomass",
+  "fuel": "Biomass",
+  "mw": "105.0",
+  "lat": "36.9590",
+  "lng": "126.7825"
+ },
+ {
+  "name": "Bukeju",
+  "fuel": "Coal",
+  "mw": "150.0",
+  "lat": "33.5370",
+  "lng": "126.5974"
+ },
+ {
+  "name": "Bukpyung power station",
+  "fuel": "Coal",
+  "mw": "1190.0",
+  "lat": "37.4805",
+  "lng": "129.1433"
+ },
+ {
+  "name": "Bundang",
+  "fuel": "Gas",
+  "mw": "922.0",
+  "lat": "37.3642",
+  "lng": "127.1482"
+ },
+ {
+  "name": "Busan (pusan)",
+  "fuel": "Gas",
+  "mw": "1800.0",
+  "lat": "35.0851",
+  "lng": "129.0003"
+ },
+ {
+  "name": "Chan Cheon",
+  "fuel": "Hydro",
+  "mw": "62.0",
+  "lat": "37.9672",
+  "lng": "127.6699"
+ },
+ {
+  "name": "ChangnyeongHaman",
+  "fuel": "Hydro",
+  "mw": "5.0",
+  "lat": "35.3774",
+  "lng": "128.5510"
+ },
+ {
+  "name": "Cheongpyeong",
+  "fuel": "Hydro",
+  "mw": "400.0",
+  "lat": "37.7232",
+  "lng": "127.4210"
+ },
+ {
+  "name": "Cheongsong",
+  "fuel": "Hydro",
+  "mw": "600.0",
+  "lat": "36.4052",
+  "lng": "129.0160"
+ },
+ {
+  "name": "Chilgok",
+  "fuel": "Hydro",
+  "mw": "3.0",
+  "lat": "36.0154",
+  "lng": "128.4004"
+ },
+ {
+  "name": "Chungju",
+  "fuel": "Hydro",
+  "mw": "400.0",
+  "lat": "37.0071",
+  "lng": "127.9926"
+ },
+ {
+  "name": "Daecheong",
+  "fuel": "Hydro",
+  "mw": "90.0",
+  "lat": "36.4783",
+  "lng": "127.4801"
+ },
+ {
+  "name": "Daegu Innovation City",
+  "fuel": "Gas",
+  "mw": "415.0",
+  "lat": "35.8819",
+  "lng": "128.7051"
+ },
+ {
+  "name": "Daesan Works",
+  "fuel": "Gas",
+  "mw": "131.0",
+  "lat": "37.0108",
+  "lng": "126.4099"
+ },
+ {
+  "name": "Dalseong",
+  "fuel": "Hydro",
+  "mw": "2.86",
+  "lat": "35.7324",
+  "lng": "128.4150"
+ },
+ {
+  "name": "Dangjin",
+  "fuel": "Coal",
+  "mw": "4000.0",
+  "lat": "37.0543",
+  "lng": "126.5133"
+ },
+ {
+  "name": "Dong Yang",
+  "fuel": "Solar",
+  "mw": "24.0",
+  "lat": "35.0222",
+  "lng": "126.2480"
+ },
+ {
+  "name": "Dongducheon",
+  "fuel": "Gas",
+  "mw": "1900.0",
+  "lat": "37.9030",
+  "lng": "127.0900"
+ },
+ {
+  "name": "Donghae PV",
+  "fuel": "Solar",
+  "mw": "1.4",
+  "lat": "37.4853",
+  "lng": "129.1470"
+ },
+ {
+  "name": "Donghae power station",
+  "fuel": "Coal",
+  "mw": "400.0",
+  "lat": "37.4863",
+  "lng": "129.1473"
+ },
+ {
+  "name": "FINEX",
+  "fuel": "Gas",
+  "mw": "146.0",
+  "lat": "36.0352",
+  "lng": "129.4011"
+ },
+ {
+  "name": "Gangcheon",
+  "fuel": "Hydro",
+  "mw": "5.0",
+  "lat": "37.2768",
+  "lng": "127.6815"
+ },
+ {
+  "name": "Gangjeong Goryeong",
+  "fuel": "Hydro",
+  "mw": "3.0",
+  "lat": "35.8417",
+  "lng": "128.4615"
+ },
+ {
+  "name": "Gangwon",
+  "fuel": "Wind",
+  "mw": "98.0",
+  "lat": "37.7244",
+  "lng": "128.7369"
+ },
+ {
+  "name": "Gimcheon",
+  "fuel": "Solar",
+  "mw": "9.1",
+  "lat": "36.1581",
+  "lng": "128.0488"
+ },
+ {
+  "name": "Gimcheon 2",
+  "fuel": "Solar",
+  "mw": "9.3",
+  "lat": "36.1408",
+  "lng": "128.0403"
+ },
+ {
+  "name": "Gimhae",
+  "fuel": "Solar",
+  "mw": "1.5",
+  "lat": "35.2842",
+  "lng": "128.8226"
+ },
+ {
+  "name": "Gochang",
+  "fuel": "Solar",
+  "mw": "15.0",
+  "lat": "34.4091",
+  "lng": "126.5112"
+ },
+ {
+  "name": "Goesan",
+  "fuel": "Hydro",
+  "mw": "2.8",
+  "lat": "36.8108",
+  "lng": "127.7947"
+ },
+ {
+  "name": "Gongju",
+  "fuel": "Hydro",
+  "mw": "3.0",
+  "lat": "36.4634",
+  "lng": "127.0969"
+ },
+ {
+  "name": "Gumi",
+  "fuel": "Hydro",
+  "mw": "3.0",
+  "lat": "36.2387",
+  "lng": "128.3483"
+ },
+ {
+  "name": "Gunsan",
+  "fuel": "Gas",
+  "mw": "719.0",
+  "lat": "35.9836",
+  "lng": "126.7307"
+ },
+ {
+  "name": "Gwangju",
+  "fuel": "Waste",
+  "mw": "2.0",
+  "lat": "35.0886",
+  "lng": "126.8863"
+ },
+ {
+  "name": "Gwangyang POSCO",
+  "fuel": "Gas",
+  "mw": "500.0",
+  "lat": "34.9073",
+  "lng": "127.7449"
+ },
+ {
+  "name": "Gwangyang Works",
+  "fuel": "Gas",
+  "mw": "830.0",
+  "lat": "34.9105",
+  "lng": "127.7424"
+ },
+ {
+  "name": "Hadong",
+  "fuel": "Coal",
+  "mw": "4000.0",
+  "lat": "34.9512",
+  "lng": "127.8213"
+ },
+ {
+  "name": "Hanbit",
+  "fuel": "Nuclear",
+  "mw": "5900.0",
+  "lat": "35.4105",
+  "lng": "126.4175"
+ },
+ {
+  "name": "Hangyeong",
+  "fuel": "Wind",
+  "mw": "21.0",
+  "lat": "33.3416",
+  "lng": "126.1661"
+ },
+ {
+  "name": "Hanul",
+  "fuel": "Nuclear",
+  "mw": "5900.0",
+  "lat": "37.0931",
+  "lng": "129.3830"
+ },
+ {
+  "name": "Hapcheon Changnyeong",
+  "fuel": "Hydro",
+  "mw": "5.0",
+  "lat": "35.5901",
+  "lng": "128.3543"
+ },
+ {
+  "name": "Hapchon",
+  "fuel": "Hydro",
+  "mw": "100.0",
+  "lat": "35.5337",
+  "lng": "128.0316"
+ },
+ {
+  "name": "Honam",
+  "fuel": "Coal",
+  "mw": "500.0",
+  "lat": "34.8545",
+  "lng": "127.7351"
+ },
+ {
+  "name": "Hwacheon",
+  "fuel": "Hydro",
+  "mw": "108.0",
+  "lat": "38.1174",
+  "lng": "127.7785"
+ },
+ {
+  "name": "Hwaseong",
+  "fuel": "Solar",
+  "mw": "1.0",
+  "lat": "37.0518",
+  "lng": "126.4412"
+ },
+ {
+  "name": "Hwasung KDHC",
+  "fuel": "Gas",
+  "mw": "510.0",
+  "lat": "37.0065",
+  "lng": "126.7930"
+ },
+ {
+  "name": "Ilsan",
+  "fuel": "Gas",
+  "mw": "900.0",
+  "lat": "37.6475",
+  "lng": "126.7973"
+ },
+ {
+  "name": "Imha",
+  "fuel": "Hydro",
+  "mw": "50.0",
+  "lat": "36.5384",
+  "lng": "128.8813"
+ },
+ {
+  "name": "Incheon",
+  "fuel": "Gas",
+  "mw": "3052.0",
+  "lat": "37.5111",
+  "lng": "126.6078"
+ },
+ {
+  "name": "Ipo",
+  "fuel": "Hydro",
+  "mw": "3.0",
+  "lat": "37.4041",
+  "lng": "127.5367"
+ },
+ {
+  "name": "Jeju",
+  "fuel": "Oil",
+  "mw": "255.0",
+  "lat": "33.5352",
+  "lng": "126.5961"
+ },
+ {
+  "name": "Jeju Offshore",
+  "fuel": "Wind",
+  "mw": "30.0",
+  "lat": "33.3690",
+  "lng": "126.1910"
+ },
+ {
+  "name": "Jeju Self Governing Wind Farm",
+  "fuel": "Wind",
+  "mw": "15.0",
+  "lat": "33.3924",
+  "lng": "126.7374"
+ },
+ {
+  "name": "Jinju Landfill Gas",
+  "fuel": "Waste",
+  "mw": "15.0",
+  "lat": "35.1195",
+  "lng": "128.0170"
+ },
+ {
+  "name": "Juksan",
+  "fuel": "Hydro",
+  "mw": "1.0",
+  "lat": "34.9734",
+  "lng": "126.6313"
+ },
+ {
+  "name": "KDHC Daegu",
+  "fuel": "Biomass",
+  "mw": "3.0",
+  "lat": "35.8311",
+  "lng": "128.4896"
+ },
+ {
+  "name": "KOMIPO Incheon",
+  "fuel": "Gas",
+  "mw": "1960.0",
+  "lat": "37.5109",
+  "lng": "126.6090"
+ },
+ {
+  "name": "Kori",
+  "fuel": "Nuclear",
+  "mw": "3137.0",
+  "lat": "35.3199",
+  "lng": "129.2948"
+ },
+ {
+  "name": "Kwangyang",
+  "fuel": "Gas",
+  "mw": "1071.0",
+  "lat": "34.8895",
+  "lng": "127.7747"
+ },
+ {
+  "name": "LG Solar Taean PV",
+  "fuel": "Solar",
+  "mw": "12.0",
+  "lat": "36.5893",
+  "lng": "126.3672"
+ },
+ {
+  "name": "Mokpo",
+  "fuel": "Waste",
+  "mw": "2.12",
+  "lat": "34.8328",
+  "lng": "126.4096"
+ },
+ {
+  "name": "Muju",
+  "fuel": "Hydro",
+  "mw": "600.0",
+  "lat": "35.9632",
+  "lng": "127.7050"
+ },
+ {
+  "name": "Nakdan",
+  "fuel": "Hydro",
+  "mw": "3.0",
+  "lat": "36.3591",
+  "lng": "128.3068"
+ },
+ {
+  "name": "Oseong",
+  "fuel": "Gas",
+  "mw": "830.0",
+  "lat": "37.0254",
+  "lng": "127.0027"
+ },
+ {
+  "name": "Paju",
+  "fuel": "Gas",
+  "mw": "515.0",
+  "lat": "37.8285",
+  "lng": "126.7870"
+ },
+ {
+  "name": "Paldang",
+  "fuel": "Hydro",
+  "mw": "120.0",
+  "lat": "37.5286",
+  "lng": "127.2803"
+ },
+ {
+  "name": "Pocheon",
+  "fuel": "Gas",
+  "mw": "1560.0",
+  "lat": "37.9465",
+  "lng": "127.1689"
+ },
+ {
+  "name": "Pohang Works",
+  "fuel": "Gas",
+  "mw": "345.0",
+  "lat": "36.0321",
+  "lng": "129.4170"
+ },
+ {
+  "name": "Pyeongtaek",
+  "fuel": "Oil",
+  "mw": "1400.0",
+  "lat": "37.0041",
+  "lng": "126.7946"
+ },
+ {
+  "name": "Pyeongtaek",
+  "fuel": "Gas",
+  "mw": "1348.0",
+  "lat": "37.0075",
+  "lng": "126.7953"
+ },
+ {
+  "name": "Saemangeum Ocise",
+  "fuel": "Coal",
+  "mw": "305.0",
+  "lat": "35.9399",
+  "lng": "126.5668"
+ },
+ {
+  "name": "Samcheok Green power station",
+  "fuel": "Coal",
+  "mw": "2044.0",
+  "lat": "37.1860",
+  "lng": "129.3418"
+ },
+ {
+  "name": "Samcheonpo",
+  "fuel": "Coal",
+  "mw": "3240.0",
+  "lat": "34.9103",
+  "lng": "128.1085"
+ },
+ {
+  "name": "Samdal",
+  "fuel": "Wind",
+  "mw": "33.0",
+  "lat": "33.3952",
+  "lng": "126.8213"
+ },
+ {
+  "name": "Samnangjin",
+  "fuel": "Hydro",
+  "mw": "600.0",
+  "lat": "35.4127",
+  "lng": "128.8760"
+ },
+ {
+  "name": "Samryangjin",
+  "fuel": "Solar",
+  "mw": "2.0",
+  "lat": "35.1355",
+  "lng": "128.5734"
+ },
+ {
+  "name": "Sancheong",
+  "fuel": "Hydro",
+  "mw": "700.0",
+  "lat": "35.2563",
+  "lng": "127.7763"
+ },
+ {
+  "name": "Sangju",
+  "fuel": "Hydro",
+  "mw": "3.0",
+  "lat": "36.1408",
+  "lng": "128.3525"
+ },
+ {
+  "name": "Seagull power station",
+  "fuel": "Coal",
+  "mw": "421.0",
+  "lat": "35.9779",
+  "lng": "126.6383"
+ },
+ {
+  "name": "Sejong",
+  "fuel": "Hydro",
+  "mw": "2.3",
+  "lat": "36.4727",
+  "lng": "127.2600"
+ },
+ {
+  "name": "Sejong City",
+  "fuel": "Gas",
+  "mw": "550.0",
+  "lat": "36.4683",
+  "lng": "127.2479"
+ },
+ {
+  "name": "Seocheon",
+  "fuel": "Coal",
+  "mw": "400.0",
+  "lat": "36.1358",
+  "lng": "126.4961"
+ },
+ {
+  "name": "Seoincheon",
+  "fuel": "Gas",
+  "mw": "1800.0",
+  "lat": "37.5363",
+  "lng": "126.6027"
+ },
+ {
+  "name": "Seoul PV",
+  "fuel": "Solar",
+  "mw": "1.3",
+  "lat": "35.2799",
+  "lng": "128.8676"
+ },
+ {
+  "name": "Seungchon",
+  "fuel": "Hydro",
+  "mw": "1.0",
+  "lat": "35.0673",
+  "lng": "126.7634"
+ },
+ {
+  "name": "Shin Boryeong power station",
+  "fuel": "Coal",
+  "mw": "2000.0",
+  "lat": "36.3846",
+  "lng": "126.4862"
+ },
+ {
+  "name": "Shin-Kori",
+  "fuel": "Nuclear",
+  "mw": "3340.0",
+  "lat": "35.3271",
+  "lng": "129.3017"
+ },
+ {
+  "name": "Shin-Wolsong",
+  "fuel": "Nuclear",
+  "mw": "2000.0",
+  "lat": "35.7221",
+  "lng": "129.4786"
+ },
+ {
+  "name": "Shinan",
+  "fuel": "Wind",
+  "mw": "3.0",
+  "lat": "38.0208",
+  "lng": "128.4965"
+ },
+ {
+  "name": "Shinincheon",
+  "fuel": "Gas",
+  "mw": "1800.0",
+  "lat": "37.5080",
+  "lng": "126.6159"
+ },
+ {
+  "name": "Sihwa Lake Tidal Power Plant",
+  "fuel": "Wave and Tidal",
+  "mw": "254.0",
+  "lat": "37.3142",
+  "lng": "126.6136"
+ },
+ {
+  "name": "Somjingang (Chilbo)",
+  "fuel": "Hydro",
+  "mw": "34.0",
+  "lat": "34.9191",
+  "lng": "126.8570"
+ },
+ {
+  "name": "Song-do",
+  "fuel": "Gas",
+  "mw": "211.0",
+  "lat": "37.3496",
+  "lng": "126.6047"
+ },
+ {
+  "name": "Soyang gang",
+  "fuel": "Hydro",
+  "mw": "200.0",
+  "lat": "37.9445",
+  "lng": "127.8115"
+ },
+ {
+  "name": "Sudokwon",
+  "fuel": "Waste",
+  "mw": "50.0",
+  "lat": "37.5813",
+  "lng": "126.6464"
+ },
+ {
+  "name": "Sungsan",
+  "fuel": "Wind",
+  "mw": "20.0",
+  "lat": "33.4397",
+  "lng": "126.8348"
+ },
+ {
+  "name": "Suwan Energy",
+  "fuel": "Gas",
+  "mw": "118.0",
+  "lat": "35.1968",
+  "lng": "126.8305"
+ },
+ {
+  "name": "Taean",
+  "fuel": "Solar",
+  "mw": "2.0",
+  "lat": "36.8043",
+  "lng": "126.2005"
+ },
+ {
+  "name": "Taean",
+  "fuel": "Coal",
+  "mw": "4000.0",
+  "lat": "36.9040",
+  "lng": "126.2330"
+ },
+ {
+  "name": "Taebaek Wind park",
+  "fuel": "Wind",
+  "mw": "18.0",
+  "lat": "37.3437",
+  "lng": "129.0018"
+ },
+ {
+  "name": "Taegisan",
+  "fuel": "Wind",
+  "mw": "40.0",
+  "lat": "37.4395",
+  "lng": "128.2698"
+ },
+ {
+  "name": "Uiam",
+  "fuel": "Hydro",
+  "mw": "48.0",
+  "lat": "37.8360",
+  "lng": "127.6779"
+ },
+ {
+  "name": "Ulsan",
+  "fuel": "Oil",
+  "mw": "3000.0",
+  "lat": "35.4754",
+  "lng": "129.3812"
+ },
+ {
+  "name": "Wolsong",
+  "fuel": "Nuclear",
+  "mw": "2799.0",
+  "lat": "35.7111",
+  "lng": "129.4743"
+ },
+ {
+  "name": "Yangyang",
+  "fuel": "Hydro",
+  "mw": "1000.0",
+  "lat": "38.0163",
+  "lng": "128.5467"
+ },
+ {
+  "name": "Yecheon",
+  "fuel": "Hydro",
+  "mw": "800.0",
+  "lat": "36.5678",
+  "lng": "128.8761"
+ },
+ {
+  "name": "Yeoju",
+  "fuel": "Hydro",
+  "mw": "5.0",
+  "lat": "37.3263",
+  "lng": "127.6052"
+ },
+ {
+  "name": "Yeong Yang",
+  "fuel": "Wind",
+  "mw": "61.5",
+  "lat": "36.5692",
+  "lng": "129.2363"
+ },
+ {
+  "name": "Yeongdong",
+  "fuel": "Coal",
+  "mw": "325.0",
+  "lat": "37.7386",
+  "lng": "128.9812"
+ },
+ {
+  "name": "Yeonggwang II",
+  "fuel": "Solar",
+  "mw": "11.0",
+  "lat": "35.4200",
+  "lng": "126.4230"
+ },
+ {
+  "name": "Yeongheung",
+  "fuel": "Coal",
+  "mw": "5080.0",
+  "lat": "37.2369",
+  "lng": "126.4361"
+ },
+ {
+  "name": "Yeongheung",
+  "fuel": "Wind",
+  "mw": "22.0",
+  "lat": "33.4397",
+  "lng": "126.8349"
+ },
+ {
+  "name": "Yeongnam",
+  "fuel": "Coal",
+  "mw": "400.0",
+  "lat": "35.5141",
+  "lng": "129.3835"
+ },
+ {
+  "name": "Yeongnam PV",
+  "fuel": "Solar",
+  "mw": "13.0",
+  "lat": "34.7430",
+  "lng": "126.4273"
+ },
+ {
+  "name": "Yeongwol",
+  "fuel": "Gas",
+  "mw": "848.0",
+  "lat": "37.1630",
+  "lng": "128.4924"
+ },
+ {
+  "name": "Yeongwol",
+  "fuel": "Solar",
+  "mw": "38.9",
+  "lat": "37.1790",
+  "lng": "128.4010"
+ },
+ {
+  "name": "Yeosu",
+  "fuel": "Coal",
+  "mw": "678.0",
+  "lat": "34.8393",
+  "lng": "127.6908"
+ },
+ {
+  "name": "Yoesu Lotte",
+  "fuel": "Gas",
+  "mw": "80.0",
+  "lat": "34.8414",
+  "lng": "127.6929"
+ },
+ {
+  "name": "Yonggwang",
+  "fuel": "Solar",
+  "mw": "3.0",
+  "lat": "35.4190",
+  "lng": "126.4286"
+ },
+ {
+  "name": "Youngduk",
+  "fuel": "Wind",
+  "mw": "39.6",
+  "lat": "36.4149",
+  "lng": "129.4141"
+ },
+ {
+  "name": "Yulchon",
+  "fuel": "Gas",
+  "mw": "1475.0",
+  "lat": "34.9130",
+  "lng": "127.5930"
+ }
+]

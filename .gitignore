@@ -1,0 +1,4 @@
+pipeline/raw/wri_gppd.zip
+web/node_modules/
+web/dist/
+web/.env

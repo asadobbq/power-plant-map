@@ -1,0 +1,354 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body, #root { height: 100%; }
+body {
+  font-family: 'Pretendard', 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif;
+  color: #1f2937;
+}
+
+.app { display: flex; height: 100%; }
+
+/* ---------- 사이드바 ---------- */
+.sidebar {
+  width: 360px;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid #e5e7eb;
+  background: #fafafa;
+  overflow: hidden;
+}
+.sb-head { padding: 16px 16px 8px; }
+.sb-head h1 { font-size: 20px; letter-spacing: -0.5px; }
+.sb-sub { font-size: 12px; color: #6b7280; margin-top: 2px; }
+.sb-search {
+  margin: 8px 16px;
+  padding: 9px 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 13px;
+  outline: none;
+}
+.sb-search:focus { border-color: #2563eb; }
+.sb-section { padding: 4px 16px; }
+.sb-label { font-size: 11px; font-weight: 700; color: #9ca3af; margin: 6px 0 4px; }
+.sb-label-row { display: flex; align-items: center; justify-content: space-between; }
+.sb-mini {
+  font-size: 10px;
+  color: #2563eb;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 2px 3px;
+}
+.sb-mini:hover { text-decoration: underline; }
+.chips { display: flex; flex-wrap: wrap; gap: 5px; }
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 12px;
+  padding: 4px 9px;
+  border-radius: 999px;
+  border: 1px solid #d1d5db;
+  background: #fff;
+  color: #9ca3af;
+  cursor: pointer;
+}
+.chip .dot { width: 8px; height: 8px; border-radius: 50%; background: #d1d5db; }
+.chip.on { color: #1f2937; border-color: var(--c); }
+.chip.on .dot { background: var(--c); }
+.small-toggle { gap: 6px; color: #4b5563; }
+.sb-count { padding: 8px 16px 4px; font-size: 11px; color: #9ca3af; }
+.sb-list { flex: 1; overflow-y: auto; list-style: none; }
+.sb-item {
+  display: flex;
+  gap: 8px;
+  padding: 9px 16px;
+  cursor: pointer;
+  border-bottom: 1px solid #f3f4f6;
+  align-items: flex-start;
+}
+.sb-item:hover { background: #f3f4f6; }
+.sb-item.sel { background: #eff6ff; }
+.sb-item .dot { width: 10px; height: 10px; border-radius: 50%; margin-top: 4px; flex: none; }
+.sb-item-name { font-size: 13px; font-weight: 600; }
+.sb-item-sub { font-size: 11px; color: #6b7280; margin-top: 1px; }
+.tag {
+  font-style: normal;
+  font-size: 10px;
+  padding: 1px 5px;
+  border-radius: 4px;
+  margin-left: 5px;
+  vertical-align: 1px;
+}
+.tag-planned { background: #ffedd5; color: #c2410c; }
+.tag-retire { background: #fee2e2; color: #b91c1c; }
+.sb-foot { padding: 10px 16px; border-top: 1px solid #e5e7eb; font-size: 10px; color: #9ca3af; }
+.sb-foot .src { margin-top: 2px; line-height: 1.4; }
+
+/* ---------- 지도 ---------- */
+.map-wrap { flex: 1; position: relative; }
+.map { width: 100%; height: 100%; }
+.map-banner {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(31, 41, 55, 0.85);
+  color: #fff;
+  font-size: 12px;
+  padding: 6px 14px;
+  border-radius: 999px;
+  z-index: 1000;
+  pointer-events: none;
+  white-space: nowrap;
+  max-width: calc(100% - 24px);
+}
+@media (max-width: 760px) {
+  .map-banner { white-space: normal; text-align: center; border-radius: 12px; }
+}
+
+/* ---------- 마커 (네이버부동산식 핀) ---------- */
+.pp-divicon { background: none; border: none; }
+.leaflet-marker-icon:hover { z-index: 100000 !important; }
+.pin, .clu { transform: translate(-50%, -100%); }
+
+.pin {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  background: #fff;
+  border: 2px solid var(--c);
+  border-radius: 999px;
+  padding: 2px 8px 2px 5px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  white-space: nowrap;
+  font-family: inherit;
+}
+.pin:hover { box-shadow: 0 4px 12px rgba(0, 0, 0, 0.35); }
+.pin-ico { font-size: 13px; line-height: 1; }
+.pin-cap { font-size: 11px; font-weight: 800; color: #1f2937; letter-spacing: -0.3px; }
+.pin-planned { border-style: dashed; background: #fffbeb; }
+.pin-badge {
+  position: absolute;
+  top: -11px;
+  right: -6px;
+  background: #dc2626;
+  color: #fff;
+  font-size: 9px;
+  font-weight: 700;
+  padding: 0 5px;
+  border-radius: 6px;
+  white-space: nowrap;
+  line-height: 14px;
+}
+.pin-badge.planned { background: #ea580c; }
+.pin-badge.retired { background: #6b7280; }
+.pin-retired { opacity: 0.55; border-style: dotted; filter: grayscale(0.6); }
+
+/* 권역 클러스터 배지 */
+.clu {
+  position: relative;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 64px;
+  background: rgba(30, 58, 138, 0.92);
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 12px;
+  padding: 5px 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
+  cursor: pointer;
+  white-space: nowrap;
+}
+.clu b { font-size: 12px; }
+.clu span { font-size: 10px; opacity: 0.9; }
+.clu:hover { background: rgba(30, 58, 138, 1); }
+
+/* 호버 미리보기 카드 */
+.pin-card {
+  display: none;
+  position: absolute;
+  bottom: calc(100% + 8px);
+  left: 50%;
+  transform: translateX(-50%);
+  width: 230px;
+  background: #fff;
+  color: #1f2937;
+  border-radius: 10px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+  padding: 10px 12px;
+  z-index: 100001;
+  pointer-events: none;
+  white-space: normal;
+  text-align: left;
+}
+.pin:hover .pin-card, .clu:hover .pin-card { display: block; }
+.pc-name { font-size: 13px; font-weight: 800; margin-bottom: 3px; }
+.pc-fuel { font-size: 11px; font-weight: 600; }
+.pc-row { font-size: 11px; margin-top: 2px; line-height: 1.45; }
+.pc-row.dim { color: #6b7280; }
+.pc-row.warn { color: #b91c1c; font-weight: 600; }
+.pc-row.info { color: #1e40af; font-weight: 600; }
+.pc-hint { font-size: 10px; color: #9ca3af; margin-top: 5px; border-top: 1px solid #f3f4f6; padding-top: 4px; }
+
+/* ---------- 상세 패널 ---------- */
+.detail {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  width: 380px;
+  max-width: calc(100% - 24px);
+  max-height: calc(100% - 24px);
+  overflow-y: auto;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.18);
+  padding: 18px;
+  z-index: 1001;
+}
+.detail-close {
+  position: absolute;
+  top: 10px;
+  right: 12px;
+  border: none;
+  background: none;
+  font-size: 20px;
+  color: #9ca3af;
+  cursor: pointer;
+}
+.detail-head { display: flex; gap: 10px; align-items: center; margin-bottom: 12px; }
+.detail-head h2 { font-size: 18px; letter-spacing: -0.5px; }
+.detail-sub { font-size: 12px; color: #6b7280; }
+.dot.lg { width: 16px; height: 16px; border-radius: 50%; flex: none; }
+.detail-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px 14px;
+  margin-bottom: 10px;
+}
+.detail-grid .k { display: block; font-size: 10px; color: #9ca3af; }
+.detail-grid b { font-size: 13px; }
+.notice {
+  font-size: 11px;
+  color: #92400e;
+  background: #fef3c7;
+  border-radius: 6px;
+  padding: 5px 9px;
+  margin-bottom: 8px;
+}
+.notice.info { color: #1e40af; background: #dbeafe; }
+.units { width: 100%; border-collapse: collapse; font-size: 12px; margin: 8px 0; }
+.units th {
+  text-align: left;
+  font-size: 10px;
+  color: #9ca3af;
+  border-bottom: 1px solid #e5e7eb;
+  padding: 4px 6px;
+}
+.units td { padding: 5px 6px; border-bottom: 1px solid #f3f4f6; }
+.units .num { text-align: right; font-variant-numeric: tabular-nums; }
+.retire { color: #b91c1c; font-weight: 600; }
+.retire small { font-weight: 400; color: #9ca3af; }
+.repl-inline { color: #c2410c; font-weight: 600; font-size: 11px; margin-top: 1px; }
+.repl-inline small { color: #9ca3af; font-weight: 400; }
+.repl { margin-top: 10px; }
+.repl-item {
+  font-size: 12px;
+  padding: 7px 9px;
+  background: #f9fafb;
+  border: 1px solid #f3f4f6;
+  border-radius: 8px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+.repl-item:hover { background: #f3f4f6; }
+.repl-from { font-weight: 700; }
+.repl-to { color: #c2410c; font-weight: 600; }
+.repl-note { font-size: 11px; color: #6b7280; margin-top: 2px; }
+/* 혜택 판정기 */
+.bf-open {
+  margin: 8px 16px 0;
+  padding: 10px 12px;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(90deg, #2563eb, #1d4ed8);
+  color: #fff;
+  font-size: 12.5px;
+  font-weight: 700;
+  cursor: pointer;
+  text-align: left;
+}
+.bf-open:hover { filter: brightness(1.08); }
+.benefit {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  width: 400px;
+  max-width: calc(100% - 24px);
+  max-height: calc(100% - 24px);
+  overflow-y: auto;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.18);
+  padding: 18px;
+  z-index: 1002;
+}
+.benefit h2 { font-size: 17px; margin-bottom: 4px; }
+.bf-sub { font-size: 11.5px; color: #6b7280; line-height: 1.5; margin-bottom: 10px; }
+.bf-selects { display: flex; gap: 6px; margin-bottom: 10px; }
+.bf-selects select {
+  flex: 1;
+  min-width: 0;
+  padding: 8px 6px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 12.5px;
+  background: #fff;
+}
+.bf-verdict { font-size: 14px; font-weight: 800; padding: 10px 12px; border-radius: 10px; margin-bottom: 10px; }
+.bf-verdict.yes { background: #ecfdf5; color: #047857; }
+.bf-verdict.no { background: #f3f4f6; color: #6b7280; font-size: 12.5px; font-weight: 600; }
+.bf-est { font-size: 11.5px; color: #1e40af; margin-top: 4px; }
+.bf-est small { color: #9ca3af; }
+.bf-list { list-style: none; margin: 4px 0 8px; }
+.bf-list li { font-size: 12.5px; padding: 5px 0; border-bottom: 1px solid #f3f4f6; }
+.bf-note { font-size: 10.5px; color: #92400e; background: #fef3c7; border-radius: 6px; padding: 6px 9px; line-height: 1.5; }
+.bf-disclaimer { font-size: 10px; color: #9ca3af; margin-top: 10px; line-height: 1.5; }
+.bf-loading { font-size: 12px; color: #9ca3af; padding: 20px 0; text-align: center; }
+.tag-run { background: #d1fae5; color: #047857; }
+
+/* 뉴스 */
+.sb-news { border-top: 1px solid #e5e7eb; padding: 8px 16px; }
+.sb-news summary { font-size: 12px; font-weight: 700; cursor: pointer; color: #374151; }
+.news-item { display: block; padding: 7px 0; border-bottom: 1px solid #f3f4f6; text-decoration: none; }
+.news-item:hover .news-title { text-decoration: underline; }
+.news-title { display: block; font-size: 12px; color: #1f2937; line-height: 1.4; }
+.news-item small { font-size: 10px; color: #9ca3af; }
+.detail .news-item { padding: 6px 0; }
+
+.mk-cell { max-width: 120px; font-size: 10px; line-height: 1.5; }
+.mk-line i {
+  font-style: normal;
+  color: #9ca3af;
+  font-size: 9px;
+  display: inline-block;
+  width: 30px;
+}
+.mk-hint { font-size: 10px; color: #9ca3af; margin-top: 2px; line-height: 1.4; }
+
+/* 필터 영역은 줄어들지 않게 (목록만 남은 공간 사용) */
+.sidebar > :not(.sb-list) { flex-shrink: 0; }
+
+/* 모바일·좁은 창: 사이드바 전체를 한 덩어리로 스크롤 */
+@media (max-width: 760px) {
+  .app { flex-direction: column; }
+  .sidebar { width: 100%; min-width: 0; height: 45%; order: 2; overflow-y: auto; }
+  .sb-list { flex: none; overflow: visible; }
+  .map-wrap { height: 55%; order: 1; }
+  .detail { width: calc(100% - 24px); }
+}
