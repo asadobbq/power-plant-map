@@ -414,21 +414,60 @@
     }
   ],
   "retired": [
-    { "name": "서천화력#1·2", "fuelCat": "석탄", "mw": 400, "retiredAt": "2017.7", "region": "충남 서천군", "company": "한국중부발전㈜", "companyGroup": "중부발전", "coordsFrom": "신서천", "note": "200MW×2기. 부지에 신서천화력(1,018MW) 대체 건설·운영중" },
-    { "name": "보령#1·2", "fuelCat": "석탄", "mw": 1000, "retiredAt": "2020.12", "region": "충남 보령시", "company": "한국중부발전㈜", "companyGroup": "중부발전", "coordsFrom": "보령", "note": "500MW×2기. 국내 석탄 감축 로드맵 첫 조기폐지 사례" },
-    { "name": "삼천포#1·2", "fuelCat": "석탄", "mw": 1120, "retiredAt": "2021.4", "region": "경남 고성군", "company": "한국남동발전㈜", "companyGroup": "남동발전", "coordsFrom": "삼천포", "note": "560MW×2기" },
-    { "name": "호남#1·2", "fuelCat": "석탄", "mw": 500, "retiredAt": "2021.12", "region": "전남 여수시", "company": "한국동서발전㈜", "companyGroup": "동서발전", "coordsFrom": "호남", "note": "250MW×2기. 대체설비 신호남복합(당진#1·2 대체와 통합 추진)" }
+    {
+      "name": "서천화력#1·2",
+      "fuelCat": "석탄",
+      "mw": 400,
+      "retiredAt": "2017.7",
+      "region": "충남 서천군",
+      "company": "한국중부발전㈜",
+      "companyGroup": "중부발전",
+      "coordsFrom": "신서천",
+      "note": "200MW×2기. 부지에 신서천화력(1,018MW) 대체 건설·운영중"
+    },
+    {
+      "name": "보령#1·2",
+      "fuelCat": "석탄",
+      "mw": 1000,
+      "retiredAt": "2020.12",
+      "region": "충남 보령시",
+      "company": "한국중부발전㈜",
+      "companyGroup": "중부발전",
+      "coordsFrom": "보령",
+      "note": "500MW×2기. 국내 석탄 감축 로드맵 첫 조기폐지 사례"
+    },
+    {
+      "name": "삼천포#1·2",
+      "fuelCat": "석탄",
+      "mw": 1120,
+      "retiredAt": "2021.4",
+      "region": "경남 고성군",
+      "company": "한국남동발전㈜",
+      "companyGroup": "남동발전",
+      "coordsFrom": "삼천포",
+      "note": "560MW×2기"
+    },
+    {
+      "name": "호남#1·2",
+      "fuelCat": "석탄",
+      "mw": 500,
+      "retiredAt": "2021.12",
+      "region": "전남 여수시",
+      "company": "한국동서발전㈜",
+      "companyGroup": "동서발전",
+      "coordsFrom": "호남",
+      "note": "250MW×2기. 대체설비 신호남복합(당진#1·2 대체와 통합 추진)"
+    }
   ],
-
   "newBuilds": [
     {
       "name": "삼척블루파워",
       "fuelCat": "석탄",
       "mw": 2100,
-      "when": "2024 준공",
+      "when": "1호기 2024.5·2호기 2025.1",
       "region": "강원 삼척시",
       "status": "운영중",
-      "note": "민간 석탄화력 1050MW×2기(2024 준공). EPSIS 발전기 세부내역(2024)에 누락되어 수동 추가 — 11차 전기본에 폐지 일정 없음",
+      "note": "민간 석탄화력 1050MW×2기. EPSIS 발전기 세부내역(2024)에 누락되어 수동 추가 — 11차 전기본에 폐지 일정 없음 (국내 마지막 신규 석탄화력)",
       "company": "삼척블루파워㈜",
       "companyGroup": "민간·기타"
     },
@@ -762,6 +801,71 @@
       "note": "영흥#3 대체. 사업자: 10차 예비사업자",
       "company": "한국남동발전㈜",
       "companyGroup": "남동발전"
+    },
+    {
+      "name": "통영천연가스",
+      "fuelCat": "LNG",
+      "mw": 1012,
+      "when": "2024.10 준공",
+      "region": "경남 통영시",
+      "status": "운영중",
+      "note": "통영에코파워(HDC그룹). 국내 최초 LNG 저장설비 갖춘 복합발전. 2024.10.29 상업운전. EPSIS 세부내역(2024) 누락분 수동 추가(전기신문·한경 확인)",
+      "company": "통영에코파워㈜",
+      "companyGroup": "민간·기타",
+      "lat": 34.8763,
+      "lng": 128.4602
+    },
+    {
+      "name": "울산GPS",
+      "fuelCat": "LNG",
+      "mw": 1212,
+      "when": "2024.12 준공",
+      "region": "울산 남구",
+      "status": "운영중",
+      "note": "SK가스. 세계 최초 GW급 LNG·LPG 겸용 가스복합(LNG 1,212MW/LPG 1,171MW). 2024.12.26 상업운전. 미포국가산단. 수동 추가",
+      "company": "SK가스㈜",
+      "companyGroup": "민간·기타",
+      "lat": 35.4925,
+      "lng": 129.3782
+    },
+    {
+      "name": "음성복합",
+      "fuelCat": "LNG",
+      "mw": 561,
+      "when": "2026.5 준공",
+      "region": "충북 음성군",
+      "status": "운영중",
+      "note": "한국동서발전. 국내 최초 석탄→LNG 전환 발전소. 2026.5.22 상업운전. 2호기(561MW)는 이후 예정. 수동 추가",
+      "company": "한국동서발전㈜",
+      "companyGroup": "동서발전",
+      "lat": 36.9754,
+      "lng": 127.6401
+    },
+    {
+      "name": "낙월해상풍력",
+      "fuelCat": "풍력",
+      "mw": 365,
+      "when": "2025.12~2026.6 순차",
+      "region": "전남 영광군",
+      "status": "건설중",
+      "note": "국내 최대 해상풍력(5.7MW×64기, 364.8MW). 첫 호기 2025.12.2 상업발전, 전체 준공 2026.6 목표. 영광 낙월면 해상. 수동 추가",
+      "company": "명운산업·SK오션플랜트 등",
+      "companyGroup": "민간·기타",
+      "lat": 35.28,
+      "lng": 126.13
+    },
+    {
+      "name": "용인일반산단열병합",
+      "fuelCat": "LNG",
+      "mw": 1050,
+      "when": "2030.12 목표",
+      "region": "경기 용인시",
+      "status": "추진중",
+      "note": "SK하이닉스 일반산단(원삼면) 집단에너지. 중부발전+SK이노베이션 E&S, LNG 열병합 1,050MW. 2024.8 허가, 착공 2026.12·준공 2030.12 목표. 국가산단 3사 LNG와 별개 사업",
+      "company": "한국중부발전·SK이노베이션E&S",
+      "companyGroup": "중부발전",
+      "lat": 37.1745,
+      "lng": 127.3269
     }
   ]
 }

@@ -319,7 +319,9 @@ def main():
     name_to_id = {p["name"]: p["id"] for p in plants}
     for nb in plan["newBuilds"]:
         latlng, prec = None, None
-        if nb.get("coordsFrom") and nb["coordsFrom"] in coords:
+        if nb.get("lat") is not None and nb.get("lng") is not None:
+            latlng, prec = (nb["lat"], nb["lng"]), nb.get("precision", "sigungu")
+        elif nb.get("coordsFrom") and nb["coordsFrom"] in coords:
             latlng, prec = coords[nb["coordsFrom"]], "exact"
         elif nb["region"].startswith("부지 미정"):
             pass

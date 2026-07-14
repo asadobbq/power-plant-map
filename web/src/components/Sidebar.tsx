@@ -20,6 +20,7 @@ interface Props {
   generatedAt: string
   news: NewsItem[]
   onBenefitOpen: () => void
+  onCollapse: () => void
 }
 
 function toggle<T>(set: Set<T>, v: T): Set<T> {
@@ -34,7 +35,12 @@ export default function Sidebar(p: Props) {
   return (
     <aside className="sidebar">
       <header className="sb-head">
-        <h1>우리동네 발전소</h1>
+        <div className="sb-head-row">
+          <h1>우리동네 발전소</h1>
+          <button className="sb-collapse" onClick={p.onCollapse} title="목록 접고 지도 크게 보기">
+            ⛶ 지도 크게
+          </button>
+        </div>
         <p className="sb-sub">전국 발전소의 현재와 미래 — 운영·건설·폐지 현황 (11차 전력수급기본계획 반영)</p>
       </header>
 

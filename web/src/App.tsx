@@ -6,9 +6,39 @@ import { createMap } from './map/adapter'
 import Sidebar from './components/Sidebar'
 import DetailPanel from './components/DetailPanel'
 import BenefitPanel from './components/BenefitPanel'
+import MapControls from './components/MapControls'
 
 function esc(s: string): string {
   return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+}
+
+/** 같은 좌표에 겹친 발전소를 방사형으로 살짝 벌려 지도에서 구분 (예: 용인복합 3사) */
+function offsetOverlapping(plants: Plant[]): { p: Plant; lat: number; lng: number }[] {
+  const byCoord = new Map<string, Plant[]>()
+  for (const p of plants) {
+    const key = `${p.lat!.toFixed(4)},${p.lng!.toFixed(4)}`
+    if (!byCoord.has(key)) byCoord.set(key, [])
+    byCoord.get(key)!.push(p)
+  }
+  const out: { p: Plant; lat: number; lng: number }[] = []
+  for (const group of byCoord.values()) {
+    if (group.length === 1) {
+      out.push({ p: group[0], lat: group[0].lat!, lng: group[0].lng! })
+      continue
+    }
+    const n = group.length
+    const R = 0.0125 // 약 1.4km
+    const latRad = (group[0].lat! * Math.PI) / 180
+    group.forEach((p, i) => {
+      const ang = (2 * Math.PI * i) / n - Math.PI / 2
+      out.push({
+        p,
+        lat: p.lat! + R * Math.sin(ang),
+        lng: p.lng! + (R * Math.cos(ang)) / Math.max(0.2, Math.cos(latRad)),
+      })
+    })
+  }
+  return out
 }
 
 /** 개별 발전소 핀 (아이콘 + 용량 + 호버 미리보기 카드) */
@@ -75,6 +105,7 @@ export default function App() {
   const [search, setSearch] = useState('')
   const [mapKind, setMapKind] = useState<'naver' | 'leaflet' | null>(null)
   const [benefitOpen, setBenefitOpen] = useState(false)
+  const [panelCollapsed, setPanelCollapsed] = useState(false)
   const [zoom, setZoom] = useState(7)
   const mapRef = useRef<MapPort | null>(null)
   const mapElRef = useRef<HTMLDivElement>(null)
@@ -160,16 +191,16 @@ export default function App() {
     if (!port || !mapKind) return
     let items: MarkerItem[]
     if (level === 'plant') {
-      items = visible
-        .filter(p => p.lat != null && p.lng != null)
-        .map(p => ({
+      items = offsetOverlapping(visible.filter(p => p.lat != null && p.lng != null)).map(
+        ({ p, lat, lng }) => ({
           id: p.id,
-          lat: p.lat!,
-          lng: p.lng!,
+          lat,
+          lng,
           html: pinHtml(p),
           zIndex: Math.round(p.totalMw),
           title: '',
-        }))
+        }),
+      )
     } else {
       items = clusters.map(c => ({
         id: c.id,
@@ -227,7 +258,7 @@ export default function App() {
   }
 
   return (
-    <div className="app">
+    <div className={'app' + (panelCollapsed ? ' panel-collapsed' : '')}>
       <Sidebar
         plants={visible}
         total={data?.plants.length ?? 0}
@@ -247,9 +278,24 @@ export default function App() {
         generatedAt={data?.generatedAt ?? ''}
         news={news?.items ?? []}
         onBenefitOpen={() => setBenefitOpen(true)}
+        onCollapse={() => setPanelCollapsed(true)}
       />
       <div className="map-wrap">
         <div ref={mapElRef} className="map" />
+        <MapControls
+          fuels={fuels}
+          setFuels={setFuels}
+          companies={companies}
+          setCompanies={setCompanies}
+          statuses={statuses}
+          setStatuses={setStatuses}
+          showSmall={showSmall}
+          setShowSmall={setShowSmall}
+          count={visible.length}
+          total={data?.plants.length ?? 0}
+          panelCollapsed={panelCollapsed}
+          onTogglePanel={() => setPanelCollapsed(c => !c)}
+        />
         {mapKind === 'leaflet' && (
           <div className="map-banner">
             개발용 지도(OSM)로 표시 중 — <b>네이버 지도 키(VITE_NCP_KEY_ID)</b> 설정 시 자동 전환됩니다
