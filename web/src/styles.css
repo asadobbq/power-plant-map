@@ -288,6 +288,9 @@ body {
 /* ---------- 마커 (네이버부동산식 핀) ---------- */
 .pp-divicon { background: none; border: none; }
 .leaflet-marker-icon:hover { z-index: 100000 !important; }
+/* 네이버 마커: 호버한 마커 오버레이를 최상위로 올려 미리보기 카드가 인접 마커에 가리지 않게 */
+.map div:has(> .pin):hover,
+.map div:has(> .clu):hover { z-index: 1000000 !important; }
 .pin, .clu { transform: translate(-50%, -100%); }
 
 .pin {

@@ -48,6 +48,9 @@ export class NaverMap implements MapPort {
         zIndex: it.zIndex,
       })
       naver.maps.Event.addListener(marker, 'click', () => onClick(it.id))
+      // 호버 시 최상위로 올려 미리보기 카드가 다른 마커에 가리지 않게
+      naver.maps.Event.addListener(marker, 'mouseover', () => marker.setZIndex(1000000))
+      naver.maps.Event.addListener(marker, 'mouseout', () => marker.setZIndex(it.zIndex))
       return marker
     })
   }

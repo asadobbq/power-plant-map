@@ -25,6 +25,8 @@ export class LeafletMap implements MapPort {
       const icon = L.divIcon({ html: it.html, className: 'pp-divicon', iconSize: [0, 0] })
       const m = L.marker([it.lat, it.lng], { icon, title: it.title, zIndexOffset: it.zIndex })
       m.on('click', () => onClick(it.id))
+      m.on('mouseover', () => m.setZIndexOffset(1000000))
+      m.on('mouseout', () => m.setZIndexOffset(it.zIndex))
       this.markerLayer.addLayer(m)
     }
   }
