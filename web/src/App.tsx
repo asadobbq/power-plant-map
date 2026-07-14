@@ -1,12 +1,13 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import type { PlantData, Plant, NewsData } from './types'
 import { FUEL_COLORS, FUEL_ICONS, FUEL_ORDER, COMPANY_GROUPS, fmtMw, statusGroup, fuelLabel } from './types'
-import type { MapPort, MarkerItem, LineItem } from './map/adapter'
+import type { MapPort, MarkerItem, LineItem, MapBounds } from './map/adapter'
 import { createMap } from './map/adapter'
-import Sidebar from './components/Sidebar'
+import BottomPanel from './components/BottomPanel'
 import DetailPanel from './components/DetailPanel'
-import BenefitPanel from './components/BenefitPanel'
 import MapControls from './components/MapControls'
+
+const SNAPS = [8, 46, 82] // 패널 높이(vh) 스냅: 최소·중간·최대
 
 function esc(s: string): string {
   return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
@@ -104,9 +105,9 @@ export default function App() {
   const [showSmall, setShowSmall] = useState(false)
   const [search, setSearch] = useState('')
   const [mapKind, setMapKind] = useState<'naver' | 'leaflet' | null>(null)
-  const [benefitOpen, setBenefitOpen] = useState(false)
-  const [panelCollapsed, setPanelCollapsed] = useState(false)
   const [zoom, setZoom] = useState(7)
+  const [bounds, setBounds] = useState<MapBounds | null>(null)
+  const [panelVh, setPanelVh] = useState(46)
   const mapRef = useRef<MapPort | null>(null)
   const mapElRef = useRef<HTMLDivElement>(null)
 
@@ -156,6 +157,74 @@ export default function App() {
     () => (data && selectedId ? data.plants.find(p => p.id === selectedId) ?? null : null),
     [data, selectedId],
   )
+
+  // 지도 이동/줌을 폴링으로 추적 (네이버 bounds 이벤트가 불안정)
+  useEffect(() => {
+    if (!mapKind) return
+    const iv = setInterval(() => {
+      const b = mapRef.current?.getBounds()
+      if (!b) return
+      setBounds(prev =>
+        prev &&
+        prev.swLat === b.swLat &&
+        prev.neLat === b.neLat &&
+        prev.swLng === b.swLng &&
+        prev.neLng === b.neLng
+          ? prev
+          : b,
+      )
+    }, 400)
+    return () => clearInterval(iv)
+  }, [mapKind])
+
+  const searchActive = search.trim().length > 0
+
+  // 목록: 검색 중이면 전국, 아니면 현재 지도 화면(bounds) 안의 발전소만
+  const listPlants = useMemo(() => {
+    if (searchActive || !bounds) return visible
+    return visible.filter(
+      p =>
+        p.lat != null &&
+        p.lng != null &&
+        p.lat >= bounds.swLat &&
+        p.lat <= bounds.neLat &&
+        p.lng >= bounds.swLng &&
+        p.lng <= bounds.neLng,
+    )
+  }, [visible, bounds, searchActive])
+
+  // 패널 높이 변경 시 지도 리사이즈
+  useEffect(() => {
+    const t = setTimeout(() => mapRef.current?.resize(), 60)
+    return () => clearTimeout(t)
+  }, [panelVh])
+
+  function onHandlePointerDown(e: React.PointerEvent) {
+    e.preventDefault()
+    const startY = e.clientY
+    const startVh = panelVh
+    const H = window.innerHeight
+    let moved = false
+    const move = (ev: PointerEvent) => {
+      const dy = ev.clientY - startY
+      if (Math.abs(dy) > 3) moved = true
+      let vh = startVh - (dy / H) * 100
+      vh = Math.max(6, Math.min(90, vh))
+      setPanelVh(vh)
+    }
+    const up = () => {
+      window.removeEventListener('pointermove', move)
+      window.removeEventListener('pointerup', up)
+      if (moved) {
+        // 가장 가까운 스냅 지점으로
+        setPanelVh(cur => SNAPS.reduce((a, b) => (Math.abs(b - cur) < Math.abs(a - cur) ? b : a)))
+      }
+    }
+    window.addEventListener('pointermove', move)
+    window.addEventListener('pointerup', up)
+  }
+
+  const expandPanel = () => setPanelVh(v => (v < 20 ? 46 : v))
 
   // 줌 레벨별 마커: <8 시도 묶음, 8~9 시군구 묶음, ≥10 개별 (네이버부동산 방식)
   const level: 'sido' | 'sigungu' | 'plant' = zoom < 8 ? 'sido' : zoom < 10 ? 'sigungu' : 'plant'
@@ -253,34 +322,16 @@ export default function App() {
 
   const handleSelect = (id: string) => {
     setSelectedId(id)
+    setPanelVh(v => (v > 55 ? 46 : v)) // 패널이 지도를 다 가리면 중간으로
     const p = data?.plants.find(x => x.id === id)
     if (p?.lat && p?.lng) mapRef.current?.panTo(p.lat, p.lng, 11)
   }
 
+  const plantsById = useMemo(() => new Map((data?.plants ?? []).map(p => [p.id, p])), [data])
+
   return (
-    <div className={'app' + (panelCollapsed ? ' panel-collapsed' : '')}>
-      <Sidebar
-        plants={visible}
-        total={data?.plants.length ?? 0}
-        fuels={fuels}
-        setFuels={setFuels}
-        companies={companies}
-        setCompanies={setCompanies}
-        statuses={statuses}
-        setStatuses={setStatuses}
-        showSmall={showSmall}
-        setShowSmall={setShowSmall}
-        search={search}
-        setSearch={setSearch}
-        onSelect={handleSelect}
-        selectedId={selectedId}
-        sources={data?.sources ?? []}
-        generatedAt={data?.generatedAt ?? ''}
-        news={news?.items ?? []}
-        onBenefitOpen={() => setBenefitOpen(true)}
-        onCollapse={() => setPanelCollapsed(true)}
-      />
-      <div className="map-wrap">
+    <div className="app app-vertical">
+      <div className="map-wrap" style={{ height: `calc(100% - ${panelVh}vh)` }}>
         <div ref={mapElRef} className="map" />
         <MapControls
           fuels={fuels}
@@ -293,34 +344,39 @@ export default function App() {
           setShowSmall={setShowSmall}
           count={visible.length}
           total={data?.plants.length ?? 0}
-          panelCollapsed={panelCollapsed}
-          onTogglePanel={() => setPanelCollapsed(c => !c)}
         />
         {mapKind === 'leaflet' && (
           <div className="map-banner">
             개발용 지도(OSM)로 표시 중 — <b>네이버 지도 키(VITE_NCP_KEY_ID)</b> 설정 시 자동 전환됩니다
           </div>
         )}
-        {benefitOpen && (
-          <BenefitPanel
-            plantsById={new Map((data?.plants ?? []).map(p => [p.id, p]))}
-            onJump={id => {
-              setBenefitOpen(false)
-              handleSelect(id)
-            }}
-            onClose={() => setBenefitOpen(false)}
-          />
-        )}
-        {selected && !benefitOpen && (
+        {selected && (
           <DetailPanel
             plant={selected}
             links={data?.links.filter(l => l.from === selected.id || l.to === selected.id) ?? []}
             news={(news?.items ?? []).filter(n => n.tags.includes(selected.name))}
-            plantsById={new Map((data?.plants ?? []).map(p => [p.id, p]))}
+            plantsById={plantsById}
             onClose={() => setSelectedId(null)}
             onJump={handleSelect}
           />
         )}
+      </div>
+      <div className="bpanel-wrap" style={{ height: `${panelVh}vh` }}>
+        <BottomPanel
+          plants={listPlants}
+          searchActive={searchActive}
+          search={search}
+          setSearch={setSearch}
+          onSelect={handleSelect}
+          selectedId={selectedId}
+          news={news?.items ?? []}
+          plantsById={plantsById}
+          onJump={handleSelect}
+          generatedAt={data?.generatedAt ?? ''}
+          sources={data?.sources ?? []}
+          onHandlePointerDown={onHandlePointerDown}
+          onExpand={expandPanel}
+        />
       </div>
     </div>
   )

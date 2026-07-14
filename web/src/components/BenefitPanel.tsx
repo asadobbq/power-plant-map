@@ -22,7 +22,8 @@ interface BenefitData {
 interface Props {
   plantsById: Map<string, Plant>
   onJump: (id: string) => void
-  onClose: () => void
+  onClose?: () => void
+  embedded?: boolean
 }
 
 /** 기본지원사업 지원금 단가 (원/kWh) — 시행령 별표2 (2017.12.26 개정) 원문 확인
@@ -43,7 +44,7 @@ function estimateAnnual(fuelCat: string, mw: number, gwh?: number): number | nul
   return total > 0 ? total : null
 }
 
-export default function BenefitPanel({ plantsById, onJump, onClose }: Props) {
+export default function BenefitPanel({ plantsById, onJump, onClose, embedded }: Props) {
   const [data, setData] = useState<BenefitData | null>(null)
   const [sido, setSido] = useState('')
   const [sigungu, setSigungu] = useState('')
@@ -71,10 +72,12 @@ export default function BenefitPanel({ plantsById, onJump, onClose }: Props) {
   const hasPlanned = hits?.some(h => h.status !== '운영중')
 
   return (
-    <div className="benefit">
-      <button className="detail-close" onClick={onClose}>
-        ×
-      </button>
+    <div className={embedded ? 'benefit benefit-embed' : 'benefit'}>
+      {!embedded && (
+        <button className="detail-close" onClick={onClose}>
+          ×
+        </button>
+      )}
       <h2>🏠 우리 동네 발전소 혜택</h2>
       <p className="bf-sub">
         발전소주변지역 지원에 관한 법률(발주법) 기준 — 발전기 반경 5km가 걸치는 읍·면·동 전체가

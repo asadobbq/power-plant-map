@@ -12,8 +12,6 @@ interface Props {
   setShowSmall: (b: boolean) => void
   count: number
   total: number
-  panelCollapsed: boolean
-  onTogglePanel: () => void
 }
 
 function toggle<T>(set: Set<T>, v: T): Set<T> {
@@ -147,10 +145,6 @@ export default function MapControls(p: Props) {
         </div>
       )}
 
-      {/* 목록 패널 접기/펼치기 */}
-      <button className="mc-panel-btn" onClick={p.onTogglePanel}>
-        {p.panelCollapsed ? '☰ 목록 보기' : '⛶ 지도 크게'}
-      </button>
     </div>
   )
 }

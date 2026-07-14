@@ -1,6 +1,6 @@
 import L from 'leaflet'
 import 'leaflet/dist/leaflet.css'
-import type { MapPort, MarkerItem, LineItem } from './adapter'
+import type { MapPort, MarkerItem, LineItem, MapBounds } from './adapter'
 
 /** 개발·검증용 폴백 지도 (OSM 타일). VITE_NCP_KEY_ID 설정 시 네이버 지도로 자동 전환. */
 export class LeafletMap implements MapPort {
@@ -53,8 +53,24 @@ export class LeafletMap implements MapPort {
     this.map?.on('zoomend', () => cb(this.map!.getZoom()))
   }
 
+  onBoundsChange(cb: () => void): void {
+    this.map?.on('moveend', cb)
+  }
+
+  getBounds(): MapBounds | null {
+    if (!this.map) return null
+    const b = this.map.getBounds()
+    const sw = b.getSouthWest()
+    const ne = b.getNorthEast()
+    return { swLat: sw.lat, swLng: sw.lng, neLat: ne.lat, neLng: ne.lng }
+  }
+
   getZoom(): number {
     return this.map?.getZoom() ?? 7
+  }
+
+  resize(): void {
+    this.map?.invalidateSize()
   }
 
   destroy(): void {

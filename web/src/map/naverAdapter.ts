@@ -1,4 +1,4 @@
-import type { MapPort, MarkerItem, LineItem } from './adapter'
+import type { MapPort, MarkerItem, LineItem, MapBounds } from './adapter'
 
 declare global {
   interface Window {
@@ -80,8 +80,27 @@ export class NaverMap implements MapPort {
     naver.maps.Event.addListener(this.map, 'zoom_changed', (z: number) => cb(z))
   }
 
+  onBoundsChange(cb: () => void): void {
+    const { naver } = window
+    naver.maps.Event.addListener(this.map, 'idle', cb)
+    naver.maps.Event.addListener(this.map, 'bounds_changed', cb)
+  }
+
+  getBounds(): MapBounds | null {
+    const b = this.map?.getBounds?.()
+    if (!b) return null
+    const sw = b.getMin ? b.getMin() : b.getSW()
+    const ne = b.getMax ? b.getMax() : b.getNE()
+    return { swLat: sw.lat(), swLng: sw.lng(), neLat: ne.lat(), neLng: ne.lng() }
+  }
+
   getZoom(): number {
     return this.map?.getZoom() ?? 7
+  }
+
+  resize(): void {
+    const { naver } = window
+    if (this.map) naver.maps.Event.trigger(this.map, 'resize')
   }
 
   destroy(): void {

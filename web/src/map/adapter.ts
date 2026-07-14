@@ -15,13 +15,23 @@ export interface LineItem {
   label?: string
 }
 
+export interface MapBounds {
+  swLat: number
+  swLng: number
+  neLat: number
+  neLng: number
+}
+
 export interface MapPort {
   mount(el: HTMLElement): Promise<void>
   setMarkers(items: MarkerItem[], onClick: (id: string) => void): void
   setLines(lines: LineItem[]): void
   panTo(lat: number, lng: number, zoom?: number): void
   onZoomChange(cb: (zoom: number) => void): void
+  onBoundsChange(cb: () => void): void
+  getBounds(): MapBounds | null
   getZoom(): number
+  resize(): void
   destroy(): void
   readonly kind: 'naver' | 'leaflet'
 }
