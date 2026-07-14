@@ -1,4 +1,6 @@
 pipeline/raw/wri_gppd.zip
+pipeline/raw/kepco_*.pdf
+pipeline/raw/kepco_*.xlsx
 web/node_modules/
 web/dist/
 web/.env
