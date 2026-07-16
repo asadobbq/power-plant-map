@@ -33,6 +33,12 @@ const COMPANY_COLORS: Record<string, string> = {
   동서발전: '#8b5cf6',
 }
 
+function stakeText(s?: string): string {
+  if (!s || s === '미공개') return ''
+  // 숫자(지분율)로 시작하면 '지분' 접두어, 아니면(미확인·O&M 등) 그대로
+  return /^[\d약]/.test(s.trim()) ? '지분 ' + s : s
+}
+
 function osFuelIcon(fuel: string): string {
   if (/태양광|PV/i.test(fuel)) return '☀️'
   if (/수력|월류|댐/.test(fuel)) return '💧'
@@ -239,7 +245,7 @@ function OverseasView({ items, note }: { items: OverseasItem[]; note: string }) 
       })
       const m = L.marker([it.lat!, it.lng!], { icon }).addTo(map)
       m.bindPopup(
-        `<b>${it.name}</b><br>${it.companyGroup || ''} · ${it.country}${it.mw != null ? ' · ' + it.mw.toLocaleString() + 'MW' : ''}${it.stake && it.stake !== '미공개' ? ' · 지분 ' + it.stake : ''}`,
+        `<b>${it.name}</b><br>${it.companyGroup || ''} · ${it.country}${it.mw != null ? ' · ' + it.mw.toLocaleString() + 'MW' : ''}${stakeText(it.stake) ? ' · ' + stakeText(it.stake) : ''}`,
       )
       markersRef.current.set(itemKey(it), m)
     }
@@ -302,7 +308,7 @@ function OverseasView({ items, note }: { items: OverseasItem[]; note: string }) 
                   </span>
                   {it.fuel && ' · ' + it.fuel}
                   {it.status && ' · ' + it.status}
-                  {it.stake && it.stake !== '미공개' && ' · 지분 ' + it.stake}
+                  {stakeText(it.stake) && ' · ' + stakeText(it.stake)}
                   {it.city && ' · ' + it.city}
                   {it.source && (
                     <>
