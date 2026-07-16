@@ -58,6 +58,8 @@ export interface OverseasItem {
   stake?: string
   status?: string
   city?: string
+  lat?: number
+  lng?: number
   source?: string
 }
 

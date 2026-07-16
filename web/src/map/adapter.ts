@@ -32,6 +32,8 @@ export interface MapPort {
   getBounds(): MapBounds | null
   getZoom(): number
   resize(): void
+  setSpotlight(lat: number, lng: number, html: string): void
+  clearSpotlight(): void
   destroy(): void
   readonly kind: 'naver' | 'leaflet'
 }

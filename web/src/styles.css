@@ -55,6 +55,21 @@ body {
 
 /* 해외사업 탭 */
 .os { padding: 4px 0 16px; }
+.os-map {
+  height: 240px;
+  margin: 8px 16px;
+  border-radius: 10px;
+  border: 1px solid #e5e7eb;
+  overflow: hidden;
+  z-index: 1;
+}
+.os-mk-dot {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+}
 .os-filter {
   display: flex;
   flex-wrap: wrap;
@@ -92,6 +107,10 @@ body {
 .os-country-head span { font-size: 11px; color: #9ca3af; }
 .os-item { display: block; padding: 8px 16px; border-bottom: 1px solid #f3f4f6; text-decoration: none; color: inherit; }
 .os-item:hover { background: #f9fafb; }
+.os-locatable { cursor: pointer; }
+.os-locicon { font-size: 12px; opacity: 0.7; }
+.os-src { color: #2563eb; text-decoration: none; }
+.os-src:hover { text-decoration: underline; }
 .os-item-top { display: flex; align-items: center; gap: 6px; }
 .os-fuel { font-size: 14px; }
 .os-name { font-size: 13px; font-weight: 600; color: #1f2937; flex: 1; }
@@ -374,6 +393,11 @@ body {
 .pin-badge.planned { background: #ea580c; }
 .pin-badge.retired { background: #6b7280; }
 .pin-retired { opacity: 0.55; border-style: dotted; filter: grayscale(0.6); }
+.pin-os { border-color: #dc2626; animation: pin-pulse 1.5s ease-out 2; }
+@keyframes pin-pulse {
+  0% { box-shadow: 0 0 0 0 rgba(220, 38, 38, 0.5); }
+  100% { box-shadow: 0 0 0 16px rgba(220, 38, 38, 0); }
+}
 
 /* 권역 클러스터 배지 */
 .clu {

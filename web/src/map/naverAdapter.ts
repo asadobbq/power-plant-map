@@ -74,8 +74,13 @@ export class NaverMap implements MapPort {
   panTo(lat: number, lng: number, zoom?: number): void {
     const { naver } = window
     const pos = new naver.maps.LatLng(lat, lng)
-    if (zoom) this.map.morph(pos, zoom)
-    else this.map.panTo(pos)
+    if (zoom) {
+      // morph는 대륙 간 원거리 이동에서 불안정 → setCenter+setZoom으로 확실히
+      this.map.setCenter(pos)
+      this.map.setZoom(zoom, true)
+    } else {
+      this.map.panTo(pos)
+    }
   }
 
   onZoomChange(cb: (zoom: number) => void): void {
@@ -104,6 +109,25 @@ export class NaverMap implements MapPort {
   resize(): void {
     const { naver } = window
     if (this.map) naver.maps.Event.trigger(this.map, 'resize')
+  }
+
+  private spotlight: any = null
+  setSpotlight(lat: number, lng: number, html: string): void {
+    const { naver } = window
+    this.clearSpotlight()
+    this.spotlight = new naver.maps.Marker({
+      position: new naver.maps.LatLng(lat, lng),
+      map: this.map,
+      icon: { content: html, anchor: new naver.maps.Point(0, 0) },
+      zIndex: 2000000,
+    })
+  }
+
+  clearSpotlight(): void {
+    if (this.spotlight) {
+      this.spotlight.setMap(null)
+      this.spotlight = null
+    }
   }
 
   destroy(): void {

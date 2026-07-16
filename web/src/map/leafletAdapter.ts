@@ -75,6 +75,21 @@ export class LeafletMap implements MapPort {
     this.map?.invalidateSize()
   }
 
+  private spotlight: L.Marker | null = null
+  setSpotlight(lat: number, lng: number, html: string): void {
+    this.clearSpotlight()
+    if (!this.map) return
+    const icon = L.divIcon({ html, className: 'pp-divicon', iconSize: [0, 0] })
+    this.spotlight = L.marker([lat, lng], { icon, zIndexOffset: 2000000 }).addTo(this.map)
+  }
+
+  clearSpotlight(): void {
+    if (this.spotlight) {
+      this.spotlight.remove()
+      this.spotlight = null
+    }
+  }
+
   destroy(): void {
     this.map?.remove()
     this.map = null

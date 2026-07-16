@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
-import type { PlantData, Plant, NewsData, OverseasData } from './types'
+import type { PlantData, Plant, NewsData, OverseasData, OverseasItem } from './types'
 import { FUEL_COLORS, FUEL_ICONS, FUEL_ORDER, COMPANY_GROUPS, fmtMw, statusGroup, fuelLabel } from './types'
 import type { MapPort, MarkerItem, LineItem, MapBounds } from './map/adapter'
 import { createMap } from './map/adapter'
