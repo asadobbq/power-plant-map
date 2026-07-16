@@ -1,13 +1,11 @@
-import { useEffect, useRef, useState } from 'react'
-import L from 'leaflet'
-import 'leaflet/dist/leaflet.css'
 import type { Plant, NewsItem, OverseasItem } from '../types'
-import { FUEL_COLORS, FUEL_ICONS, statusGroup, fuelLabel } from '../types'
+import { FUEL_COLORS, FUEL_ICONS, OS_COMPANY_COLORS, statusGroup, fuelLabel } from '../types'
+import type { PanelTab } from '../App'
 import BenefitPanel from './BenefitPanel'
 
-type Tab = 'list' | 'benefit' | 'news' | 'overseas'
-
 interface Props {
+  tab: PanelTab
+  setTab: (t: PanelTab) => void
   plants: Plant[]
   searchActive: boolean
   search: string
@@ -21,17 +19,14 @@ interface Props {
   sources: string[]
   overseas: OverseasItem[]
   overseasNote: string
+  osCompany: string
+  setOsCompany: (c: string) => void
+  onOverseasSelect: (it: OverseasItem) => void
   onHandlePointerDown: (e: React.PointerEvent) => void
   onExpand: () => void
 }
 
-const COMPANY_COLORS: Record<string, string> = {
-  남동발전: '#0ea5e9',
-  중부발전: '#22c55e',
-  서부발전: '#f59e0b',
-  남부발전: '#ef4444',
-  동서발전: '#8b5cf6',
-}
+const COMPANY_COLORS = OS_COMPANY_COLORS
 
 function stakeText(s?: string): string {
   if (!s || s === '미공개') return ''
@@ -52,7 +47,7 @@ function osFuelIcon(fuel: string): string {
 }
 
 export default function BottomPanel(p: Props) {
-  const [tab, setTab] = useState<Tab>('list')
+  const { tab, setTab } = p
   const listed = [...p.plants].sort((a, b) => b.totalMw - a.totalMw).slice(0, 300)
 
   return (
@@ -183,19 +178,36 @@ export default function BottomPanel(p: Props) {
           </div>
         )}
 
-        {tab === 'overseas' && <OverseasView items={p.overseas} note={p.overseasNote} />}
+        {tab === 'overseas' && (
+          <OverseasView
+            items={p.overseas}
+            note={p.overseasNote}
+            company={p.osCompany}
+            setCompany={p.setOsCompany}
+            onSelect={p.onOverseasSelect}
+          />
+        )}
       </div>
     </div>
   )
 }
 
-function OverseasView({ items, note }: { items: OverseasItem[]; note: string }) {
-  const mapElRef = useRef<HTMLDivElement>(null)
-  const mapRef = useRef<L.Map | null>(null)
-  const markersRef = useRef<Map<string, L.Marker>>(new Map())
-  const [company, setCompany] = useState<string>('전체')
+function OverseasView({
+  items,
+  note,
+  company,
+  setCompany,
+  onSelect,
+}: {
+  items: OverseasItem[]
+  note: string
+  company: string
+  setCompany: (c: string) => void
+  onSelect: (it: OverseasItem) => void
+}) {
   const companies = ['전체', ...Object.keys(COMPANY_COLORS)]
-  const filtered = company === '전체' ? items : items.filter(i => i.companyGroup === company)
+  // items는 App에서 이미 회사 필터가 적용되어 넘어옴
+  const filtered = items
 
   // 국가별 그룹 (용량 큰 순으로 국가 정렬)
   const byCountry = new Map<string, OverseasItem[]>()
@@ -208,57 +220,6 @@ function OverseasView({ items, note }: { items: OverseasItem[]; note: string }) 
       b[1].reduce((s, x) => s + (x.mw || 0), 0) - a[1].reduce((s, x) => s + (x.mw || 0), 0),
   )
   const totalMw = filtered.reduce((s, x) => s + (x.mw || 0), 0)
-  const located = filtered.filter(it => it.lat != null && it.lng != null)
-  const itemKey = (it: OverseasItem) => `${it.country}|${it.name}`
-
-  // Leaflet 세계지도 초기화 (네이버는 해외 이동 불가 → OSM 세계지도 별도)
-  useEffect(() => {
-    if (!mapElRef.current || mapRef.current) return
-    const map = L.map(mapElRef.current, {
-      center: [20, 60],
-      zoom: 2,
-      worldCopyJump: true,
-      attributionControl: false,
-    })
-    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 12 }).addTo(map)
-    mapRef.current = map
-    setTimeout(() => map.invalidateSize(), 100)
-    return () => {
-      map.remove()
-      mapRef.current = null
-    }
-  }, [])
-
-  // 마커 갱신 (필터 반영)
-  useEffect(() => {
-    const map = mapRef.current
-    if (!map) return
-    markersRef.current.forEach(m => m.remove())
-    markersRef.current = new Map()
-    for (const it of located) {
-      const color = COMPANY_COLORS[it.companyGroup || ''] ?? '#475569'
-      const icon = L.divIcon({
-        className: 'os-mk',
-        html: `<div class="os-mk-dot" style="background:${color}"></div>`,
-        iconSize: [14, 14],
-        iconAnchor: [7, 7],
-      })
-      const m = L.marker([it.lat!, it.lng!], { icon }).addTo(map)
-      m.bindPopup(
-        `<b>${it.name}</b><br>${it.companyGroup || ''} · ${it.country}${it.mw != null ? ' · ' + it.mw.toLocaleString() + 'MW' : ''}${stakeText(it.stake) ? ' · ' + stakeText(it.stake) : ''}`,
-      )
-      markersRef.current.set(itemKey(it), m)
-    }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [company, items])
-
-  const locateOnMap = (it: OverseasItem) => {
-    const map = mapRef.current
-    if (!map || it.lat == null || it.lng == null) return
-    map.setView([it.lat, it.lng], 6, { animate: true })
-    markersRef.current.get(itemKey(it))?.openPopup()
-    mapElRef.current?.scrollIntoView({ behavior: 'smooth', block: 'nearest' })
-  }
 
   return (
     <div className="os">
@@ -274,10 +235,9 @@ function OverseasView({ items, note }: { items: OverseasItem[]; note: string }) 
           </button>
         ))}
       </div>
-      <div ref={mapElRef} className="os-map" />
       <div className="os-summary">
         {filtered.length}개 사업 · {countries.length}개국 · 합계 약 {Math.round(totalMw).toLocaleString()}MW
-        <small> · 목록 클릭 시 지도 이동</small>
+        <small> · 목록 클릭 시 위 지도 이동</small>
       </div>
 
       {countries.map(([country, list]) => (
@@ -292,7 +252,7 @@ function OverseasView({ items, note }: { items: OverseasItem[]; note: string }) 
               <div
                 key={i}
                 className={'os-item' + (hasLoc ? ' os-locatable' : '')}
-                onClick={() => hasLoc && locateOnMap(it)}
+                onClick={() => hasLoc && onSelect(it)}
                 role={hasLoc ? 'button' : undefined}
                 tabIndex={hasLoc ? 0 : undefined}
               >

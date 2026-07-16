@@ -6,6 +6,9 @@ import { createMap } from './map/adapter'
 import BottomPanel from './components/BottomPanel'
 import DetailPanel from './components/DetailPanel'
 import MapControls from './components/MapControls'
+import OverseasMap from './components/OverseasMap'
+
+export type PanelTab = 'list' | 'benefit' | 'news' | 'overseas'
 
 const SNAPS = [8, 46, 82] // 패널 높이(vh) 스냅: 최소·중간·최대
 
@@ -99,6 +102,9 @@ export default function App() {
   const [data, setData] = useState<PlantData | null>(null)
   const [news, setNews] = useState<NewsData | null>(null)
   const [overseas, setOverseas] = useState<OverseasData | null>(null)
+  const [tab, setTab] = useState<PanelTab>('list')
+  const [osCompany, setOsCompany] = useState('전체')
+  const [osSelected, setOsSelected] = useState<OverseasItem | null>(null)
   const [selectedId, setSelectedId] = useState<string | null>(null)
   const [fuels, setFuels] = useState<Set<string>>(new Set(FUEL_ORDER))
   const [companies, setCompanies] = useState<Set<string>>(new Set(COMPANY_GROUPS))
@@ -334,9 +340,18 @@ export default function App() {
 
   const plantsById = useMemo(() => new Map((data?.plants ?? []).map(p => [p.id, p])), [data])
 
+  const isOverseas = tab === 'overseas'
+  const osItems = overseas?.items ?? []
+  const osFiltered = useMemo(
+    () => (osCompany === '전체' ? osItems : osItems.filter(i => i.companyGroup === osCompany)),
+    [osItems, osCompany],
+  )
+  const mapH = `calc(100% - ${panelVh}vh)`
+
   return (
     <div className="app app-vertical">
-      <div className="map-wrap" style={{ height: `calc(100% - ${panelVh}vh)` }}>
+      {/* 국내: 네이버 지도 (해외 탭에서는 숨김) */}
+      <div className="map-wrap" style={{ height: mapH, display: isOverseas ? 'none' : undefined }}>
         <div ref={mapElRef} className="map" />
         <MapControls
           fuels={fuels}
@@ -366,8 +381,19 @@ export default function App() {
           />
         )}
       </div>
+
+      {/* 해외: OSM 세계지도 (해외 탭에서만 표시) */}
+      {overseas && (
+        <div className="map-wrap" style={{ height: mapH, display: isOverseas ? undefined : 'none' }}>
+          <OverseasMap items={osFiltered} selected={osSelected} visible={isOverseas} />
+          <div className="os-mapbadge">🌍 발전5사 해외사업 · 목록에서 선택하면 이동</div>
+        </div>
+      )}
+
       <div className="bpanel-wrap" style={{ height: `${panelVh}vh` }}>
         <BottomPanel
+          tab={tab}
+          setTab={setTab}
           plants={listPlants}
           searchActive={searchActive}
           search={search}
@@ -379,8 +405,14 @@ export default function App() {
           onJump={handleSelect}
           generatedAt={data?.generatedAt ?? ''}
           sources={data?.sources ?? []}
-          overseas={overseas?.items ?? []}
+          overseas={osFiltered}
           overseasNote={overseas?.note ?? ''}
+          osCompany={osCompany}
+          setOsCompany={setOsCompany}
+          onOverseasSelect={it => {
+            setOsSelected(it)
+            setPanelVh(v => (v > 40 ? 32 : v))
+          }}
           onHandlePointerDown={onHandlePointerDown}
           onExpand={expandPanel}
         />

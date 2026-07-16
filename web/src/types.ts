@@ -69,6 +69,14 @@ export interface OverseasData {
   items: OverseasItem[]
 }
 
+export const OS_COMPANY_COLORS: Record<string, string> = {
+  남동발전: '#0ea5e9',
+  중부발전: '#22c55e',
+  서부발전: '#f59e0b',
+  남부발전: '#ef4444',
+  동서발전: '#8b5cf6',
+}
+
 export interface Link {
   from: string
   fromUnit: string

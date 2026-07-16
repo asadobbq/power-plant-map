@@ -55,13 +55,20 @@ body {
 
 /* 해외사업 탭 */
 .os { padding: 4px 0 16px; }
-.os-map {
-  height: 240px;
-  margin: 8px 16px;
-  border-radius: 10px;
-  border: 1px solid #e5e7eb;
-  overflow: hidden;
-  z-index: 1;
+/* 해외 세계지도: 국내 지도와 동일하게 상단 전체 영역 차지 */
+.os-fullmap { width: 100%; height: 100%; }
+.os-mapbadge {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  z-index: 400;
+  background: rgba(17, 24, 39, 0.82);
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 5px 10px;
+  border-radius: 8px;
+  pointer-events: none;
 }
 .os-mk-dot {
   width: 14px;
