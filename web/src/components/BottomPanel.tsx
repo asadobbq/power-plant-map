@@ -70,14 +70,14 @@ export default function BottomPanel(p: Props) {
           <span className="bp-tab-lbl">발전소 목록</span>
         </button>
         <button
-          className={'bp-tab' + (tab === 'benefit' ? ' on' : '')}
+          className={'bp-tab' + (tab === 'overseas' ? ' on' : '')}
           onClick={() => {
-            setTab('benefit')
+            setTab('overseas')
             p.onExpand()
           }}
         >
-          <span className="bp-tab-ico">🏠</span>
-          <span className="bp-tab-lbl">우리동네 혜택</span>
+          <span className="bp-tab-ico">🌍</span>
+          <span className="bp-tab-lbl">해외사업</span>
         </button>
         <button
           className={'bp-tab' + (tab === 'news' ? ' on' : '')}
@@ -90,14 +90,14 @@ export default function BottomPanel(p: Props) {
           <span className="bp-tab-lbl">뉴스</span>
         </button>
         <button
-          className={'bp-tab' + (tab === 'overseas' ? ' on' : '')}
+          className={'bp-tab' + (tab === 'benefit' ? ' on' : '')}
           onClick={() => {
-            setTab('overseas')
+            setTab('benefit')
             p.onExpand()
           }}
         >
-          <span className="bp-tab-ico">🌍</span>
-          <span className="bp-tab-lbl">해외사업</span>
+          <span className="bp-tab-ico">🏠</span>
+          <span className="bp-tab-lbl">우리동네 혜택</span>
         </button>
       </div>
 
