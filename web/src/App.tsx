@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
-import type { PlantData, Plant, NewsData } from './types'
+import type { PlantData, Plant, NewsData, OverseasData } from './types'
 import { FUEL_COLORS, FUEL_ICONS, FUEL_ORDER, COMPANY_GROUPS, fmtMw, statusGroup, fuelLabel } from './types'
 import type { MapPort, MarkerItem, LineItem, MapBounds } from './map/adapter'
 import { createMap } from './map/adapter'
@@ -98,6 +98,7 @@ function clusterHtml(c: Cluster): string {
 export default function App() {
   const [data, setData] = useState<PlantData | null>(null)
   const [news, setNews] = useState<NewsData | null>(null)
+  const [overseas, setOverseas] = useState<OverseasData | null>(null)
   const [selectedId, setSelectedId] = useState<string | null>(null)
   const [fuels, setFuels] = useState<Set<string>>(new Set(FUEL_ORDER))
   const [companies, setCompanies] = useState<Set<string>>(new Set(COMPANY_GROUPS))
@@ -120,6 +121,10 @@ export default function App() {
       .then(r => r.json())
       .then(setNews)
       .catch(() => setNews(null))
+    fetch('data/overseas.json')
+      .then(r => r.json())
+      .then(setOverseas)
+      .catch(() => setOverseas(null))
   }, [])
 
   useEffect(() => {
@@ -374,6 +379,8 @@ export default function App() {
           onJump={handleSelect}
           generatedAt={data?.generatedAt ?? ''}
           sources={data?.sources ?? []}
+          overseas={overseas?.items ?? []}
+          overseasNote={overseas?.note ?? ''}
           onHandlePointerDown={onHandlePointerDown}
           onExpand={expandPanel}
         />

@@ -53,6 +53,53 @@ body {
 .bp-news { padding: 6px 16px; }
 .bp-list { flex: none; }
 
+/* 해외사업 탭 */
+.os { padding: 4px 0 16px; }
+.os-filter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  padding: 8px 16px;
+  position: sticky;
+  top: 0;
+  background: #fff;
+  z-index: 2;
+}
+.os-chip {
+  font-size: 12px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  border: 1px solid #e5e7eb;
+  background: #fff;
+  color: #6b7280;
+  cursor: pointer;
+}
+.os-chip.on { color: #fff; background: var(--c); border-color: var(--c); }
+.os-summary { padding: 2px 16px 8px; font-size: 11.5px; color: #6b7280; font-weight: 600; }
+.os-summary small { font-weight: 400; color: #9ca3af; }
+.os-country { margin-bottom: 4px; }
+.os-country-head {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  padding: 6px 16px;
+  background: #f9fafb;
+  border-top: 1px solid #f3f4f6;
+  position: sticky;
+  top: 38px;
+}
+.os-country-head b { font-size: 13px; }
+.os-country-head span { font-size: 11px; color: #9ca3af; }
+.os-item { display: block; padding: 8px 16px; border-bottom: 1px solid #f3f4f6; text-decoration: none; color: inherit; }
+.os-item:hover { background: #f9fafb; }
+.os-item-top { display: flex; align-items: center; gap: 6px; }
+.os-fuel { font-size: 14px; }
+.os-name { font-size: 13px; font-weight: 600; color: #1f2937; flex: 1; }
+.os-mw { font-size: 12px; font-weight: 700; color: #2563eb; white-space: nowrap; }
+.os-item-sub { font-size: 11px; color: #6b7280; margin-top: 2px; line-height: 1.5; }
+.os-co { font-weight: 600; }
+.os-note { font-size: 10.5px; color: #92400e; background: #fffbeb; border: 1px solid #fde68a; border-radius: 6px; padding: 8px 10px; margin: 10px 16px 0; line-height: 1.55; }
+
 /* 혜택 패널을 탭 안에 임베드 */
 .benefit-embed {
   position: static;

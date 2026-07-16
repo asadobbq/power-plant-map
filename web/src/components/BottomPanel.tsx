@@ -1,9 +1,9 @@
 import { useState } from 'react'
-import type { Plant, NewsItem } from '../types'
+import type { Plant, NewsItem, OverseasItem } from '../types'
 import { FUEL_COLORS, FUEL_ICONS, statusGroup, fuelLabel } from '../types'
 import BenefitPanel from './BenefitPanel'
 
-type Tab = 'list' | 'benefit' | 'news'
+type Tab = 'list' | 'benefit' | 'news' | 'overseas'
 
 interface Props {
   plants: Plant[]
@@ -17,8 +17,30 @@ interface Props {
   onJump: (id: string) => void
   generatedAt: string
   sources: string[]
+  overseas: OverseasItem[]
+  overseasNote: string
   onHandlePointerDown: (e: React.PointerEvent) => void
   onExpand: () => void
+}
+
+const COMPANY_COLORS: Record<string, string> = {
+  남동발전: '#0ea5e9',
+  중부발전: '#22c55e',
+  서부발전: '#f59e0b',
+  남부발전: '#ef4444',
+  동서발전: '#8b5cf6',
+}
+
+function osFuelIcon(fuel: string): string {
+  if (/태양광|PV/i.test(fuel)) return '☀️'
+  if (/수력|월류|댐/.test(fuel)) return '💧'
+  if (/풍력/.test(fuel)) return '💨'
+  if (/석탄|무연탄|CFB|유연탄/.test(fuel)) return '⚫'
+  if (/가스|LNG|복합|화력/.test(fuel)) return '🔥'
+  if (/ESS|배터리|저장/.test(fuel)) return '🔋'
+  if (/중유|석유|유류/.test(fuel)) return '🛢️'
+  if (/광산|선적|터미널/.test(fuel)) return '⛏️'
+  return '⚡'
 }
 
 export default function BottomPanel(p: Props) {
@@ -60,6 +82,15 @@ export default function BottomPanel(p: Props) {
           }}
         >
           📰 뉴스
+        </button>
+        <button
+          className={'bp-tab' + (tab === 'overseas' ? ' on' : '')}
+          onClick={() => {
+            setTab('overseas')
+            p.onExpand()
+          }}
+        >
+          🌍 해외사업
         </button>
       </div>
 
@@ -143,7 +174,83 @@ export default function BottomPanel(p: Props) {
             ))}
           </div>
         )}
+
+        {tab === 'overseas' && <OverseasView items={p.overseas} note={p.overseasNote} />}
       </div>
+    </div>
+  )
+}
+
+function OverseasView({ items, note }: { items: OverseasItem[]; note: string }) {
+  const [company, setCompany] = useState<string>('전체')
+  const companies = ['전체', ...Object.keys(COMPANY_COLORS)]
+  const filtered = company === '전체' ? items : items.filter(i => i.companyGroup === company)
+
+  // 국가별 그룹 (용량 큰 순으로 국가 정렬)
+  const byCountry = new Map<string, OverseasItem[]>()
+  for (const it of filtered) {
+    if (!byCountry.has(it.country)) byCountry.set(it.country, [])
+    byCountry.get(it.country)!.push(it)
+  }
+  const countries = [...byCountry.entries()].sort(
+    (a, b) =>
+      b[1].reduce((s, x) => s + (x.mw || 0), 0) - a[1].reduce((s, x) => s + (x.mw || 0), 0),
+  )
+  const totalMw = filtered.reduce((s, x) => s + (x.mw || 0), 0)
+
+  return (
+    <div className="os">
+      <div className="os-filter">
+        {companies.map(c => (
+          <button
+            key={c}
+            className={'os-chip' + (company === c ? ' on' : '')}
+            style={{ '--c': COMPANY_COLORS[c] ?? '#475569' } as React.CSSProperties}
+            onClick={() => setCompany(c)}
+          >
+            {c}
+          </button>
+        ))}
+      </div>
+      <div className="os-summary">
+        {filtered.length}개 사업 · {countries.length}개국 · 합계 약 {Math.round(totalMw).toLocaleString()}MW
+        <small> (지분 미반영 총용량 기준)</small>
+      </div>
+
+      {countries.map(([country, list]) => (
+        <div key={country} className="os-country">
+          <div className="os-country-head">
+            <b>{country}</b>
+            <span>{list.length}건</span>
+          </div>
+          {list.map((it, i) => (
+            <a
+              key={i}
+              className="os-item"
+              href={it.source || undefined}
+              target="_blank"
+              rel="noreferrer"
+            >
+              <div className="os-item-top">
+                <span className="os-fuel">{osFuelIcon(it.fuel || '')}</span>
+                <span className="os-name">{it.name}</span>
+                {it.mw != null && <span className="os-mw">{it.mw.toLocaleString()}MW</span>}
+              </div>
+              <div className="os-item-sub">
+                <span className="os-co" style={{ color: COMPANY_COLORS[it.companyGroup || ''] }}>
+                  ● {it.companyGroup}
+                </span>
+                {it.fuel && ' · ' + it.fuel}
+                {it.status && ' · ' + it.status}
+                {it.stake && it.stake !== '미공개' && ' · 지분 ' + it.stake}
+                {it.city && ' · ' + it.city}
+              </div>
+            </a>
+          ))}
+        </div>
+      ))}
+
+      {note && <div className="os-note">{note}</div>}
     </div>
   )
 }
