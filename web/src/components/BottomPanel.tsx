@@ -66,7 +66,8 @@ export default function BottomPanel(p: Props) {
             p.onExpand()
           }}
         >
-          🗺️ 발전소 목록
+          <span className="bp-tab-ico">🗺️</span>
+          <span className="bp-tab-lbl">발전소 목록</span>
         </button>
         <button
           className={'bp-tab' + (tab === 'benefit' ? ' on' : '')}
@@ -75,7 +76,8 @@ export default function BottomPanel(p: Props) {
             p.onExpand()
           }}
         >
-          🏠 우리동네 혜택
+          <span className="bp-tab-ico">🏠</span>
+          <span className="bp-tab-lbl">우리동네 혜택</span>
         </button>
         <button
           className={'bp-tab' + (tab === 'news' ? ' on' : '')}
@@ -84,7 +86,8 @@ export default function BottomPanel(p: Props) {
             p.onExpand()
           }}
         >
-          📰 뉴스
+          <span className="bp-tab-ico">📰</span>
+          <span className="bp-tab-lbl">뉴스</span>
         </button>
         <button
           className={'bp-tab' + (tab === 'overseas' ? ' on' : '')}
@@ -93,7 +96,8 @@ export default function BottomPanel(p: Props) {
             p.onExpand()
           }}
         >
-          🌍 해외사업
+          <span className="bp-tab-ico">🌍</span>
+          <span className="bp-tab-lbl">해외사업</span>
         </button>
       </div>
 

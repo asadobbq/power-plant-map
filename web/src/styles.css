@@ -37,6 +37,11 @@ body {
 .bp-tabs { flex: none; display: flex; border-bottom: 1px solid #e5e7eb; padding: 0 6px; }
 .bp-tab {
   flex: 1;
+  min-width: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
   padding: 9px 4px;
   font-size: 13px;
   font-weight: 700;
@@ -45,8 +50,24 @@ body {
   border: none;
   border-bottom: 2px solid transparent;
   cursor: pointer;
+  white-space: nowrap;
 }
 .bp-tab.on { color: #2563eb; border-bottom-color: #2563eb; }
+.bp-tab-ico { line-height: 1; }
+.bp-tab-lbl { white-space: nowrap; }
+
+/* 모바일: 아이콘을 라벨 위로 올려 한 줄 라벨 유지(줄바꿈 방지) */
+@media (max-width: 480px) {
+  .bp-tabs { padding: 0 2px; }
+  .bp-tab {
+    flex-direction: column;
+    gap: 2px;
+    padding: 7px 1px 6px;
+    font-size: 11.5px;
+    letter-spacing: -0.3px;
+  }
+  .bp-tab-ico { font-size: 15px; }
+}
 .bp-body { flex: 1; overflow-y: auto; min-height: 0; }
 .bp-count { padding: 8px 16px 4px; font-size: 11px; color: #9ca3af; font-weight: 600; }
 .bp-empty { padding: 28px 16px; text-align: center; color: #9ca3af; font-size: 13px; line-height: 1.6; }
@@ -576,6 +597,53 @@ body {
 .bf-list { list-style: none; margin: 4px 0 8px; }
 .bf-list li { font-size: 12.5px; padding: 5px 0; border-bottom: 1px solid #f3f4f6; }
 .bf-note { font-size: 10.5px; color: #92400e; background: #fef3c7; border-radius: 6px; padding: 6px 9px; line-height: 1.5; }
+
+/* 전기요금보조 카드 */
+.bf-elec {
+  margin: 10px 0 12px;
+  padding: 12px;
+  border: 1px solid #bfdbfe;
+  background: linear-gradient(180deg, #eff6ff 0%, #f8fbff 100%);
+  border-radius: 12px;
+}
+.bf-elec-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+  font-weight: 800;
+  color: #1d4ed8;
+}
+.bf-elec-badge {
+  font-size: 10px;
+  font-weight: 700;
+  color: #047857;
+  background: #d1fae5;
+  padding: 2px 7px;
+  border-radius: 999px;
+}
+.bf-elec-lead { font-size: 12px; color: #374151; line-height: 1.55; margin: 7px 0 9px; }
+.bf-elec-amt {
+  background: #fff;
+  border: 1px solid #dbeafe;
+  border-radius: 9px;
+  padding: 8px 11px;
+  margin-bottom: 7px;
+}
+.bf-elec-region { font-size: 11.5px; font-weight: 700; color: #6b7280; }
+.bf-elec-region small { color: #9ca3af; font-weight: 600; }
+.bf-elec-num { font-size: 15px; font-weight: 800; color: #1e3a8a; margin: 2px 0; line-height: 1.35; }
+.bf-elec-extra { font-size: 11px; color: #6b7280; line-height: 1.45; }
+.bf-elec-grade { font-size: 11.5px; color: #374151; margin: 2px 0 8px; }
+.bf-elec-ref { font-size: 11.5px; margin-bottom: 8px; }
+.bf-elec-ref summary { cursor: pointer; color: #2563eb; font-weight: 700; }
+.bf-elec-ref ul { list-style: none; margin: 6px 0 0; padding: 0; }
+.bf-elec-ref li { font-size: 11px; color: #4b5563; padding: 3px 0; border-bottom: 1px solid #eef2ff; line-height: 1.45; }
+.bf-elec-ref small { color: #9ca3af; }
+.bf-elec-warn { font-size: 10.5px; color: #92400e; background: #fef3c7; border-radius: 7px; padding: 7px 9px; line-height: 1.5; margin-bottom: 6px; }
+.bf-elec-diff { font-size: 10.5px; color: #3730a3; background: #eef2ff; border-radius: 7px; padding: 7px 9px; line-height: 1.5; }
+
 .bf-disclaimer { font-size: 10px; color: #9ca3af; margin-top: 10px; line-height: 1.5; }
 .bf-loading { font-size: 12px; color: #9ca3af; padding: 20px 0; text-align: center; }
 .tag-run { background: #d1fae5; color: #047857; }

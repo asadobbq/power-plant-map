@@ -44,6 +44,21 @@ function estimateAnnual(fuelCat: string, mw: number, gwh?: number): number | nul
   return total > 0 ? total : null
 }
 
+/** 발주법 전기요금보조 — 발전본부별 '검증된 세대당 확정 지원액' (추정 아님).
+ *  출처: 한수원 각 본부 공지 / 지역 언론(이투뉴스·중도일보 등). 지역·연도별로 달라지므로
+ *  '특정 연도 확정 사례'로만 사용하고, 근거가 약한 하한·평균값은 표기하지 않음. */
+const SUBSIDY_CASES: { re: RegExp; region: string; amount: string; year: string; extra?: string }[] = [
+  { re: /한빛/, region: '전남 영광 · 한빛', amount: '주택용 월 17,690원(5km이내) / 8,845원(읍·면·동)', year: '2025', extra: '산업용 kW당 2,500 / 1,250원' },
+  { re: /신한울|한울/, region: '경북 울진 · 한울', amount: '주택용 월 최대 17,690원', year: '2025' },
+  { re: /신월성|월성/, region: '경북 경주 · 월성', amount: '주택용 월 16,640원 / 8,320원', year: '최근', extra: '산업용 kW당 2,300 / 1,150원' },
+  { re: /새울|신고리|고리/, region: '부산 기장 · 고리/새울', amount: '주택용 월 최대 15,570원 (용량·지역별 차등)', year: '최근' },
+  { re: /영흥/, region: '인천 옹진 · 영흥화력', amount: '주택용 월 최대 10,000원', year: '최근', extra: '산업용 kW당 월 1,500원 (월 최대 30만원)' },
+  { re: /신보령|보령/, region: '충남 보령 · 보령화력', amount: '주택용 월 최대 10,000원', year: '2025' },
+]
+function subsidyCase(name: string) {
+  return SUBSIDY_CASES.find(c => c.re.test(name))
+}
+
 export default function BenefitPanel({ plantsById, onJump, onClose, embedded }: Props) {
   const [data, setData] = useState<BenefitData | null>(null)
   const [sido, setSido] = useState('')
@@ -70,6 +85,18 @@ export default function BenefitPanel({ plantsById, onJump, onClose, embedded }: 
   const hits = emd && data ? data.zones[emd] ?? [] : null
   const hasNuclear = hits?.some(h => h.fuelCat === '원자력' && h.status === '운영중')
   const hasPlanned = hits?.some(h => h.status !== '운영중')
+
+  // 전기요금보조 대상: 원자력 또는 연간 기본지원사업비(추정) 5억원 이상 발전소(운영중)
+  const opHits = (hits ?? []).filter(h => h.status === '운영중')
+  const elecEligible = opHits.filter(h => {
+    if (h.fuelCat === '원자력') return true
+    const est = estimateAnnual(h.fuelCat, h.mw, plantsById.get(h.id)?.gen?.gwh)
+    return est != null && est >= 5
+  })
+  const matchedCases = opHits
+    .map(h => subsidyCase(h.name))
+    .filter((c): c is NonNullable<typeof c> => !!c)
+    .filter((c, i, arr) => arr.findIndex(x => x.region === c.region) === i)
 
   return (
     <div className={embedded ? 'benefit benefit-embed' : 'benefit'}>
@@ -144,9 +171,68 @@ export default function BenefitPanel({ plantsById, onJump, onClose, embedded }: 
                 )
               })}
 
+              {elecEligible.length > 0 && (
+                <div className="bf-elec">
+                  <div className="bf-elec-head">
+                    ⚡ 전기요금보조 (세대별)
+                    <span className="bf-elec-badge">거주지 기준 · 자동 감면 · 신청 불필요</span>
+                  </div>
+                  <div className="bf-elec-lead">
+                    발전소 반경 5km 주변 읍·면·동의 <b>모든 세대</b>가 소득·자격과 무관하게 대상입니다.
+                    한전 전기요금 고지서에서 <b>매달 자동 감면</b>됩니다.
+                  </div>
+
+                  {matchedCases.length > 0 ? (
+                    matchedCases.map((c, i) => (
+                      <div key={i} className="bf-elec-amt">
+                        <div className="bf-elec-region">
+                          {c.region} <small>({c.year} 확정)</small>
+                        </div>
+                        <div className="bf-elec-num">{c.amount}</div>
+                        {c.extra && <div className="bf-elec-extra">{c.extra}</div>}
+                      </div>
+                    ))
+                  ) : (
+                    <div className="bf-elec-amt">
+                      <div className="bf-elec-num">주택용 세대당 월 약 6,000 ~ 17,700원</div>
+                      <div className="bf-elec-extra">
+                        연 약 7만~21만원 수준 · 원전 인접·5km 이내 100% 지역이 상단, 화력·50% 지역이 하단
+                      </div>
+                    </div>
+                  )}
+
+                  <div className="bf-elec-grade">
+                    거리 차등: 반경 <b>5km 이내 100%</b> · 5km 초과~같은 읍·면·동 <b>50%</b>
+                  </div>
+
+                  {matchedCases.length === 0 && (
+                    <details className="bf-elec-ref">
+                      <summary>다른 지역 확정 사례 보기</summary>
+                      <ul>
+                        {SUBSIDY_CASES.map((c, i) => (
+                          <li key={i}>
+                            <b>{c.region}</b> — {c.amount} <small>({c.year})</small>
+                          </li>
+                        ))}
+                      </ul>
+                    </details>
+                  )}
+
+                  <div className="bf-elec-warn">
+                    금액은 지역·연도별로 다르며 주변지역지원사업 심의위원회가 매년 의결합니다.
+                    위 수치는 추정이 아닌 <b>검증된 특정 연도 사례</b>이며, 내 정확한 감면액은 한전
+                    전기요금 고지서에서 확인하세요.
+                  </div>
+                  <div className="bf-elec-diff">
+                    💡 취약계층 대상 <b>한전 전기요금 복지할인</b>과는 근거법·재원·대상이 다른 별개 제도로,
+                    조건이 맞으면 두 혜택을 <b>함께</b> 받을 수 있습니다.
+                  </div>
+                </div>
+              )}
+
               <div className="sb-label">받을 수 있는 혜택 (기본지원사업)</div>
               <ul className="bf-list">
-                <li>⚡ 전기요금 보조 (주변지역 가구)</li>
+                {elecEligible.length > 0 && <li>⚡ 전기요금 보조 (위 세대별 안내 참고)</li>}
                 <li>🎓 장학금·육영사업</li>
                 <li>🏘 주민복지·소득증대·공공시설 사업</li>
                 {hasNuclear && <li>🏛 사업자지원사업 공모 (한수원 자체 재원 — 본부별 공고)</li>}
