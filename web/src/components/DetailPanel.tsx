@@ -104,8 +104,10 @@ export default function DetailPanel({ plant, links, news, plantsById, onClose, o
           <tbody>
             {plant.units.map((u, i) => {
               const mk = u.makers
+              // 원자력은 '보일러' 대신 원자로(핵증기공급계통)가 그 역할
+              const boilerLabel = plant.fuelCat === '원자력' ? '원자로' : '보일러'
               const mkRows: [string, string][] = mk
-                ? [['보일러', mk.b], ['터빈', mk.t], ['발전기', mk.g]]
+                ? [[boilerLabel, mk.b], ['터빈', mk.t], ['발전기', mk.g]]
                 : []
               return (
                 <tr key={i}>
@@ -145,7 +147,11 @@ export default function DetailPanel({ plant, links, news, plantsById, onClose, o
         </table>
       )}
       {plant.units.length > 0 && (
-        <div className="mk-hint">주기기 기종·모델명은 공개 데이터에 없어 제작사까지 제공됩니다</div>
+        <div className="mk-hint">
+          {plant.fuelCat === '원자력'
+            ? '원자력은 원자로(핵증기공급계통)·터빈·발전기 주계약사입니다. 화력의 보일러 자리를 원자로가 대신합니다.'
+            : '주기기 기종·모델명은 공개 데이터에 없어 제작사까지 제공됩니다.'}
+        </div>
       )}
 
       {outgoing.length > 0 && (

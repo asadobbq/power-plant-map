@@ -48,6 +48,25 @@ export interface NewsData {
   items: NewsItem[]
 }
 
+export interface OverseasItem {
+  company: string
+  companyGroup?: string
+  country: string
+  name: string
+  fuel?: string
+  mw?: number
+  stake?: string
+  status?: string
+  city?: string
+  source?: string
+}
+
+export interface OverseasData {
+  updatedAt: string
+  note?: string
+  items: OverseasItem[]
+}
+
 export interface Link {
   from: string
   fromUnit: string
