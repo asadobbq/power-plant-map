@@ -464,15 +464,21 @@ def main():
             links.append({"from": src["id"], "fromUnit": r["from"], "to": dst["id"],
                           "toName": r["to"], "planned": r["planned"], "note": r["note"]})
 
-    # 상세(도로명)주소 큐레이션 병합 — 발전사 홈페이지 조사 결과. (발전소명, 시도) 키.
+    # 상세(도로명)주소 큐레이션 병합 — 발전사 홈페이지 조사 결과.
+    # (발전소명, 시도, 읍면동) 키 — 동명 사이트(예: 당진 석문면/송악읍) 분리.
+    def _emd_of(a):
+        for tok in (a or "").split():
+            if re.search(r"(읍|면|동)$", tok) and not re.search(r"(로|길|대로|번길)$", tok):
+                return tok
+        return None
     addr_path = HERE / "curated" / "addresses.json"
     if addr_path.exists():
         adet = json.loads(addr_path.read_text(encoding="utf-8"))
-        amap = {(e["name"], e.get("sido", "")): e["addressDetail"]
+        amap = {(e["name"], e.get("sido", ""), e.get("emd")): e["addressDetail"]
                 for e in adet.get("addresses", []) if e.get("addressDetail")}
         hit = 0
         for p in plants:
-            v = amap.get((p["name"], p.get("sido", "")))
+            v = amap.get((p["name"], p.get("sido", ""), _emd_of(p["address"])))
             if v:
                 p["addressDetail"] = v
                 hit += 1

@@ -1,0 +1,817 @@
+{
+ "note": "발전사 공식 홈페이지·지자체 조사 도로명주소(confirmed/plausible). 건물번호 일부는 근사값일 수 있음(면책 참조). (발전소명,시도)+읍면동 매칭.",
+ "addresses": [
+  {
+   "name": "태안",
+   "sido": "충남",
+   "emd": "원북면",
+   "addressDetail": "충청남도 태안군 원북면 발전로 457",
+   "verdict": "confirmed"
+  },
+  {
+   "name": "당진",
+   "sido": "충남",
+   "emd": "석문면",
+   "addressDetail": "충청남도 당진시 석문면 교로길 30",
+   "verdict": "confirmed"
+  },
+  {
+   "name": "한빛",
+   "sido": "전남",
+   "emd": "홍농읍",
+   "addressDetail": "전라남도 영광군 홍농읍 홍농로 846",
+   "verdict": "confirmed"
+  },
+  {
+   "name": "한울",
+   "sido": "경북",
+   "emd": "북면",
+   "addressDetail": "경상북도 울진군 북면 울진북로 2040",
+   "verdict": "confirmed"
+  },
+  {
+   "name": "영흥",
+   "sido": "인천",
+   "emd": "영흥면",
+   "addressDetail": "인천광역시 옹진군 영흥면 영흥남로293번길 75",
+   "verdict": "confirmed"
+  },
+  {
+   "name": "하동",
+   "sido": "경남",
+   "emd": "금성면",
+   "addressDetail": "경상남도 하동군 금성면 경제산업로 509",
+   "verdict": "confirmed"
+  },
+  {
+   "name": "포스코",
+   "sido": "인천",
+   "emd": "원창동",
+   "addressDetail": "인천광역시 서구 중봉대로405번길 314",
+   "verdict": "confirmed"
+  },
+  {
+   "name": "보령",
+   "sido": "충남",
+   "emd": "오천면",
+   "addressDetail": "충남 보령시 오천면 오천해안로 89-37",
+   "verdict": "confirmed"
+  },
+  {
+   "name": "신고리",
+   "sido": "울산",
+   "emd": "서생면",
+   "addressDetail": "울산광역시 울주군 서생면 해맞이로 658-91",
+   "verdict": "plausible"
+  },
+  {
+   "name": "신한울",
+   "sido": "경북",
+   "emd": "북면",
+   "addressDetail": "경상북도 울진군 북면 울진북로 2040",
+   "verdict": "plausible"
+  },
+  {
+   "name": "고리",
+   "sido": "부산",
+   "emd": "장안읍",
+   "addressDetail": "부산광역시 기장군 장안읍 길천길 96-1",
+   "verdict": "plausible"
+  },
+  {
+   "name": "평택",
+   "sido": "경기",
+   "emd": "포승면",
+   "addressDetail": "경기도 평택시 포승읍 남양만로 175-2",
+   "verdict": "confirmed"
+  },
+  {
+   "name": "당진",
+   "sido": "충남",
+   "emd": "송악읍",
+   "addressDetail": "충남 당진시 송악읍 부곡공단로 241",
+   "verdict": "plausible"
+  },
+  {
+   "name": "삼천포",
+   "sido": "경남",
+   "emd": "하이면",
+   "addressDetail": "경상남도 고성군 하이면 하이로 1",
+   "verdict": "confirmed"
+  },
+  {
+   "name": "월성",
+   "sido": "경북",
+   "emd": "양남면",
+   "addressDetail": "경상북도 경주시 양남면 동해안로 671",
+   "verdict": "plausible"
+  },
+  {
+   "name": "강릉안인",
+   "sido": "강원",
+   "emd": "강동면",
+   "addressDetail": "강원특별자치도 강릉시 강동면 율곡로 1954",
+   "verdict": "plausible"
+  },
+  {
+   "name": "고성",
+   "sido": "경남",
+   "emd": "하이면",
+   "addressDetail": "경남 고성군 하이면 하이로 34",
+   "verdict": "plausible"
+  },
+  {
+   "name": "울산",
+   "sido": "울산",
+   "emd": "남화동",
+   "addressDetail": "울산광역시 남구 용잠로 623",
+   "verdict": "confirmed"
+  },
+  {
+   "name": "삼척그린파워",
+   "sido": "강원",
+   "emd": "원덕읍",
+   "addressDetail": "강원특별자치도 삼척시 원덕읍 삼척로 734",
+   "verdict": "confirmed"
+  },
+  {
+   "name": "신고리",
+   "sido": "부산",
+   "emd": "장안읍",
+   "addressDetail": "부산광역시 기장군 장안읍 길천길 96-1",
+   "verdict": "plausible"
+  },
+  {
+   "name": "신월성",
+   "sido": "경북",
+   "emd": "양남면",
+   "addressDetail": "경상북도 경주시 양남면 동해안로 671",
+   "verdict": "plausible"
+  },
+  {
+   "name": "부산",
+   "sido": "부산",
+   "emd": "감천동",
+   "addressDetail": "부산광역시 사하구 감천항로 7",
+   "verdict": "confirmed"
+  },
+  {
+   "name": "서인천",
+   "sido": "인천",
+   "emd": "경서동",
+   "addressDetail": "인천광역시 서구 장도로 57",
+   "verdict": "confirmed"
+  },
+  {
+   "name": "신인천",
+   "sido": "인천",
+   "emd": "경서동",
+   "addressDetail": "인천광역시 서구 장도로 57",
+   "verdict": "confirmed"
+  },
+  {
+   "name": "동두천",
+   "sido": "경기",
+   "emd": "지형동",
+   "addressDetail": "경기도 동두천시 쇠목길 110",
+   "verdict": "confirmed"
+  },
+  {
+   "name": "파주문산",
+   "sido": "경기",
+   "emd": "파주읍",
+   "addressDetail": "경기도 파주시 파주읍 휴암로 336-234",
+   "verdict": "confirmed"
+  },
+  {
+   "name": "포천",
+   "sido": "경기",
+   "emd": "창수면",
+   "addressDetail": "경기 포천시 창수면 포천로2797번길 17",
+   "verdict": "plausible"
+  },
+  {
+   "name": "인천",
+   "sido": "인천",
+   "emd": "원창동",
+   "addressDetail": "인천 서구 중봉대로405번길 411",
+   "verdict": "confirmed"
+  },
+  {
+   "name": "북평",
+   "sido": "강원",
+   "emd": null,
+   "addressDetail": "강원 동해시 공단4로 36",
+   "verdict": "plausible"
+  },
+  {
+   "name": "여주복합",
+   "sido": "경기",
+   "emd": "북내면",
+   "addressDetail": "경기도 여주시 북내면 외재로 185",
+   "verdict": "confirmed"
+  },
+  {
+   "name": "신서천",
+   "sido": "충남",
+   "emd": "서면",
+   "addressDetail": "충남 서천군 서면 서인로 265",
+   "verdict": "confirmed"
+  },
+  {
+   "name": "양양양수",
+   "sido": "강원",
+   "emd": "서면",
+   "addressDetail": "강원특별자치도 양양군 서면 산얏골길 23-51",
+   "verdict": "plausible"
+  },
+  {
+   "name": "안양열병합",
+   "sido": "경기",
+   "emd": "평촌동",
+   "addressDetail": "경기도 안양시 동안구 부림로 100",
+   "verdict": "confirmed"
+  },
+  {
+   "name": "분당",
+   "sido": "경기",
+   "emd": "분당동",
+   "addressDetail": "경기도 성남시 분당구 분당로 336",
+   "verdict": "confirmed"
+  },
+  {
+   "name": "일산",
+   "sido": "경기",
+   "emd": "백석동",
+   "addressDetail": "경기도 고양시 일산동구 경의로 201",
+   "verdict": "confirmed"
+  },
+  {
+   "name": "포천천연",
+   "sido": "경기",
+   "emd": "신북면",
+   "addressDetail": "경기 포천시 신북면 청신로1526번길 19",
+   "verdict": "plausible"
+  },
+  {
+   "name": "영월",
+   "sido": "강원",
+   "emd": "영월읍",
+   "addressDetail": "강원특별자치도 영월군 영월읍 중앙로 411",
+   "verdict": "confirmed"
+  },
+  {
+   "name": "오성",
+   "sido": "경기",
+   "emd": "오성면",
+   "addressDetail": "경기도 평택시 오성면 서동대로 2427-177",
+   "verdict": "plausible"
+  },
+  {
+   "name": "동탄열병합",
+   "sido": "경기",
+   "emd": null,
+   "addressDetail": "경기도 화성시 동탄기흥로 166",
+   "verdict": "confirmed"
+  },
+  {
+   "name": "안산",
+   "sido": "경기",
+   "emd": null,
+   "addressDetail": "경기 안산시 단원구 엠티브이2로 14",
+   "verdict": "confirmed"
+  },
+  {
+   "name": "서울복합",
+   "sido": "서울",
+   "emd": null,
+   "addressDetail": "서울 마포구 토정로 56",
+   "verdict": "confirmed"
+  },
+  {
+   "name": "군산",
+   "sido": "전북",
+   "emd": "경암동",
+   "addressDetail": "전북특별자치도 군산시 구암3.1로 91-5",
+   "verdict": "confirmed"
+  },
+  {
+   "name": "산청양수",
+   "sido": "경남",
+   "emd": "시천면",
+   "addressDetail": "경상남도 산청군 시천면 지리산대로1088번길 20-18",
+   "verdict": "confirmed"
+  },
+  {
+   "name": "여수",
+   "sido": "전남",
+   "emd": "증흥동",
+   "addressDetail": "전라남도 여수시 여수산단로 727",
+   "verdict": "confirmed"
+  },
+  {
+   "name": "무주양수",
+   "sido": "전북",
+   "emd": "적상면",
+   "addressDetail": "전북특별자치도 무주군 적상면 괴목로 788",
+   "verdict": "confirmed"
+  },
+  {
+   "name": "삼랑진양수",
+   "sido": "경남",
+   "emd": "삼랑진읍",
+   "addressDetail": "경상남도 밀양시 삼랑진읍 행곡로 38",
+   "verdict": "confirmed"
+  },
+  {
+   "name": "청송양수",
+   "sido": "경북",
+   "emd": "파천면",
+   "addressDetail": "경상북도 청송군 파천면 양수상부길 186",
+   "verdict": "plausible"
+  },
+  {
+   "name": "신세종열병합",
+   "sido": "충남",
+   "emd": "누리동",
+   "addressDetail": "세종특별자치시 갈매로 1030",
+   "verdict": "confirmed"
+  },
+  {
+   "name": "세종열병합",
+   "sido": "세종",
+   "emd": "가람동",
+   "addressDetail": "세종특별자치시 금송로 625",
+   "verdict": "confirmed"
+  },
+  {
+   "name": "양주열병합",
+   "sido": "경기",
+   "emd": "옥정동",
+   "addressDetail": "경기도 양주시 화합로1710번길 125",
+   "verdict": "confirmed"
+  },
+  {
+   "name": "파주열병합",
+   "sido": "경기",
+   "emd": "교하읍",
+   "addressDetail": "경기도 파주시 청석로 380",
+   "verdict": "confirmed"
+  },
+  {
+   "name": "화성열병합",
+   "sido": "경기",
+   "emd": "동탄면",
+   "addressDetail": "경기도 화성시 큰재봉길 16",
+   "verdict": "confirmed"
+  },
+  {
+   "name": "내포그린열병합",
+   "sido": "충남",
+   "emd": "삽교읍",
+   "addressDetail": "충남 예산군 삽교읍 홍예로 390",
+   "verdict": "plausible"
+  },
+  {
+   "name": "부천복합",
+   "sido": "경기",
+   "emd": "삼정동",
+   "addressDetail": "경기도 부천시 삼작로 21",
+   "verdict": "confirmed"
+  },
+  {
+   "name": "명품오산열병합",
+   "sido": "경기",
+   "emd": "누읍동",
+   "addressDetail": "경기 오산시 황새로149번길 55",
+   "verdict": "confirmed"
+  },
+  {
+   "name": "춘천열병합",
+   "sido": "강원",
+   "emd": "동산면",
+   "addressDetail": "강원특별자치도 춘천시 동산면 원무동길 8",
+   "verdict": "confirmed"
+  },
+  {
+   "name": "위례열병합",
+   "sido": "경기",
+   "emd": null,
+   "addressDetail": "경기도 하남시 위례대로4길 29",
+   "verdict": "confirmed"
+  },
+  {
+   "name": "충주",
+   "sido": "충북",
+   "emd": null,
+   "addressDetail": "충청북도 충주시 충주호수로 737",
+   "verdict": "confirmed"
+  },
+  {
+   "name": "동해",
+   "sido": "강원",
+   "emd": "구호동",
+   "addressDetail": "강원특별자치도 동해시 공단9로 145",
+   "verdict": "confirmed"
+  },
+  {
+   "name": "청평양수",
+   "sido": "경기",
+   "emd": "가평읍",
+   "addressDetail": "경기도 가평군 가평읍 상지로 1012-22",
+   "verdict": "confirmed"
+  },
+  {
+   "name": "대구그린파워",
+   "sido": "대구",
+   "emd": "율암동",
+   "addressDetail": "대구 동구 매여로 14",
+   "verdict": "confirmed"
+  },
+  {
+   "name": "안동",
+   "sido": "경북",
+   "emd": "풍산읍",
+   "addressDetail": "경상북도 안동시 풍산읍 산업단지1길 38",
+   "verdict": "confirmed"
+  },
+  {
+   "name": "김포열병합",
+   "sido": "경기",
+   "emd": "양촌읍",
+   "addressDetail": "경기도 김포시 양촌읍 학운산단1로 76",
+   "verdict": "confirmed"
+  },
+  {
+   "name": "영남파워GT",
+   "sido": "울산",
+   "emd": null,
+   "addressDetail": "울산 남구 장생포로 373",
+   "verdict": "confirmed"
+  },
+  {
+   "name": "제주복합",
+   "sido": "제주",
+   "emd": null,
+   "addressDetail": "제주특별자치도 제주시 원당로 133",
+   "verdict": "confirmed"
+  },
+  {
+   "name": "남제주",
+   "sido": "제주",
+   "emd": "안덕면",
+   "addressDetail": "제주특별자치도 서귀포시 안덕면 화순해안로106번길 55",
+   "verdict": "confirmed"
+  },
+  {
+   "name": "영동",
+   "sido": "강원",
+   "emd": "강동면",
+   "addressDetail": "강원특별자치도 강릉시 강동면 염전길 99",
+   "verdict": "confirmed"
+  },
+  {
+   "name": "소양강",
+   "sido": "강원",
+   "emd": null,
+   "addressDetail": "강원특별자치도 춘천시 신북읍 신샘밭로 868",
+   "verdict": "confirmed"
+  },
+  {
+   "name": "송도열병합",
+   "sido": "인천",
+   "emd": "송도동",
+   "addressDetail": "인천광역시 연수구 아카데미로51번길 37",
+   "verdict": "confirmed"
+  },
+  {
+   "name": "인0천",
+   "sido": "인천",
+   "emd": "원창동",
+   "addressDetail": "인천 서구 중봉대로405번길 411",
+   "verdict": "confirmed"
+  },
+  {
+   "name": "포천그린에너지",
+   "sido": "경기",
+   "emd": "신북면",
+   "addressDetail": "경기 포천시 신북면 장자경제로 78",
+   "verdict": "confirmed"
+  },
+  {
+   "name": "제주",
+   "sido": "제주",
+   "emd": "삼양동",
+   "addressDetail": "제주특별자치도 제주시 원당로 133",
+   "verdict": "confirmed"
+  },
+  {
+   "name": "판교열병합",
+   "sido": "경기",
+   "emd": "판교동",
+   "addressDetail": "경기도 성남시 분당구 판교로228번길 88",
+   "verdict": "confirmed"
+  },
+  {
+   "name": "남제주복합",
+   "sido": "제주",
+   "emd": "안덕면",
+   "addressDetail": "제주특별자치도 서귀포시 안덕면 화순해안로106번길 55",
+   "verdict": "confirmed"
+  },
+  {
+   "name": "광교열병합",
+   "sido": "경기",
+   "emd": "이의동",
+   "addressDetail": "경기도 수원시 영통구 창룡대로 475",
+   "verdict": "confirmed"
+  },
+  {
+   "name": "인천공항",
+   "sido": "인천",
+   "emd": "운서동",
+   "addressDetail": "인천광역시 영종구 평화대로119번길 43",
+   "verdict": "confirmed"
+  },
+  {
+   "name": "양산열병합",
+   "sido": "경남",
+   "emd": "동면",
+   "addressDetail": "경상남도 양산시 동면 강변로 266",
+   "verdict": "confirmed"
+  },
+  {
+   "name": "별내열병합",
+   "sido": "경기",
+   "emd": "별내동",
+   "addressDetail": "경기 남양주시 별내3로 391",
+   "verdict": "confirmed"
+  },
+  {
+   "name": "수완에너지",
+   "sido": "광주",
+   "emd": "수완동",
+   "addressDetail": "광주광역시 광산구 수완로 130",
+   "verdict": "confirmed"
+  },
+  {
+   "name": "SGC에너지",
+   "sido": "전북",
+   "emd": "소룡동",
+   "addressDetail": "전북특별자치도 군산시 임해로 333",
+   "verdict": "confirmed"
+  },
+  {
+   "name": "아산배방열병합",
+   "sido": "충남",
+   "emd": "배방읍",
+   "addressDetail": "충남 아산시 배방읍 동방로 114",
+   "verdict": "plausible"
+  },
+  {
+   "name": "안동",
+   "sido": "경북",
+   "emd": null,
+   "addressDetail": "경상북도 안동시 풍산읍 산업단지1길 38",
+   "verdict": "confirmed"
+  },
+  {
+   "name": "강릉",
+   "sido": "강원",
+   "emd": null,
+   "addressDetail": "강원특별자치도 강릉시 성산면 백두대간로 2714-9",
+   "verdict": "plausible"
+  },
+  {
+   "name": "제주내연",
+   "sido": "제주",
+   "emd": "삼양동",
+   "addressDetail": "제주특별자치도 제주시 원당로 133",
+   "verdict": "confirmed"
+  },
+  {
+   "name": "청주열병합",
+   "sido": "충북",
+   "emd": "죽림동",
+   "addressDetail": "충청북도 청주시 서원구 3순환로644번길 159",
+   "verdict": "confirmed"
+  },
+  {
+   "name": "임하",
+   "sido": "경북",
+   "emd": null,
+   "addressDetail": "경상북도 안동시 임하면 경동로 1974",
+   "verdict": "plausible"
+  },
+  {
+   "name": "대구열병합",
+   "sido": "대구",
+   "emd": "대천동",
+   "addressDetail": "대구광역시 달서구 달서대로 351",
+   "verdict": "confirmed"
+  },
+  {
+   "name": "수원열병합",
+   "sido": "경기",
+   "emd": "영통동",
+   "addressDetail": "경기도 수원시 영통구 매영로 293",
+   "verdict": "confirmed"
+  },
+  {
+   "name": "칠보",
+   "sido": "전북",
+   "emd": null,
+   "addressDetail": "전북특별자치도 정읍시 칠보면 산외로 48",
+   "verdict": "plausible"
+  },
+  {
+   "name": "주암",
+   "sido": "전남",
+   "emd": null,
+   "addressDetail": "전라남도 순천시 상사면 상사호길 501",
+   "verdict": "confirmed"
+  },
+  {
+   "name": "용담1수력",
+   "sido": "전북",
+   "emd": "용담면",
+   "addressDetail": "전북특별자치도 진안군 안천면 안용로 747",
+   "verdict": "confirmed"
+  },
+  {
+   "name": "용담",
+   "sido": "전북",
+   "emd": "용담면",
+   "addressDetail": "전북특별자치도 진안군 안천면 안용로 747",
+   "verdict": "confirmed"
+  },
+  {
+   "name": "남강",
+   "sido": "경남",
+   "emd": null,
+   "addressDetail": "경상남도 진주시 내동면 삼계로 413",
+   "verdict": "confirmed"
+  },
+  {
+   "name": "남강수력",
+   "sido": "경남",
+   "emd": "내동면",
+   "addressDetail": "경상남도 진주시 내동면 삼계로 413",
+   "verdict": "confirmed"
+  },
+  {
+   "name": "영흥해양",
+   "sido": "인천",
+   "emd": "영흥면",
+   "addressDetail": "인천광역시 옹진군 영흥면 영흥남로293번길 75",
+   "verdict": "plausible"
+  },
+  {
+   "name": "당진화력소수력",
+   "sido": "충남",
+   "emd": "석문면",
+   "addressDetail": "충청남도 당진시 석문면 교로길 30",
+   "verdict": "confirmed"
+  },
+  {
+   "name": "태안소수력",
+   "sido": "충남",
+   "emd": "원북면",
+   "addressDetail": "충청남도 태안군 원북면 발전로 457",
+   "verdict": "confirmed"
+  },
+  {
+   "name": "보령화력소수력",
+   "sido": "충남",
+   "emd": "오천면",
+   "addressDetail": "충남 보령시 오천면 오천해안로 89-37",
+   "verdict": "confirmed"
+  },
+  {
+   "name": "삼천포해양",
+   "sido": "경남",
+   "emd": "하이면",
+   "addressDetail": "경상남도 고성군 하이면 하이로 1",
+   "verdict": "plausible"
+  },
+  {
+   "name": "신보령",
+   "sido": "충남",
+   "emd": "주교면",
+   "addressDetail": "충남 보령시 주교면 송도길 201",
+   "verdict": "confirmed"
+  },
+  {
+   "name": "삼척그린파워해양소수력",
+   "sido": "강원",
+   "emd": "원덕읍",
+   "addressDetail": "강원특별자치도 삼척시 원덕읍 삼척로 734",
+   "verdict": "plausible"
+  },
+  {
+   "name": "신서천화력소수력",
+   "sido": "충남",
+   "emd": "서면",
+   "addressDetail": "충남 서천군 서면 서인로 265",
+   "verdict": "confirmed"
+  },
+  {
+   "name": "양양양수소수력",
+   "sido": "강원",
+   "emd": "서면",
+   "addressDetail": "강원특별자치도 양양군 서면 산얏골길 23-51",
+   "verdict": "plausible"
+  },
+  {
+   "name": "무주양수소수력",
+   "sido": "전북",
+   "emd": "적상면",
+   "addressDetail": "전북특별자치도 무주군 적상면 괴목로 788",
+   "verdict": "confirmed"
+  },
+  {
+   "name": "삼척블루파워",
+   "sido": "강원",
+   "emd": null,
+   "addressDetail": "강원특별자치도 삼척시 박걸남로 906",
+   "verdict": "plausible"
+  },
+  {
+   "name": "새울#3",
+   "sido": "울산",
+   "emd": null,
+   "addressDetail": "울산광역시 울주군 서생면 해맞이로 658-91",
+   "verdict": "plausible"
+  },
+  {
+   "name": "새울#4",
+   "sido": "울산",
+   "emd": null,
+   "addressDetail": "울산광역시 울주군 서생면 해맞이로 658-91",
+   "verdict": "plausible"
+  },
+  {
+   "name": "신한울#3",
+   "sido": "경북",
+   "emd": null,
+   "addressDetail": "경상북도 울진군 북면 울진북로 2040",
+   "verdict": "plausible"
+  },
+  {
+   "name": "신한울#4",
+   "sido": "경북",
+   "emd": null,
+   "addressDetail": "경상북도 울진군 북면 울진북로 2040",
+   "verdict": "plausible"
+  },
+  {
+   "name": "안동복합#2",
+   "sido": "경북",
+   "emd": null,
+   "addressDetail": "경상북도 안동시 풍산읍 산업단지1길 38",
+   "verdict": "confirmed"
+  },
+  {
+   "name": "보령천연가스",
+   "sido": "충남",
+   "emd": null,
+   "addressDetail": "충남 보령시 오천면 오천해안로 89-37",
+   "verdict": "confirmed"
+  },
+  {
+   "name": "하동복합#1",
+   "sido": "경남",
+   "emd": null,
+   "addressDetail": "경상남도 하동군 금성면 경제산업로 509",
+   "verdict": "confirmed"
+  },
+  {
+   "name": "통영천연가스",
+   "sido": "경남",
+   "emd": null,
+   "addressDetail": "경남 통영시 광도면 춘원1로 77",
+   "verdict": "confirmed"
+  },
+  {
+   "name": "울산GPS",
+   "sido": "울산",
+   "emd": null,
+   "addressDetail": "울산광역시 남구 용잠로 170",
+   "verdict": "confirmed"
+  },
+  {
+   "name": "씨지앤대산천연가스",
+   "sido": "충남",
+   "emd": null,
+   "addressDetail": "충남 서산시 대산읍 독곶1로 82",
+   "verdict": "confirmed"
+  },
+  {
+   "name": "부천열병합",
+   "sido": "경기",
+   "emd": null,
+   "addressDetail": "경기도 부천시 삼작로 21",
+   "verdict": "confirmed"
+  }
+ ]
+}
