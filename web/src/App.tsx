@@ -7,6 +7,7 @@ import BottomPanel from './components/BottomPanel'
 import DetailPanel from './components/DetailPanel'
 import MapControls from './components/MapControls'
 import OverseasMap from './components/OverseasMap'
+import InfoModal from './components/InfoModal'
 import { track } from './analytics'
 
 export type PanelTab = 'list' | 'benefit' | 'news' | 'overseas'
@@ -107,6 +108,7 @@ export default function App() {
   const [osCompany, setOsCompany] = useState('전체')
   const [osSelected, setOsSelected] = useState<OverseasItem | null>(null)
   const [selectedId, setSelectedId] = useState<string | null>(null)
+  const [showInfo, setShowInfo] = useState(false)
   const [fuels, setFuels] = useState<Set<string>>(new Set(FUEL_ORDER))
   const [companies, setCompanies] = useState<Set<string>>(new Set(COMPANY_GROUPS))
   const [statuses, setStatuses] = useState<Set<string>>(new Set(['운영중', '예정', '폐지']))
@@ -391,6 +393,7 @@ export default function App() {
             links={data?.links.filter(l => l.from === selected.id || l.to === selected.id) ?? []}
             news={(news?.items ?? []).filter(n => n.tags.includes(selected.name))}
             plantsById={plantsById}
+            generatedAt={data?.generatedAt ?? ''}
             onClose={() => setSelectedId(null)}
             onJump={handleSelect}
           />
@@ -431,8 +434,14 @@ export default function App() {
           }}
           onHandlePointerDown={onHandlePointerDown}
           onExpand={expandPanel}
+          onInfo={() => {
+            setShowInfo(true)
+            track('info_open')
+          }}
         />
       </div>
+
+      {showInfo && <InfoModal generatedAt={data?.generatedAt ?? ''} onClose={() => setShowInfo(false)} />}
     </div>
   )
 }

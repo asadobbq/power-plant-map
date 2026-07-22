@@ -6,14 +6,21 @@ interface Props {
   links: Link[]
   news: NewsItem[]
   plantsById: Map<string, Plant>
+  generatedAt?: string
   onClose: () => void
   onJump: (id: string) => void
 }
 
-export default function DetailPanel({ plant, links, news, plantsById, onClose, onJump }: Props) {
+export default function DetailPanel({ plant, links, news, plantsById, generatedAt, onClose, onJump }: Props) {
   const color = FUEL_COLORS[plant.fuelCat]
   const outgoing = links.filter(l => l.from === plant.id)
   const incoming = links.filter(l => l.to === plant.id)
+  // 폐지·대체·준공 등 '계획' 성격 정보가 있으면 출처·변동가능 면책을 노출
+  const hasSchedule =
+    plant.status !== '운영중' ||
+    plant.firstRetireYear != null ||
+    !!plant.planned ||
+    plant.units.some(u => u.retire || (u.replacements && u.replacements.length > 0))
 
   return (
     <div className="detail">
@@ -38,9 +45,14 @@ export default function DetailPanel({ plant, links, news, plantsById, onClose, o
             {plant.totalMw.toLocaleString()} MW{plant.mwEstimated && <small> (추정)</small>}
           </b>
         </div>
-        <div>
+        <div className="wide">
           <span className="k">소재지</span>
-          <b>{plant.address || '미정'}</b>
+          <b>
+            {plant.addressDetail || plant.address || '미정'}
+            {plant.addressDetail && plant.address && plant.addressDetail !== plant.address && (
+              <small className="addr-coarse"> · {plant.address}</small>
+            )}
+          </b>
         </div>
         {plant.planned && (
           <div>
@@ -199,6 +211,19 @@ export default function DetailPanel({ plant, links, news, plantsById, onClose, o
           ))}
         </div>
       )}
+
+      <div className="detail-foot">
+        {hasSchedule && (
+          <div className="notice warn">
+            폐지·대체·준공 시기는 <b>제11차 전력수급기본계획</b>(산업부 공고 제2025-169호, 2025) 등 계획
+            기준이며, 인허가·공정·정책 변경에 따라 실제와 달라질 수 있습니다.
+          </div>
+        )}
+        <div className="detail-src">
+          출처: EPSIS 발전기 세부내역(2024)·제11차 전력수급기본계획·발전사 공식 홈페이지
+          {generatedAt && <> · 기준일 {generatedAt}</>}
+        </div>
+      </div>
     </div>
   )
 }

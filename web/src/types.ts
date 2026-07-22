@@ -20,6 +20,7 @@ export interface Plant {
   mwEstimated?: boolean
   status: string
   address: string
+  addressDetail?: string
   sido: string
   sigungu: string
   lat: number | null

@@ -464,6 +464,20 @@ def main():
             links.append({"from": src["id"], "fromUnit": r["from"], "to": dst["id"],
                           "toName": r["to"], "planned": r["planned"], "note": r["note"]})
 
+    # 상세(도로명)주소 큐레이션 병합 — 발전사 홈페이지 조사 결과. (발전소명, 시도) 키.
+    addr_path = HERE / "curated" / "addresses.json"
+    if addr_path.exists():
+        adet = json.loads(addr_path.read_text(encoding="utf-8"))
+        amap = {(e["name"], e.get("sido", "")): e["addressDetail"]
+                for e in adet.get("addresses", []) if e.get("addressDetail")}
+        hit = 0
+        for p in plants:
+            v = amap.get((p["name"], p.get("sido", "")))
+            if v:
+                p["addressDetail"] = v
+                hit += 1
+        print("상세주소 병합:", hit, "/", len(plants))
+
     result = {
         "generatedAt": "2026-07-13",
         "sources": [

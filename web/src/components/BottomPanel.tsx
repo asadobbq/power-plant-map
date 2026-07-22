@@ -25,6 +25,7 @@ interface Props {
   onOverseasSelect: (it: OverseasItem) => void
   onHandlePointerDown: (e: React.PointerEvent) => void
   onExpand: () => void
+  onInfo: () => void
 }
 
 const COMPANY_COLORS = OS_COMPANY_COLORS
@@ -56,6 +57,17 @@ export default function BottomPanel(p: Props) {
       {/* 드래그 핸들 */}
       <div className="bp-handle" onPointerDown={p.onHandlePointerDown} onClick={p.onExpand}>
         <div className="bp-grab" />
+        <button
+          className="bp-info"
+          onPointerDown={e => e.stopPropagation()}
+          onClick={e => {
+            e.stopPropagation()
+            p.onInfo()
+          }}
+          aria-label="데이터 출처·유의사항"
+        >
+          ⓘ 출처·면책
+        </button>
       </div>
 
       {/* 탭 바 */}
