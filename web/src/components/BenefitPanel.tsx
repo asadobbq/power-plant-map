@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from 'react'
 import type { Plant } from '../types'
 import { FUEL_ICONS, fuelLabel } from '../types'
+import { track } from '../analytics'
 
 interface ZonePlant {
   id: string
@@ -85,6 +86,15 @@ export default function BenefitPanel({ plantsById, onJump, onClose, embedded }: 
   const hits = emd && data ? data.zones[emd] ?? [] : null
   const hasNuclear = hits?.some(h => h.fuelCat === '원자력' && h.status === '운영중')
   const hasPlanned = hits?.some(h => h.status !== '운영중')
+
+  // 우리동네 혜택 조회 이벤트 (읍·면·동 선택 시 1회)
+  const emdName = emds.find(([code]) => code === emd)?.[1]
+  useEffect(() => {
+    if (!emd || !data) return
+    const zone = data.zones[emd] ?? []
+    track('benefit_lookup', { sido, sigungu, emd: emdName ?? emd, plant_count: zone.length, eligible: zone.length > 0 })
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [emd])
 
   // 전기요금보조 대상: 원자력 또는 연간 기본지원사업비(추정) 5억원 이상 발전소(운영중)
   const opHits = (hits ?? []).filter(h => h.status === '운영중')

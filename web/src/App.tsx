@@ -7,6 +7,7 @@ import BottomPanel from './components/BottomPanel'
 import DetailPanel from './components/DetailPanel'
 import MapControls from './components/MapControls'
 import OverseasMap from './components/OverseasMap'
+import { track } from './analytics'
 
 export type PanelTab = 'list' | 'benefit' | 'news' | 'overseas'
 
@@ -335,7 +336,21 @@ export default function App() {
     setSelectedId(id)
     setPanelVh(v => (v > 55 ? 46 : v)) // 패널이 지도를 다 가리면 중간으로
     const p = data?.plants.find(x => x.id === id)
+    if (p) {
+      track('select_plant', {
+        plant_name: p.name,
+        fuel: p.fuelCat,
+        company: p.companyGroup,
+        status: p.status,
+        sido: p.sido,
+      })
+    }
     if (p?.lat && p?.lng) mapRef.current?.panTo(p.lat, p.lng, 11)
+  }
+
+  const handleTab = (t: PanelTab) => {
+    setTab(t)
+    track('tab_view', { tab: t })
   }
 
   const plantsById = useMemo(() => new Map((data?.plants ?? []).map(p => [p.id, p])), [data])
@@ -393,7 +408,7 @@ export default function App() {
       <div className="bpanel-wrap" style={{ height: `${panelVh}vh` }}>
         <BottomPanel
           tab={tab}
-          setTab={setTab}
+          setTab={handleTab}
           plants={listPlants}
           searchActive={searchActive}
           search={search}
@@ -412,6 +427,7 @@ export default function App() {
           onOverseasSelect={it => {
             setOsSelected(it)
             setPanelVh(v => (v > 40 ? 32 : v))
+            track('overseas_select', { name: it.name, country: it.country, company: it.companyGroup })
           }}
           onHandlePointerDown={onHandlePointerDown}
           onExpand={expandPanel}

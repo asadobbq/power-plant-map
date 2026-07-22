@@ -1,6 +1,7 @@
 import type { Plant, NewsItem, OverseasItem } from '../types'
 import { FUEL_COLORS, FUEL_ICONS, OS_COMPANY_COLORS, statusGroup, fuelLabel } from '../types'
 import type { PanelTab } from '../App'
+import { analyticsEnabled } from '../analytics'
 import BenefitPanel from './BenefitPanel'
 
 interface Props {
@@ -153,6 +154,12 @@ export default function BottomPanel(p: Props) {
                 본 서비스는 공공데이터를 재구성한 <b>비공식 안내 서비스</b>입니다. 혜택·지원금은 추정치이며
                 법적 판정이 아닙니다.
               </div>
+              {analyticsEnabled && (
+                <div className="sb-disclaimer">
+                  서비스 개선을 위해 Google Analytics로 방문·이용 통계를 익명 수집합니다(개인 식별 정보
+                  없음). 수집을 원치 않으면 브라우저 광고/추적 차단 기능을 사용하실 수 있습니다.
+                </div>
+              )}
               <div>기준일 {p.generatedAt}</div>
               {p.sources.map((s, i) => (
                 <div key={i} className="src">
