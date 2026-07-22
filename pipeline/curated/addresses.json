@@ -40,8 +40,9 @@
    "name": "하동",
    "sido": "경남",
    "emd": "금성면",
-   "addressDetail": "경상남도 하동군 금성면 경제산업로 509",
-   "verdict": "confirmed"
+   "addressDetail": "경상남도 하동군 금성면 명덕길 113-87",
+   "verdict": "confirmed",
+   "source": "하동군청 발전소개요(hadong.go.kr) — 발전제원 일치"
   },
   {
    "name": "포스코",
@@ -782,8 +783,9 @@
    "name": "하동복합#1",
    "sido": "경남",
    "emd": null,
-   "addressDetail": "경상남도 하동군 금성면 경제산업로 509",
-   "verdict": "confirmed"
+   "addressDetail": "경상남도 하동군 금성면 명덕길 113-87",
+   "verdict": "confirmed",
+   "source": "하동군청 발전소개요(hadong.go.kr) — 발전제원 일치"
   },
   {
    "name": "통영천연가스",
