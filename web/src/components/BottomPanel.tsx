@@ -1,5 +1,5 @@
 import type { Plant, NewsItem, OverseasItem } from '../types'
-import { FUEL_COLORS, FUEL_ICONS, OS_COMPANY_COLORS, statusGroup, fuelLabel } from '../types'
+import { FUEL_COLORS, FUEL_ICONS, OS_COMPANY_COLORS, statusGroup, fuelLabel, safeUrl } from '../types'
 import type { PanelTab } from '../App'
 import { analyticsEnabled } from '../analytics'
 import BenefitPanel from './BenefitPanel'
@@ -190,7 +190,7 @@ export default function BottomPanel(p: Props) {
           <div className="bp-news">
             {p.news.length === 0 && <div className="bp-empty">뉴스가 없습니다.</div>}
             {p.news.map((n, i) => (
-              <a key={i} className="news-item" href={n.url} target="_blank" rel="noreferrer">
+              <a key={i} className="news-item" href={safeUrl(n.url)} target="_blank" rel="noreferrer">
                 <span className="news-title">{n.title}</span>
                 <small>
                   {n.source} · {n.date}
@@ -297,7 +297,7 @@ function OverseasView({
                     <>
                       {' · '}
                       <a
-                        href={it.source}
+                        href={safeUrl(it.source)}
                         target="_blank"
                         rel="noreferrer"
                         className="os-src"

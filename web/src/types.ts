@@ -136,6 +136,11 @@ export const COMPANY_GROUPS = [
   '지역난방공사', '수자원공사', '민간·기타', '건설·계획',
 ]
 
+/** 링크 안전장치: 데이터 JSON의 URL은 http(s)만 허용 (javascript: 등 차단) */
+export function safeUrl(u?: string): string | undefined {
+  return u && /^https?:\/\//i.test(u.trim()) ? u : undefined
+}
+
 export function fmtMw(mw: number): string {
   return mw >= 1000 ? (mw / 1000).toFixed(1).replace(/\.0$/, '') + 'GW' : Math.round(mw) + 'MW'
 }

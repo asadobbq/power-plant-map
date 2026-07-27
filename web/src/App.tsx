@@ -15,7 +15,12 @@ export type PanelTab = 'list' | 'benefit' | 'news' | 'overseas'
 const SNAPS = [8, 46, 82] // 패널 높이(vh) 스냅: 최소·중간·최대
 
 function esc(s: string): string {
-  return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+  return s
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;')
 }
 
 /** 같은 좌표에 겹친 발전소를 방사형으로 살짝 벌려 지도에서 구분 (예: 용인복합 3사) */
@@ -61,10 +66,10 @@ function pinHtml(p: Plant): string {
   const est = p.mwEstimated ? '<small>(추정)</small>' : ''
   const card = `
     <div class="pin-card">
-      <div class="pc-name">${esc(p.name)} <span class="pc-fuel" style="color:${color}">${icon} ${fuelLabel(p.fuelCat)}</span></div>
+      <div class="pc-name">${esc(p.name)} <span class="pc-fuel" style="color:${color}">${icon} ${esc(fuelLabel(p.fuelCat))}</span></div>
       <div class="pc-row"><b>${fmtMw(p.totalMw)}</b>${est} · ${esc(p.status)}${p.company ? ' · ' + esc(p.company) : ''}</div>
       <div class="pc-row dim">${esc(p.address || '위치 미정')}</div>
-      ${p.gen ? `<div class="pc-row">${p.gen.year}년 발전량 ${Math.round(p.gen.gwh).toLocaleString()}GWh · 이용률 ${p.gen.cf}%</div>` : ''}
+      ${p.gen ? `<div class="pc-row">${esc(String(p.gen.year))}년 발전량 ${Math.round(p.gen.gwh).toLocaleString()}GWh · 이용률 ${p.gen.cf}%</div>` : ''}
       ${p.firstRetireYear ? `<div class="pc-row warn">⏳ ${p.firstRetireYear}년부터 호기 폐지 시작</div>` : ''}
       ${p.planned ? `<div class="pc-row info">🏗 ${esc(p.planned.when)} 준공 예정</div>` : ''}
       <div class="pc-hint">클릭하면 호기별 상세</div>
@@ -317,7 +322,7 @@ export default function App() {
           from: [a.lat!, a.lng!] as [number, number],
           to: [b.lat!, b.lng!] as [number, number],
           color: '#ef4444',
-          label: `${l.fromUnit} → ${l.toName} (${l.planned || '시기 미정'})`,
+          label: `${esc(l.fromUnit)} → ${esc(l.toName)} (${esc(l.planned || '시기 미정')})`,
         }
       })
     port.setLines(lines)

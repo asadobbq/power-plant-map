@@ -1,5 +1,5 @@
 import type { Plant, Link, NewsItem } from '../types'
-import { FUEL_COLORS, fuelLabel } from '../types'
+import { FUEL_COLORS, fuelLabel, safeUrl } from '../types'
 
 interface Props {
   plant: Plant
@@ -202,7 +202,7 @@ export default function DetailPanel({ plant, links, news, plantsById, generatedA
         <div className="repl">
           <div className="sb-label">관련 뉴스</div>
           {news.map((n, i) => (
-            <a key={i} className="news-item" href={n.url} target="_blank" rel="noreferrer">
+            <a key={i} className="news-item" href={safeUrl(n.url)} target="_blank" rel="noreferrer">
               <span className="news-title">{n.title}</span>
               <small>
                 {n.source} · {n.date}

@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from 'react'
 import type { Plant } from '../types'
-import { FUEL_ICONS, fuelLabel } from '../types'
+import { FUEL_ICONS, fuelLabel, safeUrl } from '../types'
 import { track } from '../analytics'
 
 interface ZonePlant {
@@ -364,7 +364,7 @@ function LocalBenefitCard({ region, updatedAt }: { region: LocalRegion; updatedA
             <div key={i} className="bf-local-item">
               <div className="bf-local-name">
                 {p.name}
-                <a href={p.source} target="_blank" rel="noreferrer" className="os-src" onClick={e => e.stopPropagation()}>
+                <a href={safeUrl(p.source)} target="_blank" rel="noreferrer" className="os-src" onClick={e => e.stopPropagation()}>
                   출처
                 </a>
               </div>
