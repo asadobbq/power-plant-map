@@ -20,6 +20,35 @@ interface BenefitData {
   zones: Record<string, ZonePlant[]>
 }
 
+/** 지자체 전입·정착 지원 시책 (발전소 소재 시군구, 지자체 공식 홈페이지 조사) */
+interface LocalProgram {
+  category: '전입정착' | '출산육아' | '주거' | '청년일자리' | '기타'
+  name: string
+  amount: string
+  condition?: string
+  source: string
+}
+interface LocalRegion {
+  sido: string
+  sigungu: string
+  depopulation: boolean
+  programs: LocalProgram[]
+}
+interface LocalData {
+  updatedAt: string
+  note?: string
+  regions: LocalRegion[]
+}
+
+const LOCAL_CAT_ORDER: LocalProgram['category'][] = ['전입정착', '출산육아', '주거', '청년일자리', '기타']
+const LOCAL_CAT_ICONS: Record<LocalProgram['category'], string> = {
+  전입정착: '🧳',
+  출산육아: '👶',
+  주거: '🏠',
+  청년일자리: '💼',
+  기타: '✨',
+}
+
 interface Props {
   plantsById: Map<string, Plant>
   onJump: (id: string) => void
@@ -62,6 +91,7 @@ function subsidyCase(name: string) {
 
 export default function BenefitPanel({ plantsById, onJump, onClose, embedded }: Props) {
   const [data, setData] = useState<BenefitData | null>(null)
+  const [local, setLocal] = useState<LocalData | null>(null)
   const [sido, setSido] = useState('')
   const [sigungu, setSigungu] = useState('')
   const [emd, setEmd] = useState('')
@@ -71,7 +101,29 @@ export default function BenefitPanel({ plantsById, onJump, onClose, embedded }: 
       .then(r => r.json())
       .then(setData)
       .catch(e => console.error('혜택 데이터 로드 실패', e))
+    fetch('data/benefit_local.json')
+      .then(r => (r.ok ? r.json() : null))
+      .then(setLocal)
+      .catch(() => {}) // 지자체 시책 데이터는 선택적 — 없어도 기존 기능 동작
   }, [])
+
+  // 선택한 시군구의 지자체 전입·정착 시책
+  // 일반구가 있는 대도시는 선택지가 '안양시동안구' 형태이므로 시 단위('안양시') 시책으로 폴백
+  const localRegion = useMemo(() => {
+    if (!local || !sido || !sigungu) return null
+    return (
+      local.regions.find(r => r.sido === sido && r.sigungu === sigungu) ??
+      local.regions.find(r => r.sido === sido && sigungu.startsWith(r.sigungu)) ??
+      null
+    )
+  }, [local, sido, sigungu])
+
+  useEffect(() => {
+    if (localRegion && localRegion.programs.length > 0) {
+      track('local_benefit_view', { sido, sigungu, program_count: localRegion.programs.length })
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [localRegion])
 
   const sidos = useMemo(() => (data ? Object.keys(data.tree).sort() : []), [data])
   const sigungus = useMemo(
@@ -264,9 +316,69 @@ export default function BenefitPanel({ plantsById, onJump, onClose, embedded }: 
             </div>
           )}
 
+          {localRegion && localRegion.programs.length > 0 && (
+            <LocalBenefitCard region={localRegion} updatedAt={local?.updatedAt ?? ''} />
+          )}
+          {sigungu && local && !localRegion && (
+            <div className="bf-local-none">
+              이 지역의 전입·정착 시책 정보는 아직 수집되지 않았습니다 (주요 발전소 소재 시군구부터 제공
+              중). 해당 시·군·구청 홈페이지에서 확인하세요.
+            </div>
+          )}
+
           <div className="bf-disclaimer">{data.note}</div>
         </>
       )}
+    </div>
+  )
+}
+
+/** 지자체 전입·정착 지원 시책 카드 */
+function LocalBenefitCard({ region, updatedAt }: { region: LocalRegion; updatedAt: string }) {
+  const byCat = LOCAL_CAT_ORDER.map(cat => ({
+    cat,
+    items: region.programs.filter(p => p.category === cat),
+  })).filter(g => g.items.length > 0)
+
+  return (
+    <div className="bf-local">
+      <div className="bf-local-head">
+        🏡 {region.sido} {region.sigungu} 전입·정착 혜택
+        {region.depopulation && (
+          <span className="bf-local-badge" title="행정안전부 지정 인구감소지역 — 각종 지원 시책이 많은 지역입니다">
+            인구감소지역
+          </span>
+        )}
+      </div>
+      <div className="bf-local-lead">
+        이 지역으로 <b>전입(이사)</b>하면 받을 수 있는 지자체 지원입니다. 발전소 주변지역 지원과{' '}
+        <b>별개</b>로, 조건이 맞으면 함께 받을 수 있습니다.
+      </div>
+
+      {byCat.map(g => (
+        <div key={g.cat} className="bf-local-cat">
+          <div className="bf-local-cat-head">
+            {LOCAL_CAT_ICONS[g.cat]} {g.cat === '청년일자리' ? '청년·일자리' : g.cat === '출산육아' ? '출산·육아' : g.cat === '전입정착' ? '전입·정착' : g.cat}
+          </div>
+          {g.items.map((p, i) => (
+            <div key={i} className="bf-local-item">
+              <div className="bf-local-name">
+                {p.name}
+                <a href={p.source} target="_blank" rel="noreferrer" className="os-src" onClick={e => e.stopPropagation()}>
+                  출처
+                </a>
+              </div>
+              <div className="bf-local-amt">{p.amount}</div>
+              {p.condition && <div className="bf-local-cond">{p.condition}</div>}
+            </div>
+          ))}
+        </div>
+      ))}
+
+      <div className="bf-local-warn">
+        지자체 조례·공고 기준({updatedAt} 조사)이며 예산 소진·조례 개정으로 변동될 수 있습니다. 신청
+        자격(전입 기간·연령·거주 요건 등)은 반드시 해당 시·군·구청에 확인하세요.
+      </div>
     </div>
   )
 }

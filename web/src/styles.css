@@ -716,6 +716,73 @@ body {
 .bf-elec-warn { font-size: 10.5px; color: #92400e; background: #fef3c7; border-radius: 7px; padding: 7px 9px; line-height: 1.5; margin-bottom: 6px; }
 .bf-elec-diff { font-size: 10.5px; color: #3730a3; background: #eef2ff; border-radius: 7px; padding: 7px 9px; line-height: 1.5; }
 
+/* 지자체 전입·정착 시책 카드 */
+.bf-local {
+  margin: 12px 0;
+  padding: 12px;
+  border: 1px solid #bbf7d0;
+  background: linear-gradient(180deg, #f0fdf4 0%, #f8fffa 100%);
+  border-radius: 12px;
+}
+.bf-local-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+  font-weight: 800;
+  color: #15803d;
+}
+.bf-local-badge {
+  font-size: 10px;
+  font-weight: 700;
+  color: #9a3412;
+  background: #ffedd5;
+  padding: 2px 7px;
+  border-radius: 999px;
+  cursor: help;
+}
+.bf-local-lead { font-size: 12px; color: #374151; line-height: 1.55; margin: 7px 0 9px; }
+.bf-local-cat { margin-bottom: 8px; }
+.bf-local-cat-head { font-size: 12px; font-weight: 800; color: #166534; margin-bottom: 4px; }
+.bf-local-item {
+  background: #fff;
+  border: 1px solid #dcfce7;
+  border-radius: 9px;
+  padding: 7px 10px;
+  margin-bottom: 5px;
+}
+.bf-local-name {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 8px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #1f2937;
+}
+.bf-local-amt { font-size: 12.5px; font-weight: 800; color: #14532d; margin: 2px 0; line-height: 1.4; }
+.bf-local-cond { font-size: 10.5px; color: #6b7280; line-height: 1.45; }
+.bf-local-warn {
+  font-size: 10.5px;
+  color: #92400e;
+  background: #fef3c7;
+  border-radius: 7px;
+  padding: 7px 9px;
+  line-height: 1.5;
+  margin-top: 4px;
+}
+.bf-local-none {
+  font-size: 11px;
+  color: #6b7280;
+  background: #f9fafb;
+  border: 1px dashed #e5e7eb;
+  border-radius: 8px;
+  padding: 8px 10px;
+  margin: 10px 0;
+  line-height: 1.5;
+}
+
 .bf-disclaimer { font-size: 10px; color: #9ca3af; margin-top: 10px; line-height: 1.5; }
 .bf-loading { font-size: 12px; color: #9ca3af; padding: 20px 0; text-align: center; }
 .tag-run { background: #d1fae5; color: #047857; }
