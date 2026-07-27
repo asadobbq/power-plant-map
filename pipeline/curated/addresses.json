@@ -391,7 +391,7 @@
    "name": "춘천열병합",
    "sido": "강원",
    "emd": "동산면",
-   "addressDetail": "강원특별자치도 춘천시 동산면 원무동길 8",
+   "addressDetail": "강원특별자치도 춘천시 동산면 원무동길 82",
    "verdict": "confirmed"
   },
   {
@@ -566,8 +566,8 @@
    "name": "아산배방열병합",
    "sido": "충남",
    "emd": "배방읍",
-   "addressDetail": "충남 아산시 배방읍 동방로 114",
-   "verdict": "plausible"
+   "addressDetail": "충청남도 아산시 배방읍 이순신대로 841",
+   "verdict": "confirmed"
   },
   {
    "name": "안동",
