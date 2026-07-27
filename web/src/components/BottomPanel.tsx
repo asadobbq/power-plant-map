@@ -1,7 +1,7 @@
 import type { Plant, NewsItem, OverseasItem } from '../types'
 import { FUEL_COLORS, FUEL_ICONS, OS_COMPANY_COLORS, statusGroup, fuelLabel, safeUrl } from '../types'
 import type { PanelTab } from '../App'
-import { analyticsEnabled } from '../analytics'
+import { analyticsEnabled, track } from '../analytics'
 import BenefitPanel from './BenefitPanel'
 
 interface Props {
@@ -30,6 +30,10 @@ interface Props {
 
 const COMPANY_COLORS = OS_COMPANY_COLORS
 
+/** 의견 보내기 구글 폼 (익명 제출 가능) */
+export const FEEDBACK_URL =
+  'https://docs.google.com/forms/d/e/1FAIpQLSdJQjPr6h1UINXj6ZHWYl208Qj2N7oF-tPe7skMG8AsIAKetA/viewform'
+
 function stakeText(s?: string): string {
   if (!s || s === '미공개') return ''
   // 숫자(지분율)로 시작하면 '지분' 접두어, 아니면(미확인·O&M 등) 그대로
@@ -57,6 +61,20 @@ export default function BottomPanel(p: Props) {
       {/* 드래그 핸들 */}
       <div className="bp-handle" onPointerDown={p.onHandlePointerDown} onClick={p.onExpand}>
         <div className="bp-grab" />
+        <a
+          className="bp-info bp-feedback"
+          href={FEEDBACK_URL}
+          target="_blank"
+          rel="noreferrer"
+          onPointerDown={e => e.stopPropagation()}
+          onClick={e => {
+            e.stopPropagation()
+            track('feedback_open')
+          }}
+          aria-label="개선 의견 보내기"
+        >
+          💬 의견
+        </a>
         <button
           className="bp-info"
           onPointerDown={e => e.stopPropagation()}

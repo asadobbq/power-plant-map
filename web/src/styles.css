@@ -49,6 +49,8 @@ body {
   touch-action: manipulation;
 }
 .bp-info:hover { background: #e5e7eb; color: #374151; }
+.bp-feedback { right: 104px; text-decoration: none; color: #1d4ed8; background: #eff6ff; border-color: #bfdbfe; }
+.bp-feedback:hover { background: #dbeafe; color: #1e40af; }
 .bp-tabs { flex: none; display: flex; border-bottom: 1px solid #e5e7eb; padding: 0 6px; }
 .bp-tab {
   flex: 1;

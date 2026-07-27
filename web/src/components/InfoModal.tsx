@@ -74,7 +74,15 @@ export default function InfoModal({ generatedAt, onClose }: Props) {
         </ul>
 
         <div className="modal-foot">
-          오류·정정 제보는 환영합니다. 최신 확정 정보는 각 발전사·산업통상자원부·관할 지자체 공고를 확인하세요.
+          오류·정정 제보와 개선 의견은{' '}
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLSdJQjPr6h1UINXj6ZHWYl208Qj2N7oF-tPe7skMG8AsIAKetA/viewform"
+            target="_blank"
+            rel="noreferrer"
+          >
+            의견 보내기(익명 가능)
+          </a>
+          로 남겨주세요. 최신 확정 정보는 각 발전사·소관 부처·관할 지자체 공고를 확인하세요.
         </div>
       </div>
     </div>
