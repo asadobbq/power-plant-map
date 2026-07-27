@@ -24,13 +24,16 @@ export function initAnalytics(): void {
   document.head.appendChild(s)
 
   window.dataLayer = window.dataLayer || []
-  const gtag: Gtag = (...args) => {
-    window.dataLayer!.push(args)
+  // 주의: gtag.js는 dataLayer에 '배열'이 아니라 'arguments 객체'가 push되기를 기대한다.
+  // 화살표 함수+rest 파라미터(배열 push)로 만들면 명령이 조용히 무시되어 수집이 안 된다.
+  function gtag(this: unknown) {
+    // eslint-disable-next-line prefer-rest-params
+    window.dataLayer!.push(arguments)
   }
-  window.gtag = gtag
-  gtag('js', new Date())
+  window.gtag = gtag as Gtag
+  window.gtag('js', new Date())
   // GA4는 IP를 저장하지 않음(기본 익명화). 지역 리포트는 서버측 대략 위치로 제공됨.
-  gtag('config', GA_ID, { send_page_view: true })
+  window.gtag('config', GA_ID, { send_page_view: true })
 }
 
 /** 커스텀 이벤트 전송. GA 미설정 시 no-op. */
