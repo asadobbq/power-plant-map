@@ -190,7 +190,10 @@ export default function BottomPanel(p: Props) {
                   없음). 수집을 원치 않으면 브라우저 광고/추적 차단 기능을 사용하실 수 있습니다.
                 </div>
               )}
-              <div>기준일 {p.generatedAt}</div>
+              <div>
+                기준일 {p.generatedAt} · <a href="/plant/">발전소별 상세 페이지</a> ·{' '}
+                <a href="/region/">지역별 혜택 페이지</a>
+              </div>
               {p.sources.map((s, i) => (
                 <div key={i} className="src">
                   · {s}

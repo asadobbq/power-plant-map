@@ -126,6 +126,21 @@ export default function App() {
   const mapRef = useRef<MapPort | null>(null)
   const mapElRef = useRef<HTMLDivElement>(null)
 
+  // 정적 발전소 페이지(/plant/*)의 "지도에서 보기" 딥링크: /?plant={id}
+  const deepLinked = useRef(false)
+  useEffect(() => {
+    if (deepLinked.current || !data) return
+    deepLinked.current = true
+    const pid = new URLSearchParams(window.location.search).get('plant')
+    if (!pid) return
+    const p = data.plants.find(x => x.id === pid)
+    if (!p) return
+    setSelectedId(p.id)
+    track('deeplink_plant', { plant_name: p.name })
+    // 지도 초기화가 끝난 뒤 이동하도록 약간 지연
+    if (p.lat && p.lng) setTimeout(() => mapRef.current?.panTo(p.lat!, p.lng!, 11), 800)
+  }, [data])
+
   useEffect(() => {
     fetch('data/plants.json')
       .then(r => r.json())
