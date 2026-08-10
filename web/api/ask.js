@@ -75,7 +75,58 @@ function plantBrief(p) {
   }
 }
 
-/** 질문에서 지역·발전소를 사전 매칭해 관련 레코드만 컨텍스트로 조립 (전체 데이터 주입 금지) */
+// ---- 조건형(광역·회사·연료·상태) 질문용 매칭 사전 ----
+const SIDO_LIST = ['서울', '경기', '인천', '강원', '충남', '충북', '대전', '세종', '경남', '경북', '대구', '부산', '울산', '전남', '전북', '광주', '제주']
+const SIDO_ALIAS = {
+  수도권: ['서울', '경기', '인천'],
+  충청권: ['대전', '세종', '충남', '충북'], 충청: ['대전', '세종', '충남', '충북'],
+  영남권: ['부산', '울산', '경남', '대구', '경북'], 영남: ['부산', '울산', '경남', '대구', '경북'],
+  호남권: ['광주', '전남', '전북'], 호남: ['광주', '전남', '전북'],
+  서울특별시: ['서울'], 경기도: ['경기'], 인천광역시: ['인천'], 강원도: ['강원'], 강원특별자치도: ['강원'],
+  충청남도: ['충남'], 충청북도: ['충북'], 대전광역시: ['대전'], 경상남도: ['경남'], 경상북도: ['경북'],
+  대구광역시: ['대구'], 부산광역시: ['부산'], 울산광역시: ['울산'], 전라남도: ['전남'], 전라북도: ['전북'],
+  전북특별자치도: ['전북'], 광주광역시: ['광주'], 제주도: ['제주'], 제주특별자치도: ['제주'],
+}
+const GENCO5 = ['남동발전', '중부발전', '서부발전', '남부발전', '동서발전']
+const COMPANY_ALIAS = {
+  남동발전: ['남동발전'], 중부발전: ['중부발전'], 서부발전: ['서부발전'],
+  남부발전: ['남부발전'], 동서발전: ['동서발전'],
+  한수원: ['한수원'], 한국수력원자력: ['한수원'], 수력원자력: ['한수원'],
+  지역난방: ['지역난방공사'], 수자원공사: ['수자원공사'],
+  발전5사: GENCO5, 발전공기업: [...GENCO5, '한수원'], 화력발전공기업: GENCO5,
+  발전자회사: [...GENCO5, '한수원'],
+  공기업: [...GENCO5, '한수원', '지역난방공사', '수자원공사'],
+  민간: ['민간·기타'],
+}
+const FUEL_ALIAS = {
+  원자력: ['원자력'], 원전: ['원자력'], 핵발전: ['원자력'],
+  석탄: ['석탄'], 유연탄: ['석탄'],
+  LNG: ['LNG'], 가스: ['LNG'], 복합화력: ['LNG'],
+  화력: ['석탄', 'LNG', '유류'],
+  수력: ['수력'], 양수: ['양수'], 풍력: ['풍력'], 유류: ['유류'], 바이오: ['바이오'],
+}
+const STATUS_ALIAS = {
+  운영중: ['운영중'], 가동중: ['운영중'],
+  건설중: ['건설중', '준공임박'], 짓고: ['건설중', '준공임박'],
+  추진중: ['추진중'], 계획: ['계획', '추진중'], 예정: ['건설중', '준공임박', '추진중', '계획'],
+  폐지: ['폐지완료'],
+}
+
+function matchAlias(q, aliasMap) {
+  const out = new Set()
+  // 긴 키워드 우선 매칭(예: '수도권'이 '도권'류 오매칭보다 앞서도록)
+  for (const key of Object.keys(aliasMap).sort((a, b) => b.length - a.length)) {
+    if (q.includes(key)) for (const v of aliasMap[key]) out.add(v)
+  }
+  return out
+}
+
+/** 컴팩트 행 — 집계형 질문에서 다수 발전소를 저토큰으로 전달 */
+function plantRow(p) {
+  return `${p.name} | ${p.fuelCat} | ${Math.round(p.totalMw).toLocaleString()}MW | ${p.status} | ${p.company || p.companyGroup} | ${p.sido || ''} ${p.sigungu || ''}`.trim()
+}
+
+/** 질문에서 지역·발전소·회사·연료·상태를 사전 매칭해 관련 레코드만 컨텍스트로 조립 (전체 데이터 주입 금지) */
 function assembleContext(question, data) {
   const q = question.replace(/\s/g, '')
   const regions = []
@@ -84,7 +135,9 @@ function assembleContext(question, data) {
     if (short.length >= 2 && (q.includes(r.sigungu) || q.includes(short))) regions.push(r)
     if (regions.length >= 2) break
   }
-  const plants = []
+
+  // 1) 개별 매칭: 발전소명·시군구명
+  const named = []
   for (const p of data.plants.plants) {
     // 시군구 축약형('하동군'→'하동')은 2자 이상일 때만 사용 — '동구'→'동' 같은
     // 한 글자 축약이 다른 지명('하동')에 오매칭되는 것을 방지
@@ -94,31 +147,74 @@ function assembleContext(question, data) {
       (p.sigungu && q.includes(p.sigungu)) ||
       (short.length >= 2 && q.includes(short)) ||
       regions.some(r => r.sigungu === p.sigungu)
-    if (hit) plants.push(p)
+    if (hit) named.push(p)
   }
-  plants.sort((a, b) => b.totalMw - a.totalMw)
+
+  // 2) 조건 매칭: 시도·권역 / 회사 / 연료 / 상태 — 언급된 조건들의 AND
+  const sidos = matchAlias(q, SIDO_ALIAS)
+  for (const s of SIDO_LIST) if (q.includes(s)) sidos.add(s)
+  const companies = matchAlias(q, COMPANY_ALIAS)
+  const fuels = matchAlias(q, FUEL_ALIAS)
+  const statuses = matchAlias(q, STATUS_ALIAS)
+  const hasFilter = sidos.size + companies.size + fuels.size + statuses.size > 0
+  let filtered = []
+  if (hasFilter) {
+    filtered = data.plants.plants.filter(p => {
+      if (sidos.size && !sidos.has((p.sido || '').replace(/시$/, ''))) return false
+      if (companies.size && !companies.has(p.companyGroup)) return false
+      if (fuels.size && !fuels.has(p.fuelCat)) return false
+      if (statuses.size && !statuses.has(p.status)) return false
+      return true
+    })
+  }
+
+  // 합치기: 개별 매칭은 상세, 조건 매칭은 컴팩트 목록(설비용량순, 상한 40행)
+  const plants = [...new Set([...named, ...filtered])].sort((a, b) => b.totalMw - a.totalMw)
+  const detail = named.sort((a, b) => b.totalMw - a.totalMw).slice(0, 5)
+  const ROW_CAP = 40
+  const rows = filtered.sort((a, b) => b.totalMw - a.totalMw).slice(0, ROW_CAP)
+  const totalMw = filtered.reduce((s, p) => s + p.totalMw, 0)
+
   const sources = new Set()
   for (const r of regions) for (const pg of r.programs) sources.add(pg.source)
-  return {
-    regions,
-    plants: plants.slice(0, 5),
-    sources: [...sources].slice(0, 8),
-    context: {
-      데이터기준일: {
-        발전소: data.plants.generatedAt,
-        지자체시책: data.local.updatedAt,
-      },
-      발전소: plants.slice(0, 5).map(plantBrief),
-      지자체_전입정착_시책: regions.map(r => ({
-        지역: `${r.sido} ${r.sigungu}`,
-        인구감소지역: r.depopulation,
-        사업: r.programs.map(pg => ({
-          분류: pg.category, 사업명: pg.name, 금액: pg.amount,
-          조건: pg.condition, 출처: pg.source,
-        })),
-      })),
+
+  const context = {
+    데이터기준일: {
+      발전소: data.plants.generatedAt,
+      지자체시책: data.local.updatedAt,
     },
   }
+  if (detail.length) context.발전소_상세 = detail.map(plantBrief)
+  if (filtered.length) {
+    context.발전소_검색결과 = {
+      조건: {
+        ...(sidos.size ? { 시도: [...sidos] } : {}),
+        ...(companies.size ? { 운영사그룹: [...companies] } : {}),
+        ...(fuels.size ? { 연료: [...fuels] } : {}),
+        ...(statuses.size ? { 상태: [...statuses] } : {}),
+      },
+      집계: { 개수: filtered.length, 합계MW: Math.round(totalMw) },
+      목록_형식: '이름 | 연료 | 설비용량 | 상태 | 운영사 | 위치',
+      목록: rows.map(plantRow),
+      ...(filtered.length > ROW_CAP
+        ? { 참고: `설비용량 상위 ${ROW_CAP}곳만 표시 — 외 ${filtered.length - ROW_CAP}곳 존재` }
+        : {}),
+    }
+  } else if (hasFilter) {
+    context.발전소_검색결과 = { 집계: { 개수: 0 }, 참고: '질문의 조건에 해당하는 발전소(10MW 이상 등록 기준)가 없습니다.' }
+  }
+  if (regions.length) {
+    context.지자체_전입정착_시책 = regions.map(r => ({
+      지역: `${r.sido} ${r.sigungu}`,
+      인구감소지역: r.depopulation,
+      사업: r.programs.map(pg => ({
+        분류: pg.category, 사업명: pg.name, 금액: pg.amount,
+        조건: pg.condition, 출처: pg.source,
+      })),
+    }))
+  }
+
+  return { regions, plants: plants.slice(0, 5), sources: [...sources].slice(0, 8), context }
 }
 
 async function redis(commands) {
@@ -130,6 +226,8 @@ async function redis(commands) {
   if (!r.ok) throw new Error(`redis ${r.status}`)
   return (await r.json()).map(x => x.result)
 }
+
+export { assembleContext } // 매칭 로직 단위 테스트용 (서버리스 동작에는 영향 없음)
 
 export default async function handler(req, res) {
   res.setHeader('Cache-Control', 'no-store')
