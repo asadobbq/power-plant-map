@@ -123,7 +123,9 @@ function matchAlias(q, aliasMap) {
 
 /** 컴팩트 행 — 집계형 질문에서 다수 발전소를 저토큰으로 전달 */
 function plantRow(p) {
-  return `${p.name} | ${p.fuelCat} | ${Math.round(p.totalMw).toLocaleString()}MW | ${p.status} | ${p.company || p.companyGroup} | ${p.sido || ''} ${p.sigungu || ''}`.trim()
+  // 10MW 미만 소수력 등은 반올림하면 0MW로 보이므로 소수 1자리 유지
+  const mw = p.totalMw >= 10 ? Math.round(p.totalMw).toLocaleString() : p.totalMw.toFixed(1)
+  return `${p.name} | ${p.fuelCat} | ${mw}MW | ${p.status} | ${p.company || p.companyGroup} | ${p.sido || ''} ${p.sigungu || ''}`.trim()
 }
 
 /** 질문에서 지역·발전소·회사·연료·상태를 사전 매칭해 관련 레코드만 컨텍스트로 조립 (전체 데이터 주입 금지) */
