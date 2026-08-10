@@ -8,6 +8,7 @@ import DetailPanel from './components/DetailPanel'
 import MapControls from './components/MapControls'
 import OverseasMap from './components/OverseasMap'
 import InfoModal from './components/InfoModal'
+import AiChat from './components/AiChat'
 import { track } from './analytics'
 
 export type PanelTab = 'list' | 'benefit' | 'news' | 'overseas'
@@ -412,6 +413,7 @@ export default function App() {
             개발용 지도(OSM)로 표시 중 — <b>네이버 지도 키(VITE_NCP_KEY_ID)</b> 설정 시 자동 전환됩니다
           </div>
         )}
+        <AiChat onJump={handleSelect} />
         {selected && (
           <DetailPanel
             plant={selected}
