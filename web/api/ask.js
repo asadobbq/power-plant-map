@@ -86,9 +86,13 @@ function assembleContext(question, data) {
   }
   const plants = []
   for (const p of data.plants.plants) {
+    // 시군구 축약형('하동군'→'하동')은 2자 이상일 때만 사용 — '동구'→'동' 같은
+    // 한 글자 축약이 다른 지명('하동')에 오매칭되는 것을 방지
+    const short = (p.sigungu || '').replace(/(시|군|구)$/, '')
     const hit =
       q.includes(p.name) ||
-      (p.sigungu && p.sigungu.length >= 2 && q.includes(p.sigungu.replace(/(시|군|구)$/, ''))) ||
+      (p.sigungu && q.includes(p.sigungu)) ||
+      (short.length >= 2 && q.includes(short)) ||
       regions.some(r => r.sigungu === p.sigungu)
     if (hit) plants.push(p)
   }
