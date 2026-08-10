@@ -1,0 +1,8 @@
+anthropic>=0.60
+pydantic>=2
+pyyaml
+requests
+beautifulsoup4
+pypdf
+# HWP 텍스트 추출(선택): pip install pyhwp  → hwp5txt CLI 제공
+# PDF 고품질 추출(선택): poppler 의 pdftotext CLI (없으면 pypdf 폴백)

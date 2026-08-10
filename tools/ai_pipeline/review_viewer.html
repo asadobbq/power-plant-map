@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8" />
+<title>수동검토 큐 — kopower AI 파이프라인 (HITL)</title>
+<style>
+  body { font-family: 'Malgun Gothic', sans-serif; max-width: 900px; margin: 24px auto; padding: 0 16px; color: #1f2937; }
+  h1 { font-size: 20px; }
+  .hint { background: #eff6ff; border-radius: 8px; padding: 10px 14px; font-size: 13px; color: #1e40af; }
+  .item { border: 1px solid #e5e7eb; border-radius: 10px; padding: 12px 16px; margin: 12px 0; }
+  .item.approved { border-color: #16a34a; background: #f0fdf4; }
+  .item.rejected { border-color: #dc2626; background: #fef2f2; opacity: .7; }
+  .name { font-weight: 700; font-size: 15px; }
+  .cat { display: inline-block; background: #eef2ff; color: #4338ca; border-radius: 6px; font-size: 11px; padding: 2px 8px; margin-right: 6px; }
+  .issues { color: #b45309; font-size: 12px; margin: 6px 0; }
+  .evidence { background: #f9fafb; border-left: 3px solid #d1d5db; padding: 6px 10px; font-size: 12px; color: #4b5563; margin: 6px 0; }
+  .meta { font-size: 12px; color: #6b7280; }
+  button { border: 1px solid #d1d5db; background: #fff; border-radius: 8px; padding: 6px 14px; cursor: pointer; margin-right: 6px; }
+  button.ok { border-color: #16a34a; color: #15803d; }
+  button.no { border-color: #dc2626; color: #b91c1c; }
+  #export { background: #1d4ed8; color: #fff; border: none; padding: 10px 18px; font-size: 14px; }
+  #summary { font-size: 13px; margin: 10px 0; }
+  a { color: #1d4ed8; }
+</style>
+</head>
+<body>
+<h1>🗂 수동검토 큐 (HITL) — AI 추출 결과 승인/반려</h1>
+<div class="hint">
+  ① <b>review_queue.json 열기</b>로 큐 파일(data/review_queue.json)을 불러온 뒤,
+  각 항목을 원문(출처 링크)과 대조해 승인/반려하세요.
+  ② 완료 후 <b>승인분 내보내기</b>로 받은 파일을 <code>data/approved/</code> 폴더에 저장하면
+  <code>python apply.py</code>가 병합 미리보기를 보여줍니다. 반영은 <code>--yes</code> 확인 후에만 됩니다.
+</div>
+<p>
+  <input type="file" id="file" accept=".json" />
+  <span id="summary"></span>
+</p>
+<div id="list"></div>
+<p><button id="export">✅ 승인분 내보내기 (approved_YYYYMMDD.json)</button></p>
+
+<script>
+let items = [];           // review_queue.json 항목
+let decisions = [];       // 'approve' | 'reject' | null
+
+document.getElementById('file').addEventListener('change', async e => {
+  const f = e.target.files[0];
+  if (!f) return;
+  items = JSON.parse(await f.text());
+  decisions = items.map(() => null);
+  render();
+});
+
+function esc(s) {
+  return String(s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+}
+
+function render() {
+  const list = document.getElementById('list');
+  list.innerHTML = items.map((it, i) => {
+    const p = it.program;
+    const cls = decisions[i] === 'approve' ? 'approved' : decisions[i] === 'reject' ? 'rejected' : '';
+    return `<div class="item ${cls}">
+      <div class="name"><span class="cat">${esc(p.category)}</span>${esc(it.sido)} ${esc(it.sigungu)} — ${esc(p.name)}</div>
+      <div>💰 ${esc(p.amount)}</div>
+      <div class="meta">대상: ${esc(p.target || '—')} · confidence ${p.confidence}</div>
+      <div class="issues">⚠ ${it.issues.map(esc).join(' · ') || '자동 검증 통과'}</div>
+      <div class="evidence">근거: ${esc(p.evidence || '—')}</div>
+      <div class="meta">출처: <a href="${esc(p.source)}" target="_blank" rel="noreferrer">${esc(p.source)}</a>
+        ${it.doc && it.doc.title ? ' · 문서: ' + esc(it.doc.title) : ''}</div>
+      <p>
+        <button class="ok" onclick="decide(${i},'approve')">승인</button>
+        <button class="no" onclick="decide(${i},'reject')">반려</button>
+      </p>
+    </div>`;
+  }).join('') || '<p>큐 파일을 불러오세요.</p>';
+  const a = decisions.filter(d => d === 'approve').length;
+  const r = decisions.filter(d => d === 'reject').length;
+  document.getElementById('summary').textContent =
+    items.length ? `총 ${items.length}건 — 승인 ${a} · 반려 ${r} · 미처리 ${items.length - a - r}` : '';
+}
+
+function decide(i, d) { decisions[i] = d; render(); }
+
+document.getElementById('export').addEventListener('click', () => {
+  const approved = items.filter((_, i) => decisions[i] === 'approve');
+  if (!approved.length) { alert('승인된 항목이 없습니다.'); return; }
+  const pending = decisions.filter(d => d === null).length;
+  if (pending && !confirm(`미처리 ${pending}건이 남아 있습니다. 승인분만 내보낼까요?`)) return;
+  const blob = new Blob([JSON.stringify(approved, null, 2)], { type: 'application/json' });
+  const a = document.createElement('a');
+  const d = new Date().toISOString().slice(0, 10).replace(/-/g, '');
+  a.href = URL.createObjectURL(blob);
+  a.download = `approved_${d}.json`;
+  a.click();
+});
+</script>
+</body>
+</html>

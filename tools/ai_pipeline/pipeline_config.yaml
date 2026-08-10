@@ -1,0 +1,44 @@
+# AI 데이터 파이프라인 설정 — 지자체 전입·정착 시책 자동 구조화
+# (시드 URL 등록제: 크롤링 대상은 여기 명시된 게시판만)
+
+model:
+  # 구조화(추출) 작업은 스펙에 따라 비용 효율 모델로 시작.
+  # eval_accuracy.py 일치율이 목표(95%) 미달이면 claude-opus-5 로 상향.
+  name: claude-haiku-4-5
+  max_tokens: 8000
+
+thresholds:
+  # 이 값 미만의 confidence는 자동 반영하지 않고 수동검토 큐(HITL)로 분리
+  review_confidence: 0.85
+
+crawl:
+  interval_seconds: 2        # 요청 간격 (robots.txt 준수와 별개로 최소 2초)
+  timeout_seconds: 20
+  user_agent: "kopower-pipeline/1.0 (+https://kopower.net; public-data collection)"
+  # 문서 제목에 아래 키워드가 하나라도 있어야 수집 (전입·정착 시책 관련 문서만)
+  keywords: [전입, 정착, 출산, 이주, 귀농, 귀촌, 지원금, 축하금, 장려금, 인구]
+
+# 시드 URL 등록제 — 시군구 고시공고/새소식 게시판.
+# selector: 목록 페이지에서 게시글 링크를 찾는 CSS 선택자(게시판마다 다름).
+# 새 지역 확장 시 여기에 항목만 추가하면 됨.
+seeds:
+  - sido: 경남
+    sigungu: 하동군
+    list_url: "https://www.hadong.go.kr/board.web?boardId=BBS_0000006&menuCd=DOM_000000103001001000"
+    selector: "td.title a"
+  - sido: 강원
+    sigungu: 삼척시
+    list_url: "https://www.samcheok.go.kr/board/list.do?boardId=BBS_00068&menuCd=DOM_000000105001002000"
+    selector: "td.title a"
+  # (등록 예시 — 실제 URL·선택자는 각 게시판 확인 후 갱신)
+
+paths:
+  raw_dir: data/raw            # [수집] 원문 문서 + 메타
+  text_dir: data/text          # [추출] 텍스트 변환 결과
+  structured_dir: data/structured  # [구조화] Claude 출력 JSON
+  review_queue: data/review_queue.json   # [검증] 수동검토 큐 (HITL)
+  auto_approved: data/auto_approved.json # [검증] 자동 통과분 (반영 대기)
+  approved_dir: data/approved  # [반영] 사람 승인 완료분 (review_viewer 출력)
+  hold_queue: data/text/_hold_queue.json # 추출 실패 원문 보류 큐
+  change_log: logs/changes.log
+  benefit_local: ../../web/public/data/benefit_local.json  # 반영 대상 (이 파일 기준 상대경로)
