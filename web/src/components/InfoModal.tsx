@@ -29,13 +29,14 @@ export default function InfoModal({ generatedAt, onClose }: Props) {
             <b>운영 발전설비·호기·연료·주기기 제작사</b> — 전력거래소 EPSIS 발전기 세부내역(2024)
           </li>
           <li>
-            <b>건설·계획 설비 보강</b> — 한국전력 전력통계월보(제571호, 2026.5)
+            <b>건설·계획 설비 보강</b> — 한국전력 전력통계월보(제571호, 2026.5 · 잠정치, 수치 인용)
           </li>
           <li>
             <b>폐지·대체·신규 계획</b> — 제11차 전력수급기본계획(산업통상자원부 공고 제2025-169호, 2025)
           </li>
           <li>
-            <b>좌표·상세주소</b> — WRI Global Power Plant DB v1.3(CC BY) + 각 발전사 공식 홈페이지 도로명주소
+            <b>좌표·상세주소</b> — WRI Global Power Plant DB v1.3(CC BY 4.0, 일부 좌표 보정) + 각
+            발전사 공식 홈페이지 도로명주소
           </li>
           <li>
             <b>주변지역 혜택·전기요금보조 단가</b> — 발전소주변지역 지원법 시행령 별표2(2017 개정) + 각
@@ -75,7 +76,16 @@ export default function InfoModal({ generatedAt, onClose }: Props) {
 
         <div className="modal-foot">
           오류·정정 제보와 개선 의견은 <a href="/board/">소통 게시판(익명 가능)</a>에 남겨주세요. 최신 확정
-          정보는 각 발전사·소관 부처·관할 지자체 공고를 확인하세요.
+          정보는 각 발전사·소관 부처·관할 지자체 공고를 확인하세요. 원천 데이터별 라이선스(공공누리
+          유형·재배포 조건) 전수 조사 결과는{' '}
+          <a
+            href="https://github.com/asadobbq/power-plant-map/blob/master/docs/data_licenses.md"
+            target="_blank"
+            rel="noreferrer"
+          >
+            공개 저장소 문서
+          </a>
+          에 정리되어 있습니다.
         </div>
       </div>
     </div>

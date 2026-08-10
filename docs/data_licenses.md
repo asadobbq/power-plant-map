@@ -1,0 +1,90 @@
+# 데이터 원천별 라이선스 판정 (전수 조사)
+
+> 조사일: 2026-08-10. 각 원천의 저작권 정책 원문을 웹에서 직접 확인해 판정했으며,
+> (a) **원본 파일의 공개 저장소 재배포** 가능 여부와 (b) **추출한 사실 데이터의 웹서비스 게시**
+> 가능 여부를 구분해 기록한다. 공공누리(KOGL) 1유형 = 출처표시 조건, 상업이용·변형 허용.
+
+## 판정 요약
+
+| 원천 | 라이선스 | 원본 재배포 | 사실 데이터 게시 | 조치 |
+|---|---|---|---|---|
+| EPSIS 발전기 세부내역·발전실적 | 공공누리 미표기(단, 동일 데이터가 data.go.kr '이용허락범위 제한 없음') | 조건부 허용 | 허용(출처표시) | data.go.kr 근거 병기(NOTICE) |
+| 한전 전력통계월보 | KOGL 미적용 — 법적고지상 비상업·개인용도 한정 | **불허** | 허용(수치 선별 추출 + 출처표시) | 원본 엑셀 .gitignore로 저장소 제외(추적 이력 없음 확인) |
+| KOSTAT 행정경계(southkorea-maps) | KOGL 1유형 상당("free to share or remix") | 허용(출처표시) | 허용 | 출처표시 유지, GADM 계열 미사용 확인 |
+| WRI Global Power Plant DB v1.3 | CC BY 4.0 | 허용 | 허용 | 공식 인용문 표기 |
+| 에너지공단 풍력기 위치정보(15085304) | 이용허락범위 제한 없음 | 허용 | 허용 | 출처표시(권장) |
+| 11차 전기본 공고문(산업부 제2025-169호) | 사이트 정책 KOGL 1유형 + 저작권법 §7(2) 공고는 비보호 저작물 | 조건부(원문 PDF는 링크 권장) | 허용(출처표시) | PDF 미포함, 추출표만 사용 |
+
+## 상세 판정
+
+### 1. 전력거래소 EPSIS (epsis.kpx.or.kr)
+
+- **판정**: EPSIS 사이트 자체에는 공공누리 표기가 없음(푸터 "All Right Reserved"만 존재).
+  다만 동일 기관의 동일 성격 데이터가 공공데이터포털에 **'이용허락범위 제한 없음'**으로
+  개방되어 있음 — 예: 한국전력거래소_연간 발전기별 발전설비
+  (https://www.data.go.kr/data/15046119/fileData.do).
+- **조치**: 저장소의 EPSIS 원본 응답 파일(`pipeline/raw/epsis_*.txt`)은 위 근거를
+  `pipeline/raw/README.md`에 명시하고 유지. 서비스 게시 수치는 "출처: 전력거래소
+  전력통계정보시스템(EPSIS)" 표기. 확실성 보강을 위한 KPX 서면 문의는 manual_tasks.md 참조.
+- 신뢰도: 중간 (사이트 자체 정책 부재, data.go.kr 우회 근거)
+
+### 2. 한국전력공사 전력통계월보 (home.kepco.co.kr)
+
+- **판정**: **재배포 불허.** 한전 법적고지(2025-07-11)가 홈페이지 제공 자료의 상업적·공공
+  목적 "내려받기·수정·유통"을 명시적으로 금지하며, KOGL 마크 없음, data.go.kr 미등록.
+  단 통계 수치 자체는 저작권 보호 대상(창작적 표현)이 아니므로 **필요 수치의 선별 추출 +
+  출처표시 게시는 가능**. 표·시트 통째 복제는 데이터베이스제작자 권리(저작권법 §93) 침해
+  소지가 있어 금지.
+- **조치(확인됨)**: 원본 엑셀(`kepco_monthly_571.xlsx`)은 처음부터 `.gitignore`
+  (`kepco_*.xlsx`, `kepco_*.pdf`)로 제외되어 **공개 저장소에 포함된 적 없음**(git 추적
+  이력 없음 확인). 파이프라인에는 추출·검증된 수치(curated JSON)만 유지. 서비스 표기:
+  "자료: 한국전력공사 전력통계월보 제571호(잠정치)".
+- 근거: https://www.kepco.co.kr/home/service/legalnotice/conts.do
+- 신뢰도: 높음
+
+### 3. 통계청 행정경계 — southkorea/southkorea-maps (KOSTAT 2013)
+
+- **판정**: 조건부 허용. 저장소 README가 KOSTAT 계열을 "Free to share or remix"로 명시,
+  SGIS 정책은 공공누리 1유형(출처표시). **같은 저장소의 GADM 계열 파일은 비상업·재배포
+  금지** — 본 프로젝트는 KOSTAT 계열(`municipalities.json`, `emd.json`)만 사용하며 GADM
+  파일은 포함하지 않음.
+- **표기**: "행정구역 경계: 통계청(KOSTAT) 센서스용 행정구역경계(2013),
+  southkorea/southkorea-maps 가공본"
+- 근거: https://github.com/southkorea/southkorea-maps (README License 절)
+- 신뢰도: 중간 (2013년 당시 KOGL 마크는 저장소 보존 캡처로만 확인)
+
+### 4. WRI Global Power Plant Database v1.3.0
+
+- **판정**: CC BY 4.0 — 재배포·상업이용·변형 모두 허용, 출처표시 필수.
+- **공식 인용문**: "Global Energy Observatory, Google, KTH Royal Institute of Technology in
+  Stockholm, Enipedia, World Resources Institute. 2021. Global Power Plant Database
+  version 1.3.0. Accessed through https://datasets.wri.org/datasets/global-power-plant-database"
+  + "Licensed under CC BY 4.0". 데이터 가공(좌표 보정 등) 사실 명시.
+- 근거: https://github.com/wri/global-power-plant-database (README)
+- 신뢰도: 높음
+
+### 5. 한국에너지공단 풍력기 위치정보 (data.go.kr 파일데이터 15085304)
+
+- **판정**: '이용허락범위 제한 없음' — 재배포·상업이용·변형 모두 허용.
+- **표기(권장)**: "출처: 한국에너지공단, 공공데이터포털(파일데이터 15085304)"
+- 근거: https://www.data.go.kr/data/15085304/fileData.do
+- 신뢰도: 높음
+
+### 6. 제11차 전력수급기본계획 공고 (산업통상자원부 공고 제2025-169호, 수정 제2025-238호)
+
+- **판정**: 부처 사이트 정책은 공공누리 1유형(출처표시). 추가로 국가의 고시·공고는
+  저작권법 제7조 제2호상 **보호받지 못하는 저작물**이므로 추출한 폐지·대체 일정 표의
+  게시는 출처표시만으로 가능. 원문 PDF는 KOGL 마크 부착 여부 미확인(사이트 정책상 마크
+  미부착 자료는 사전협의 권고)이라 저장소에는 포함하지 않고 공식 게시 URL만 둔다.
+- **원문**: https://www.motir.go.kr/kor/article/ATCLc01b2801b/70083/view (구 motie.go.kr에서 이관)
+- **표기**: "출처: 산업통상자원부, 제11차 전력수급기본계획(2024~2038) 공고(제2025-169호,
+  2025.2.21 / 수정공고 제2025-238호, 2025.3.13 반영)"
+- 신뢰도: 중간 (PDF 내 마크 직접 확인 불가 — 원문 미포함으로 리스크 제거)
+
+## 결격사유 대응 요약 (챌린지 심사 관점)
+
+- 재배포 불허 원천(한전 월보) 원본 파일은 `.gitignore`로 저장소에서 **원천 제외**(추적
+  이력 없음 확인) — 서비스는 저작권 비보호 대상인 사실 수치만 출처표시와 함께 사용.
+- 나머지 5개 원천은 허용·조건부 허용이며 조건(출처표시·인용문)을 서비스 화면(출처·면책
+  모달)과 저장소 문서에 반영.
+- 지도 타일·SDK(네이버 지도 API)는 이용약관에 따른 API 키 기반 정상 사용.
