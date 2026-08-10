@@ -519,6 +519,20 @@ body {
   cursor: pointer;
 }
 .detail-head { display: flex; gap: 10px; align-items: center; margin-bottom: 12px; }
+.detail-share {
+  margin-left: auto;
+  margin-right: 26px; /* 우상단 × 버튼과 겹침 방지 */
+  flex: none;
+  border: 1px solid #e5e7eb;
+  background: #f9fafb;
+  border-radius: 8px;
+  font-size: 11px;
+  padding: 4px 8px;
+  color: #374151;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.detail-share:hover { background: #f3f4f6; }
 .detail-head h2 { font-size: 18px; letter-spacing: -0.5px; }
 .detail-sub { font-size: 12px; color: #6b7280; }
 .dot.lg { width: 16px; height: 16px; border-radius: 50%; flex: none; }

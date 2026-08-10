@@ -1,5 +1,7 @@
+import { useState } from 'react'
 import type { Plant, Link, NewsItem } from '../types'
 import { FUEL_COLORS, fuelLabel, safeUrl } from '../types'
+import { track } from '../analytics'
 
 interface Props {
   plant: Plant
@@ -13,6 +15,31 @@ interface Props {
 
 export default function DetailPanel({ plant, links, news, plantsById, generatedAt, onClose, onJump }: Props) {
   const color = FUEL_COLORS[plant.fuelCat]
+  const [copied, setCopied] = useState(false)
+
+  // 발전소 딥링크 공유 — Web Share 지원 시 시스템 공유, 아니면 클립보드 복사
+  async function share() {
+    const url = `${window.location.origin}/?plant=${encodeURIComponent(plant.id)}`
+    const title = `${plant.name} — 우리동네 발전소`
+    if (navigator.share) {
+      try {
+        await navigator.share({ title, url })
+        track('share_click', { target: 'webshare', plant_id: plant.id })
+      } catch {
+        /* 사용자가 공유를 취소한 경우 — 이벤트 미발행 */
+      }
+      return
+    }
+    try {
+      await navigator.clipboard.writeText(url)
+      setCopied(true)
+      setTimeout(() => setCopied(false), 1600)
+      track('share_click', { target: 'clipboard', plant_id: plant.id })
+    } catch {
+      window.prompt('아래 주소를 복사해 공유하세요', url)
+      track('share_click', { target: 'prompt', plant_id: plant.id })
+    }
+  }
   const outgoing = links.filter(l => l.from === plant.id)
   const incoming = links.filter(l => l.to === plant.id)
   // 폐지·대체·준공 등 '계획' 성격 정보가 있으면 출처·변동가능 면책을 노출
@@ -36,6 +63,9 @@ export default function DetailPanel({ plant, links, news, plantsById, generatedA
             {plant.company && ` · ${plant.company}`}
           </div>
         </div>
+        <button className="detail-share" onClick={share} aria-label="이 발전소 공유">
+          {copied ? '✅ 복사됨' : '🔗 공유'}
+        </button>
       </div>
 
       <div className="detail-grid">

@@ -192,6 +192,20 @@ export default function App() {
     [data, selectedId],
   )
 
+  // 발전소 상세 조회 계측 — 목록 선택·지도 마커·딥링크·대체설비 점프 모두 여기서 1회 발행
+  useEffect(() => {
+    if (!selected) return
+    track('plant_detail_view', {
+      plant_id: selected.id,
+      status: selected.status,
+      plant_name: selected.name,
+      fuel: selected.fuelCat,
+      company: selected.companyGroup,
+      sido: selected.sido,
+    })
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [selected?.id])
+
   // 지도 이동/줌을 폴링으로 추적 (네이버 bounds 이벤트가 불안정)
   useEffect(() => {
     if (!mapKind) return
@@ -358,15 +372,6 @@ export default function App() {
     setSelectedId(id)
     setPanelVh(v => (v > 55 ? 46 : v)) // 패널이 지도를 다 가리면 중간으로
     const p = data?.plants.find(x => x.id === id)
-    if (p) {
-      track('select_plant', {
-        plant_name: p.name,
-        fuel: p.fuelCat,
-        company: p.companyGroup,
-        status: p.status,
-        sido: p.sido,
-      })
-    }
     if (p?.lat && p?.lng) mapRef.current?.panTo(p.lat, p.lng, 11)
   }
 

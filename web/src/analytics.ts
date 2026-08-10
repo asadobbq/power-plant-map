@@ -44,3 +44,14 @@ export function track(event: string, params?: Record<string, unknown>): void {
 
 /** GA 활성화 여부(안내 문구 표시용). */
 export const analyticsEnabled = !!GA_ID
+
+/** 출처 링크 클릭 계측(신뢰성 지표) — 도메인만 수집하고 경로·쿼리는 보내지 않는다. */
+export function trackOutbound(url: string): void {
+  let domain = 'invalid'
+  try {
+    domain = new URL(url).hostname
+  } catch {
+    /* 잘못된 URL이어도 이벤트 자체는 남긴다 */
+  }
+  track('outbound_source_click', { domain })
+}

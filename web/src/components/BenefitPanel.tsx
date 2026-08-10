@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from 'react'
 import type { Plant } from '../types'
 import { FUEL_ICONS, fuelLabel, safeUrl } from '../types'
-import { track } from '../analytics'
+import { track, trackOutbound } from '../analytics'
 
 interface ZonePlant {
   id: string
@@ -139,12 +139,12 @@ export default function BenefitPanel({ plantsById, onJump, onClose, embedded }: 
   const hasNuclear = hits?.some(h => h.fuelCat === '원자력' && h.status === '운영중')
   const hasPlanned = hits?.some(h => h.status !== '운영중')
 
-  // 우리동네 혜택 조회 이벤트 (읍·면·동 선택 시 1회)
+  // 혜택 리포트 조회 이벤트 (읍·면·동 선택으로 결과가 표시될 때 1회)
   const emdName = emds.find(([code]) => code === emd)?.[1]
   useEffect(() => {
     if (!emd || !data) return
     const zone = data.zones[emd] ?? []
-    track('benefit_lookup', { sido, sigungu, emd: emdName ?? emd, plant_count: zone.length, eligible: zone.length > 0 })
+    track('benefit_report_view', { sido, sigungu, emd: emdName ?? emd, plant_count: zone.length, eligible: zone.length > 0 })
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [emd])
 
@@ -184,7 +184,15 @@ export default function BenefitPanel({ plantsById, onJump, onClose, embedded }: 
                 <option key={s}>{s}</option>
               ))}
             </select>
-            <select value={sigungu} disabled={!sido} onChange={e => { setSigungu(e.target.value); setEmd('') }}>
+            <select
+              value={sigungu}
+              disabled={!sido}
+              onChange={e => {
+                setSigungu(e.target.value)
+                setEmd('')
+                if (e.target.value) track('region_select', { sido, sigungu: e.target.value })
+              }}
+            >
               <option value="">시·군·구</option>
               {sigungus.map(s => (
                 <option key={s}>{s}</option>
@@ -364,7 +372,16 @@ function LocalBenefitCard({ region, updatedAt }: { region: LocalRegion; updatedA
             <div key={i} className="bf-local-item">
               <div className="bf-local-name">
                 {p.name}
-                <a href={safeUrl(p.source)} target="_blank" rel="noreferrer" className="os-src" onClick={e => e.stopPropagation()}>
+                <a
+                  href={safeUrl(p.source)}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="os-src"
+                  onClick={e => {
+                    e.stopPropagation()
+                    trackOutbound(p.source)
+                  }}
+                >
                   출처
                 </a>
               </div>

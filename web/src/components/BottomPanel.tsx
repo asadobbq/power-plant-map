@@ -1,7 +1,7 @@
 import type { Plant, NewsItem, OverseasItem } from '../types'
 import { FUEL_COLORS, FUEL_ICONS, OS_COMPANY_COLORS, statusGroup, fuelLabel, safeUrl } from '../types'
 import type { PanelTab } from '../App'
-import { analyticsEnabled, track } from '../analytics'
+import { analyticsEnabled, track, trackOutbound } from '../analytics'
 import BenefitPanel from './BenefitPanel'
 
 interface Props {
@@ -319,7 +319,10 @@ function OverseasView({
                         target="_blank"
                         rel="noreferrer"
                         className="os-src"
-                        onClick={e => e.stopPropagation()}
+                        onClick={e => {
+                          e.stopPropagation()
+                          trackOutbound(it.source!)
+                        }}
                       >
                         출처
                       </a>
