@@ -93,13 +93,16 @@ td{padding:6px 8px;border-bottom:1px solid var(--line);vertical-align:top}
 footer{margin-top:36px;font-size:11px;color:var(--dim);border-top:1px solid var(--line);padding-top:12px;line-height:1.6}
 .tbl{overflow-x:auto}`
 
-function shell({ title, desc, path, body, breadcrumbs }) {
+function shell({ title, desc, path, body, breadcrumbs, extraLd = [] }) {
   const ld = {
     '@context': 'https://schema.org', '@type': 'BreadcrumbList',
     itemListElement: breadcrumbs.map(([name, url], i) => ({
       '@type': 'ListItem', position: i + 1, name, ...(url ? { item: SITE + url } : {}),
     })),
   }
+  const ldTags = [ld, ...extraLd]
+    .map(x => `<script type="application/ld+json">${JSON.stringify(x)}</scr` + `ipt>`)
+    .join('\n')
   return `<!doctype html>
 <html lang="ko">
 <head>
@@ -115,7 +118,7 @@ function shell({ title, desc, path, body, breadcrumbs }) {
 <meta property="og:title" content="${esc(title)}" />
 <meta property="og:description" content="${esc(desc)}" />
 <meta property="og:locale" content="ko_KR" />
-<script type="application/ld+json">${JSON.stringify(ld)}</script>
+${ldTags}
 <style>${CSS}</style>
 </head>
 <body><main>
@@ -234,6 +237,23 @@ for (const p of plants) {
     path,
     breadcrumbs: [['우리동네 발전소', '/'], ['발전소', '/plant/'], [p.name, null]],
     body: plantBody(p),
+    extraLd: [{
+      '@context': 'https://schema.org',
+      '@type': 'Place',
+      name: pageTitle(p),
+      description: plantDesc(p),
+      url: SITE + encodeURI(path),
+      address: {
+        '@type': 'PostalAddress',
+        streetAddress: p.addressDetail || p.address || '',
+        addressRegion: p.sido || '',
+        addressLocality: p.sigungu || '',
+        addressCountry: 'KR',
+      },
+      ...(p.lat != null && p.lng != null
+        ? { geo: { '@type': 'GeoCoordinates', latitude: p.lat, longitude: p.lng } }
+        : {}),
+    }],
   }))
   urls.push(SITE + encodeURI(path))
   n++
@@ -251,6 +271,17 @@ for (const r of regions) {
     path,
     breadcrumbs: [['우리동네 발전소', '/'], ['지역별 혜택', '/region/'], [`${r.sido} ${r.sigungu}`, null]],
     body: regionBody(r),
+    extraLd: [{
+      '@context': 'https://schema.org',
+      '@type': 'Dataset',
+      name: `${r.sido} ${r.sigungu} 전입·정착 지원 시책`,
+      description: `${r.sido} ${r.sigungu}의 전입지원금·출산장려금·주거·청년 지원 등 지자체 시책 ${r.programs.length}건 — 각 시군구청 공식 홈페이지 기준.`,
+      url: SITE + encodeURI(path),
+      dateModified: localData.updatedAt,
+      spatialCoverage: `${r.sido} ${r.sigungu}`,
+      creator: { '@type': 'Organization', name: '우리동네 발전소', url: SITE },
+      license: 'https://github.com/asadobbq/power-plant-map/blob/master/docs/data_licenses.md',
+    }],
   }))
   urls.push(SITE + encodeURI(path))
   n++
@@ -289,7 +320,10 @@ urls.splice(2, 0, `${SITE}/region/`)
 // 사이트맵
 writeFileSync(join(DIST, 'sitemap.xml'),
   `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n` +
-  urls.map(u => `  <url><loc>${u.replace(/&/g, '&amp;')}</loc></url>`).join('\n') + `\n</urlset>\n`)
+  urls.map(u => {
+    const lastmod = u.includes('/region/') ? localData.updatedAt : generatedAt
+    return `  <url><loc>${u.replace(/&/g, '&amp;')}</loc><lastmod>${lastmod}</lastmod></url>`
+  }).join('\n') + `\n</urlset>\n`)
 
 console.log(`정적 페이지 생성: 발전소 ${plants.length} + 지역 ${regions.length} + 인덱스 2 = ${n + 2}개, sitemap URL ${urls.length}개`)
 if (!existsSync(join(DIST, 'index.html'))) console.warn('경고: dist/index.html 없음 — vite build 후 실행해야 합니다')
