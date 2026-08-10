@@ -20,6 +20,7 @@ interface Props {
   sources: string[]
   overseas: OverseasItem[]
   overseasNote: string
+  issueStats: { coalRetireUnits: number; replaceLinks: number; depopRegions: number | null } | null
   osCompany: string
   setOsCompany: (c: string) => void
   onOverseasSelect: (it: OverseasItem) => void
@@ -132,11 +133,30 @@ export default function BottomPanel(p: Props) {
       <div className="bp-body">
         {tab === 'list' && (
           <>
+            {p.issueStats && !p.searchActive && (
+              <div className="bp-issues" aria-label="기후 전환과 지역 소멸 현안 요약">
+                <div className="bp-issue">
+                  <b>{p.issueStats.coalRetireUnits}기</b>
+                  <span>석탄 호기 폐지 예정 (~2038)</span>
+                </div>
+                <div className="bp-issue">
+                  <b>{p.issueStats.replaceLinks}건</b>
+                  <span>폐지 → 대체 건설 연결</span>
+                </div>
+                {p.issueStats.depopRegions != null && (
+                  <div className="bp-issue">
+                    <b>{p.issueStats.depopRegions}곳</b>
+                    <span>발전소 소재 인구감소지역</span>
+                  </div>
+                )}
+              </div>
+            )}
             <input
               className="sb-search"
               placeholder="발전소명·지역·회사 검색 (전국)"
               value={p.search}
               onChange={e => p.setSearch(e.target.value)}
+              aria-label="발전소명·지역·회사 검색"
             />
             <div className="bp-count">
               {p.searchActive ? (

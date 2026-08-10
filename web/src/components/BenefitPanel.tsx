@@ -178,13 +178,14 @@ export default function BenefitPanel({ plantsById, onJump, onClose, embedded }: 
       ) : (
         <>
           <div className="bf-selects">
-            <select value={sido} onChange={e => { setSido(e.target.value); setSigungu(''); setEmd('') }}>
+            <select aria-label="시·도 선택" value={sido} onChange={e => { setSido(e.target.value); setSigungu(''); setEmd('') }}>
               <option value="">시·도</option>
               {sidos.map(s => (
                 <option key={s}>{s}</option>
               ))}
             </select>
             <select
+              aria-label="시·군·구 선택"
               value={sigungu}
               disabled={!sido}
               onChange={e => {
@@ -198,7 +199,7 @@ export default function BenefitPanel({ plantsById, onJump, onClose, embedded }: 
                 <option key={s}>{s}</option>
               ))}
             </select>
-            <select value={emd} disabled={!sigungu} onChange={e => setEmd(e.target.value)}>
+            <select aria-label="읍·면·동 선택" value={emd} disabled={!sigungu} onChange={e => setEmd(e.target.value)}>
               <option value="">읍·면·동</option>
               {emds.map(([code, name]) => (
                 <option key={code} value={code}>

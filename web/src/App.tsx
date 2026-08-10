@@ -124,6 +124,7 @@ export default function App() {
   const [zoom, setZoom] = useState(7)
   const [bounds, setBounds] = useState<MapBounds | null>(null)
   const [panelVh, setPanelVh] = useState(46)
+  const [depopCount, setDepopCount] = useState<number | null>(null)
   const mapRef = useRef<MapPort | null>(null)
   const mapElRef = useRef<HTMLDivElement>(null)
 
@@ -155,6 +156,11 @@ export default function App() {
       .then(r => r.json())
       .then(setOverseas)
       .catch(() => setOverseas(null))
+    // 사회 현안 카드용: 발전소 소재 시군구 중 인구감소지역 수
+    fetch('data/benefit_local.json')
+      .then(r => (r.ok ? r.json() : null))
+      .then(d => d && setDepopCount(d.regions.filter((r: { depopulation: boolean }) => r.depopulation).length))
+      .catch(() => {})
   }, [])
 
   useEffect(() => {
@@ -383,6 +389,15 @@ export default function App() {
 
   const plantsById = useMemo(() => new Map((data?.plants ?? []).map(p => [p.id, p])), [data])
 
+  // 사회 현안 카드(기후 전환 × 지역 소멸) — 전부 데이터에서 계산
+  const issueStats = useMemo(() => {
+    if (!data) return null
+    const coalRetireUnits = data.plants
+      .filter(p => p.fuelCat === '석탄')
+      .reduce((s, p) => s + p.units.filter(u => u.retire).length, 0)
+    return { coalRetireUnits, replaceLinks: data.links.length, depopRegions: depopCount }
+  }, [data, depopCount])
+
   const isOverseas = tab === 'overseas'
   const osItems = overseas?.items ?? []
   const osFiltered = useMemo(
@@ -459,6 +474,7 @@ export default function App() {
             setPanelVh(v => (v > 40 ? 32 : v))
             track('overseas_select', { name: it.name, country: it.country, company: it.companyGroup })
           }}
+          issueStats={issueStats}
           onHandlePointerDown={onHandlePointerDown}
           onExpand={expandPanel}
           onInfo={() => {

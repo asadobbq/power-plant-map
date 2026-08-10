@@ -647,6 +647,30 @@ body {
   cursor: pointer;
 }
 .ai-input button:disabled { background: #93c5fd; cursor: default; }
+
+/* ---- 사회 현안 카드 (기후 전환 × 지역 소멸) ---- */
+.bp-issues {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  margin-bottom: 10px;
+}
+.bp-issue {
+  background: #f8fafc;
+  border: 1px solid #eef2f7;
+  border-radius: 10px;
+  padding: 8px 10px;
+  text-align: center;
+}
+.bp-issue b { display: block; font-size: 16px; color: #b91c1c; letter-spacing: -0.5px; }
+.bp-issue span { font-size: 10px; color: #6b7280; line-height: 1.35; display: block; margin-top: 2px; }
+
+/* ---- 접근성: 키보드 포커스 표시 ---- */
+:focus-visible {
+  outline: 2px solid #1d4ed8;
+  outline-offset: 2px;
+  border-radius: 4px;
+}
 .detail-head h2 { font-size: 18px; letter-spacing: -0.5px; }
 .detail-sub { font-size: 12px; color: #6b7280; }
 .dot.lg { width: 16px; height: 16px; border-radius: 50%; flex: none; }
