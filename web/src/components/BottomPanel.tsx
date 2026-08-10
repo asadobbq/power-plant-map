@@ -30,9 +30,8 @@ interface Props {
 
 const COMPANY_COLORS = OS_COMPANY_COLORS
 
-/** 의견 보내기 구글 폼 (익명 제출 가능) */
-export const FEEDBACK_URL =
-  'https://docs.google.com/forms/d/e/1FAIpQLSdJQjPr6h1UINXj6ZHWYl208Qj2N7oF-tPe7skMG8AsIAKetA/viewform'
+/** 소통 게시판 (익명 작성 가능, 개인정보 미수집) */
+export const FEEDBACK_URL = '/board/'
 
 function stakeText(s?: string): string {
   if (!s || s === '미공개') return ''
@@ -64,14 +63,12 @@ export default function BottomPanel(p: Props) {
         <a
           className="bp-info bp-feedback"
           href={FEEDBACK_URL}
-          target="_blank"
-          rel="noreferrer"
           onPointerDown={e => e.stopPropagation()}
           onClick={e => {
             e.stopPropagation()
             track('feedback_open')
           }}
-          aria-label="개선 의견 보내기"
+          aria-label="소통 게시판"
         >
           💬 의견
         </a>

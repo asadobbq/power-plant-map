@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>소통 게시판 — 우리동네 발전소</title>
+<meta name="robots" content="noindex" />
+<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BTF5Q2Q6JL"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-BTF5Q2Q6JL');</script>
+<style>
+:root{--bg:#fff;--fg:#1f2937;--dim:#6b7280;--line:#e5e7eb;--card:#f8fafc;--accent:#1d4ed8;--accent-dim:#eff6ff;--good:#15803d;--goodbg:#f0fdf4;--warnbg:#fef3c7;--warnfg:#92400e}
+@media(prefers-color-scheme:dark){:root{--bg:#0f172a;--fg:#e2e8f0;--dim:#94a3b8;--line:#1e293b;--card:#1e293b;--accent:#60a5fa;--accent-dim:#172554;--good:#4ade80;--goodbg:#0d2818;--warnbg:#3b2f0e;--warnfg:#fbbf24}}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Apple SD Gothic Neo','Malgun Gothic',system-ui,sans-serif;background:var(--bg);color:var(--fg);line-height:1.6;font-size:15px}
+main{max-width:680px;margin:0 auto;padding:26px 16px 60px}
+a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
+h1{font-size:23px;margin:4px 0 2px}
+.sub{color:var(--dim);font-size:13px;margin-bottom:16px}
+.write{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px;margin-bottom:22px}
+.write input[type=text],.write textarea{width:100%;border:1px solid var(--line);border-radius:8px;padding:9px 11px;font:inherit;background:var(--bg);color:var(--fg)}
+.write textarea{min-height:92px;resize:vertical;margin-top:8px}
+.row{display:flex;gap:8px;align-items:center;margin-top:10px;flex-wrap:wrap}
+.row .hint{font-size:11px;color:var(--dim);flex:1;min-width:200px}
+button{font:inherit;font-weight:700;border:none;border-radius:9px;padding:9px 18px;cursor:pointer;background:var(--accent);color:#fff}
+button:disabled{opacity:.5;cursor:default}
+button.ghost{background:none;color:var(--dim);border:1px solid var(--line);padding:4px 10px;font-size:12px;font-weight:600}
+.hp{position:absolute;left:-9999px;top:-9999px}
+.post{border-bottom:1px solid var(--line);padding:14px 2px}
+.post .meta{font-size:12px;color:var(--dim);display:flex;gap:8px;align-items:baseline;flex-wrap:wrap}
+.post .meta b{color:var(--fg);font-size:13px}
+.post .body{margin-top:5px;white-space:pre-wrap;word-break:break-word;font-size:14px}
+.reply{margin-top:9px;background:var(--goodbg);border-radius:9px;padding:9px 12px;font-size:13.5px;white-space:pre-wrap}
+.reply .who{font-size:11.5px;font-weight:800;color:var(--good);display:block;margin-bottom:2px}
+.notice{font-size:12px;color:var(--warnfg);background:var(--warnbg);border-radius:8px;padding:8px 11px;margin-bottom:14px}
+.empty{color:var(--dim);text-align:center;padding:34px 0;font-size:13.5px}
+.more{display:block;margin:16px auto 0}
+.msg{font-size:13px;margin-top:8px}
+.msg.err{color:#dc2626}.msg.ok{color:var(--good)}
+footer{margin-top:34px;font-size:11px;color:var(--dim);border-top:1px solid var(--line);padding-top:12px;line-height:1.6}
+</style>
+</head>
+<body>
+<main>
+<nav style="font-size:12.5px;margin-bottom:10px"><a href="/">← 🗺️ 지도로 돌아가기</a></nav>
+<h1>💬 소통 게시판</h1>
+<p class="sub">개선 제안·오류 제보·질문·자유 의견 모두 환영합니다. <b>익명</b>으로 작성할 수 있고 이메일 등 개인정보는 수집하지 않습니다.</p>
+
+<div class="write">
+  <input type="text" id="nick" maxlength="20" placeholder="닉네임 (선택, 비우면 익명)" />
+  <input type="text" id="website" class="hp" tabindex="-1" autocomplete="off" placeholder="비워두세요" />
+  <textarea id="content" maxlength="1000" placeholder="내용을 입력하세요 (2~1,000자)&#10;예) 이런 기능이 있으면 좋겠어요 / ○○발전소 정보가 실제와 달라요"></textarea>
+  <div class="row">
+    <span class="hint">운영자가 확인 후 답변을 답니다. 욕설·광고·개인정보 포함 글은 예고 없이 삭제됩니다.</span>
+    <button id="submit">등록</button>
+  </div>
+  <div id="wmsg" class="msg"></div>
+</div>
+
+<div id="list"></div>
+<button id="more" class="ghost more" hidden>더 보기</button>
+
+<footer>본 게시판은 비공식 안내 서비스 <a href="/">우리동네 발전소</a>의 소통 공간입니다. 작성 시 IP는 도배 방지 목적의 일방향 해시로만 잠시 사용되며 저장되지 않습니다.<br />
+<a href="/plant/">발전소별 페이지</a> · <a href="/region/">지역별 혜택</a></footer>
+</main>
+
+<script>
+(function(){
+  var API='/api/board';
+  var offset=0, total=0;
+  var list=document.getElementById('list'), more=document.getElementById('more');
+  var adminToken=localStorage.getItem('boardAdmin')||'';
+  if(location.hash==='#admin'){
+    var t=prompt('관리자 토큰을 입력하세요');
+    if(t){adminToken=t.trim();localStorage.setItem('boardAdmin',adminToken);}
+  }
+
+  function fmt(ts){var d=new Date(ts);return d.getFullYear()+'.'+(d.getMonth()+1)+'.'+d.getDate()+' '+String(d.getHours()).padStart(2,'0')+':'+String(d.getMinutes()).padStart(2,'0');}
+
+  function el(tag,cls,text){var e=document.createElement(tag);if(cls)e.className=cls;if(text!=null)e.textContent=text;return e;}
+
+  function render(p){
+    var box=el('div','post');
+    var meta=el('div','meta');
+    meta.appendChild(el('b',null,p.nick||'익명'));
+    meta.appendChild(el('span',null,fmt(p.ts)));
+    if(adminToken){
+      var del=el('button','ghost','삭제');
+      del.onclick=function(){if(!confirm('이 글을 삭제할까요?'))return;admin({action:'delete',id:p.id},function(){box.remove();});};
+      var rep=el('button','ghost',p.reply?'답변 수정':'답변');
+      rep.onclick=function(){var r=prompt('운영자 답변',p.reply||'');if(r==null)return;admin({action:'reply',id:p.id,reply:r},function(){load(true);});};
+      meta.appendChild(del);meta.appendChild(rep);
+    }
+    box.appendChild(meta);
+    box.appendChild(el('div','body',p.content));
+    if(p.reply){
+      var r=el('div','reply');
+      r.appendChild(el('span','who','🛠 운영자 답변'));
+      r.appendChild(document.createTextNode(p.reply));
+      box.appendChild(r);
+    }
+    return box;
+  }
+
+  function load(reset){
+    if(reset){offset=0;list.innerHTML='';}
+    fetch(API+'?offset='+offset+'&limit=20').then(function(r){return r.json();}).then(function(d){
+      if(d.error){list.appendChild(el('div','empty',d.error));return;}
+      total=d.total||0;
+      if(total===0){list.appendChild(el('div','empty','아직 글이 없습니다. 첫 의견을 남겨주세요!'));more.hidden=true;return;}
+      d.posts.forEach(function(p){list.appendChild(render(p));});
+      offset+=d.posts.length;
+      more.hidden=offset>=total;
+    }).catch(function(){list.appendChild(el('div','empty','목록을 불러오지 못했습니다. 잠시 후 새로고침해 주세요.'));});
+  }
+  more.onclick=function(){load(false);};
+
+  function admin(body,ok){
+    body.token=adminToken;
+    fetch(API,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(body)})
+      .then(function(r){return r.json();}).then(function(d){if(d.ok)ok();else alert(d.error||'실패');});
+  }
+
+  var btn=document.getElementById('submit'), wmsg=document.getElementById('wmsg');
+  btn.onclick=function(){
+    var content=document.getElementById('content').value.trim();
+    if(content.length<2){wmsg.className='msg err';wmsg.textContent='내용을 2자 이상 입력해 주세요.';return;}
+    btn.disabled=true;wmsg.textContent='';
+    fetch(API,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({
+      nick:document.getElementById('nick').value,
+      content:content,
+      website:document.getElementById('website').value
+    })}).then(function(r){return r.json();}).then(function(d){
+      btn.disabled=false;
+      if(d.ok){document.getElementById('content').value='';wmsg.className='msg ok';wmsg.textContent='등록되었습니다. 감사합니다!';if(window.gtag)gtag('event','board_post');load(true);}
+      else{wmsg.className='msg err';wmsg.textContent=d.error||'등록에 실패했습니다.';}
+    }).catch(function(){btn.disabled=false;wmsg.className='msg err';wmsg.textContent='네트워크 오류가 발생했습니다.';});
+  };
+
+  load(true);
+})();
+</script>
+</body>
+</html>
