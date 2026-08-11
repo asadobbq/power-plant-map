@@ -7,3 +7,4 @@ web/.env
 tools/ai_pipeline/data/
 tools/ai_pipeline/logs/
 tools/ai_pipeline/__pycache__/
+report/
