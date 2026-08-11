@@ -1,0 +1,98 @@
+name: monthly-data
+
+# 발전소 정보 월간 자동 갱신 — 자동 수집·검증까지만 자동, 반영은 사람이 PR 승인(HITL)
+# 지자체 시책은 자동 반영하지 않음(원칙) — 대신 출처 링크 전수 검사로 감시만 자동화
+on:
+  schedule:
+    - cron: "0 18 14 * *" # KST 매월 15일 03:00
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+
+jobs:
+  refresh-plants:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: EPSIS 재수집 + plants.json 재생성
+        run: python pipeline/refresh.py 2>&1 | tee refresh.log
+      - name: 수집 성공 여부 확인 (해외 러너 차단 대비)
+        run: |
+          if ! grep -q "세부내역 .*갱신" refresh.log; then
+            echo "epsis_blocked=true" >> "$GITHUB_ENV"
+            gh issue create \
+              --title "월간 데이터 갱신 실패 $(date +%Y-%m) — EPSIS 수집 불가" \
+              --body "$(printf 'GitHub Actions 러너에서 EPSIS 수집이 실패했습니다(해외 IP 차단 가능성).\n로컬에서 수동 실행이 필요합니다:\n\n```\npython pipeline/refresh.py\npython pipeline/benefits.py\npython pipeline/sanity_check.py\n```\n\n로그:\n```\n%s\n```' "$(tail -20 refresh.log)")" || true
+          fi
+      - name: 혜택 구역(읍면동) 재생성
+        if: env.epsis_blocked != 'true'
+        run: python pipeline/benefits.py
+      - name: 정합성 검증 (급변·스키마 게이트)
+        if: env.epsis_blocked != 'true'
+        run: python pipeline/sanity_check.py 2>&1 | tee sanity.md
+      - name: 변경 시 PR 생성 — 사람 승인 후 반영(HITL)
+        if: env.epsis_blocked != 'true'
+        run: |
+          git config user.name "kopower-bot"
+          git config user.email "actions@users.noreply.github.com"
+          if git diff --quiet web/public/data pipeline/raw; then
+            echo "변경 없음 — PR 생략"
+            exit 0
+          fi
+          BR="auto/data-refresh-$(date +%Y%m)"
+          git checkout -B "$BR"
+          git add web/public/data pipeline/raw
+          git commit -m "데이터: 월간 자동 갱신 $(date +%Y-%m) — 검토·승인 필요"
+          git push -f origin "$BR"
+          gh pr create --base master --head "$BR" \
+            --title "월간 데이터 갱신 $(date +%Y-%m) — 검토·승인 필요" \
+            --body-file sanity.md || echo "PR 이미 존재 — 커밋만 갱신됨"
+
+  check-links:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: 의존성 설치
+        run: pip install requests
+      - name: 출처 링크 전수 검사 (시책·해외·뉴스)
+        run: python pipeline/check_links.py 2>&1 | tail -20
+      - name: 문제 링크 이슈 생성
+        run: |
+          python - <<'EOF'
+          import io, json
+          d = json.load(io.open('pipeline/link_report.json', encoding='utf-8'))
+          probs = d.get('problems', [])
+          body = [f"월간 출처 링크 전수 검사({d.get('checkedAt')}) 결과입니다.", '',
+                  f"요약: {d.get('summary')}", '']
+          for b in probs[:30]:
+              body.append(f"- [{b['status']}] {b['url']}")
+              for u in b.get('used_by', [])[:3]:
+                  body.append(f"    - {u}")
+          if len(probs) > 30:
+              body.append(f"… 외 {len(probs) - 30}건 (pipeline/link_report.json 참조)")
+          body.append('')
+          body.append('대체 URL 조사·교체는 사람 확인 후 진행(자동 수정 없음).')
+          io.open('link_issue.md', 'w', encoding='utf-8').write('\n'.join(body))
+          io.open('link_count.txt', 'w').write(str(len(probs)))
+          EOF
+          N=$(cat link_count.txt)
+          if [ "$N" -gt 0 ]; then
+            gh issue create \
+              --title "월간 링크 검사 $(date +%Y-%m) — 문제 URL ${N}건" \
+              --body-file link_issue.md || true
+          else
+            echo "문제 링크 없음 — 이슈 생략"
+          fi
