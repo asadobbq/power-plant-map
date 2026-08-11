@@ -1,6 +1,6 @@
 {
- "updatedAt": "2026-07-19",
- "note": "발전5사 해외사업. 지분율·용량·위치는 DART 타법인출자현황·ALIO·회사 공식 해외사업 페이지 기준(2023~2026). 좌표는 발전소/도시 중심. O&M·기술용역·자원개발(광산)은 지분투자와 성격이 다름. 자원개발 광산은 발전5사 공동보유 구조로, 한전 보유분을 발전자회사에 이관한 것이므로 '매각'이 아닌 그룹 내 이관임(바얀 2016.12 각 4%). 일부 사업은 참여여부·지분 상충으로 재확인 필요(출처 참조).",
+ "updatedAt": "2026-08-11",
+ "note": "발전5사 해외사업. 지분율·용량·위치는 DART 타법인출자현황·ALIO·회사 공식 해외사업 페이지 기준(2023~2026). 좌표는 발전소/도시 중심. O&M·기술용역·자원개발(광산)은 지분투자와 성격이 다름. 자원개발 광산은 발전5사 공동보유 구조로, 한전 보유분을 발전자회사에 이관한 것이므로 '매각'이 아닌 그룹 내 이관임(바얀 2016.12 각 4%). 일부 사업은 참여여부·지분 상충으로 재확인 필요(출처 참조). 지분율은 알리오(ALIO) 타법인 출자현황 공시('25년말 기준, '26.4 제출)와 대조·정정함.",
  "items": [
   {
    "company": "서부발전",
@@ -23,12 +23,12 @@
    "name": "네팔 UT-1 (Upper Trishuli-1) 수력",
    "fuel": "수력",
    "mw": 216.0,
-   "stake": "50% (KOEN, NWEDC 최대주주; IFC 15%, DL(대림) 15%, 계룡건설 10%, 현지·PAP 각 10%)",
+   "stake": "66.1% (알리오 '25년말 공시, NWEDC 취득가액 1,103억원. 종전 안내 50%는 초기 지분 구성 — IFC·DL·계룡건설 등과 합작)",
    "status": "건설중 (2027년경 준공 예정, 이후 30년 직접운영)",
    "city": "Rasuwa 지구 (댐 Haku·발전소 Mailung, 카트만두 북쪽 70km, Trishuli강)",
    "lat": 28.05,
    "lng": 85.3,
-   "source": "https://www.nsenergybusiness.com/projects/upper-trishuli-1-hydropower-project/ ; http://www.e2news.com/news/articleView.html?idxno=300713 ; ALIO 타법인출자 nwedc.pdf"
+   "source": "https://www.nsenergybusiness.com/projects/upper-trishuli-1-hydropower-project/ ; http://www.e2news.com/news/articleView.html?idxno=300713 ; ALIO 타법인출자 nwedc.pdf ; https://alio.go.kr/item/itemReportTerm.do?apbaId=C0042&reportFormRootNo=31901 (알리오 타법인 출자현황, '25년말 기준)"
   },
   {
    "company": "서부발전",
@@ -244,15 +244,15 @@
    "company": "남동발전",
    "companyGroup": "남동발전",
    "country": "불가리아",
-   "name": "불가리아 즐리타리차(Zlatna Livada) 태양광",
+   "name": "불가리아 즐라타리차(Zlataritsa) 태양광",
    "fuel": "태양광",
    "mw": 21.0,
-   "stake": "50% (KOEN, SDN 50% 공동투자; SDN이 지분 50%를 KOEN에 매각)",
+   "stake": "50% (알리오 확인 — 사업법인 RES Technology AD 지분 50%·취득 119억원. SDN 보유분을 KOEN이 인수)",
    "status": "운영중 (2012 준공, 25년 공동운영, BOO)",
    "city": "Zlatna Livada (Chirpan, Stara Zagora주)",
    "lat": 42.1136,
    "lng": 25.4298,
-   "source": "https://engdaily.com/news/articleView.html?idxno=11191 ; https://www.wikidata.org/wiki/Q2016707"
+   "source": "https://engdaily.com/news/articleView.html?idxno=11191 ; https://www.wikidata.org/wiki/Q2016707 ; https://alio.go.kr/item/itemReportTerm.do?apbaId=C0042&reportFormRootNo=31901 (알리오 타법인 출자현황, '25년말 기준)"
   },
   {
    "company": "남동발전",
@@ -261,12 +261,12 @@
    "name": "불가리아 사모보덴(Samovodene) 태양광",
    "fuel": "태양광",
    "mw": 21.0,
-   "stake": "50% (KOEN, SDN 50%). 즐리타리차와 합산 총 41.6MW",
+   "stake": "50% (알리오 확인 — 사업법인 ASM-BG Investicii AD 지분 50%·취득 98억원). 즐라타리차와 합산 총 41.6MW",
    "status": "운영중 (2011 준공, 25년 공동운영, BOO)",
    "city": "Samovodene (Veliko Tarnovo주)",
    "lat": 43.1569,
    "lng": 25.3,
-   "source": "https://en.wikipedia.org/wiki/Samovodene ; https://engdaily.com/news/articleView.html?idxno=11191"
+   "source": "https://en.wikipedia.org/wiki/Samovodene ; https://engdaily.com/news/articleView.html?idxno=11191 ; https://alio.go.kr/item/itemReportTerm.do?apbaId=C0042&reportFormRootNo=31901 (알리오 타법인 출자현황, '25년말 기준)"
   },
   {
    "company": "서부발전",
@@ -275,12 +275,12 @@
    "name": "사우디 라빅 (Rabigh IPP) 중유화력",
    "fuel": "중유",
    "mw": 1204.0,
-   "stake": "O&M 수행 (발전지분 40%는 KEPCO 그룹)",
+   "stake": "O&M법인(Rabigh O&M Co.) 지분 40% 보유 — 알리오 '25년말 공시. 발전지분 40%는 KEPCO 그룹",
    "status": "운영중 (2012.12 준공, 서부 '13.4)",
    "city": "라빅, 메카주(홍해 연안)",
    "lat": 22.8,
    "lng": 39.03,
-   "source": "https://www.iwest.co.kr/iwest/878/subview.do ; https://www.gem.wiki/Rabigh_IPP_power_station"
+   "source": "https://www.iwest.co.kr/iwest/878/subview.do ; https://www.gem.wiki/Rabigh_IPP_power_station ; https://www.alio.go.kr/item/itemReportTerm.do?apbaId=C0082&reportFormRootNo=31901 (알리오 타법인 출자현황, '25년말 기준)"
   },
   {
    "company": "서부발전",
@@ -387,12 +387,12 @@
    "name": "UAE 아즈반 (Ajban) 태양광",
    "fuel": "태양광",
    "mw": 1500.0,
-   "stake": "20% (주주: Masdar, EDF-R, 서부발전)",
+   "stake": "실효지분 20% (주주: Masdar, EDF-R, 서부발전) — 알리오 공시상 EDF-R 합작 중간지주(EDFR KOWEPO AJBAN PV HOLDING) 지분 50%",
    "status": "건설중 (착공 '24.11, 준공 '26 하반기)",
    "city": "아부다비 동측 70km",
    "lat": 24.62,
    "lng": 54.84,
-   "source": "https://www.iwest.co.kr/iwest/878/subview.do ; https://www.electimes.com/news/articleView.html?idxno=334989"
+   "source": "https://www.iwest.co.kr/iwest/878/subview.do ; https://www.electimes.com/news/articleView.html?idxno=334989 ; https://www.alio.go.kr/item/itemReportTerm.do?apbaId=C0082&reportFormRootNo=31901 (알리오 타법인 출자현황, '25년말 기준)"
   },
   {
    "company": "서부발전",
@@ -499,12 +499,12 @@
    "name": "인니 숨셀5 (Sumsel-5) 석탄화력 O&M",
    "fuel": "석탄",
    "mw": 300.0,
-   "stake": "0% (O&M SPC 지분 95%, 발전 지분 아님)",
+   "stake": "0% (O&M SPC 지분 95% → 2024.5 청산완료, 알리오 공시. 발전 지분 아님)",
    "status": "종료 (O&M '15.1~'19.12)",
    "city": "신당마르가, 바융렌치르, 무시반유아신(남수마트라)",
    "lat": -1.98,
    "lng": 103.6,
-   "source": "https://www.iwest.co.kr/iwest/878/subview.do ; https://www.gem.wiki/Sumsel-5_power_station"
+   "source": "https://www.iwest.co.kr/iwest/878/subview.do ; https://www.gem.wiki/Sumsel-5_power_station ; https://www.alio.go.kr/item/itemReportTerm.do?apbaId=C0082&reportFormRootNo=31901 (알리오 타법인 출자현황, '25년말 기준)"
   },
   {
    "company": "남동발전",
@@ -513,7 +513,7 @@
    "name": "인니 바얀 광산 (PT Bayan Resources Tbk)",
    "fuel": "석탄광산",
    "mw": null,
-   "stake": "4% (한전 20% → 2016.12 발전5사에 각 4% 현물출자 이관, 합계 20%. ALIO '22년말 4.00%·취득원가 805.6억원)",
+   "stake": "4% (한전 20% → 2016.12 발전5사에 각 4% 현물출자 이관, 합계 20%. ALIO '25년말 4.00%·취득원가 805.6억원)",
    "status": "운영중 (자원개발·발전소 아님, 매각 추진했으나 유찰·미체결)",
    "city": "동칼리만탄 (석탄광산, 5,700만톤/년)",
    "lat": -0.2,
@@ -807,12 +807,12 @@
    "name": "파키스탄 Kalam-Asrit 수력",
    "fuel": "수력",
    "mw": 238.0,
-   "stake": "미확인 (KOEN 주도 KOAK Power 76%, 세부 비공개)",
+   "stake": "SPC(KOAK Power) 지분 100% — 알리오 '25년말 공시, 취득가액 209.5억원",
    "status": "개발중 (총사업비 약 6,180억원, 요금확정·IGCEP 편입 대기)",
    "city": "Swat 지구 (Kalam 상류, Swat강), Khyber Pakhtunkhwa",
    "lat": 35.52,
    "lng": 72.55,
-   "source": "https://www.koenergy.kr/kosep/hw/fr/ov/ovhw28/main.do?menuCd=FN030502 ; https://www.arabnews.com/node/2649223/amp"
+   "source": "https://www.koenergy.kr/kosep/hw/fr/ov/ovhw28/main.do?menuCd=FN030502 ; https://www.arabnews.com/node/2649223/amp ; https://alio.go.kr/item/itemReportTerm.do?apbaId=C0042&reportFormRootNo=31901 (알리오 타법인 출자현황, '25년말 기준)"
   },
   {
    "company": "남동발전",
@@ -821,12 +821,12 @@
    "name": "파키스탄 Asrit-Kedam 수력",
    "fuel": "수력",
    "mw": 229.0,
-   "stake": "미확인 (남동·동서 공동개발 MOU, 지분 미공개)",
+   "stake": "SPC(KA Power) 지분 100% — 알리오 '25년말 공시, 취득가액 38억원 (SPC-사업 대응은 설립시기 기반 추정)",
    "status": "개발중 (타당성·환경검토 완료, 요금확정·IGCEP 편입 대기)",
    "city": "Swat 지구 (Kalam~Kedam, Swat강), Khyber Pakhtunkhwa",
    "lat": 35.48,
    "lng": 72.58,
-   "source": "https://www.gem.wiki/Asrit-Kedam_hydroelectric_plant ; http://www.ekoreanews.co.kr/news/articleView.html?idxno=65171"
+   "source": "https://www.gem.wiki/Asrit-Kedam_hydroelectric_plant ; http://www.ekoreanews.co.kr/news/articleView.html?idxno=65171 ; https://alio.go.kr/item/itemReportTerm.do?apbaId=C0042&reportFormRootNo=31901 (알리오 타법인 출자현황, '25년말 기준)"
   },
   {
    "company": "남동발전",
@@ -849,12 +849,12 @@
    "name": "호주 배너튼 (Bannerton) 태양광",
    "fuel": "태양광",
    "mw": 110.0,
-   "stake": "6% (지분투자, 투자 41억원)",
+   "stake": "실효지분 약 6% — 알리오 공시상 지주법인(KIAMCO KOWEPO Bannerton Hold Co) 지분 12.37%·취득 41억원",
    "status": "운영중 ('20.9)",
    "city": "로빈베일, 빅토리아주",
    "lat": -34.66,
    "lng": 142.85,
-   "source": "https://www.iwest.co.kr/iwest/878/subview.do ; https://www.gem.wiki/Bannerton_solar_farm"
+   "source": "https://www.iwest.co.kr/iwest/878/subview.do ; https://www.gem.wiki/Bannerton_solar_farm ; https://www.alio.go.kr/item/itemReportTerm.do?apbaId=C0082&reportFormRootNo=31901 (알리오 타법인 출자현황, '25년말 기준)"
   },
   {
    "company": "서부발전",

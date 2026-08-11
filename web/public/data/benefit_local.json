@@ -110,7 +110,7 @@
      "name": "출산지원금",
      "amount": "첫째 200만원, 둘째 400만원, 셋째 이상 1,000만원(연 단위 분할 지급). 별도 임신축하금 10만원, 산후조리비 50만원",
      "condition": "2023.1.1. 이후 출생아, 안양시 거주 요건 충족 시 분할 지급",
-     "source": "https://www.anyang.go.kr/main/selectPressRelease.do?key=4107&nttNo=396855&bbsNo=1687"
+     "source": "https://www.anyang.go.kr/health/contents.do?key=1343"
     },
     {
      "category": "주거",
@@ -124,7 +124,7 @@
      "name": "신혼부부 주택매입·전세자금 대출이자 지원",
      "amount": "대출 잔액의 1%, 연 최대 100만원, 최대 2년",
      "condition": "혼인신고 7년 이내, 부부 중 연소자 만 49세 이하, 합산 연소득 8천만원 이하, 부부 모두 안양시 주소 또는 신청기간 내 전입 예정, 무주택(전세) 또는 안양시 1주택(매입)",
-     "source": "https://www.anyang.go.kr/youth/contents.do?key=3665"
+     "source": "https://www.anyang.go.kr/main/contents.do?key=3097"
     }
    ]
   },
@@ -250,7 +250,7 @@
      "name": "출산장려금",
      "amount": "첫째 30만원, 둘째 50만원, 셋째 100만원, 넷째 200만원, 다섯째 이상 300만원(2019년 이후 출생 첫째·둘째는 성남시 아동수당 체크카드 포인트로 지급)",
      "condition": "출산일 기준 부 또는 모가 180일 이상 계속하여 성남시에 주민등록을 두고 실제 거주(180일 미만 거주자는 출생신고일로부터 180일 경과 시까지 계속 거주하면 신청 가능), 출생신고일로부터 3년 이내 관할 동 행정복지센터 신청. ※원 조사의 '2025년부터 거주요건 완화' 표현은 공식 페이지에서 확인되지 않아 공식 기준으로 정정",
-     "source": "https://www.sujeong-gu.go.kr/sub/content.asp?cIdx=313"
+     "source": "https://www.snbokji.net/5223"
     }
    ]
   },
@@ -1489,7 +1489,7 @@
      "name": "함안군 청년월세 지원사업",
      "amount": "월 최대 20만원, 12개월(연 최대 240만원, 생애 1회)",
      "condition": "신청일 기준 함안군 주소, 19~49세 무주택 세대주 청년(부모와 별도 거주), 보증금 1억원·월세 60만원 이하, 본인소득 중위소득 60% 초과 150% 이하(2026년 2차 모집공고 2026.6.19 확인)",
-     "source": "https://www.haman.go.kr/00429.web?amode=view&gcode=2557&idx=17215524¬_ancmt_mgt_no=17215524&gubun=present"
+     "source": "https://www.haman.go.kr/00956/00958.web?amode=view&gcode=32&idx=17202220"
     },
     {
      "category": "주거",
@@ -1769,7 +1769,7 @@
      "name": "출산장려금·출산축하금",
      "amount": "출산장려금 첫째 월 10만원, 둘째 월 20만원, 셋째 월 30만원, 넷째 이상 월 50만원(각 24개월) + 출산축하금 출생아당 100만원 1회(출생신고일 익월 초 지급)",
      "condition": "출생일 기준 부 또는 모가 예천군 주민등록·거주(전입 가정은 전입한 달부터 24개월째까지 지원), 지원 기간 중 관외 전출 시 중단, 출생신고 시 읍면사무소 원스톱 신청",
-     "source": "https://www.ycg.kr/open.content/health/health.business.info/support/childbirth.support/maternity.subsidy.support/ , https://www.ycg.kr/open.content/health/health.business.info/support/childbirth.support/birth.celebrate.subsidy/"
+     "source": "https://www.ycg.kr/open.content/health/health.business.info/support/childbirth.support/maternity.subsidy.support/ ; https://www.ycg.kr/open.content/health/health.business.info/support/childbirth.support/birth.celebrate.subsidy/ , https://www.ycg.kr/open.content/health/health.business.info/support/childbirth.support/birth.celebrate.subsidy/"
     },
     {
      "category": "전입정착",
