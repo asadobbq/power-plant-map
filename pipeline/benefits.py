@@ -126,7 +126,7 @@ def main():
             lst.sort(key=lambda x: x[1])
 
     out = {
-        "generatedAt": "2026-07-13",
+        "generatedAt": __import__("datetime").date.today().isoformat(),
         "note": "발주법 §2 기준(발전기 반경 5km가 걸치는 읍면동 전체)의 근사 판정 — 발전소 대표좌표·2013 행정경계 기준 안내용 추정이며 법적 판정이 아님. 10MW 미만 소규모 발전소 제외.",
         "tree": tree,
         "zones": zones,

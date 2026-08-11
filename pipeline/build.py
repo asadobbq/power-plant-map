@@ -499,7 +499,7 @@ def main():
         print("상세주소 병합:", hit, "/", len(plants))
 
     result = {
-        "generatedAt": "2026-07-13",
+        "generatedAt": __import__("datetime").date.today().isoformat(),
         "sources": [
             "전력거래소 EPSIS 발전기 세부내역(2024) — epsis.kpx.or.kr menuId=020600",
             "WRI Global Power Plant Database v1.3 (CC BY 4.0) — 좌표",
