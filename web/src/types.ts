@@ -138,7 +138,11 @@ export const COMPANY_GROUPS = [
 
 /** 링크 안전장치: 데이터 JSON의 URL은 http(s)만 허용 (javascript: 등 차단) */
 export function safeUrl(u?: string): string | undefined {
-  return u && /^https?:\/\//i.test(u.trim()) ? u : undefined
+  if (!u) return undefined
+  // 일부 데이터의 source는 "URL ; URL ; 메모" 형태로 복수 출처가 붙어 있음 —
+  // 첫 번째 유효 URL만 추출해 링크 깨짐을 방지한다.
+  const first = u.trim().split(/[;\s]+/).find(t => /^https?:\/\//i.test(t))
+  return first
 }
 
 export function fmtMw(mw: number): string {

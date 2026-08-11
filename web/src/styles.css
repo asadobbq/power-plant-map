@@ -75,6 +75,8 @@ body {
 
 /* 모바일: 아이콘을 라벨 위로 올려 한 줄 라벨 유지(줄바꿈 방지) */
 @media (max-width: 480px) {
+  /* 의견·출처면책 버튼이 탭 라벨과 겹치지 않도록 핸들 영역에 공간 확보 */
+  .bp-handle { padding-bottom: 26px; }
   .bp-tabs { padding: 0 2px; }
   .bp-tab {
     flex-direction: column;

@@ -1,0 +1,314 @@
+{
+ "checkedAt": "2026-08-11 14:30",
+ "summary": {
+  "접속실패": 11,
+  "OK": 223,
+  "타임아웃": 2,
+  "깨짐": 18,
+  "메인리다이렉트": 1,
+  "소프트404의심": 1
+ },
+ "problems": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Gulpur_Hydropower_Project ; IFC Gulpur case study ; ALIO 타법인출자 mira power limited.pdf",
+   "status": "깨짐",
+   "code": 404,
+   "final": "https://en.wikipedia.org/wiki/Gulpur_Hydropower_Project_;_IFC_Gulpur_case_study_;_ALIO_%ED%83%80%EB%B2%95%EC%9D%B8%EC%B6%9C%EC%9E%90_mira_power_limited.pdf",
+   "used_by": [
+    "[해외] 남동발전 파키스탄 Gulpur 수력"
+   ]
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Samovodene ; https://engdaily.com/news/articleView.html?idxno=11191",
+   "status": "깨짐",
+   "code": 404,
+   "final": "https://en.wikipedia.org/wiki/Samovodene%20;%20https://engdaily.com/news/articleView.html?idxno=11191",
+   "used_by": [
+    "[해외] 남동발전 불가리아 사모보덴(Samovodene) 태양광"
+   ]
+  },
+  {
+   "url": "https://news.mt.co.kr/mtview.php?no=2019091419262513552 ; https://theguru.co.kr/mobile/article.html?no=19911",
+   "status": "깨짐",
+   "code": 410,
+   "final": "https://news.mt.co.kr/mtview.php?no=2019091419262513552%20;%20https://theguru.co.kr/mobile/article.html?no=19911",
+   "used_by": [
+    "[해외] 남동발전 칠레 분산형 태양광 1단계"
+   ]
+  },
+  {
+   "url": "https://www.alio.go.kr/upload/disclosure/2023/04/18/2023041802613580/doc.html ; https://zdnet.co.kr/view/?no=20220630180914",
+   "status": "깨짐",
+   "code": 404,
+   "final": "https://www.alio.go.kr/upload/disclosure/2023/04/18/2023041802613580/doc.html%20;%20https://zdnet.co.kr/view/?no=20220630180914",
+   "used_by": [
+    "[해외] 남동발전 인니 바얀 광산 (PT Bayan Resources Tbk)"
+   ]
+  },
+  {
+   "url": "https://www.businesswire.com/news/home/20210608005136/en/7X-Energy-Sells-130-MWac-Elara-Solar-to-KOMIPO-America-Inc. ; https://www.world-energy.org/article/18280.html",
+   "status": "깨짐",
+   "code": 404,
+   "final": "https://www.businesswire.com/news/home/20210608005136/en/7X-Energy-Sells-130-MWac-Elara-Solar-to-KOMIPO-America-Inc.%20;%20https://www.world-energy.org/article/18280.html",
+   "used_by": [
+    "[해외] 중부발전 엘라라 태양광 (Elara Solar)"
+   ]
+  },
+  {
+   "url": "https://www.gem.wiki/Amurang-2_power_station ; https://www.cathodic.co.uk/projects/pln-pltu-2-sulawesi-utara-2-x-25-mw-project-amurang/",
+   "status": "깨짐",
+   "code": 404,
+   "final": "https://www.gem.wiki/Amurang-2_power_station_;_https://www.cathodic.co.uk/projects/pln-pltu-2-sulawesi-utara-2-x-25-mw-project-amurang/",
+   "used_by": [
+    "[해외] 남동발전 인니 Amurang 석탄화력 (PLTU 2 Sulawesi Utara)"
+   ]
+  },
+  {
+   "url": "https://www.gem.wiki/Asrit-Kedam_hydroelectric_plant ; http://www.ekoreanews.co.kr/news/articleView.html?idxno=65171",
+   "status": "깨짐",
+   "code": 404,
+   "final": "https://www.gem.wiki/Asrit-Kedam_hydroelectric_plant%20;%20http://www.ekoreanews.co.kr/news/articleView.html?idxno=65171",
+   "used_by": [
+    "[해외] 남동발전 파키스탄 Asrit-Kedam 수력"
+   ]
+  },
+  {
+   "url": "https://www.gem.wiki/Cirebon_power_station ; ALIO 투자·출자현황(PT Cirebon Power Services 27.5%)",
+   "status": "깨짐",
+   "code": 404,
+   "final": "https://www.gem.wiki/Cirebon_power_station_;_ALIO_%ED%88%AC%EC%9E%90%C2%B7%EC%B6%9C%EC%9E%90%ED%98%84%ED%99%A9(PT_Cirebon_Power_Services_27.5%25)",
+   "used_by": [
+    "[해외] 중부발전 찌레본 1 (Cirebon 1)"
+   ]
+  },
+  {
+   "url": "https://www.gem.wiki/Cirebon_power_station ; https://www.banktrack.org/project/cirebon3",
+   "status": "깨짐",
+   "code": 404,
+   "final": "https://www.gem.wiki/Cirebon_power_station_;_https://www.banktrack.org/project/cirebon3",
+   "used_by": [
+    "[해외] 중부발전 찌레본 2 (Cirebon 2)"
+   ]
+  },
+  {
+   "url": "https://www.gem.wiki/Palu_power_station ; https://www.wika.co.id/detailpost/wika-builds-2x50mw-palu-3-cfspp-mega-project",
+   "status": "깨짐",
+   "code": 404,
+   "final": "https://www.gem.wiki/Palu_power_station_;_https://www.wika.co.id/detailpost/wika-builds-2x50mw-palu-3-cfspp-mega-project",
+   "used_by": [
+    "[해외] 남동발전 인니 Palu-3 석탄화력 (CFSPP)"
+   ]
+  },
+  {
+   "url": "https://www.gem.wiki/Vung_Ang_power_station ; https://theinvestor.vn/mitsubishi-kepco-invested-central-vietnam-thermal-power-plant-plans-trial-run-next-month-d12051.html",
+   "status": "깨짐",
+   "code": 404,
+   "final": "https://www.gem.wiki/Vung_Ang_power_station_;_https://theinvestor.vn/mitsubishi-kepco-invested-central-vietnam-thermal-power-plant-plans-trial-run-next-month-d12051.html",
+   "used_by": [
+    "[해외] 남동발전 베트남 붕앙2 (Vung Ang 2) 석탄화력"
+   ]
+  },
+  {
+   "url": "https://www.haman.go.kr/00429.web?amode=view&gcode=2557&idx=17215524¬_ancmt_mgt_no=17215524&gubun=present",
+   "status": "깨짐",
+   "code": 404,
+   "final": "https://www.haman.go.kr/00367/03562/00429.web?amode=view&gcode=2557&idx=17215524%C2%AC_ancmt_mgt_no=17215524&gubun=present",
+   "used_by": [
+    "[시책] 함안군 함안군 청년월세 지원사업"
+   ]
+  },
+  {
+   "url": "https://www.iwest.co.kr/iwest/878/subview.do ; https://dream.kotra.or.kr/user/extra/kotranews/bbs/linkView/jsp/Page.do?dataIdx=219800",
+   "status": "깨짐",
+   "code": 404,
+   "final": "https://www.iwest.co.kr/iwest/878/subview.do%20;%20https://dream.kotra.or.kr/user/extra/kotranews/bbs/linkView/jsp/Page.do?dataIdx=219800",
+   "used_by": [
+    "[해외] 서부발전 콜롬비아 하이브리드 발전 (ODA)"
+   ]
+  },
+  {
+   "url": "https://www.kedglobal.com/mergers-acquisitions/newsView/ked202305300013 ; https://biz.chosun.com/industry/company/2026/02/04/JHK5NPTBD5ALZF2SU2XY3YWED4/",
+   "status": "깨짐",
+   "code": 404,
+   "final": "https://www.kedglobal.com/mergers-acquisitions/newsView/ked202305300013%20;%20https://biz.chosun.com/industry/company/2026/02/04/JHK5NPTBD5ALZF2SU2XY3YWED4/",
+   "used_by": [
+    "[해외] 중부발전 호주 물라벤 (Moolarben) 유연탄 광산"
+   ]
+  },
+  {
+   "url": "https://www.nsenergybusiness.com/projects/upper-trishuli-1-hydropower-project/ ; http://www.e2news.com/news/articleView.html?idxno=300713 ; ALIO 타법인출자 nwedc.pdf",
+   "status": "깨짐",
+   "code": 404,
+   "final": "https://www.nsenergybusiness.com/projects/upper-trishuli-1-hydropower-project/%20;%20http:/www.e2news.com/news/articleView.html?idxno=300713%20;%20ALIO%20%ED%83%80%EB%B2%95%EC%9D%B8%EC%B6%9C%EC%9E%90%20nwedc.pdf",
+   "used_by": [
+    "[해외] 남동발전 네팔 UT-1 (Upper Trishuli-1) 수력"
+   ]
+  },
+  {
+   "url": "https://www.power-technology.com/data-insights/power-plant-profile-stavro-wind-farm-sweden/ ; https://www.gem.wiki/Blodrotberget_wind_farm",
+   "status": "깨짐",
+   "code": 404,
+   "final": "https://www.power-technology.com/data-insights/power-plant-profile-stavro-wind-farm-sweden/%20;%20https:/www.gem.wiki/Blodrotberget_wind_farm",
+   "used_by": [
+    "[해외] 중부발전 스타브로 풍력 (Stavro Wind Farm)"
+   ]
+  },
+  {
+   "url": "https://www.power-technology.com/data-insights/power-plant-profile-team-korea-lucy-solar-pv-project-us/ ; https://www.inpnews.kr/news/articleView.html?idxno=6400",
+   "status": "깨짐",
+   "code": 404,
+   "final": "https://www.power-technology.com/data-insights/power-plant-profile-team-korea-lucy-solar-pv-project-us/%20;%20https:/www.inpnews.kr/news/articleView.html?idxno=6400",
+   "used_by": [
+    "[해외] 중부발전 미국 루시솔라 (Lucy Solar)"
+   ]
+  },
+  {
+   "url": "https://www.ycg.kr/open.content/health/health.business.info/support/childbirth.support/maternity.subsidy.support/ , https://www.ycg.kr/open.content/health/health.business.info/support/childbirth.support/birth.celebrate.subsidy/",
+   "status": "깨짐",
+   "code": 400,
+   "final": "https://www.ycg.kr/open.content/health/health.business.info/support/childbirth.support/maternity.subsidy.support/%20,%20https://www.ycg.kr/open.content/health/health.business.info/support/childbirth.support/birth.celebrate.subsidy/",
+   "used_by": [
+    "[시책] 예천군 출산장려금·출산축하금"
+   ]
+  },
+  {
+   "url": "http://eitimes.kr/View.aspx?No=2832625 ; https://www.businesskorea.co.kr/news/articleView.html?idxno=239848",
+   "status": "메인리다이렉트",
+   "code": 200,
+   "final": "https://eitimes.kr/?m=invalid",
+   "used_by": [
+    "[해외] 중부발전 구바버겟 풍력 (Gubbaberget Wind Farm)"
+   ]
+  },
+  {
+   "url": "https://theguru.co.kr/mobile/article.html?no=19911 ; https://www.koenergy.kr/kosep/hw/en/ov/ovhw21/main.do?menuCd=EN02030305",
+   "status": "소프트404의심",
+   "code": 200,
+   "final": "https://theguru.co.kr/mobile/article.html?no=19911%20;%20https://www.koenergy.kr/kosep/hw/en/ov/ovhw21/main.do?menuCd=EN02030305",
+   "used_by": [
+    "[해외] 남동발전 칠레 분산형 태양광 2단계"
+   ]
+  },
+  {
+   "url": "https://www.anyang.go.kr/main/selectPressRelease.do?key=4107&nttNo=396855&bbsNo=1687",
+   "status": "접속실패",
+   "code": 0,
+   "final": "HTTPSConnectionPool(host='www.anyang.go.kr', port=443): Max retries exceeded wit",
+   "used_by": [
+    "[시책] 안양시 출산지원금"
+   ]
+  },
+  {
+   "url": "https://www.anyang.go.kr/youth/contents.do?key=3656",
+   "status": "접속실패",
+   "code": 0,
+   "final": "HTTPSConnectionPool(host='www.anyang.go.kr', port=443): Max retries exceeded wit",
+   "used_by": [
+    "[시책] 안양시 청년 월세 지원"
+   ]
+  },
+  {
+   "url": "https://www.anyang.go.kr/youth/contents.do?key=3665",
+   "status": "접속실패",
+   "code": 0,
+   "final": "HTTPSConnectionPool(host='www.anyang.go.kr', port=443): Max retries exceeded wit",
+   "used_by": [
+    "[시책] 안양시 신혼부부 주택매입·전세자금 대출이자 지원"
+   ]
+  },
+  {
+   "url": "https://www.dh.go.kr/www/contents.do?key=2038",
+   "status": "접속실패",
+   "code": 0,
+   "final": "HTTPSConnectionPool(host='www.dh.go.kr', port=443): Max retries exceeded with ur",
+   "used_by": [
+    "[시책] 동해시 전입자 지원금",
+    "[시책] 동해시 전입 고등학생 지원",
+    "[시책] 동해시 군장병 전입장려금·제대군인 정착장려금"
+   ]
+  },
+  {
+   "url": "https://www.dh.go.kr/www/contents.do?key=2042",
+   "status": "접속실패",
+   "code": 0,
+   "final": "HTTPSConnectionPool(host='www.dh.go.kr', port=443): Max retries exceeded with ur",
+   "used_by": [
+    "[시책] 동해시 청년도전지원사업"
+   ]
+  },
+  {
+   "url": "https://www.dh.go.kr/www/contents.do?key=2050",
+   "status": "접속실패",
+   "code": 0,
+   "final": "HTTPSConnectionPool(host='www.dh.go.kr', port=443): Max retries exceeded with ur",
+   "used_by": [
+    "[시책] 동해시 출산장려금",
+    "[시책] 동해시 산후조리비 지원"
+   ]
+  },
+  {
+   "url": "https://www.dh.go.kr/www/contents.do?key=2052",
+   "status": "접속실패",
+   "code": 0,
+   "final": "HTTPSConnectionPool(host='www.dh.go.kr', port=443): Max retries exceeded with ur",
+   "used_by": [
+    "[시책] 동해시 신혼부부 주거자금 대출이자 지원",
+    "[시책] 동해시 전세보증금 반환보증 보증료 지원"
+   ]
+  },
+  {
+   "url": "https://www.komipo.co.kr/kor/content/47/main.do?mnCd=FN021404 ; http://www.tleaves.co.kr/news/articleView.html?idxno=1353",
+   "status": "접속실패",
+   "code": 0,
+   "final": "HTTPSConnectionPool(host='www.komipo.co.kr', port=443): Max retries exceeded wit",
+   "used_by": [
+    "[해외] 중부발전 자와 9·10호기 (Jawa 9-10, Suralaya)"
+   ]
+  },
+  {
+   "url": "https://www.kospo.co.kr/bbs/kospo/68/105756/artclView.do ; https://zdnet.co.kr/view/?no=20220630180914",
+   "status": "접속실패",
+   "code": 0,
+   "final": "HTTPSConnectionPool(host='www.kospo.co.kr', port=443): Max retries exceeded with",
+   "used_by": [
+    "[해외] 남부발전 인니 바얀 광산 (PT Bayan Resources Tbk)"
+   ]
+  },
+  {
+   "url": "https://www.ongjin.go.kr/open_content/main/bbs/bbsMsgDetail.do?msg_seq=13141&bcd=report",
+   "status": "접속실패",
+   "code": 0,
+   "final": "HTTPSConnectionPool(host='www.ongjin.go.kr', port=443): Max retries exceeded wit",
+   "used_by": [
+    "[시책] 옹진군 서해5도 정주생활지원금"
+   ]
+  },
+  {
+   "url": "https://www.sujeong-gu.go.kr/sub/content.asp?cIdx=313",
+   "status": "접속실패",
+   "code": 0,
+   "final": "HTTPSConnectionPool(host='www.sujeong-gu.go.kr', port=443): Max retries exceeded",
+   "used_by": [
+    "[시책] 성남시 출산장려금"
+   ]
+  },
+  {
+   "url": "https://solarindustrymag.com/komipo-begins-operations-at-160-mw-concho-valley-solar-farm-in-texas ; https://www.power-technology.com/marketdata/power-plant-profile-concho-valley-solar-pv-park-us/",
+   "status": "타임아웃",
+   "code": 0,
+   "final": "",
+   "used_by": [
+    "[해외] 중부발전 콘초밸리 태양광 (Concho Valley Solar)"
+   ]
+  },
+  {
+   "url": "https://www.bucheon.go.kr/site/homepage/menu/viewMenu?menuid=148006003009005",
+   "status": "타임아웃",
+   "code": 0,
+   "final": "",
+   "used_by": [
+    "[시책] 부천시 출산지원금"
+   ]
+  }
+ ]
+}
