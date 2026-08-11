@@ -114,6 +114,7 @@ export default function App() {
   const [hr, setHr] = useState<HrData | null>(null)
   const [tab, setTab] = useState<PanelTab>('list')
   const [osCompany, setOsCompany] = useState('전체')
+  const [jobsCompany, setJobsCompany] = useState('전체')
   const [osSelected, setOsSelected] = useState<OverseasItem | null>(null)
   const [selectedId, setSelectedId] = useState<string | null>(null)
   const [showInfo, setShowInfo] = useState(false)
@@ -351,7 +352,12 @@ export default function App() {
         title: '',
       }))
     }
-    port.setMarkers(items, handleMarkerClick)
+    // 지도 SDK 장애(키 인증 실패 등) 시 마커 갱신 예외가 앱 전체를 중단시키지 않도록 격리
+    try {
+      port.setMarkers(items, handleMarkerClick)
+    } catch (e) {
+      console.error('마커 갱신 실패(지도 SDK)', e)
+    }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [visible, clusters, level, mapKind])
 
@@ -360,7 +366,11 @@ export default function App() {
     const port = mapRef.current
     if (!port || !data || !mapKind) return
     if (!selected) {
-      port.setLines([])
+      try {
+        port.setLines([])
+      } catch (e) {
+        console.error('연결선 초기화 실패(지도 SDK)', e)
+      }
       return
     }
     const idx = new Map(data.plants.map(p => [p.id, p]))
@@ -377,7 +387,11 @@ export default function App() {
           label: `${esc(l.fromUnit)} → ${esc(l.toName)} (${esc(l.planned || '시기 미정')})`,
         }
       })
-    port.setLines(lines)
+    try {
+      port.setLines(lines)
+    } catch (e) {
+      console.error('연결선 갱신 실패(지도 SDK)', e)
+    }
   }, [selected, data, mapKind])
 
   function handleMarkerClick(id: string) {
@@ -454,6 +468,17 @@ export default function App() {
             generatedAt={data?.generatedAt ?? ''}
             onClose={() => setSelectedId(null)}
             onJump={handleSelect}
+            onCompanyJobs={
+              hr?.companies.some(c => c.name === selected.companyGroup)
+                ? () => {
+                    setJobsCompany(selected.companyGroup)
+                    handleTab('jobs')
+                    setSelectedId(null)
+                    setPanelVh(v => (v < 46 ? 46 : v))
+                    track('company_jobs_view', { company: selected.companyGroup })
+                  }
+                : undefined
+            }
           />
         )}
       </div>
@@ -485,6 +510,8 @@ export default function App() {
           overseasNote={overseas?.note ?? ''}
           jobs={jobs}
           hr={hr}
+          jobsCompany={jobsCompany}
+          setJobsCompany={setJobsCompany}
           osCompany={osCompany}
           setOsCompany={setOsCompany}
           onOverseasSelect={it => {

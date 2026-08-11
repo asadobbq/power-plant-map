@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import type { Plant, NewsItem, OverseasItem, JobsData, HrData, HrCompany } from '../types'
 import {
   FUEL_COLORS, FUEL_ICONS, OS_COMPANY_COLORS, JOB_COMPANY_COLORS,
@@ -26,6 +25,8 @@ interface Props {
   overseasNote: string
   jobs: JobsData | null
   hr: HrData | null
+  jobsCompany: string
+  setJobsCompany: (c: string) => void
   issueStats: { coalRetireUnits: number; replaceLinks: number; depopRegions: number | null } | null
   osCompany: string
   setOsCompany: (c: string) => void
@@ -265,7 +266,9 @@ export default function BottomPanel(p: Props) {
           />
         )}
 
-        {tab === 'jobs' && <JobsView jobs={p.jobs} hr={p.hr} />}
+        {tab === 'jobs' && (
+          <JobsView jobs={p.jobs} hr={p.hr} company={p.jobsCompany} setCompany={p.setJobsCompany} />
+        )}
       </div>
     </div>
   )
@@ -277,11 +280,19 @@ function pay(thousandWon?: number | null): string {
   return Math.round(thousandWon / 10).toLocaleString() + '만원'
 }
 
-function JobsView({ jobs, hr }: { jobs: JobsData | null; hr: HrData | null }) {
-  const [company, setCompany] = useState('전체')
+function JobsView({
+  jobs, hr, company, setCompany,
+}: {
+  jobs: JobsData | null
+  hr: HrData | null
+  company: string
+  setCompany: (c: string) => void
+}) {
   const items = jobs?.items ?? []
   const present = [...new Set(items.map(i => i.company))]
   const chips = ['전체', ...Object.keys(JOB_COMPANY_COLORS).filter(c => present.includes(c))]
+  // 상세 카드에서 진입한 회사가 현재 공고 0건이어도 선택 칩은 보이게
+  if (company !== '전체' && !chips.includes(company)) chips.push(company)
   const filtered = company === '전체' ? items : items.filter(i => i.company === company)
 
   return (

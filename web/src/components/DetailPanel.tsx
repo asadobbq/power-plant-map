@@ -11,9 +11,11 @@ interface Props {
   generatedAt?: string
   onClose: () => void
   onJump: (id: string) => void
+  /** 운영사가 일자리 탭 수록 기관이면 App이 넘겨줌 — 채용·보수 카드로 이동 */
+  onCompanyJobs?: () => void
 }
 
-export default function DetailPanel({ plant, links, news, plantsById, generatedAt, onClose, onJump }: Props) {
+export default function DetailPanel({ plant, links, news, plantsById, generatedAt, onClose, onJump, onCompanyJobs }: Props) {
   const color = FUEL_COLORS[plant.fuelCat]
   const [copied, setCopied] = useState(false)
 
@@ -67,6 +69,11 @@ export default function DetailPanel({ plant, links, news, plantsById, generatedA
           {copied ? '✅ 복사됨' : '🔗 공유'}
         </button>
       </div>
+      {onCompanyJobs && (
+        <button className="detail-jobs" onClick={onCompanyJobs}>
+          💼 {plant.companyGroup} 채용·평균보수 보기 →
+        </button>
+      )}
 
       <div className="detail-grid">
         <div>

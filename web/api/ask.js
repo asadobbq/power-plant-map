@@ -11,7 +11,8 @@ const API_KEY = process.env.ANTHROPIC_API_KEY
 const MODEL = process.env.CHAT_MODEL || 'claude-opus-5'
 
 const SYSTEM = `당신은 "우리동네 발전소"(kopower.net)의 안내 도우미입니다. 전국 발전소 현황과
-발전소 주변지역 지원 혜택, 지자체 전입·정착 시책을 안내합니다.
+발전소 주변지역 지원 혜택, 지자체 전입·정착 시책, 발전 공공기관의 채용·보수·인원 정보(알리오
+공시·공공데이터포털 채용정보 기반)를 안내합니다.
 
 규칙(반드시 준수):
 1. 함께 제공되는 [데이터]에 근거해서만 답변합니다. 데이터에 없는 내용은 추측하지 말고
@@ -53,7 +54,9 @@ async function loadData(origin) {
       }),
     ),
   )
-  cache = { plants, local }
+  // 기관 보수·인원(알리오 공시)은 소용량 정적 파일 — 없으면 무시(기능 축소로만 동작)
+  const hr = await fetch(`${origin}/data/hr.json`).then(r => (r.ok ? r.json() : null)).catch(() => null)
+  cache = { plants, local, hr }
   return cache
 }
 
@@ -128,8 +131,41 @@ function plantRow(p) {
   return `${p.name} | ${p.fuelCat} | ${mw}MW | ${p.status} | ${p.company || p.companyGroup} | ${p.sido || ''} ${p.sigungu || ''}`.trim()
 }
 
+// ---- 기관 보수·채용 질문 감지 ----
+const PAY_RE = /연봉|보수|월급|급여|초임|임금/
+const STAFF_RE = /임직원|직원수|직원 수|정규직|인원|근속/
+export const JOBS_RE = /채용|공고|취업|일자리|인턴|모집|입사/
+
+/** 질문에서 기관명 매칭 (긴 이름 우선 — '한전KPS'가 '한전'으로 오매칭되지 않도록 소진 방식) */
+function matchHrCompanies(q, hrNames) {
+  const ALIAS = {
+    한국전력공사: '한전', 한국전력: '한전', 한전: '한전',
+    한국수력원자력: '한수원', 수력원자력: '한수원', 한수원: '한수원',
+    남동발전: '남동발전', 중부발전: '중부발전', 서부발전: '서부발전',
+    남부발전: '남부발전', 동서발전: '동서발전',
+    한전KPS: '한전KPS', KPS: '한전KPS', 한전KDN: '한전KDN', KDN: '한전KDN',
+    한국전력기술: '한국전력기술', 전력기술: '한국전력기술', 전력거래소: '전력거래소',
+    지역난방공사: '지역난방공사', 지역난방: '지역난방공사',
+    수자원공사: '수자원공사', 수자원: '수자원공사',
+  }
+  const out = new Set()
+  let rest = q
+  for (const key of Object.keys(ALIAS).sort((a, b) => b.length - a.length)) {
+    if (rest.includes(key)) {
+      out.add(ALIAS[key])
+      rest = rest.split(key).join('') // 부분 문자열 재매칭 방지
+    }
+  }
+  // 집합 별칭
+  if (/발전5사|발전공기업|발전자회사/.test(q)) {
+    for (const c of ['남동발전', '중부발전', '서부발전', '남부발전', '동서발전']) out.add(c)
+    if (/발전공기업|발전자회사/.test(q)) out.add('한수원')
+  }
+  return [...out].filter(c => !hrNames || hrNames.includes(c))
+}
+
 /** 질문에서 지역·발전소·회사·연료·상태를 사전 매칭해 관련 레코드만 컨텍스트로 조립 (전체 데이터 주입 금지) */
-function assembleContext(question, data) {
+function assembleContext(question, data, jobs = null) {
   const q = question.replace(/\s/g, '')
   const regions = []
   for (const r of data.local.regions) {
@@ -205,6 +241,39 @@ function assembleContext(question, data) {
   } else if (hasFilter) {
     context.발전소_검색결과 = { 집계: { 개수: 0 }, 참고: '질문의 조건에 해당하는 발전소(10MW 이상 등록 기준)가 없습니다.' }
   }
+  // 3) 기관 보수·인원 (알리오 공시) — 보수/인원 키워드가 있을 때만 주입
+  if (data.hr && (PAY_RE.test(question) || STAFF_RE.test(question))) {
+    const matched = matchHrCompanies(q, data.hr.companies.map(c => c.name))
+    const cos = matched.length
+      ? data.hr.companies.filter(c => matched.includes(c.name))
+      : data.hr.companies
+    context.기관_보수인원 = {
+      기준: data.hr.note,
+      목록_형식: '기관 | 평균보수(25년 결산) | 신입초임(25년) | 정규직현원 | 본사 | 평균근속',
+      목록: cos.map(c => {
+        const latest = [...c.avgPay].filter(x => x.kind === '결산').sort((a, b) => b.year - a.year)[0]
+        const man = v => (v == null ? '-' : Math.round(v / 10).toLocaleString() + '만원')
+        return `${c.name} | ${man(latest?.amount)} | ${man(c.newHire2025)} | ${
+          c.employees?.regular != null ? Math.round(c.employees.regular).toLocaleString() + '명' : '-'
+        } | ${c.hq} | ${c.tenure != null ? c.tenure + '년' : '-'}`
+      }),
+    }
+    for (const c of cos.slice(0, 3)) if (c.alioUrl) sources.add(c.alioUrl)
+  }
+
+  // 4) 진행 중 채용공고 — 핸들러에서 채용 키워드 감지 시에만 전달됨
+  if (jobs?.items?.length) {
+    const matched = matchHrCompanies(q, null)
+    const rows = (matched.length ? jobs.items.filter(j => matched.includes(j.company)) : jobs.items).slice(0, 15)
+    context.진행중_채용공고 = {
+      기준: `${jobs.updatedAt} 수집 — 마감 임박순, 확정 정보는 원문 공고 확인 필요`,
+      목록_형식: '기관 | 공고명 | 구분 | 근무지 | 마감일',
+      목록: rows.map(j => `${j.company} | ${j.title} | ${j.kind} | ${j.region} | ~${j.end}`),
+      ...(rows.length === 0 ? { 참고: '해당 기관의 진행 중 공고가 현재 없습니다.' } : {}),
+    }
+    for (const j of rows.slice(0, 4)) if (j.url) sources.add(j.url)
+  }
+
   if (regions.length) {
     context.지자체_전입정착_시책 = regions.map(r => ({
       지역: `${r.sido} ${r.sigungu}`,
@@ -261,8 +330,21 @@ export default async function handler(req, res) {
     }
 
     const proto = req.headers['x-forwarded-proto'] || 'https'
-    const data = await loadData(`${proto}://${req.headers.host}`)
-    const { context, sources, plants, regions } = assembleContext(question, data)
+    const origin = `${proto}://${req.headers.host}`
+    const data = await loadData(origin)
+
+    // 채용 질문이면 진행 중 공고를 주입 — 실시간 API 우선, 실패 시 정적 스냅샷 폴백
+    let jobs = null
+    if (JOBS_RE.test(question)) {
+      jobs = await fetch(`${origin}/api/jobs`, { signal: AbortSignal.timeout(6000) })
+        .then(r => (r.ok ? r.json() : null))
+        .catch(() => null)
+      if (!jobs) {
+        jobs = await fetch(`${origin}/data/jobs.json`).then(r => (r.ok ? r.json() : null)).catch(() => null)
+      }
+    }
+
+    const { context, sources, plants, regions } = assembleContext(question, data, jobs)
 
     const t0 = Date.now()
     const client = new Anthropic({ apiKey: API_KEY })

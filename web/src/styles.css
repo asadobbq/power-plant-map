@@ -1061,6 +1061,21 @@ body {
 }
 
 /* ---------- 일자리 탭 ---------- */
+.detail-jobs {
+  display: block;
+  width: 100%;
+  text-align: left;
+  font-size: 12px;
+  font-weight: 700;
+  color: #1d4ed8;
+  background: #eff6ff;
+  border: 1px solid #bfdbfe;
+  border-radius: 8px;
+  padding: 7px 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.detail-jobs:hover { background: #dbeafe; }
 .jb { padding: 4px 0 16px; }
 .jb-item {
   display: block;
