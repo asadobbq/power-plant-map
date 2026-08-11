@@ -73,6 +73,17 @@ SIDO_CODE = {"서울": "11", "부산": "21", "대구": "22", "인천": "23", "�
 
 COMP_SUFFIX = re.compile(r"\s+(GT|ST|CC|G/T|S/T)$")
 
+# EPSIS 원천 정정 — 등록 명칭 오기·행정구역 개편
+BASE_FIX = {
+    # '인0천#1 ST'(중부발전, 인천 서구 원창동): '인천'의 오기.
+    # 인천복합 1호기 = G/T 160.729MW×2('인천#1 GT') + S/T 182.081MW = 503.539MW
+    # (중부발전 인천발전본부 설비현황과 일치) — 동일 발전소로 병합.
+    "인0천": "인천",
+}
+ADDR_FIX = {
+    "여주군": "여주시",  # 2013-09 여주시 승격 — 경계 데이터도 '여주시'(31280)
+}
+
 
 def parse_units():
     txt = (HERE / "raw" / "epsis_detail_2024.txt").read_text(encoding="utf-8")
@@ -96,6 +107,9 @@ def parse_units():
             base, unit_no = raw.split("#", 1)
         else:
             base, unit_no = raw, ""
+        base = BASE_FIX.get(base, base)
+        for wrong, right in ADDR_FIX.items():
+            addr = addr.replace(wrong, right)
         try:
             mw = float(cap) / 1000.0
         except ValueError:
