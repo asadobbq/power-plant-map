@@ -268,7 +268,7 @@ export default async function handler(req, res) {
     const client = new Anthropic({ apiKey: API_KEY })
     const msg = await client.messages.create({
       model: MODEL,
-      max_tokens: 1024,
+      max_tokens: 1600,
       system: [{ type: 'text', text: SYSTEM, cache_control: { type: 'ephemeral' } }],
       output_config: { format: OUTPUT_SCHEMA },
       messages: [
@@ -292,7 +292,18 @@ export default async function handler(req, res) {
     try {
       out = JSON.parse(text)
     } catch {
-      out = { answer: text, answered: true }
+      // 드물게 max_tokens로 JSON이 중간에 잘리는 경우 — raw JSON을 그대로 노출하지 않고
+      // answer 본문만 구제해 표시한다.
+      const mAns = text.match(/"answer"\s*:\s*"([\s\S]*)/)
+      const rescued = mAns
+        ? mAns[1]
+            .replace(/",?\s*"answered"[\s\S]*$/, '')
+            .replace(/\\n/g, '\n')
+            .replace(/\\"/g, '"')
+            .replace(/["\\\s]+$/, '')
+        : text
+      const cut = msg.stop_reason === 'max_tokens' ? '\n…(답변이 길어 일부만 표시되었습니다)' : ''
+      out = { answer: rescued + cut, answered: true }
     }
 
     // 통계(개인정보·질문 원문 미저장): 건수·응답시간·모델만 집계
