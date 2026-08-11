@@ -10,6 +10,12 @@ const SITE = 'https://kopower.net'
 
 const plantsData = JSON.parse(readFileSync(join(ROOT, 'public/data/plants.json'), 'utf-8'))
 const localData = JSON.parse(readFileSync(join(ROOT, 'public/data/benefit_local.json'), 'utf-8'))
+let hrData = null
+try {
+  hrData = JSON.parse(readFileSync(join(ROOT, 'public/data/hr.json'), 'utf-8'))
+} catch {
+  console.warn('경고: hr.json 없음 — 일자리 페이지 생략')
+}
 const plants = plantsData.plants
 const generatedAt = plantsData.generatedAt
 
@@ -63,6 +69,7 @@ for (const p of plants) {
 const byName = new Map()
 for (const p of plants) if (!byName.has(p.name)) byName.set(p.name, p)
 
+const hrNames = new Set((hrData?.companies ?? []).map(c => c.name))
 const regionSlug = r => sanitize(`${r.sido}-${r.sigungu}`)
 const regions = localData.regions
 const regionBySigungu = new Map(regions.map(r => [`${r.sido}|${r.sigungu}`, r]))
@@ -160,6 +167,7 @@ function plantBody(p) {
 <h1>${icon} ${esc(title)}</h1>
 <p class="sub">${esc(p.fuelCat)} · ${esc(p.status)}${p.company ? ` · ${esc(p.company)}` : ''} · ${esc(p.addressDetail || p.address || '위치 미정')}</p>
 <a class="cta" href="/?plant=${esc(p.id)}">🗺️ 지도에서 위치 보기</a>
+${hrNames.has(p.companyGroup) ? ` <a href="/jobs/${encodeURI(sanitize(p.companyGroup))}/">💼 ${esc(p.companyGroup)} 채용·연봉 정보</a>` : ''}
 
 <div class="facts">
 <div><span class="k">설비용량</span><br /><b>${p.totalMw.toLocaleString()} MW${p.mwEstimated ? ' (추정)' : ''}</b></div>
@@ -317,13 +325,104 @@ writeFileSync(join(DIST, 'region', 'index.html'), shell({
 }))
 urls.splice(2, 0, `${SITE}/region/`)
 
+// ---------- 일자리 페이지 (기관별 채용·보수 — 알리오 공시) ----------
+const man = v => (v == null ? '—' : Math.round(v / 10).toLocaleString() + '만원')
+let jobsPages = 0
+if (hrData) {
+  const hrCos = hrData.companies
+
+  function hrBody(c) {
+    const latest = [...c.avgPay].filter(x => x.kind === '결산').sort((a, b) => b.year - a.year)[0]
+    const payRows = [...c.avgPay].sort((a, b) => a.year - b.year)
+      .map(x => `<tr><td>${x.year}년 (${esc(x.kind)})</td><td>${man(x.amount)}</td></tr>`).join('\n')
+    const coPlants = plants
+      .filter(p => p.companyGroup === c.name && p.totalMw >= 10)
+      .sort((a, b) => b.totalMw - a.totalMw).slice(0, 14)
+    return `
+<h1>💼 ${esc(c.name)} 채용·연봉·임직원 정보</h1>
+<p class="sub">${esc(c.full)} · 본사 ${esc(c.hq)} · 알리오(ALIO) 정기공시 기준</p>
+<a class="cta" href="/?tab=jobs&co=${encodeURIComponent(c.name)}">💼 진행 중 채용공고 실시간 보기</a>
+
+<div class="facts">
+<div><span class="k">평균보수 (${latest ? latest.year + '년 결산' : '-'})</span><br /><b>${man(latest?.amount)}</b></div>
+<div><span class="k">신입사원 초임 (2025)</span><br /><b>${man(c.newHire2025)}</b></div>
+<div><span class="k">정규직 현원 (${esc(c.employees?.asOf || '-')})</span><br /><b>${c.employees?.regular != null ? Math.round(c.employees.regular).toLocaleString() + '명' : '—'}</b></div>
+${c.tenure != null ? `<div><span class="k">평균 근속연수</span><br /><b>${c.tenure}년</b></div>` : ''}
+</div>
+<div class="warn">알리오 정기공시(일반정규직 기준) 수치로 개인별 실제 보수와 다를 수 있습니다. 2026년 예산은 경영평가 성과급 미확정(0 반영)으로 결산보다 낮게 표시됩니다. <a href="${esc(c.alioUrl || 'https://www.alio.go.kr')}" rel="noreferrer">알리오 공시 원문 보기</a></div>
+
+<h2>연도별 평균보수 추이</h2>
+<div class="tbl"><table><thead><tr><th>연도</th><th>1인당 평균보수</th></tr></thead><tbody>
+${payRows}
+</tbody></table></div>
+
+<h2>채용 제도 — 지역인재 우대</h2>
+<div class="good">발전 공공기관 대졸 신입 공채는 <b>본사이전 지역인재 30% 이상</b>(혁신도시법)·<b>비수도권 인재 35% 이상</b>(지방대육성법) 채용목표제를 운영합니다. 본사(${esc(c.hq)})·발전소 소재 지역 인재에게 실질적 기회가 있는 구조입니다(공고별 적용 여부는 원문 확인).</div>
+<p>진행 중 공고는 <a href="/?tab=jobs&co=${encodeURIComponent(c.name)}">우리동네 발전소 일자리 탭</a>(매일 자동 수집) 또는 <a href="https://job.alio.go.kr" rel="noreferrer">잡알리오</a>에서 확인하세요.</p>
+
+${coPlants.length ? `<h2>${esc(c.name)}이 운영하는 발전소</h2>
+<p class="tags">${coPlants.map(p => `<a href="/plant/${encodeURI(slugOf.get(p.id))}/">${FUEL_ICONS[p.fuelCat] || '⚡'} ${esc(p.name)} (${fmtMw(p.totalMw)})</a>`).join(' ')}</p>` : ''}`
+  }
+
+  for (const c of hrCos) {
+    const slug = sanitize(c.name)
+    const dir = join(DIST, 'jobs', slug)
+    mkdirSync(dir, { recursive: true })
+    const path = `/jobs/${slug}/`
+    const latest = [...c.avgPay].filter(x => x.kind === '결산').sort((a, b) => b.year - a.year)[0]
+    writeFileSync(join(dir, 'index.html'), shell({
+      title: `${c.name} 연봉(평균보수)·신입 초임·채용 정보 — 알리오 공시 | 우리동네 발전소`,
+      desc: `${c.full} 평균 연봉 ${man(latest?.amount)}(${latest?.year} 결산)·신입 초임 ${man(c.newHire2025)}·정규직 ${c.employees?.regular != null ? Math.round(c.employees.regular).toLocaleString() + '명' : '-'} (알리오 공시). 본사 ${c.hq}. 진행 중 채용공고와 지역인재 채용목표제까지.`.slice(0, 155),
+      path,
+      breadcrumbs: [['우리동네 발전소', '/'], ['발전 공공기관 일자리', '/jobs/'], [c.name, null]],
+      body: hrBody(c),
+      extraLd: [{
+        '@context': 'https://schema.org',
+        '@type': 'Organization',
+        name: c.full,
+        alternateName: c.name,
+        url: SITE + encodeURI(path),
+        address: { '@type': 'PostalAddress', addressLocality: c.hq, addressCountry: 'KR' },
+        ...(c.employees?.regular != null
+          ? { numberOfEmployees: { '@type': 'QuantitativeValue', value: Math.round(c.employees.regular) } }
+          : {}),
+      }],
+    }))
+    urls.push(SITE + encodeURI(path))
+    jobsPages++
+  }
+
+  // 일자리 인덱스
+  const jobsIndexBody = `
+<h1>💼 발전 공공기관 일자리 — 채용·연봉·임직원</h1>
+<p class="sub">한전·한수원·발전5사 등 ${hrCos.length}개 기관의 평균보수·신입 초임·정규직 인원(알리오 정기공시)과 진행 중 채용공고 안내</p>
+<a class="cta" href="/?tab=jobs">💼 진행 중 채용공고 실시간 보기</a>
+<div class="tbl"><table><thead><tr><th>기관</th><th>평균보수('25 결산)</th><th>신입 초임('25)</th><th>정규직 현원</th><th>본사</th></tr></thead><tbody>
+${hrCos.map(c => {
+    const latest = [...c.avgPay].filter(x => x.kind === '결산').sort((a, b) => b.year - a.year)[0]
+    return `<tr><td><a href="/jobs/${encodeURI(sanitize(c.name))}/">${esc(c.name)}</a></td><td>${man(latest?.amount)}</td><td>${man(c.newHire2025)}</td><td>${c.employees?.regular != null ? Math.round(c.employees.regular).toLocaleString() + '명' : '—'}</td><td>${esc(c.hq)}</td></tr>`
+  }).join('\n')}
+</tbody></table></div>
+<div class="good">발전 공공기관 본사는 모두 비수도권(나주·경주·진주·보령·태안·부산·울산 등)에 있으며, 대졸 신입 공채에 <b>본사이전 지역인재 30%·비수도권 35%</b> 채용목표제가 적용됩니다 — 발전소·본사가 있는 지역의 청년에게 실질적 기회가 있는 구조입니다.</div>
+<div class="warn">보수는 알리오 정기공시(2025년 결산·일반정규직) 기준으로 개인별 실제 금액과 다를 수 있습니다. 채용공고의 자격·일정 등 확정 정보는 반드시 원문 공고를 확인하세요.</div>`
+  mkdirSync(join(DIST, 'jobs'), { recursive: true })
+  writeFileSync(join(DIST, 'jobs', 'index.html'), shell({
+    title: '발전 공공기관 채용·연봉 총정리 — 한전·한수원·발전5사 | 우리동네 발전소',
+    desc: `한전·한수원·발전5사 등 발전 공공기관 ${hrCos.length}곳의 평균 연봉·신입 초임·정규직 인원(알리오 공시)과 진행 중 채용공고, 지역인재 채용목표제(30%·35%)까지 한 페이지에.`,
+    path: '/jobs/', breadcrumbs: [['우리동네 발전소', '/'], ['발전 공공기관 일자리', null]], body: jobsIndexBody,
+  }))
+  urls.splice(3, 0, `${SITE}/jobs/`)
+  jobsPages++
+}
+
 // 사이트맵
 writeFileSync(join(DIST, 'sitemap.xml'),
   `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n` +
   urls.map(u => {
-    const lastmod = u.includes('/region/') ? localData.updatedAt : generatedAt
+    const lastmod = u.includes('/region/') ? localData.updatedAt
+      : u.includes('/jobs/') ? (hrData?.updatedAt || generatedAt) : generatedAt
     return `  <url><loc>${u.replace(/&/g, '&amp;')}</loc><lastmod>${lastmod}</lastmod></url>`
   }).join('\n') + `\n</urlset>\n`)
 
-console.log(`정적 페이지 생성: 발전소 ${plants.length} + 지역 ${regions.length} + 인덱스 2 = ${n + 2}개, sitemap URL ${urls.length}개`)
+console.log(`정적 페이지 생성: 발전소 ${plants.length} + 지역 ${regions.length} + 일자리 ${jobsPages} + 인덱스 2 = ${n + jobsPages + 2}개, sitemap URL ${urls.length}개`)
 if (!existsSync(join(DIST, 'index.html'))) console.warn('경고: dist/index.html 없음 — vite build 후 실행해야 합니다')

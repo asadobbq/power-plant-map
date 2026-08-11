@@ -315,6 +315,12 @@ function JobsView({
       </div>
 
       {items.length === 0 && <div className="bp-empty">진행 중인 채용공고 정보를 불러오지 못했습니다.</div>}
+      {items.length > 0 && filtered.length === 0 && (
+        <div className="bp-empty">
+          {company}은(는) 현재 진행 중인 공고가 없습니다. 새 공고가 올라오면 자동으로 표시됩니다
+          (지난 공고는 잡알리오 job.alio.go.kr 참고).
+        </div>
+      )}
       {filtered.map(j => (
         <a
           key={j.sn ?? j.url}

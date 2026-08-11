@@ -112,9 +112,15 @@ export default function App() {
   const [overseas, setOverseas] = useState<OverseasData | null>(null)
   const [jobs, setJobs] = useState<JobsData | null>(null)
   const [hr, setHr] = useState<HrData | null>(null)
-  const [tab, setTab] = useState<PanelTab>('list')
+  // 정적 SEO 페이지(/jobs/*)에서 딥링크 진입: /?tab=jobs&co=남동발전
+  const [tab, setTab] = useState<PanelTab>(() => {
+    const t = new URLSearchParams(window.location.search).get('tab')
+    return t === 'jobs' || t === 'overseas' || t === 'news' || t === 'benefit' ? t : 'list'
+  })
   const [osCompany, setOsCompany] = useState('전체')
-  const [jobsCompany, setJobsCompany] = useState('전체')
+  const [jobsCompany, setJobsCompany] = useState(
+    () => new URLSearchParams(window.location.search).get('co') || '전체',
+  )
   const [osSelected, setOsSelected] = useState<OverseasItem | null>(null)
   const [selectedId, setSelectedId] = useState<string | null>(null)
   const [showInfo, setShowInfo] = useState(false)
