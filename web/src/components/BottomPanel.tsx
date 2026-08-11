@@ -151,7 +151,7 @@ export default function BottomPanel(p: Props) {
         {tab === 'list' && (
           <>
             {p.issueStats && !p.searchActive && (
-              <div className="bp-issues" aria-label="기후 전환과 지역 소멸 현안 요약">
+              <div className="bp-issues" aria-label="에너지 전환과 지역 소멸 현안 요약">
                 <div className="bp-issue">
                   <b>{p.issueStats.coalRetireUnits}기</b>
                   <span>석탄 호기 폐지 예정 (~2038)</span>

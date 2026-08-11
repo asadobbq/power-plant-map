@@ -650,7 +650,7 @@ body {
 }
 .ai-input button:disabled { background: #93c5fd; cursor: default; }
 
-/* ---- 사회 현안 카드 (기후 전환 × 지역 소멸) ---- */
+/* ---- 사회 현안 카드 (에너지 전환 × 지역 소멸) ---- */
 .bp-issues {
   display: grid;
   grid-template-columns: repeat(3, 1fr);

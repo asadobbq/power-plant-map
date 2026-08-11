@@ -425,7 +425,7 @@ export default function App() {
 
   const plantsById = useMemo(() => new Map((data?.plants ?? []).map(p => [p.id, p])), [data])
 
-  // 사회 현안 카드(기후 전환 × 지역 소멸) — 전부 데이터에서 계산
+  // 사회 현안 카드(에너지 전환 × 지역 소멸) — 전부 데이터에서 계산
   const issueStats = useMemo(() => {
     if (!data) return null
     const coalRetireUnits = data.plants
