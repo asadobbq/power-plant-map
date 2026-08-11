@@ -99,6 +99,10 @@ def main() -> None:
             print(f"! {key}: API 오류 {e.status_code} — {e.message}")
             failed += 1
             continue
+        except Exception as e:  # 네트워크 등 어떤 오류든 해당 문서만 건너뛰고 계속
+            print(f"! {key}: {type(e).__name__} — {e}")
+            failed += 1
+            continue
 
         ext = resp.parsed_output
         if ext is None:
