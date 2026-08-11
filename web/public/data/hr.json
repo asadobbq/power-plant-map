@@ -1,0 +1,420 @@
+{
+ "updatedAt": "2026-08-11",
+ "note": "알리오(ALIO) 정기공시 기준 — 평균보수·신입 초임은 2026년 1분기 공시(2025년 결산, 일반정규직), 임직원은 2026년 2분기 공시(2026-06-30) 일반정규직 현원. 2026년 예산 보수는 경영평가 성과급 미확정(0 반영)으로 결산보다 낮게 표시됨. 개인별 실제 보수와 다를 수 있음.",
+ "companies": [
+  {
+   "name": "한전",
+   "full": "한국전력공사",
+   "hq": "전남 나주시",
+   "avgPay": [
+    {
+     "year": 2021,
+     "amount": 84618,
+     "kind": "결산"
+    },
+    {
+     "year": 2022,
+     "amount": 84094,
+     "kind": "결산"
+    },
+    {
+     "year": 2023,
+     "amount": 82466,
+     "kind": "결산"
+    },
+    {
+     "year": 2024,
+     "amount": 88840,
+     "kind": "결산"
+    },
+    {
+     "year": 2025,
+     "amount": 96381,
+     "kind": "결산"
+    },
+    {
+     "year": 2026,
+     "amount": 87389,
+     "kind": "예산"
+    }
+   ],
+   "newHire2025": 47210,
+   "newHire2026Budget": 48864,
+   "employees": {
+    "asOf": "2026-06-30",
+    "regular": 22916.02,
+    "total": 23531
+   },
+   "tenure": 15.9,
+   "alioUrl": "https://www.alio.go.kr/item/itemReportTerm.do?apbaId=C0247&reportFormRootNo=2060"
+  },
+  {
+   "name": "한수원",
+   "full": "한국수력원자력(주)",
+   "hq": "경북 경주시",
+   "avgPay": [
+    {
+     "year": 2021,
+     "amount": 95601,
+     "kind": "결산"
+    },
+    {
+     "year": 2022,
+     "amount": 94734,
+     "kind": "결산"
+    },
+    {
+     "year": 2023,
+     "amount": 96681,
+     "kind": "결산"
+    },
+    {
+     "year": 2024,
+     "amount": 101770,
+     "kind": "결산"
+    },
+    {
+     "year": 2025,
+     "amount": 108465,
+     "kind": "결산"
+    },
+    {
+     "year": 2026,
+     "amount": 98710,
+     "kind": "예산"
+    }
+   ],
+   "newHire2025": 44410,
+   "newHire2026Budget": 45964,
+   "employees": {
+    "asOf": "2026-06-30",
+    "regular": 12216.28,
+    "total": 12843
+   },
+   "tenure": 15.3,
+   "alioUrl": "https://www.alio.go.kr/item/itemReportTerm.do?apbaId=C0220&reportFormRootNo=2060"
+  },
+  {
+   "name": "남동발전",
+   "full": "한국남동발전(주)",
+   "hq": "경남 진주시",
+   "avgPay": [
+    {
+     "year": 2021,
+     "amount": 89184,
+     "kind": "결산"
+    },
+    {
+     "year": 2022,
+     "amount": 91870,
+     "kind": "결산"
+    },
+    {
+     "year": 2023,
+     "amount": 92522,
+     "kind": "결산"
+    },
+    {
+     "year": 2024,
+     "amount": 96484,
+     "kind": "결산"
+    },
+    {
+     "year": 2025,
+     "amount": 99637,
+     "kind": "결산"
+    },
+    {
+     "year": 2026,
+     "amount": 89569,
+     "kind": "예산"
+    }
+   ],
+   "newHire2025": 44880,
+   "newHire2026Budget": 46240,
+   "employees": {
+    "asOf": "2026-06-30",
+    "regular": 2902.63,
+    "total": 2979
+   },
+   "tenure": 14.7,
+   "alioUrl": "https://www.alio.go.kr/item/itemReportTerm.do?apbaId=C0042&reportFormRootNo=2060"
+  },
+  {
+   "name": "중부발전",
+   "full": "한국중부발전(주)",
+   "hq": "충남 보령시",
+   "avgPay": [
+    {
+     "year": 2021,
+     "amount": 92830,
+     "kind": "결산"
+    },
+    {
+     "year": 2022,
+     "amount": 97612,
+     "kind": "결산"
+    },
+    {
+     "year": 2023,
+     "amount": 94749,
+     "kind": "결산"
+    },
+    {
+     "year": 2024,
+     "amount": 97415,
+     "kind": "결산"
+    },
+    {
+     "year": 2025,
+     "amount": 102332,
+     "kind": "결산"
+    },
+    {
+     "year": 2026,
+     "amount": 95201,
+     "kind": "예산"
+    }
+   ],
+   "newHire2025": 47445,
+   "newHire2026Budget": 50116,
+   "employees": {
+    "asOf": "2026-06-30",
+    "regular": 2803.8,
+    "total": 2806.8
+   },
+   "tenure": 15.6,
+   "alioUrl": "https://www.alio.go.kr/item/itemReportTerm.do?apbaId=C0259&reportFormRootNo=2060"
+  },
+  {
+   "name": "서부발전",
+   "full": "한국서부발전(주)",
+   "hq": "충남 태안군",
+   "avgPay": [
+    {
+     "year": 2021,
+     "amount": 91466,
+     "kind": "결산"
+    },
+    {
+     "year": 2022,
+     "amount": 92375,
+     "kind": "결산"
+    },
+    {
+     "year": 2023,
+     "amount": 99272,
+     "kind": "결산"
+    },
+    {
+     "year": 2024,
+     "amount": 91243,
+     "kind": "결산"
+    },
+    {
+     "year": 2025,
+     "amount": 97952,
+     "kind": "결산"
+    },
+    {
+     "year": 2026,
+     "amount": 92508,
+     "kind": "예산"
+    }
+   ],
+   "newHire2025": 49814,
+   "newHire2026Budget": 51558,
+   "employees": {
+    "asOf": "2026-06-30",
+    "regular": 2750.13,
+    "total": 2754.13
+   },
+   "tenure": 14.75,
+   "alioUrl": "https://www.alio.go.kr/item/itemReportTerm.do?apbaId=C0082&reportFormRootNo=2060"
+  },
+  {
+   "name": "남부발전",
+   "full": "한국남부발전(주)",
+   "hq": "부산 남구",
+   "avgPay": [
+    {
+     "year": 2021,
+     "amount": 91076,
+     "kind": "결산"
+    },
+    {
+     "year": 2022,
+     "amount": 93229,
+     "kind": "결산"
+    },
+    {
+     "year": 2023,
+     "amount": 92073,
+     "kind": "결산"
+    },
+    {
+     "year": 2024,
+     "amount": 99777,
+     "kind": "결산"
+    },
+    {
+     "year": 2025,
+     "amount": 101266,
+     "kind": "결산"
+    },
+    {
+     "year": 2026,
+     "amount": 92955,
+     "kind": "예산"
+    }
+   ],
+   "newHire2025": 46977,
+   "newHire2026Budget": 48620,
+   "employees": {
+    "asOf": "2026-06-30",
+    "regular": 2771.88,
+    "total": 2822
+   },
+   "tenure": 15.8,
+   "alioUrl": "https://www.alio.go.kr/item/itemReportTerm.do?apbaId=C0043&reportFormRootNo=2060"
+  },
+  {
+   "name": "동서발전",
+   "full": "한국동서발전(주)",
+   "hq": "울산 중구",
+   "avgPay": [
+    {
+     "year": 2021,
+     "amount": 94984,
+     "kind": "결산"
+    },
+    {
+     "year": 2022,
+     "amount": 96813,
+     "kind": "결산"
+    },
+    {
+     "year": 2023,
+     "amount": 95997,
+     "kind": "결산"
+    },
+    {
+     "year": 2024,
+     "amount": 96175,
+     "kind": "결산"
+    },
+    {
+     "year": 2025,
+     "amount": 98990,
+     "kind": "결산"
+    },
+    {
+     "year": 2026,
+     "amount": 90316,
+     "kind": "예산"
+    }
+   ],
+   "newHire2025": 47540,
+   "newHire2026Budget": 48063,
+   "employees": {
+    "asOf": "2026-06-30",
+    "regular": 2493.13,
+    "total": 2726
+   },
+   "tenure": 16.9,
+   "alioUrl": "https://www.alio.go.kr/item/itemReportTerm.do?apbaId=C0066&reportFormRootNo=2060"
+  },
+  {
+   "name": "지역난방공사",
+   "full": "한국지역난방공사",
+   "hq": "경기 성남시",
+   "avgPay": [
+    {
+     "year": 2021,
+     "amount": 79305,
+     "kind": "결산"
+    },
+    {
+     "year": 2022,
+     "amount": 81461,
+     "kind": "결산"
+    },
+    {
+     "year": 2023,
+     "amount": 79000,
+     "kind": "결산"
+    },
+    {
+     "year": 2024,
+     "amount": 86934,
+     "kind": "결산"
+    },
+    {
+     "year": 2025,
+     "amount": 88025,
+     "kind": "결산"
+    },
+    {
+     "year": 2026,
+     "amount": 85232,
+     "kind": "예산"
+    }
+   ],
+   "newHire2025": 37880,
+   "newHire2026Budget": 39116,
+   "employees": {
+    "asOf": "2026-06-30",
+    "regular": 2034.75,
+    "total": 2167
+   },
+   "tenure": 15.2,
+   "alioUrl": "https://www.alio.go.kr/item/itemReportTerm.do?apbaId=C0261&reportFormRootNo=2060"
+  },
+  {
+   "name": "수자원공사",
+   "full": "한국수자원공사",
+   "hq": "대전 대덕구",
+   "avgPay": [
+    {
+     "year": 2021,
+     "amount": 83679,
+     "kind": "결산"
+    },
+    {
+     "year": 2022,
+     "amount": 82915,
+     "kind": "결산"
+    },
+    {
+     "year": 2023,
+     "amount": 85541,
+     "kind": "결산"
+    },
+    {
+     "year": 2024,
+     "amount": 83533,
+     "kind": "결산"
+    },
+    {
+     "year": 2025,
+     "amount": 82288,
+     "kind": "결산"
+    },
+    {
+     "year": 2026,
+     "amount": 79132,
+     "kind": "예산"
+    }
+   ],
+   "newHire2025": 41714,
+   "newHire2026Budget": 41948,
+   "employees": {
+    "asOf": "2026-06-30",
+    "regular": 5616.38,
+    "total": 6400
+   },
+   "tenure": 13.1,
+   "alioUrl": "https://www.alio.go.kr/item/itemReportTerm.do?apbaId=C0221&reportFormRootNo=2060"
+  }
+ ]
+}

@@ -1060,6 +1060,54 @@ body {
   }
 }
 
+/* ---------- 일자리 탭 ---------- */
+.jb { padding: 4px 0 16px; }
+.jb-item {
+  display: block;
+  padding: 9px 16px;
+  border-bottom: 1px solid #f3f4f6;
+  text-decoration: none;
+  color: inherit;
+}
+.jb-item:hover { background: #f9fafb; }
+.jb-top { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+.jb-co { font-size: 11.5px; font-weight: 700; }
+.jb-dday {
+  font-size: 10.5px;
+  font-weight: 700;
+  color: #374151;
+  background: #f3f4f6;
+  border-radius: 999px;
+  padding: 2px 8px;
+  white-space: nowrap;
+}
+.jb-dday.soon { color: #b91c1c; background: #fee2e2; }
+.jb-title { font-size: 13px; font-weight: 600; color: #1f2937; margin-top: 2px; line-height: 1.45; word-break: keep-all; overflow-wrap: break-word; }
+.jb-sub { font-size: 11px; color: #6b7280; margin-top: 2px; line-height: 1.5; }
+.jb-hr-head { font-size: 13px; font-weight: 800; color: #1f2937; padding: 14px 16px 8px; }
+.jb-hr-head small { font-size: 11px; font-weight: 600; color: #6b7280; margin-left: 6px; }
+.jb-hr-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 8px;
+  padding: 0 16px;
+}
+.jb-hr-card {
+  background: #f9fafb;
+  border: 1px solid #eef2f7;
+  border-radius: 10px;
+  padding: 9px 12px;
+}
+.jb-hr-name { font-size: 12.5px; font-weight: 800; margin-bottom: 5px; }
+.jb-hr-name small { font-size: 10.5px; font-weight: 600; color: #6b7280; margin-left: 4px; }
+.jb-hr-row { display: flex; justify-content: space-between; align-items: baseline; font-size: 11.5px; color: #6b7280; padding: 2px 0; }
+.jb-hr-row b { font-size: 12px; color: #1f2937; font-variant-numeric: tabular-nums; }
+.jb-hr-src { display: inline-block; font-size: 11px; margin-top: 5px; }
+@media (min-width: 761px) {
+  .jb-hr-grid { max-width: 1080px; }
+  .jb-item { max-width: 1080px; }
+}
+
 /* 10) 터치 히트 영역 확대 — 상세 닫기·지도 필터 칩 */
 .detail-close { top: 2px; right: 2px; padding: 8px 12px; font-size: 22px; line-height: 1; }
 .detail-share { margin-right: 36px; }

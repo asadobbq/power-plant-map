@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
-import type { PlantData, Plant, NewsData, OverseasData, OverseasItem } from './types'
+import type { PlantData, Plant, NewsData, OverseasData, OverseasItem, JobsData, HrData } from './types'
 import { FUEL_COLORS, FUEL_ICONS, FUEL_ORDER, COMPANY_GROUPS, fmtMw, statusGroup, fuelLabel } from './types'
 import type { MapPort, MarkerItem, LineItem, MapBounds } from './map/adapter'
 import { createMap } from './map/adapter'
@@ -11,7 +11,7 @@ import InfoModal from './components/InfoModal'
 import AiChat from './components/AiChat'
 import { track } from './analytics'
 
-export type PanelTab = 'list' | 'benefit' | 'news' | 'overseas'
+export type PanelTab = 'list' | 'benefit' | 'news' | 'overseas' | 'jobs'
 
 const SNAPS = [8, 46, 82] // 패널 높이(vh) 스냅: 최소·중간·최대
 
@@ -110,6 +110,8 @@ export default function App() {
   const [data, setData] = useState<PlantData | null>(null)
   const [news, setNews] = useState<NewsData | null>(null)
   const [overseas, setOverseas] = useState<OverseasData | null>(null)
+  const [jobs, setJobs] = useState<JobsData | null>(null)
+  const [hr, setHr] = useState<HrData | null>(null)
   const [tab, setTab] = useState<PanelTab>('list')
   const [osCompany, setOsCompany] = useState('전체')
   const [osSelected, setOsSelected] = useState<OverseasItem | null>(null)
@@ -156,6 +158,14 @@ export default function App() {
       .then(r => r.json())
       .then(setOverseas)
       .catch(() => setOverseas(null))
+    fetch('data/jobs.json')
+      .then(r => (r.ok ? r.json() : null))
+      .then(setJobs)
+      .catch(() => setJobs(null))
+    fetch('data/hr.json')
+      .then(r => (r.ok ? r.json() : null))
+      .then(setHr)
+      .catch(() => setHr(null))
     // 사회 현안 카드용: 발전소 소재 시군구 중 인구감소지역 수
     fetch('data/benefit_local.json')
       .then(r => (r.ok ? r.json() : null))
@@ -467,6 +477,8 @@ export default function App() {
           sources={data?.sources ?? []}
           overseas={osFiltered}
           overseasNote={overseas?.note ?? ''}
+          jobs={jobs}
+          hr={hr}
           osCompany={osCompany}
           setOsCompany={setOsCompany}
           onOverseasSelect={it => {

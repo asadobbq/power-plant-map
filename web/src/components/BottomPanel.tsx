@@ -1,5 +1,9 @@
-import type { Plant, NewsItem, OverseasItem } from '../types'
-import { FUEL_COLORS, FUEL_ICONS, OS_COMPANY_COLORS, statusGroup, fuelLabel, safeUrl } from '../types'
+import { useState } from 'react'
+import type { Plant, NewsItem, OverseasItem, JobsData, HrData, HrCompany } from '../types'
+import {
+  FUEL_COLORS, FUEL_ICONS, OS_COMPANY_COLORS, JOB_COMPANY_COLORS,
+  statusGroup, fuelLabel, safeUrl,
+} from '../types'
 import type { PanelTab } from '../App'
 import { analyticsEnabled, track, trackOutbound } from '../analytics'
 import BenefitPanel from './BenefitPanel'
@@ -20,6 +24,8 @@ interface Props {
   sources: string[]
   overseas: OverseasItem[]
   overseasNote: string
+  jobs: JobsData | null
+  hr: HrData | null
   issueStats: { coalRetireUnits: number; replaceLinks: number; depopRegions: number | null } | null
   osCompany: string
   setOsCompany: (c: string) => void
@@ -96,7 +102,7 @@ export default function BottomPanel(p: Props) {
           }}
         >
           <span className="bp-tab-ico">🗺️</span>
-          <span className="bp-tab-lbl">발전소 목록</span>
+          <span className="bp-tab-lbl">발전소</span>
         </button>
         <button
           className={'bp-tab' + (tab === 'overseas' ? ' on' : '')}
@@ -119,6 +125,16 @@ export default function BottomPanel(p: Props) {
           <span className="bp-tab-lbl">뉴스</span>
         </button>
         <button
+          className={'bp-tab' + (tab === 'jobs' ? ' on' : '')}
+          onClick={() => {
+            setTab('jobs')
+            p.onExpand()
+          }}
+        >
+          <span className="bp-tab-ico">💼</span>
+          <span className="bp-tab-lbl">일자리</span>
+        </button>
+        <button
           className={'bp-tab' + (tab === 'benefit' ? ' on' : '')}
           onClick={() => {
             setTab('benefit')
@@ -126,7 +142,7 @@ export default function BottomPanel(p: Props) {
           }}
         >
           <span className="bp-tab-ico">🏠</span>
-          <span className="bp-tab-lbl">우리동네 혜택</span>
+          <span className="bp-tab-lbl">동네 혜택</span>
         </button>
       </div>
 
@@ -248,7 +264,129 @@ export default function BottomPanel(p: Props) {
             onSelect={p.onOverseasSelect}
           />
         )}
+
+        {tab === 'jobs' && <JobsView jobs={p.jobs} hr={p.hr} />}
       </div>
+    </div>
+  )
+}
+
+/** 만원 단위 표시 (입력: 천원) */
+function pay(thousandWon?: number | null): string {
+  if (thousandWon == null) return '—'
+  return Math.round(thousandWon / 10).toLocaleString() + '만원'
+}
+
+function JobsView({ jobs, hr }: { jobs: JobsData | null; hr: HrData | null }) {
+  const [company, setCompany] = useState('전체')
+  const items = jobs?.items ?? []
+  const present = [...new Set(items.map(i => i.company))]
+  const chips = ['전체', ...Object.keys(JOB_COMPANY_COLORS).filter(c => present.includes(c))]
+  const filtered = company === '전체' ? items : items.filter(i => i.company === company)
+
+  return (
+    <div className="jb">
+      <div className="os-filter">
+        {chips.map(c => (
+          <button
+            key={c}
+            className={'os-chip' + (company === c ? ' on' : '')}
+            style={{ '--c': JOB_COMPANY_COLORS[c] ?? '#475569' } as React.CSSProperties}
+            onClick={() => setCompany(c)}
+          >
+            {c}
+          </button>
+        ))}
+      </div>
+      <div className="os-summary">
+        진행 중 채용공고 {filtered.length}건
+        {jobs?.updatedAt && <small> · {jobs.updatedAt} 갱신 · 매일 자동 수집</small>}
+      </div>
+
+      {items.length === 0 && <div className="bp-empty">진행 중인 채용공고 정보를 불러오지 못했습니다.</div>}
+      {filtered.map(j => (
+        <a
+          key={j.sn ?? j.url}
+          className="jb-item"
+          href={safeUrl(j.url)}
+          target="_blank"
+          rel="noreferrer"
+          onClick={() => trackOutbound(j.url)}
+        >
+          <div className="jb-top">
+            <span className="jb-co" style={{ color: JOB_COMPANY_COLORS[j.company] }}>
+              ● {j.company}
+            </span>
+            {j.dday != null && (
+              <span className={'jb-dday' + (j.dday <= 3 ? ' soon' : '')}>
+                {j.dday === 0 ? '오늘 마감' : `D-${j.dday}`}
+              </span>
+            )}
+          </div>
+          <div className="jb-title">{j.title}</div>
+          <div className="jb-sub">
+            {j.kind}
+            {j.hire && ' · ' + j.hire}
+            {j.region && ' · ' + j.region}
+            {j.end && ` · ~${j.end.slice(5)}`}
+            {j.count != null && j.count > 0 && ` · ${j.count}명`}
+          </div>
+        </a>
+      ))}
+
+      {hr && hr.companies.length > 0 && (
+        <>
+          <div className="jb-hr-head">
+            기관별 보수·인원 <small>알리오 정기공시 기준</small>
+          </div>
+          <div className="jb-hr-grid">
+            {hr.companies.map(c => (
+              <HrCard key={c.name} c={c} />
+            ))}
+          </div>
+        </>
+      )}
+
+      <div className="os-note">
+        발전 공공기관은 <b>본사이전 지역인재 30%</b>(혁신도시법)·<b>비수도권 인재 35%</b>(지방대육성법)
+        채용목표제를 운영합니다(대졸 신입 공채 기준 — 공고별 적용 여부는 원문 확인). 보수는 알리오
+        공시(결산·예산 기준) 수치로 실제 개인별 보수와 다를 수 있으며, 채용 자격·일정 등 확정 정보는
+        반드시 원문 공고를 확인하세요.
+      </div>
+    </div>
+  )
+}
+
+function HrCard({ c }: { c: HrCompany }) {
+  const latest = [...c.avgPay].filter(x => x.kind === '결산').sort((a, b) => b.year - a.year)[0]
+  return (
+    <div className="jb-hr-card">
+      <div className="jb-hr-name" style={{ color: JOB_COMPANY_COLORS[c.name] }}>
+        ● {c.name} <small>{c.hq}</small>
+      </div>
+      <div className="jb-hr-row">
+        <span>평균보수{latest ? `('${String(latest.year).slice(2)} 결산)` : ''}</span>
+        <b>{pay(latest?.amount)}</b>
+      </div>
+      <div className="jb-hr-row">
+        <span>신입 초임('25)</span>
+        <b>{pay(c.newHire2025)}</b>
+      </div>
+      <div className="jb-hr-row">
+        <span>정규직 현원</span>
+        <b>{c.employees?.regular != null ? Math.round(c.employees.regular).toLocaleString() + '명' : '—'}</b>
+      </div>
+      {c.alioUrl && (
+        <a
+          className="os-src jb-hr-src"
+          href={safeUrl(c.alioUrl)}
+          target="_blank"
+          rel="noreferrer"
+          onClick={() => trackOutbound(c.alioUrl!)}
+        >
+          알리오 공시 보기
+        </a>
+      )}
     </div>
   )
 }

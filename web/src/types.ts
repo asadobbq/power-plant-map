@@ -49,6 +49,69 @@ export interface NewsData {
   items: NewsItem[]
 }
 
+export interface JobItem {
+  company: string
+  inst: string
+  title: string
+  kind: string
+  hire: string
+  region: string
+  count?: number | null
+  start: string
+  end: string
+  dday?: number | null
+  url: string
+  sn?: number
+}
+
+export interface JobsData {
+  updatedAt: string
+  note?: string
+  source?: string
+  items: JobItem[]
+}
+
+export interface HrPayYear {
+  year: number
+  amount: number // 천원
+  kind: string // 결산 | 예산
+}
+
+export interface HrCompany {
+  name: string // 축약명 (남동발전 등)
+  full: string
+  hq: string
+  avgPay: HrPayYear[]
+  newHire2025?: number | null // 천원
+  newHire2026Budget?: number | null
+  employees?: { asOf: string; regular?: number | null; total?: number | null }
+  tenure?: number | null
+  alioUrl?: string
+}
+
+export interface HrData {
+  updatedAt: string
+  note?: string
+  companies: HrCompany[]
+}
+
+/** 일자리 탭 기관 칩 색 — 발전5사는 해외사업 탭과 동일 색 유지 */
+export const JOB_COMPANY_COLORS: Record<string, string> = {
+  남동발전: '#0ea5e9',
+  중부발전: '#22c55e',
+  서부발전: '#f59e0b',
+  남부발전: '#ef4444',
+  동서발전: '#8b5cf6',
+  한수원: '#6366f1',
+  한전: '#0f766e',
+  한전KPS: '#a16207',
+  한전KDN: '#db2777',
+  한국전력기술: '#0891b2',
+  전력거래소: '#64748b',
+  지역난방공사: '#ea580c',
+  수자원공사: '#0284c7',
+}
+
 export interface OverseasItem {
   company: string
   companyGroup?: string
