@@ -1040,9 +1040,10 @@ body {
 @media (max-width: 480px) {
   .sb-search, .ai-input input, .bf-selects select { font-size: 16px; }
   .bf-selects select { padding: 10px 8px; }
-  .bp-info { padding: 6px 12px; font-size: 12px; }
+  /* 의견·출처면책 버튼을 슬라이드 바(ㅡ) 아랫줄로 — 화면 폭과 무관하게 겹침 방지 */
+  .bp-info { padding: 6px 12px; font-size: 12px; top: 18px; }
   .bp-feedback { right: 122px; }
-  .bp-handle { padding-bottom: 30px; }
+  .bp-handle { padding: 6px 0 42px; }
   .clu { min-width: 0; padding: 3px 7px; border-width: 1.5px; border-radius: 10px; }
   .clu b { font-size: 11px; }
   .clu span { font-size: 9.5px; }
