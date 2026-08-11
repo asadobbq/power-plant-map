@@ -75,8 +75,13 @@ jobs:
           import io, json
           d = json.load(io.open('pipeline/link_report.json', encoding='utf-8'))
           probs = d.get('problems', [])
+          # 해외 러너에서 타임아웃·접속실패는 국내 기관 사이트의 해외 IP 차단 오탐이 많음 — 깨짐(4xx) 우선
+          order = {'깨짐': 0, '소프트404의심': 1, '메인리다이렉트': 2}
+          probs.sort(key=lambda b: (order.get(b['status'], 9), b['url']))
           body = [f"월간 출처 링크 전수 검사({d.get('checkedAt')}) 결과입니다.", '',
-                  f"요약: {d.get('summary')}", '']
+                  f"요약: {d.get('summary')}", '',
+                  "> ⚠️ 해외(GitHub 러너) IP 특성상 `타임아웃`·`접속실패`는 국내 지자체 사이트의",
+                  "> 해외 차단 오탐일 가능성이 높습니다. **`깨짐`(4xx) 항목 위주로 확인**하세요.", '']
           for b in probs[:30]:
               body.append(f"- [{b['status']}] {b['url']}")
               for u in b.get('used_by', [])[:3]:
