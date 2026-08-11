@@ -970,3 +970,97 @@ body {
   .detail { width: calc(100% - 24px); }
   .mapctrl { flex-direction: column; }
 }
+
+/* ---------- 2026-08 UI 다듬기 (디자인 리뷰 반영) ---------- */
+/* 1) 한국어 어절 단위 줄바꿈 — 단어 중간 끊김 방지 */
+.bp-issue span, .detail-grid b, .detail-sub, .units td, .units th,
+.retire, .repl-inline, .mk-cell, .os-item-sub, .bf-local-cond {
+  word-break: keep-all;
+  overflow-wrap: break-word;
+}
+
+/* 2) 접근성 — 의미 있는 보조 텍스트 대비 강화 (#9ca3af 2.5:1 → #6b7280 4.8:1) */
+.bp-tab { color: #6b7280; }
+.sb-label { color: #6b7280; }
+.detail-grid .k { color: #6b7280; font-size: 11px; }
+.news-item small, .os-country-head span { color: #6b7280; }
+.detail-src, .sb-foot { color: #6b7280; }
+.bp-count, .sb-count { font-size: 11.5px; color: #6b7280; font-weight: 600; }
+.bp-issue span { font-size: 11px; }
+
+/* 3) 상태 위계 — 비활성 탭 이모지 무채색화, 적색은 '폐지·위험' 의미로 한정 */
+.bp-tab:not(.on) .bp-tab-ico { filter: grayscale(1); opacity: 0.55; }
+.bp-issue:not(:first-child) b { color: #1f2937; }
+.units .repl-inline { color: #374151; }
+.units .repl-inline small { color: #9ca3af; }
+
+/* 데스크톱 hover 피드백 (비활성 요소만) */
+.bp-tab:hover:not(.on) { color: #4b5563; }
+.os-chip:hover:not(.on) { border-color: #d1d5db; color: #4b5563; background: #f9fafb; }
+.mc-chip:hover:not(.active) { background: #f9fafb; }
+.mc-fuel:hover:not(.on) { border-color: #d1d5db; color: #6b7280; }
+.chip:hover:not(.on) { border-color: #9ca3af; color: #6b7280; }
+
+/* 4) 지도 오버레이 충돌 해소 — 네이버 축척·로고, 줌 버튼 가림 방지 */
+.ai-fab { bottom: 40px; }
+.ai-panel { bottom: 40px; max-height: min(520px, calc(100% - 54px)); }
+.os-mapbadge { left: 56px; max-width: calc(100% - 66px); }
+
+/* 5) 검색 인풋 전폭 (블록 컨텍스트 수축 보정) */
+.sb-search { display: block; width: calc(100% - 32px); }
+
+/* 6) 해외 필터 칩 한 줄 가로 스크롤 — sticky 국가 헤더 오프셋 일치 */
+.os-filter { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; }
+.os-filter::-webkit-scrollbar { display: none; }
+.os-chip { flex: none; }
+.os-country-head { top: 43px; } /* .os-filter 한 줄 실측 높이 */
+.os-country .os-item:last-child { border-bottom: 0; }
+.os-src { padding: 8px 6px; margin: 0 -6px; }
+
+/* 7) 안내 박스 스타일·라운드 통일 (앰버 = #fffbeb + 테두리, 8px) */
+.notice, .bf-note, .bf-elec-warn, .bf-local-warn, .bf-elec-diff,
+.os-note, .sb-disclaimer, .bf-elec-amt, .bf-local-item { border-radius: 8px; }
+.notice, .bf-note, .bf-elec-warn, .bf-local-warn { background: #fffbeb; border: 1px solid #fde68a; }
+.notice.info { background: #dbeafe; border-color: #bfdbfe; }
+.bf-elec-diff { border: 1px solid #e0e7ff; }
+.ai-input input, .ai-input button { border-radius: 8px; }
+
+/* 8) 데스크톱 — 탭 콘텐츠 폭 정렬, 전폭 스트레치 완화 */
+@media (min-width: 761px) {
+  .bp-tabs { justify-content: flex-start; padding: 0 10px; }
+  .bp-tab { flex: 0 1 200px; }
+  .os-item-sub { max-width: 900px; }
+}
+@media (min-width: 1024px) {
+  .bp-issues { max-width: 780px; }
+  .bp-body .sb-search { max-width: 748px; } /* 통계 카드 폭과 정렬 (마진 32px 감안) */
+}
+
+/* 9) 모바일 — iOS 입력 확대 방지, 터치 타깃, 과밀 완화 */
+@media (max-width: 480px) {
+  .sb-search, .ai-input input, .bf-selects select { font-size: 16px; }
+  .bf-selects select { padding: 10px 8px; }
+  .bp-info { padding: 6px 12px; font-size: 12px; }
+  .bp-feedback { right: 122px; }
+  .bp-handle { padding-bottom: 30px; }
+  .clu { min-width: 0; padding: 3px 7px; border-width: 1.5px; border-radius: 10px; }
+  .clu b { font-size: 11px; }
+  .clu span { font-size: 9.5px; }
+  .detail { padding: 14px; }
+  .units { font-size: 11px; }
+  .units td { padding: 4px 4px; }
+  .mk-cell { max-width: 88px; }
+}
+/* 상단 필터 바: 우측 페이드로 '더 있음' 힌트 */
+@media (max-width: 760px) {
+  .mapctrl-bar {
+    -webkit-mask-image: linear-gradient(90deg, #000 calc(100% - 28px), transparent);
+    mask-image: linear-gradient(90deg, #000 calc(100% - 28px), transparent);
+  }
+}
+
+/* 10) 터치 히트 영역 확대 — 상세 닫기·지도 필터 칩 */
+.detail-close { top: 2px; right: 2px; padding: 8px 12px; font-size: 22px; line-height: 1; }
+.detail-share { margin-right: 36px; }
+.mc-chip { position: relative; }
+.mc-chip::after { content: ''; position: absolute; inset: -8px -3px; border-radius: inherit; }

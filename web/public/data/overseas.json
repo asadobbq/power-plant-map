@@ -925,6 +925,48 @@
    "lat": -26.58,
    "lng": 150.28,
    "source": "https://www.ewp.co.kr/eng/subpage/content.html?pc=IVPQQGEO35FNGG9WMJPYKNUC89EOI2E ; https://columboolasolarfarm.com.au/the-solar-farm/ ; https://www.gem.wiki/Columboola_Solar"
+  },
+  {
+   "company": "남부발전",
+   "companyGroup": "남부발전",
+   "country": "카타르",
+   "name": "카타르 Facility E 담수복합 (Ras Abu Fontas IWPP)",
+   "fuel": "가스복합",
+   "mw": 2400,
+   "stake": "실효지분 6% (알리오: 컨소시엄 지주사 Luluah Sky Energy Holdings 15%, '25.6 취득. 사업지분 QEWC 55·QatarEnergy 5·스미토모 17·시코쿠 11·남부 6·KIND 6%)",
+   "status": "개발중 (PWPA 25년 '24.11 체결 — 한국 투자자 최초 카타르 발전시장 진출. EPC 삼성물산, 담수 110MIGD 병설, 금융종결 '26.4·상업운전 '29.6 목표)",
+   "city": "라스 아부 폰타스 (도하 남측 약 25km 해안)",
+   "lat": 25.2,
+   "lng": 51.61,
+   "source": "https://www.kospo.co.kr/bbs/kospo/95/108699/artclView.do ; https://www.sumitomocorp.com/en/jp/news/release/2024/group/19500 ; https://www.alio.go.kr/item/itemReportTerm.do?apbaId=C0043&reportFormRootNo=31901 (알리오 타법인 출자현황 '25년말)"
+  },
+  {
+   "company": "남동발전",
+   "companyGroup": "남동발전",
+   "country": "인도네시아",
+   "name": "인니 아다로 광산 (PT Alamtri Resources Tbk, 구 Adaro Energy)",
+   "fuel": "석탄광산",
+   "mw": null,
+   "stake": "1.6% (알리오 '25년말 1.60%·취득가액 650억원. 2009.7 KOEN 직접 취득 — 바얀식 한전 이관 아님. 연 300만톤 유연탄 우선구매권)",
+   "status": "운영중 (자원개발·발전소 아님. '24.11 사명 Adaro Energy→Alamtri 변경, '24.12 석탄 자회사 AADI 분리상장)",
+   "city": "남부칼리만탄 타발롱 (주력 투투판 광산 일대)",
+   "lat": -2.204,
+   "lng": 115.528,
+   "source": "https://www.koenergy.kr/kosep/hw/fr/ov/ovhw28/main.do?menuCd=FN03050202 ; https://alio.go.kr/item/itemReportTerm.do?apbaId=C0042&reportFormRootNo=31901 (알리오 타법인 출자현황 '25년말) ; https://www.gem.wiki/Tutupan_Coal_Mine"
+  },
+  {
+   "company": "서부발전",
+   "companyGroup": "서부발전",
+   "country": "인도네시아",
+   "name": "인니 해상 석탄선적설비 (PT Mutiara Jawa)",
+   "fuel": "기타",
+   "mw": null,
+   "stake": "29% (알리오 '25년말 — '12.8 취득 29.8억원·장부 44억원. 부유식 선적설비로 바지선 석탄을 외항선에 환적, 800만톤/년)",
+   "status": "운영중 (2015.9 준공 — 서부발전 공식 페이지 '운영' 표기)",
+   "city": "동칼리만탄 마하캄강 하구 외해 (무아라 브라우 묘박지 일대)",
+   "lat": -0.27,
+   "lng": 117.62,
+   "source": "https://www.iwest.co.kr/iwest/878/subview.do ; https://www.alio.go.kr/item/itemReportTerm.do?apbaId=C0082&reportFormRootNo=31901 (알리오 타법인 출자현황 '25년말)"
   }
  ]
 }
