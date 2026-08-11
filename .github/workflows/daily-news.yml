@@ -1,0 +1,31 @@
+name: daily-news
+
+on:
+  schedule:
+    - cron: "0 22 * * *" # KST 07:00 매일
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  update-news:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Fetch news
+        run: python pipeline/news_fetch.py
+      - name: Commit if changed
+        run: |
+          git config user.name "kopower-bot"
+          git config user.email "actions@users.noreply.github.com"
+          if ! git diff --quiet web/public/data/news.json; then
+            git add web/public/data/news.json
+            git commit -m "news: 일일 뉴스 자동 갱신 ($(date +%Y-%m-%d))"
+            git push
+          else
+            echo "변경 없음"
+          fi
