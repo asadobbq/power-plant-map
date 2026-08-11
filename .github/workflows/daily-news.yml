@@ -16,19 +16,17 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      # 채용공고는 data.go.kr의 해외 IP 차단으로 Actions에서 수집 불가 —
+      # Vercel 서울 리전 함수(web/api/jobs.js)가 실시간 수집·캐시한다.
       - name: Fetch news
         run: python pipeline/news_fetch.py
-      - name: Fetch jobs
-        env:
-          DATA_GO_KR_KEY: ${{ secrets.DATA_GO_KR_KEY }}
-        run: python pipeline/jobs_fetch.py
       - name: Commit if changed
         run: |
           git config user.name "kopower-bot"
           git config user.email "actions@users.noreply.github.com"
-          if ! git diff --quiet web/public/data/news.json web/public/data/jobs.json; then
-            git add web/public/data/news.json web/public/data/jobs.json
-            git commit -m "data: 뉴스·채용공고 일일 자동 갱신 ($(date +%Y-%m-%d))"
+          if ! git diff --quiet web/public/data/news.json; then
+            git add web/public/data/news.json
+            git commit -m "news: 일일 뉴스 자동 갱신 ($(date +%Y-%m-%d))"
             git push
           else
             echo "변경 없음"

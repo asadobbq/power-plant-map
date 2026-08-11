@@ -158,10 +158,16 @@ export default function App() {
       .then(r => r.json())
       .then(setOverseas)
       .catch(() => setOverseas(null))
-    fetch('data/jobs.json')
-      .then(r => (r.ok ? r.json() : null))
+    // 채용공고: 서울 리전 API(실시간·6h 캐시) 우선, 실패 시 정적 스냅샷 폴백
+    fetch('/api/jobs')
+      .then(r => (r.ok ? r.json() : Promise.reject(new Error('api'))))
       .then(setJobs)
-      .catch(() => setJobs(null))
+      .catch(() =>
+        fetch('data/jobs.json')
+          .then(r => (r.ok ? r.json() : null))
+          .then(setJobs)
+          .catch(() => setJobs(null)),
+      )
     fetch('data/hr.json')
       .then(r => (r.ok ? r.json() : null))
       .then(setHr)
