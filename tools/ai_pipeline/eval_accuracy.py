@@ -8,7 +8,6 @@
 매칭: name 정규화 유사도로 레코드 정렬(부분 포함 허용) 후,
       category(완전 일치)·amount(숫자 시퀀스 일치)·source(도메인 일치) 필드별 채점.
 리포트: reports/accuracy_YYYYMMDD.md — 표본 수, 필드별 일치율, 오류 유형별 목록.
-        ★ 수행보고서 Ⅴ-2 "신뢰성 검증 방법론과 결과"의 원천 자료.
 
 사용법: python eval_accuracy.py [--regions 하동군,삼척시,...]
 """

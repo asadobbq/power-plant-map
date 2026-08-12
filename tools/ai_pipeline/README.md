@@ -34,7 +34,7 @@ python validate.py
 python apply.py
 python apply.py --yes
 
-# 정확도 평가 (수행보고서 Ⅴ-2 근거) — 정답셋 지역 재파싱 후
+# 정확도 평가 — 정답셋 지역 재파싱 후
 python eval_accuracy.py
 ```
 
