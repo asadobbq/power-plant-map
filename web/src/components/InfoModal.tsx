@@ -86,6 +86,20 @@ export default function InfoModal({ generatedAt, onClose }: Props) {
             공개 저장소 문서
           </a>
           에 정리되어 있습니다.
+          <br />
+          이 서비스의 코드·데이터·문서는 전부 공개되어 있습니다 —{' '}
+          <a href="https://github.com/asadobbq/power-plant-map" target="_blank" rel="noreferrer">
+            공개 저장소(GitHub)
+          </a>
+          {' · '}
+          <a
+            href="https://github.com/asadobbq/power-plant-map/blob/master/docs/replication_guide.md"
+            target="_blank"
+            rel="noreferrer"
+          >
+            복제(확산) 가이드
+          </a>
+          : 타 기관·타 주제(산업단지·소각시설 등)로 같은 구조의 서비스를 만드는 절차와 비용을 안내합니다.
         </div>
       </div>
     </div>

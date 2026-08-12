@@ -133,7 +133,8 @@ ${ldTags}
 ${body}
 <footer>출처: 전력거래소 EPSIS 발전기 세부내역(2024) · 한국전력 전력통계월보 · 제11차 전력수급기본계획(산업부 공고 제2025-169호) · 각 발전사 공식 홈페이지 · 각 시군구청 시책 안내 — 기준일 ${esc(generatedAt)}<br />
 폐지·준공 시기는 계획 기준으로 변동될 수 있으며, 혜택·지원금은 추정치로 법적 판정이 아닙니다. 본 서비스는 공공데이터를 재구성한 비공식 안내 서비스입니다.<br />
-<a href="/">🗺️ 우리동네 발전소 — 전국 발전소 지도</a> · <a href="/plant/">발전소 목록</a> · <a href="/region/">지역별 혜택</a></footer>
+<a href="/">🗺️ 우리동네 발전소 — 전국 발전소 지도</a> · <a href="/plant/">발전소 목록</a> · <a href="/region/">지역별 혜택</a> · <a href="/jobs/">발전 공공기관 일자리</a><br />
+코드·데이터·문서 전체 공개: <a href="https://github.com/asadobbq/power-plant-map" rel="noreferrer">공개 저장소(GitHub)</a> · <a href="https://github.com/asadobbq/power-plant-map/blob/master/docs/replication_guide.md" rel="noreferrer">복제(확산) 가이드</a></footer>
 </main></body></html>`
 }
 
