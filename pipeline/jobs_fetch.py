@@ -65,10 +65,33 @@ def ymd(s):
     return f"{s[:4]}-{s[4:6]}-{s[6:8]}" if len(s) == 8 else s
 
 
+PROXY = "https://kopower.net/api/jobs"
+
+
+def fetch_via_proxy():
+    """data.go.kr가 해외 IP를 차단하므로(GitHub Actions 등) 서울 리전 함수를 경유해 수집.
+
+    /api/jobs는 이미 대상 기관 필터·정렬을 마친 결과를 반환하므로 그대로 사용한다.
+    """
+    req = urllib.request.Request(PROXY, headers={"User-Agent": "kopower-jobs-sync/1.0"})
+    with urllib.request.urlopen(req, timeout=60) as r:
+        return json.load(r)
+
+
 def main():
     key = os.environ.get("DATA_GO_KR_KEY", "").strip()
     if not key:
-        print("DATA_GO_KR_KEY 미설정 — 기존 jobs.json 유지(안전장치)")
+        # 키가 없으면(공개 러너 등) 자체 프록시로 동기화 — 정적 페이지 신선도 유지
+        try:
+            out = fetch_via_proxy()
+        except Exception as e:
+            print(f"DATA_GO_KR_KEY 미설정 + 프록시 실패({e}) — 기존 jobs.json 유지(안전장치)")
+            return
+        if len(out.get("items", [])) < 1:
+            print("프록시 응답 0건 — 기존 jobs.json 유지(안전장치)")
+            return
+        json.dump(out, io.open(OUT, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+        print(f"jobs.json 갱신(프록시 경유): {len(out['items'])}건")
         return
 
     rows = fetch_all(key)
@@ -91,6 +114,12 @@ def main():
             "dday": r.get("decimalDay"),
             "url": r.get("srcUrl") or "",
             "sn": r.get("recrutPblntSn"),
+            # 정적 페이지 본문·구조화 데이터(JobPosting)용 상세 — 검색 노출에 필요
+            "ncs": r.get("ncsCdNmLst") or "",
+            "edu": r.get("acbgCondNmLst") or "",
+            "qual": (r.get("aplyQlfcCn") or "").strip()[:1200],
+            "pref": (r.get("prefCn") or "").strip()[:600],
+            "steps": (r.get("scrnprcdrMthdExpln") or "").strip()[:600],
         })
 
     if len(out_items) < 1:

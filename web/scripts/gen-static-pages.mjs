@@ -16,6 +16,15 @@ try {
 } catch {
   console.warn('경고: hr.json 없음 — 일자리 페이지 생략')
 }
+let jobsData = null
+try {
+  jobsData = JSON.parse(readFileSync(join(ROOT, 'public/data/jobs.json'), 'utf-8'))
+} catch {
+  console.warn('경고: jobs.json 없음 — 채용공고 섹션 생략')
+}
+const TODAY = new Date().toISOString().slice(0, 10)
+/** 마감일이 지나지 않은 공고만 — 만료 공고의 색인·구조화 데이터 노출 방지 */
+const openJobs = (jobsData?.items ?? []).filter(j => !j.end || j.end >= TODAY)
 const plants = plantsData.plants
 const generatedAt = plantsData.generatedAt
 
@@ -328,6 +337,63 @@ urls.splice(2, 0, `${SITE}/region/`)
 
 // ---------- 일자리 페이지 (기관별 채용·보수 — 알리오 공시) ----------
 const man = v => (v == null ? '—' : Math.round(v / 10).toLocaleString() + '만원')
+const YEAR = new Date().getFullYear()
+
+/** 검색 질의 대응용 영문 약칭 — "KOEN 채용", "KOSPO 연봉" 등 */
+const EN_ABBR = {
+  한전: 'KEPCO', 한수원: 'KHNP', 남동발전: 'KOEN', 중부발전: 'KOMIPO',
+  서부발전: 'KOWEPO', 남부발전: 'KOSPO', 동서발전: 'EWP',
+  지역난방공사: 'KDHC', 수자원공사: 'K-water', 한전KPS: 'KPS', 한전KDN: 'KDN',
+}
+
+/** 고용형태 → schema.org employmentType */
+function empType(hire) {
+  if (/인턴/.test(hire)) return 'INTERN'
+  if (/정규직/.test(hire) && !/비정규직/.test(hire)) return 'FULL_TIME'
+  if (/비정규직|기간제|계약|일용/.test(hire)) return 'TEMPORARY'
+  return 'OTHER'
+}
+
+/** 공고 상세를 사람이 읽는 설명으로 — 구조화 데이터 description과 본문에 공용 */
+function jobDescHtml(j) {
+  const rows = [
+    ['채용구분', j.kind], ['고용형태', j.hire], ['모집인원', j.count ? `${j.count}명` : ''],
+    ['근무지', j.region], ['직무(NCS)', j.ncs], ['학력조건', j.edu],
+    ['접수기간', j.start && j.end ? `${j.start} ~ ${j.end}` : j.end ? `~${j.end}` : ''],
+    ['지원자격', j.qual], ['우대조건', j.pref], ['전형절차', j.steps],
+  ].filter(([, v]) => v && String(v).trim())
+  return rows.map(([k, v]) => `<p><b>${esc(k)}</b>: ${esc(String(v).replace(/\r?\n/g, ' / '))}</p>`).join('')
+}
+
+/** 공고 목록 표 (실제 공고 제목이 색인되도록 정적 HTML로 출력) */
+function jobTable(list, withCompany) {
+  if (!list.length) return ''
+  return `<div class="tbl"><table><thead><tr>${withCompany ? '<th>기관</th>' : ''}<th>채용공고</th><th>구분</th><th>근무지</th><th>접수마감</th></tr></thead><tbody>
+${list.map(j => `<tr>${withCompany ? `<td><a href="/jobs/${encodeURI(sanitize(j.company))}/">${esc(j.company)}</a></td>` : ''}<td><a href="${esc(j.url)}" rel="noreferrer nofollow">${esc(j.title)}</a></td><td>${esc(j.kind)}${j.hire ? ` · ${esc(j.hire)}` : ''}</td><td>${esc(j.region || '-')}</td><td>${esc(j.end || '-')}</td></tr>`).join('\n')}
+</tbody></table></div>`
+}
+
+/** Google 채용정보(JobPosting) 구조화 데이터 — 마감 전 공고만, validThrough 명시 */
+function jobPostingLd(j, fullInstName) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'JobPosting',
+    title: j.title,
+    description: jobDescHtml(j) || `<p>${esc(j.title)}</p>`,
+    identifier: { '@type': 'PropertyValue', name: fullInstName || j.inst, value: String(j.sn ?? '') },
+    datePosted: j.start || undefined,
+    validThrough: j.end ? `${j.end}T23:59:59+09:00` : undefined,
+    employmentType: empType(j.hire),
+    hiringOrganization: { '@type': 'Organization', name: fullInstName || j.inst, sameAs: SITE + `/jobs/${encodeURI(sanitize(j.company))}/` },
+    jobLocation: {
+      '@type': 'Place',
+      address: { '@type': 'PostalAddress', addressRegion: (j.region || '대한민국').split(',')[0], addressCountry: 'KR' },
+    },
+    ...(j.count ? { totalJobOpenings: j.count } : {}),
+    url: j.url || undefined,
+  }
+}
+
 let jobsPages = 0
 if (hrData) {
   const hrCos = hrData.companies
@@ -339,10 +405,20 @@ if (hrData) {
     const coPlants = plants
       .filter(p => p.companyGroup === c.name && p.totalMw >= 10)
       .sort((a, b) => b.totalMw - a.totalMw).slice(0, 14)
+    const myJobs = openJobs.filter(j => j.company === c.name)
+    const en = EN_ABBR[c.name] || ''
     return `
-<h1>💼 ${esc(c.name)} 채용·연봉·임직원 정보</h1>
-<p class="sub">${esc(c.full)} · 본사 ${esc(c.hq)} · 알리오(ALIO) 정기공시 기준</p>
+<h1>💼 ${esc(c.name)} 채용공고·연봉·임직원 정보 (${YEAR})</h1>
+<p class="sub">${esc(c.full)}${en ? ` (${en})` : ''} · 본사 ${esc(c.hq)} · 진행 중 채용공고와 알리오(ALIO) 공시 연봉을 함께 확인하세요.</p>
 <a class="cta" href="/?tab=jobs&co=${encodeURIComponent(c.name)}">💼 진행 중 채용공고 실시간 보기</a>
+
+<h2>${esc(c.name)} 진행 중 채용공고 ${myJobs.length ? `(${myJobs.length}건)` : ''}</h2>
+${myJobs.length
+  ? jobTable(myJobs, false) +
+    `<p class="sub">공고 제목을 누르면 ${esc(c.full)} 원문 공고로 이동합니다. 지원 자격·일정 등 확정 정보는 반드시 원문에서 확인하세요.</p>` +
+    myJobs.map(j => `<div class="facts" style="grid-template-columns:1fr"><div><b>${esc(j.title)}</b>${jobDescHtml(j)}<p><a href="${esc(j.url)}" rel="noreferrer nofollow">원문 공고 보기 →</a></p></div></div>`).join('')
+  : `<div class="warn">현재 진행 중인 ${esc(c.name)} 채용공고가 없습니다. 새 공고가 등록되면 자동으로 표시됩니다(6시간 주기 갱신). 지난 공고는 <a href="https://job.alio.go.kr" rel="noreferrer">잡알리오</a>에서 확인할 수 있습니다.</div>`}
+<p class="sub">출처: 공공데이터포털 공공기관 채용정보(재정경제부)${jobsData?.updatedAt ? ` · ${esc(jobsData.updatedAt)} 기준` : ''}</p>
 
 <div class="facts">
 <div><span class="k">평균보수 (${latest ? latest.year + '년 결산' : '-'})</span><br /><b>${man(latest?.amount)}</b></div>
@@ -371,23 +447,29 @@ ${coPlants.length ? `<h2>${esc(c.name)}이 운영하는 발전소</h2>
     mkdirSync(dir, { recursive: true })
     const path = `/jobs/${slug}/`
     const latest = [...c.avgPay].filter(x => x.kind === '결산').sort((a, b) => b.year - a.year)[0]
+    const myJobs = openJobs.filter(j => j.company === c.name)
+    const en = EN_ABBR[c.name] || ''
     writeFileSync(join(dir, 'index.html'), shell({
-      title: `${c.name} 연봉(평균보수)·신입 초임·채용 정보 — 알리오 공시 | 우리동네 발전소`,
-      desc: `${c.full} 평균 연봉 ${man(latest?.amount)}(${latest?.year} 결산)·신입 초임 ${man(c.newHire2025)}·정규직 ${c.employees?.regular != null ? Math.round(c.employees.regular).toLocaleString() + '명' : '-'} (알리오 공시). 본사 ${c.hq}. 진행 중 채용공고와 지역인재 채용목표제까지.`.slice(0, 155),
+      title: `${c.name} 채용공고·연봉 ${YEAR} — 신입 초임·평균보수·임직원 수 | 우리동네 발전소`,
+      desc: `${c.full}${en ? `(${en})` : ''} 진행 중 채용공고 ${myJobs.length}건과 평균 연봉 ${man(latest?.amount)}·신입 초임 ${man(c.newHire2025)}·정규직 ${c.employees?.regular != null ? Math.round(c.employees.regular).toLocaleString() + '명' : '-'}(알리오 공시). 본사 ${c.hq}, 지역인재 채용목표제 안내.`.slice(0, 155),
       path,
-      breadcrumbs: [['우리동네 발전소', '/'], ['발전 공공기관 일자리', '/jobs/'], [c.name, null]],
+      breadcrumbs: [['우리동네 발전소', '/'], ['발전 공공기관 채용·연봉', '/jobs/'], [c.name, null]],
       body: hrBody(c),
-      extraLd: [{
-        '@context': 'https://schema.org',
-        '@type': 'Organization',
-        name: c.full,
-        alternateName: c.name,
-        url: SITE + encodeURI(path),
-        address: { '@type': 'PostalAddress', addressLocality: c.hq, addressCountry: 'KR' },
-        ...(c.employees?.regular != null
-          ? { numberOfEmployees: { '@type': 'QuantitativeValue', value: Math.round(c.employees.regular) } }
-          : {}),
-      }],
+      extraLd: [
+        {
+          '@context': 'https://schema.org',
+          '@type': 'Organization',
+          name: c.full,
+          alternateName: en ? [c.name, en] : c.name,
+          url: SITE + encodeURI(path),
+          address: { '@type': 'PostalAddress', addressLocality: c.hq, addressCountry: 'KR' },
+          ...(c.employees?.regular != null
+            ? { numberOfEmployees: { '@type': 'QuantitativeValue', value: Math.round(c.employees.regular) } }
+            : {}),
+        },
+        // 진행 중 공고는 JobPosting으로 노출 — Google 채용정보 색인 대상
+        ...myJobs.map(j => jobPostingLd(j, c.full)),
+      ],
     }))
     urls.push(SITE + encodeURI(path))
     jobsPages++
@@ -395,9 +477,16 @@ ${coPlants.length ? `<h2>${esc(c.name)}이 운영하는 발전소</h2>
 
   // 일자리 인덱스
   const jobsIndexBody = `
-<h1>💼 발전 공공기관 일자리 — 채용·연봉·임직원</h1>
-<p class="sub">한전·한수원·발전5사 등 ${hrCos.length}개 기관의 평균보수·신입 초임·정규직 인원(알리오 정기공시)과 진행 중 채용공고 안내</p>
+<h1>💼 발전사 채용공고 모음 — 한전·한수원·발전5사 (${YEAR})</h1>
+<p class="sub">발전 공공기관 ${hrCos.length}곳의 진행 중 채용공고 ${openJobs.length}건과 평균 연봉·신입 초임·정규직 인원(알리오 공시)을 한 곳에서. 발전공기업 취업 준비에 필요한 정보를 매일 자동 갱신합니다.</p>
 <a class="cta" href="/?tab=jobs">💼 진행 중 채용공고 실시간 보기</a>
+
+<h2>진행 중인 발전사 채용공고 ${openJobs.length ? `(${openJobs.length}건)` : ''}</h2>
+${openJobs.length
+  ? jobTable(openJobs, true) + `<p class="sub">공고 제목을 누르면 각 기관 원문 공고로 이동합니다. 출처: 공공데이터포털 공공기관 채용정보(재정경제부)${jobsData?.updatedAt ? ` · ${esc(jobsData.updatedAt)} 기준` : ''}</p>`
+  : '<div class="warn">현재 진행 중인 공고가 없습니다. 새 공고가 등록되면 자동으로 표시됩니다.</div>'}
+
+<h2>기관별 연봉·임직원 현황 (알리오 공시)</h2>
 <div class="tbl"><table><thead><tr><th>기관</th><th>평균보수('25 결산)</th><th>신입 초임('25)</th><th>정규직 현원</th><th>본사</th></tr></thead><tbody>
 ${hrCos.map(c => {
     const latest = [...c.avgPay].filter(x => x.kind === '결산').sort((a, b) => b.year - a.year)[0]
@@ -408,9 +497,20 @@ ${hrCos.map(c => {
 <div class="warn">보수는 알리오 정기공시(2025년 결산·일반정규직) 기준으로 개인별 실제 금액과 다를 수 있습니다. 채용공고의 자격·일정 등 확정 정보는 반드시 원문 공고를 확인하세요.</div>`
   mkdirSync(join(DIST, 'jobs'), { recursive: true })
   writeFileSync(join(DIST, 'jobs', 'index.html'), shell({
-    title: '발전 공공기관 채용·연봉 총정리 — 한전·한수원·발전5사 | 우리동네 발전소',
-    desc: `한전·한수원·발전5사 등 발전 공공기관 ${hrCos.length}곳의 평균 연봉·신입 초임·정규직 인원(알리오 공시)과 진행 중 채용공고, 지역인재 채용목표제(30%·35%)까지 한 페이지에.`,
-    path: '/jobs/', breadcrumbs: [['우리동네 발전소', '/'], ['발전 공공기관 일자리', null]], body: jobsIndexBody,
+    title: `발전사 채용공고 모음 ${YEAR} — 한전·한수원·발전5사 채용·연봉 | 우리동네 발전소`,
+    desc: `발전공기업 채용공고 ${openJobs.length}건(한전·한수원·남동·중부·서부·남부·동서발전 등)과 기관별 평균 연봉·신입 초임·정규직 인원(알리오 공시), 지역인재 채용목표제(30%·35%)를 한 페이지에.`.slice(0, 155),
+    path: '/jobs/', breadcrumbs: [['우리동네 발전소', '/'], ['발전 공공기관 채용·연봉', null]], body: jobsIndexBody,
+    extraLd: [
+      {
+        '@context': 'https://schema.org',
+        '@type': 'CollectionPage',
+        name: `발전사 채용공고 모음 ${YEAR}`,
+        description: '한전·한수원·발전5사 등 발전 공공기관의 진행 중 채용공고와 연봉 정보',
+        url: SITE + '/jobs/',
+        ...(jobsData?.updatedAt ? { dateModified: jobsData.updatedAt.slice(0, 10) } : {}),
+      },
+      // 개별 공고 상세는 기관별 페이지에 있으므로 JobPosting은 그쪽에만 표기(목록 페이지 중복 방지)
+    ],
   }))
   urls.splice(3, 0, `${SITE}/jobs/`)
   jobsPages++
@@ -420,8 +520,10 @@ ${hrCos.map(c => {
 writeFileSync(join(DIST, 'sitemap.xml'),
   `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n` +
   urls.map(u => {
+    // 일자리 페이지는 채용공고가 매일 바뀌므로 공고 수집일을 lastmod로 — 재크롤 유도
     const lastmod = u.includes('/region/') ? localData.updatedAt
-      : u.includes('/jobs/') ? (hrData?.updatedAt || generatedAt) : generatedAt
+      : u.includes('/jobs/') ? ((jobsData?.updatedAt || '').slice(0, 10) || hrData?.updatedAt || generatedAt)
+      : generatedAt
     return `  <url><loc>${u.replace(/&/g, '&amp;')}</loc><lastmod>${lastmod}</lastmod></url>`
   }).join('\n') + `\n</urlset>\n`)
 

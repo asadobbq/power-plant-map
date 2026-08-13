@@ -72,6 +72,12 @@ export default async function handler(req, res) {
         dday: r.decimalDay ?? null,
         url: r.srcUrl || '',
         sn: r.recrutPblntSn,
+        // 정적 페이지 본문·구조화 데이터(JobPosting)용 상세 — pipeline/jobs_fetch.py와 동일하게 유지
+        ncs: r.ncsCdNmLst || '',
+        edu: r.acbgCondNmLst || '',
+        qual: (r.aplyQlfcCn || '').trim().slice(0, 1200),
+        pref: (r.prefCn || '').trim().slice(0, 600),
+        steps: (r.scrnprcdrMthdExpln || '').trim().slice(0, 600),
       })
     }
     items.sort((a, b) => (a.end || '9999').localeCompare(b.end || '9999') || a.company.localeCompare(b.company))
