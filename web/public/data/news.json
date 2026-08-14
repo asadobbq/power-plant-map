@@ -1,214 +1,221 @@
 {
- "updatedAt": "2026-08-14 07:30",
+ "updatedAt": "2026-08-15 07:12",
  "note": "구글 뉴스 검색 기반 자동 수집(제목·링크만 게시, 본문 미복제). 기사 내용·저작권은 각 언론사에 있음.",
  "items": [
   {
-   "title": "발전공기업 통합본사 울산 유치 위해 여야 시의원 한목소리… 타 지자체 유치 경쟁 속 초당적 협력 추진",
-   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5NMEVDdDNsVnNydHRRX0dQQ1ZuMVRQUlYtb1AzZDRlaEpTNFozU0tzMHlUcS1DUEhkWG1CelBEcFB2SlV3OEZaOVlHX3J6a0hLMVRGWTZZRktZbVBrQXFFNnljUVdDNHVtQ0QxNWl3?oc=5",
-   "source": "투어코리아",
+   "title": "당진시-한국동서발전, 석탄발전 폐지 대응 ‘상생협력 맞손’",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4wZEVYVlVEZ0Iyb2JvbXNVZThkTHlYVmF6c1AzTWVnbTVTSUt1UTdpakhBbHNMN1ZmTXV3WmdEMGtQSVNXUk9jNFZLeDE3bF94YmVoZm9UblFBS0IzODNVMnpmZmRGTDVwaFdBa9IBbEFVX3lxTE4wZEVYVlVEZ0Iyb2JvbXNVZThkTHlYVmF6c1AzTWVnbTVTSUt1UTdpakhBbHNMN1ZmTXV3WmdEMGtQSVNXUk9jNFZLeDE3bF94YmVoZm9UblFBS0IzODNVMnpmZmRGTDVwaFdBaw?oc=5",
+   "source": "글로컬타임스",
+   "date": "2026-08-15",
+   "tags": [
+    "당진"
+   ]
+  },
+  {
+   "title": "LNG는 단순히 발전소에 관한 이야기가 아닙니다.",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBkcG9WekRDRi1hejY3R2tMY09XcE5JUmdfWm5IaUJYVkV5QzVXOHNpRm5wTHNlcTNlNExBRzhNdTljWFlfVGJoWnRncnAyZ2pDRXltTTlCSGdmQnpSRzZzbG5GajkwZzFDUU13ajgweGJWeWZtSXR3ZV9qbUpUUTA?oc=5",
+   "source": "vietnam.vn",
+   "date": "2026-08-15",
+   "tags": []
+  },
+  {
+   "title": "태안군, 도의원에 발전공기업 유치 등 35개 현안 지원 요청",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9LcEtMUDNqMnBjOWk3RXhwYkN6MFNPYURWTUtUMDdpbUVCR0FpYW5kWDVJOXUzaC1UbmFjSk1HOWpwUWlVcFJaRjVCVHRyTnp6aURkeUNrSk95TzN0MW5SQWE5UEFfSmRHcmNJZWhlT1AzcFHSAXdBVV95cUxOVlEzdWl2VUo2TFFoZ0duMlQxYnVSWHBkQmZHN2t2WENfUjhlYmt6MmdpZU5LbTl3QWFmSi00azlNSFh5UEQ0SzQxekpUMEluZk9nTkViZWQ2cEdlU1QycEtFVjhzdkVkNERBMGF3WEdTRGRGOFNDVQ?oc=5",
+   "source": "뉴스프리존",
+   "date": "2026-08-14",
+   "tags": [
+    "태안"
+   ]
+  },
+  {
+   "title": "[단독] 통합발전공기업, 내년 7월 출범 목표로 간다",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAyMzNBcVVqYjF5ZWIyaUk2STZmVUQ5dnV3cEhzX3IxbjlKUlo5bXFHNE93R2lJbHg0QlpxWXFrNHVFcjFTQm1RVUNzYU92b2xteGgzcVBweFZYeWs?oc=5",
+   "source": "에너지경제신문",
+   "date": "2026-08-14",
+   "tags": []
+  },
+  {
+   "title": "다낭시는 호아닌 LNG 발전소 프로젝트의 조기 시행을 제안하고 있다.",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOLUxFZmZReDRocHFhYi1HWGhtaTV4Z3c1VDZORzNWQnZMUE1hLUxJTVIwU0MxeFotR2w5dlQ3cVRwM1dOcGNMWkR3clBjWm9VOE4wc0pzMk4yVHJjMnAxRnU0WE1kZ1hLQ0hjcllxR2RYaFk4aVdvaF8zMmVmZHdDN0pncERMS1lrbUtGTw?oc=5",
+   "source": "vietnam.vn",
+   "date": "2026-08-14",
+   "tags": []
+  },
+  {
+   "title": "발전공기업 통합본사 태안 유치 ‘범군민 총력전’ 본격화",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5fOUpSM2lUV0tiS3JyaUlhQ24yQVVHbm9takhQV3Q5WE01TWx2bUJFYnhTREdOWFU4OHBOaUlTZVRkUXNJeHloSkZiOE5FMTUzU0lWV0c3a19PLUhhR0tGSE5KVDRmLWl5SENYV09n?oc=5",
+   "source": "taeannews.co.kr",
+   "date": "2026-08-14",
+   "tags": [
+    "태안"
+   ]
+  },
+  {
+   "title": "전국 공직자들에 공감대 형성된 발전공기업 통합본사 태안유치",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1rRGY4M0g1RzJ4YjlUWnpJSXRKbVZPdlEwdkhfOWJmV0FwSzkyXzhWTF9OTUpCTWY1MlZvNTVrU1ZFMVM4TVhnbFlsWVdMcm9HcVZZbUl1dHB0M184cUJiUEJYdGcyd21jS2hXWUVB?oc=5",
+   "source": "taeannews.co.kr",
+   "date": "2026-08-14",
+   "tags": [
+    "태안"
+   ]
+  },
+  {
+   "title": "태안군, 최경환·강종국 충남도의원 초청 군정설명회",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBvYWZJLVhtcFBEZzc0OFQycVJhOWdlTGZfcDRfNHpRdWhWTC1lVV9Palk2R2RkSkRtUGEyZXVlcGVkTF9ReGw4S01MdS1LWTZJeUNuaEdnb25OUDBaN09LSFR6RjVJeEtqMlpBRWhVS0VhUQ?oc=5",
+   "source": "goodmorningcc.com",
+   "date": "2026-08-14",
+   "tags": [
+    "태안"
+   ]
+  },
+  {
+   "title": "당진시, 석탄발전 폐지 대응 상생협력",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5HaUo3WnhMb2kwV05NVWVOTTdqYkFuMGNyX1kydExEc3ViU2lDRmkxcW1ISENhcUx2MW1hV0NkUUN6TWNwVG9LOWg4MzlRMTc0aE5YNDFkNFFUdktGM2lWMkp6QU4?oc=5",
+   "source": "서울경제TV",
+   "date": "2026-08-14",
+   "tags": [
+    "당진"
+   ]
+  },
+  {
+   "title": "당진시·한국동서발전, 석탄화력 폐지 공동대응…“빈자리 미래산업으로”",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9wX3J3dW5EWWNKQ2l5YmpoM2NCWUdweUptUC0tOWpOSXZqYnhqZGdScDBsMUxoZnB2WlJ1b2pRSHBqYlBCYVhZT1E3QXVRVmJLVzZ6VGd4SU5ISU5NVFpqd1hDYVNqdlNJT0s0?oc=5",
+   "source": "충청시사신문",
+   "date": "2026-08-14",
+   "tags": [
+    "당진"
+   ]
+  },
+  {
+   "title": "당진시-한국동서발전, 석탄발전소 폐지 대응 협약…미래 에너지산업 육성",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE8zYUJUVm1rY2NrUEJHZjNLYkVHSnVMSzhLUHEyMEl2QTNsWUFuNGRNUjJON3hJNDE1ZnE2YnpNTllHYThNdVJqRXFPWjhSbzRISWxSbkN6QzlYempUNDlQVXF1WGNxcXkzbWpz?oc=5",
+   "source": "hdnews.co.kr",
+   "date": "2026-08-14",
+   "tags": [
+    "당진"
+   ]
+  },
+  {
+   "title": "진주, 발전공기업 통합본사 유치·국비 확보 총력",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5MYkZudWNhdDFpajRSUndXSEZ6SWVid0o4eGUwQ1NRVE9hT1ZhUnJxcTVoMFB4TWlYdTJwR2JhWk81Q0hRdE5rUHFqNG5aWVlOVThiLXdGZW9wMzdEd2JjdnNLS0VOR21IT2hWTUl30gFyQVVfeXFMT2hJcmhEdFp3aGpNZUxES29ZdWpxQmpYSnN4Mk1YVGVhR1ktSXpoV3VhS3dMcW9FS0xYaDRnQmNfWjQ3azFmdEdEUzlpNzRzSVBqZ0pQZGFienluMmJFUXhpRG03WTVfX0p0RVRPeTdhaXdB?oc=5",
+   "source": "폴리뉴스 Polinews",
+   "date": "2026-08-14",
+   "tags": []
+  },
+  {
+   "title": "당진시·동서발전, 석탄발전 폐지 공동 대응…대체전원·신산업 유치",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9uUkJyUXBwc1gzN2FBMDkzSDdaVE1QeW1YckpTNjFscEFJdmZFeDR6WHVMTkJ5TGc1YWVubk5uWk43TW03SHRlZzB2eFBjMVZRLXZhYVpFYlRjSzdobmVBdmRnUWFtQ0ctclZZ?oc=5",
+   "source": "충청뉴스",
+   "date": "2026-08-14",
+   "tags": [
+    "당진"
+   ]
+  },
+  {
+   "title": "당진시-동서발전, 발전소 폐지 후 미래산업 찾는다",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE42WXhIbWpTMkRkaDdIRk52SWJURTFZeUdSU1h6QVZjSXlZekNaTDNzSHRzbzFDLS1GOEhYZ1pwRXIxNXNPRlc1bk54bGRMdUN1WkpNRDhjWnNhYjNaQkRQLWVHOWJHMzd1bThR0gFvQVVfeXFMT082WDkwZ3ZnVF9NeEZSTTRodVRkcEdGWU1kNVlYNnpfNG1YOWVoNzVSbmFYUjJXUGpkLWRxc2Y0SlVzTGlvc3dKQjBBY21oczNYX3BkZlRiUlgyWmRIVHlyZ3M3RzAxTVRWa3BadkQ4?oc=5",
+   "source": "당진시대",
+   "date": "2026-08-14",
+   "tags": [
+    "당진"
+   ]
+  },
+  {
+   "title": "당진시, 한국동서발전과 석탄발전소 폐지 대응 상생협력 맞손",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE8wc0JOU2JUWFNnQ1ZRQVZUQmVDNGNhYTg4MWMzQXpIajVud19RVlpLekEwZXhGZURIQXZZYXREQlUxNXJfZ1dQVEF3YjVwdXBnZDJ0OU9uQzIxNHdQTUNKeWhydWpELTU4VDdFaXln?oc=5",
+   "source": "뉴스타운",
+   "date": "2026-08-14",
+   "tags": [
+    "당진"
+   ]
+  },
+  {
+   "title": "석탄발전 빈자리, 미래에너지로 채운다…당진시·동서발전 ‘정의로운 전환’ 맞손",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1URlVOSzl2SkdUenlCeG45UWNNQjhOdjd3WGwwaDNIUUJkQkVubm1UNG80dHRNY0ttYzZTdVQ3cGQyU0g0cncyOU5Nclo2S183VkthekowVnlzUVQxMXpDZFdlQ2ZKaXJLX3luLWEwSDM5WmVwY1dkU2IwUGY5VUnSAX9BVV95cUxNVEZVTks5dkpHVHp5QnhuOVFjTUI4TnY3d1hsMGgzSFFCZEJFbm5tVDRvNHR0TWNLbWM2U3VUN3BkMlNINHJ3MjlOTXJaNktfN1ZLYXpKMFZ5c1FUMTF6Q2RXZUNmSmlyS195bi1hMEgzOVplcGNXZFNiMFBmOVVJ?oc=5",
+   "source": "데일리스포츠한국",
+   "date": "2026-08-14",
+   "tags": [
+    "당진"
+   ]
+  },
+  {
+   "title": "당진시, 석탄화력 폐지 대응 본격화…동서발전과 미래산업 전환 협력",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAtOVJjNW9PMWFlUDc5eFk0YzRKZm5HOU5GTjg4ekVWX3BNMW9IdGFacXZmMXd2am1TYXpzVzZGRDNGWVJGcTAzUnFIaUgwUmpmb2pQOG9NNTRYd2Y0TGM2VGF6eWg?oc=5",
+   "source": "매일일보",
+   "date": "2026-08-14",
+   "tags": [
+    "당진"
+   ]
+  },
+  {
+   "title": "당진시, 한국동서발전과 석탄발전소 폐지 대응 상생협약 체결",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBoeThiSGxGWmlrdnUycndOd3BLUkd4UTVIRUJ3MWJsSGRtR2FfSFc4b1dVa2NqNFlYZXJ5NWhWQWNvTHZ1VGZvTnBWc05JdHFZTlpMZk1fdkY2bkZCUU1XQ2k3VXMyRHp0?oc=5",
+   "source": "2news.co.kr",
+   "date": "2026-08-14",
+   "tags": [
+    "당진"
+   ]
+  },
+  {
+   "title": "당진시-동서발전, 석탄발전 폐지 대응 ‘상생협력’ 맞손",
+   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1xcUpaSk9nMW1nZXR6dW1NTGl4THFMeERhNlVmaG05SXN6anJodVA0d2U3Ry1UZnU1b05jSGlaZFA1ZDdNRTdtSVJCTjRCNkZRcjNrWW84WkhQVFlKVHlBZjdDU050QdIBZkFVX3lxTE1xcUpaSk9nMW1nZXR6dW1NTGl4THFMeERhNlVmaG05SXN6anJodVA0d2U3Ry1UZnU1b05jSGlaZFA1ZDdNRTdtSVJCTjRCNkZRcjNrWW84WkhQVFlKVHlBZjdDU050QQ?oc=5",
+   "source": "뉴스1",
+   "date": "2026-08-14",
+   "tags": [
+    "당진"
+   ]
+  },
+  {
+   "title": "당진시-동서발전, 석탄화력 폐지 대응 ‘맞손’…관건은 2029년 이전 대체산업",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBmMTdQTko3aG1MdzZZcjFoMU9UTnpRM3l0aVgtdVJaQ09STFFUakwtaGdtT01DWExYYm42RWQtQzRBZ1lyX2k3OElFX2t5dDZZdjEwRGdIQUxWN2J0VWZqY2gyMXZYa3RsTWtXLU5R?oc=5",
+   "source": "뉴스홈(newshome)",
+   "date": "2026-08-14",
+   "tags": [
+    "당진"
+   ]
+  },
+  {
+   "title": "당진시, 동서발전과 석탄화력 폐지 공동대응",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1sSjFxeU9JMTlWNDdMLTFFY05yaVVidmZHNGU5UDJ6WUdUaWYxYjlQLWdMU1daeTJBTVdyVmVTZUMwRTJsWGV4Zm1odVhMVTVSdVhSR2xnc1puUnozYmxYcjJTZ0NCenh2WFVNc3FXMWo?oc=5",
+   "source": "로컬투데이",
+   "date": "2026-08-14",
+   "tags": [
+    "당진"
+   ]
+  },
+  {
+   "title": "당진시-한국동서발전, 석탄발전 폐지 대응 맞손",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5UUUlibndrM3RCUEVmYW0xUloxNjQyWDBYaUpiZzFuT0pwd3RkWnZLV3FfVEZMd1ZMNnpsaWJ5MnU5RXU3d3ZhTVZEUEtnZ2dUVlROd044bnlRdHBWZURqbTJ6bFBCMF9qdFlUVEJpd1ZxQQ?oc=5",
+   "source": "goodmorningcc.com",
+   "date": "2026-08-14",
+   "tags": [
+    "당진"
+   ]
+  },
+  {
+   "title": "당진시-동서발전, 석탄발전 빈자리 ‘미래에너지’로 채운다",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5YVVFhekhQbmRZblpiMjRNWnFXUDlQU3I1R3AyLVhNZE1pY1BVeGhDSjZ3UTZHRnR1WWREMGEzS1BRTlozWWFOdDZMaHN0ZVE5UmIzTEVMVHRiQjJxSDhfVFVWcjV1SGth?oc=5",
+   "source": "녹색경제신문",
+   "date": "2026-08-14",
+   "tags": [
+    "당진"
+   ]
+  },
+  {
+   "title": "울산시의회 산건위, “발전공기업 통합본사 울산에 유치해야”",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1tRWNhbVVGR3dFTmF5bW1VYm5Jd3BrZVNIUmdoQ2NpZlRBeFFWRGFWc0VnY2RsTFh4bDBxNlVFMEYwZTN2ZVJ1cEtXQ3BYUF95RnZUenEyMERCQkhnNVVXT0N6WjlWUTNDbGw3bzkyV1hxXzA?oc=5",
+   "source": "울산종합일보",
    "date": "2026-08-14",
    "tags": [
     "울산"
    ]
   },
   {
-   "title": "다시 속도 내는 12차 전기본… 수요 예측 토론회 이달에 연다",
-   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFByRTJlbzdubnhYSGo0NnVmbXU0QjdOajB4NTVzbS0tLVVQaVlaTzJTZ3VsNHhRSTBfaVppb1BRUy1YRTFIMGV3TDZXN2lqZkhtbjZxR0t6X1pYRHZ1em9EN0gtc2dJbHJXTUM4N2F30gFzQVVfeXFMUG9vTGxJNjlmUjVrZzJ3WW16WlhYR3dhZDdVMF94ajh6b2cwNEowTmt6SHZ4cFBBblh0bHBPdmNZNnNGaGN2MkZEdFdVdHZPR0FwNHVWVEFCdEZtUjBhcHZMUk5kb1owSUV0MzZzM0NFVkk4SQ?oc=5",
-   "source": "한국일보",
+   "title": "진주시, 국회서 발전공기업 본사 유치·국비 확보 건의",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1LT0lqbEtCQUdMOC1sWnB1VFY2SXEwMGtkTGZYdHpHVjFLUWJ5SlF3Ql9PZmRfMEQ5ZkRJdzdvSmF1TzRXMXNYNGlua1FvWXZ3X0ZfcHR0eUNTNExYVlR2THRqTGZLYVpmZnc?oc=5",
+   "source": "천지일보",
    "date": "2026-08-14",
    "tags": []
-  },
-  {
-   "title": "조규일 진주시장, 이틀간 국회 찾아 현안 해결·국비 확보 ′발품 행정′",
-   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9od05rN1FwY01Vcmc5VEJJYUMtSWFEX1dKZHloQWN1X0sxT0xCcW9lcW5qcUE1OG9jOU9PYlotSW5nbkltVjJ0LS1FWGR6Q3FWTUo0X0ZHUGd6eXZL0gFTQVVfeXFMT1RtSTZXeWNtelUzckhrYWxaNUtlVFhIdWgxa1ZUOGlpNnlFQTJQRVZDTHJLSFhmYjIzTHJ4bkJuUnpMdWczT2k3QlpWeHk4NEliZ3c?oc=5",
-   "source": "KPI뉴스",
-   "date": "2026-08-13",
-   "tags": []
-  },
-  {
-   "title": "진주시, 국회 찾아 현안 해결·국비확보 총력",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE85UUJ4UmVJdml1blg1Mnk3TmlxaEx3aGRrTnFTRy1aQjQ4ZTEzN3ZMWk9TY05WVWZMRllQekU3bGpzWjNIWGpZUG5CT0Y4d3FISVlQYkpJUmJyTW1GTFNpT3VHVkc4YWJMVUE?oc=5",
-   "source": "경남매일",
-   "date": "2026-08-13",
-   "tags": []
-  },
-  {
-   "title": "동두천시 불현동, 2027년 발전소주변지역 지원사업 주민 의견 수렴",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5sM0xXUFJVT19ZVlBvZ1pNbEp6dlhJckg0M2xnMGpRVlZFRWF2ZE54clkxNzNjOXduTHZvdTVSRmxxVFNxQzFGZnNYbnVnajEzb21YUnhlY1N4dmIxTmFTOUdBRElEdmJfaHlRRNIBcEFVX3lxTE9leWpEMDlWdEtXSWV2dXVTYTY3SjUzbmgwdFNrN3VVeGZWVS1tZUFjeTdOSFVBTUJiWm93NHYwdFBGVWRLSzVla252bUVHMjZsQ29iLXdJeVB2clhpV21mT0tDcDFrd0Y5ZHhVcVJvS2Y?oc=5",
-   "source": "내외뉴스통신",
-   "date": "2026-08-13",
-   "tags": [
-    "동두천"
-   ]
-  },
-  {
-   "title": "“발전공기업 통합본사 울산 유치 한목소리 내야\"",
-   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1IVGtlZ2s2WkhPSnkzRUJWQzdfS0Q5WnFiLThaQjNYWW9fcHZiSkQ2akRvRFJSMU9SQ2xhVkxfWHFLdFo5ZTUtay1QQms2a2FSdTN2YlBRSjZWSm5wNWRUak1lRDZSb3NmRDk2d1ZR0gFyQVVfeXFMTy1aVVJSZmJVblZOMEw3eXF6ZkRwMFAxTnYxYUVITV85Vkh1X0lWZ0ZDSDBsSVZaaEdDUzVQMHg5dHBVTENVT05xNGp4WThMZGozOW1CamRSbHpjRWVaMF9kTHc2WHVsYnBqQVMzYmVqaGxB?oc=5",
-   "source": "울산신문",
-   "date": "2026-08-13",
-   "tags": [
-    "울산"
-   ]
-  },
-  {
-   "title": "“발전공기업 통합본사 울산 유치 힘 모아야”",
-   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE52UEMwMko0RjRPcE5zWXNiWWpibFVaUGNIZ3RQb3ZpQVBTa2owb1NjYWdZSTRlSnl6WEpnTC1XOTh4dFlaYUVwbloyZHNXUkZnTXNQZnBub0sySTVfSzFmU0czUXdDdw?oc=5",
-   "source": "울산제일일보",
-   "date": "2026-08-13",
-   "tags": [
-    "울산"
-   ]
-  },
-  {
-   "title": "[사설] 발전 통합본사 울산 유치 전략, 빈틈이 없어야 한다",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5Eem4tVU5GNFhJYnZJNDRVSHB6UWdpdkQ2TW5RLU11OUpNNXM1Vm5WSm5DNUtzMEhCWHB6Y2hNODV5RWFFTk53YVBQMGZCTmtmU2NzUkVTUXAtNUd2M3ppcXMxLWRwV0g3akHSAW5BVV95cUxQNW1vaGRHYzU5VEc3UFZfblpyOWt3Q1BzeURiRGpNbFRoWk1tU1RDc0ZyVjNRTXZ2MDF1bDMzdG1FR1JrTWZORWRlWFZkS2JCVGxPelJmamF5X0VVaDEzME83ODRCb2xxUlpUTk5Kdw?oc=5",
-   "source": "iusm.co.kr",
-   "date": "2026-08-13",
-   "tags": [
-    "울산"
-   ]
-  },
-  {
-   "title": "“발전공기업 통합본사, 산업수도 ‘울산’ 유치 사수해야”",
-   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1NQlZacndNdUpyVTJvSmFiUTlPOXVWY0VuX191ajRjOVQ2MVNqbDFrWkxoV0lsVmxxelljeFZXYzJnWFplNFZFUWhwamtkOWFici1lRmNhZHQyaW81VUZYd1FEa1pNYnRUNUNjbERR0gFuQVVfeXFMTU1CVlpyd011SnJVMm9KYWJROU85dVZjRW5fX3VqNGM5VDYxU2psMWtaTGhXSWxWbHF6WWN4VldjMmdYWmU0VkVRaHBqa2Q5YWJyLWVGY2FkdDJpbzVVRlh3UURrWk1idFQ1Q2NsRFE?oc=5",
-   "source": "iusm.co.kr",
-   "date": "2026-08-13",
-   "tags": [
-    "울산"
-   ]
-  },
-  {
-   "title": "\"'SK이노 참여' 베트남 꾸잉랍 LNG 발전소, 추진 일정 대비 지연\"",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1fVXFhWW1NWGVtS3Z0UzBlamIxTWw4bVNzc0p2WjBKZEkzY1BlVWpDUjB1RW5GT0c2d0I5VV9lZ1JkMExWUkNLSmZ5dGZnVFY4bWR5dVJjNTRqTDZQUTBqUw?oc=5",
-   "source": "네이트",
-   "date": "2026-08-13",
-   "tags": []
-  },
-  {
-   "title": "동두천시 불현동, 2027년 발전소주변지역 기본지원사업 설명회 열려",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFA3X0xiVUhLRkl5NDNtTTVJS2lUQTlkN3JNSFNFQVZsbjc3OWVCSzlDY3hIbGRITWF0WVlZUDhxNF94b3FKemxFaklIdWhGQ09uSHJJclhOMEx6MXlxU1NwTGVCODYyNzVmVkdiS25zb0hDdw?oc=5",
-   "source": "웹이코노미",
-   "date": "2026-08-13",
-   "tags": [
-    "동두천"
-   ]
-  },
-  {
-   "title": "울산시의회 \"발전 5개사 통합 본사, 울산에 유치해야“",
-   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE14dm9BbzFJaVZCZzk0SGYwYzlybEptNVZNMS14dV8zS3J1WHJRRU1KUzRqWFJmOHhzTjFkU3oyNmVjc2lGYVZGeHZSWUd6YjJKOWMtLUtfNW1VM2ljYTFQU2Z0MDluLXM?oc=5",
-   "source": "울산시민신문",
-   "date": "2026-08-13",
-   "tags": [
-    "울산"
-   ]
-  },
-  {
-   "title": "지하 100m 전력망부터 AI·해상풍력…에너지공기업이 뛴다",
-   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBtak10Ym5YX0pDU3p0S3BYMmhGazBEVGNhOS11dWNxdnR2RlBfT3ZGZVBVU0VtbGZlY3BoRjVPUk5nX2hpa0dXWTYyOHU2U2VEaUoxa3VhNWl6dw?oc=5",
-   "source": "hankyung.com",
-   "date": "2026-08-13",
-   "tags": []
-  },
-  {
-   "title": "울산시의회 \"발전 5개사 통합 본사, 산업수도 울산에 유치해야\"",
-   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1Yd0JpZ3l2aTd1VGtMZkhIb2xwWHowSnpPMlhIbjlQOWFQYXNXdmphQmREaExvQ0pfTW1kaTh5TFAtRmxDdU8teUJWUXM2czk5TEFrZVA1X0NNWWPSAWBBVV95cUxOYk9WbVlQNmJtTXJ6QnprU3ZBNDNZdEZxdzFEOGYycnhVQVVjcFJiNXhqaVQzTlpCeHRQUUxxTlo4X3lnOWw5cGczaDJEd3BuVzZ1Qmc3QnZNaTlOUVQxSWQ?oc=5",
-   "source": "yna.co.kr",
-   "date": "2026-08-13",
-   "tags": [
-    "울산"
-   ]
-  },
-  {
-   "title": "동두천 불현동, 2027년 발전소주변지역 지원사업 주민 의견 수렴",
-   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE15Z0dPWkw3SHhaYUlFaE90YUhwUXo2dXVVdDgyLVJfQmpyUVM1TTFuaW5FaG4wZV9yVEk3ZDM0d0xRcFhiS0pyYnM3Y1dCbl83bDdfQWdtTHdUd2kxaldyYU91R1Rhd3Qz?oc=5",
-   "source": "일간경기",
-   "date": "2026-08-13",
-   "tags": [
-    "동두천"
-   ]
-  },
-  {
-   "title": "발전공기업 힘 모은 여야..시·의회도 손 잡나",
-   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9aUDAzb2VJVFF4ZktYRXhZZS1RWkF1N1RneV9mZ0J4ME1xdDlEc1YwMU4xbEJPVkQ4Wk8zZHZQUjRPVTVUNVpHRklKYlRqUEVqRjh6eA?oc=5",
-   "source": "울산MBC",
-   "date": "2026-08-13",
-   "tags": []
-  },
-  {
-   "title": "진주시, 국회 방문해 지역 현안 해결·국비 확보 건의",
-   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9hZmxYcFVINExvUFJrSHlSa3A5RXlTWlVEbUlzVEZDNldvMjhER1RYMFRadDBFLWY0dmo3dG4zbDdLZmJaU3VPYnJNakppdTgzY09qTDFBUkV2RE5yd0RvZ2NtQThOdjR3Wnk0?oc=5",
-   "source": "단디뉴스",
-   "date": "2026-08-13",
-   "tags": []
-  },
-  {
-   "title": "울산시의회 산건위 \"발전공기업 통합본사 울산에 유치해야\"",
-   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBZQXY0a3l1VUZPMmNYQVpVcnhnRGc1MGdVNks4a0I2UEZrd3JhZnBqTnh4c3lROG9NTlJjbGlNUzl3cE5yZE54bHZMNU8zbU40RHZIV29hSFdOT1pXYWpNZkNnT0RGYnEtT2ttenFfWmdaR3dWMDJn?oc=5",
-   "source": "네이트 스포츠",
-   "date": "2026-08-13",
-   "tags": [
-    "울산"
-   ]
-  },
-  {
-   "title": "조규일 진주시장, 지역 현안해결 국비 확보 '잰걸음'",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBuY29jZlRwVEJkcjdCdnlhbzJPRFdUZmxXSkNkUEY2MzhycVVYX05CcGlGdWE1YnZnV1BsZHdEN1BpSWNLYTc3S2FxdTgwLTZkUjJHQXNDM25SRGVTNm9wQdIBeEFVX3lxTE1DMnFuZDlVZ1lIcDNHWDBvcFdWN0NpcTRwVmN0NnV2TFJDVkhhRWNLWlE0MUQ1dzdUQ1d6bmlTWEt2cmtrOXZpU2x0N0dpZHh4Q0VDOVUyWDRjbTg3bFpkc096ZmNTNktBQy11RmRFcU44ZW5pMnlIMA?oc=5",
-   "source": "뉴시스",
-   "date": "2026-08-13",
-   "tags": []
-  },
-  {
-   "title": "울산시, 2차 공공기관 ‘에너지 특화’ 정조준",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5nYVJqblEtSjNNNDNFOTh1WTgxMDgzd0ZjX1NrTVpDd2oyTzVDN3pCdDc1UXRpNDVRVWR1dDl1bS1CYVRUWEZaTXpnd01DcnVQQ2RraFdfdnFrcV92Z0RfTlowTjhtb0RRYWxNYVJCSTZsYlFE?oc=5",
-   "source": "부산일보",
-   "date": "2026-08-13",
-   "tags": [
-    "울산"
-   ]
-  },
-  {
-   "title": "진주시 “발전공기업 통합 본사 반드시 진주로”",
-   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBKNEtySnBQVGRLblI3ZnN6V0k5MFNPZDZzZ2RLOU9XZWdzUTZOMGhnTkQ1ZTlwWGhTd1Y4emZ5aVRBdkxXbmthdEQ4aHczd2I1WjBPaDVSRnpoVGxyVEpkbmJTTXZMYm1yaUlRRE1Fd0tCTjNYNjN6MW5n0gF_QVVfeXFMTzV4LVh0UlNfd1RfUzlrekptX1lmeEswZkxYOC1EMkZSTTBacW5hNnJQSzNXOUliRDVCWU5tWk5FOHdoS2QxdmVJaE8ybXc5c0hmcFNKOHB0QnotcklBSzNUNThCUGRMMnZOZmZWcDZGdk1IbnRpVkQwSWhmZVdzTQ?oc=5",
-   "source": "뉴데일리",
-   "date": "2026-08-13",
-   "tags": []
-  },
-  {
-   "title": "동두천시 불현동, 2027년도 발전소주변지역 기본지원사업 설명회 개최",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1SNG1vV3JOeDc5TWhvUGhwOWZxd1dyS1pTVG9xQlgyV0lpeU1oQ2U2Zl8zU0Q5UjE0VV9aRlVES0kwWC1tMmsySVR6bmIwTTUyMUNqbkxoOTh2UDFQU2U3MEpRQnUzMU16U0w2bA?oc=5",
-   "source": "스마트비즈",
-   "date": "2026-08-13",
-   "tags": [
-    "동두천"
-   ]
-  },
-  {
-   "title": "동서발전-당진시, 석탄발전 폐지지역 상생협약",
-   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPc2hQNnVzOXZwUmszMHBrd0ltcl9JRE83WWhyellpQjNQMzBsdDgxejFoS2FJTzNNLUhlMWE2ZXVqMnhrUHc4NGw2TVltSnRXOFVXUm9RNk5XYVFUNWtFTW1sMUwwRll0Nm01cTRUNEptX3dUUFlUakFpQVFfT2trOHRVVXM2eTBXblE?oc=5",
-   "source": "글로벌이코노믹",
-   "date": "2026-08-13",
-   "tags": [
-    "당진"
-   ]
-  },
-  {
-   "title": "발전공기업 통합본사 충남으로…충남도·보령·태안 ‘유치전’ 본격화",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9ZVnViUFRzb25ReFBrZWVfZ21LYVVfd2sza08wZHV1VE1fOUEyNFoyeUNOYVpLT0Y0MWFXd08zbUdQMk04Q2lvQ1RWR0diOF9DbVNyUnBqTEdiR0hUajhZYWJobUlJUlFwbkxLWWpFaUlQTUVS?oc=5",
-   "source": "대한경제",
-   "date": "2026-08-13",
-   "tags": [
-    "태안",
-    "보령"
-   ]
-  },
-  {
-   "title": "동서발전-당진시, 석탄발전소 폐지지역 정의로운 전환 협력",
-   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5QcFVkbGRmT3ZXY0lxbDdkWTZXUnZGWTF3QXI3YlUxaDlVNkd2dzZSTmpRM19nSVBWLTdtbVUxWnJTM0hkYTM2aHZvQXR5T0YzQmFn?oc=5",
-   "source": "네이트",
-   "date": "2026-08-13",
-   "tags": [
-    "당진"
-   ]
   }
  ]
 }
