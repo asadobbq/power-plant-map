@@ -1,187 +1,196 @@
 {
- "updatedAt": "2026-08-21 07:16",
+ "updatedAt": "2026-08-22 07:13",
  "note": "구글 뉴스 검색 기반 자동 수집(제목·링크만 게시, 본문 미복제). 기사 내용·저작권은 각 언론사에 있음.",
  "items": [
   {
-   "title": "\"희생은 지역 몫 아니다\"... '석탄화력 폐지 지원 특별법' 국회 본회의 통과",
-   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5EeTRUbDlKVU14Q2V1V0lzLVQwR3RpclV6Q2JWUVVCRXpuMzdrQmFDOEhZSG9EVUZhcEY4RXdNVHV2M1RQV3lseWVSeG8xd3JxV050MUtFY0kwM0M3QmxRejhrZHZweXM3?oc=5",
+   "title": "“지원은 환영, 탈석탄 원칙은 빠져”…기후위기 인천비상행동, 특별법 보완 촉구",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9zQXdZYVZxTEpma1dxU2E0bjk2cVA2TFplWHprbjVQRHh5TEoyc2c4Z1BnV3NEdHBDWUtRamxfaGd2bWxSVk15OHNlMjZ1UEtYVlZkTjMzbUpZcElpS3ctWUJZblRVRHVh?oc=5",
    "source": "한국NGO신문",
+   "date": "2026-08-22",
+   "tags": [
+    "인천"
+   ]
+  },
+  {
+   "title": "석탄화력 폐지지역 특별법 국회 통과…당진, 산업·일자리 전환 국가 지원 길 열려",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5aVEdMQm9QRGRfaFFSbHZMTDI1UXdoMWJIdjdxdVlndWdOTlBiTTE5MDlzMF9ZenMzemd4Sy01dGFVNUVqcWtNRHhxT0VmVndhaXFfZ0ZLNHpkemVEeTg4WFNSTElJOGlheHdweGJR?oc=5",
+   "source": "뉴스홈(newshome)",
+   "date": "2026-08-21",
+   "tags": [
+    "당진"
+   ]
+  },
+  {
+   "title": "석탄화력 폐지지역 특별법 국회 본회의 통과…“지역 소멸 아닌 무탄소 산업 전환 계기로”",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFAyMXBtOTZkVU9NeDI1d3ZYV3V2RDdEV3hUeVFDY3VMZ2pDcUhUeTNnbWF5S1VaM1l4a1BUR2RVMjBLcmZxRk9TekZSU0FadG01MS1SZm02VF9iUm90bWhpZmF0Qk9vUGNNSm9QblFR?oc=5",
+   "source": "뉴스홈(newshome)",
    "date": "2026-08-21",
    "tags": []
   },
   {
-   "title": "'3대 메가프로젝트' 반영하니…2040년 전력수요 165GW",
-   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1MTDktSjVEaGx6NG5YR2tHcGFSdWxORFVUdXJ2NGZTQTRYaG1yeUdPUDRxMHd3QUZIS1RDWDFtY0tiTF9VNk9kUXdTT3RaQ0dYck5JR0o2bmZXWDhmOVY0YTlCdWZOdmhTUDZaVDhJUVplOE05MHZnVw?oc=5",
+   "title": "이재관 대표발의 ‘석탄화력발전소 폐지지역 지원 특별법’ 국회 본회의 통과",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBKd2pjTEJvc3ZjMzEwSzBUc2V0Um1BSnRNQWE1R3JBOTh2SU52SXlxOWFNTndxYU8zYTRvbVlMcFN5MGFHakl3UlZadkw0MnNYcDQ1dXZTOFVvR2ZYei1PUTgwQXI1S29qYTNiNnV3?oc=5",
+   "source": "뉴스홈(newshome)",
+   "date": "2026-08-21",
+   "tags": []
+  },
+  {
+   "title": "박수현 지사 “정의로운 에너지 전환 앞장설 것”",
+   "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBzSWxHTklBUnRXSTl1QjZuSGl2ZldaeUFKWkt5dWF2TGNJZF9VR3AtSjJRZFJfcjdIdEVERWw2LWhzNkNMeEFv?oc=5",
+   "source": "pinenews.co.kr",
+   "date": "2026-08-21",
+   "tags": []
+  },
+  {
+   "title": "석탄화력 폐지지역 지원 특별법 국회 통과···경남도 “정의로운 전환 기반 마련”",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5WVThRcFdhMnBvR3lkTkVyeWhVcEtWZVJnZTJXNkhlY05WYVZTUTB5TlBTOFV1ck5BdzVzYUotOUNYS0hCVXRIMzAxb2Z4M1JLTXZiblA4R0d6T2dvRWotLTFSU1JlTmpxTzJPZkl30gFuQVVfeXFMTlZVOFFwV2EycG9HeWRORXJ5aFVwS1ZlUmdlMlc2SGVjTlZhVlNRMHlOUFM4VXVyTkF3NXNhSi05Q1hLSEJVdEgzMDFvZngzUktNdmJuUDhHR3pPZ29Fai0tMVJTUmVOanFPMk9mSXc?oc=5",
+   "source": "경남탑뉴스",
+   "date": "2026-08-21",
+   "tags": []
+  },
+  {
+   "title": "석탄화력특별법 통과…박수현 충남지사 \"정의로운 전환 앞장\"",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9PMTBLeFQ3dW5RQ1NiZC1ld0xEUUxOc0wwdjhzLVo2d1R3UW1ETTRldnNKUW0yT2hLbjhNeVk5NUxkempUdzlRTS1LVUl5SWlvWTlr?oc=5",
    "source": "네이트",
    "date": "2026-08-21",
    "tags": []
   },
   {
-   "title": "‘석탄화력발전소 노동자 및 폐지지역 지원에 관한 특별법’ 국회 본회의 통과",
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9aRTA3ZFZZOFBTQUdmUjJVNjR5NWFTd3hGNVBXZVZ0MWpnQ3hTeWgyTUptTTF4U0k3MEJXWEF1WVBaT19JQTUtZndURTdLM2N6Z21BQ2VGaUR6YUtkbGpsQjZ0TVMtS3EtT0luOGRnVDZYdllpZUHSAXZBVV95cUxPWkUwN2RWWThQU0FHZlIyVTY0eTVhU3d4RjVQV2VWdDFqZ0N4U3loMk1KbU0xeFNJNzBCV1hBdVlQWk9fSUE1LWZ3VEU3SzNjemdtQUNlRmlEemFLZGxqbEI2dE1TLUtxLU9JbjhkZ1Q2WHZZaWVB?oc=5",
-   "source": "에너지타임뉴스",
+   "title": "“12차 전기본 전력수요 26.8GW 급증...원점서 재검증해야”",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5wd1ZodmhER2NWX3NoUmxPeGhHemdHREwwX1J1czRvOVVVRDJmREJkUUxBQ3ZscHVXOFJkSnlkZ3ZRVzEyMGw5QVNwNkpjMG5UU05LQmhZSFNlNkdZZVp0VVl5SFVneG1ybk9EU0dTQ3BlcGVl0gF0QVVfeXFMTnB3Vmh2aERHY1Zfc2hSbE94aEd6Z0dETDBfUnVzNG85VVVEMmZEQmRRTEFDdmxwdVc4UmRKeWRndlFXMTIwbDlBU3A2SmMwblRTTktCaFlIU2U2R1llWnRVWXlIVWd4bXJuT0RTR1NDcGVwZWU?oc=5",
+   "source": "수소신문",
    "date": "2026-08-21",
    "tags": []
   },
   {
-   "title": "[사설] 메가프로젝트 전력수요 폭증…신규 원전, 선택 아닌 필수",
-   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5qOGpwZzNWTnVma3hGbzlieHJGU0d3bVJmVmpIeU1SZUQyWXJObkk1RGpQdmlnZ1FXbTc2a0pjZm96WmlpdjFMZVR3VldObFl6d29j?oc=5",
-   "source": "네이트",
+   "title": "석탄화력발전소 폐지지역 지원 특별법 국회 본회의 통과!",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1vbHFDQkl4S2hXN0UwSHl6a0VUeUJ1TXdZdTZ6dXExczdCTmRGd05LdlRzOE51UTltWF9kdTZJeGFkZ2xXTFNOdUU5M0ZCY0taR2VLdDRaUC1jT3c3OUNqNW1HR29rcGJMUURKVtIBbEFVX3lxTE1vbHFDQkl4S2hXN0UwSHl6a0VUeUJ1TXdZdTZ6dXExczdCTmRGd05LdlRzOE51UTltWF9kdTZJeGFkZ2xXTFNOdUU5M0ZCY0taR2VLdDRaUC1jT3c3OUNqNW1HR29rcGJMUURKVg?oc=5",
+   "source": "충남문화신문",
    "date": "2026-08-21",
    "tags": []
   },
   {
-   "title": "이철규 대표발의 ‘석탄화력발전소 폐지지역 지원 특별법’ 통과",
-   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBfN0t5MnZuWng5aWEzUldkd25HbVJwOGMtemxkZ1dKTXRPb0hnX2s0aVU2M1plRnlUTjlnQW1DYlNzVzRIZHVXR0dKbGJ3NDkwamg3VGs0VXM5WE1oMVZweFNnXzB5OVU?oc=5",
-   "source": "강원도민일보",
+   "title": "경남도, 2031년 석탄화력 줄폐쇄…하동·고성·사천 3곳 대상",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1DSDl5WkNCc1ZST0Mtc2RtRzhDMXQ1SW8yOVZ6RmxnemRaQ3hHNGt1TmdUeFZNODB4dENmSFhhbXFVUGhsVnpzLW9oeExmMWxTWmpYYjJxWF91bnQzNE9oSk9fNGQtYVk2R1Nr0gFrQVVfeXFMTUNIOXlaQ0JzVlJPQy1zZG1HOEMxdDVJbzI5VnpGbGd6ZFpDeEc0a3VOZ1R4Vk04MHh0Q2ZIWGFtcVVQaGxWenMtb2h4TGYxbFNaalhiMnFYX3VudDM0T2hKT180ZC1hWTZHU2s?oc=5",
+   "source": "창원특례신문",
+   "date": "2026-08-21",
+   "tags": [
+    "하동",
+    "고성"
+   ]
+  },
+  {
+   "title": "석탄화력발전소 폐지 지역 지원 특별법 국회 통과",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9jMlVfYU1HM256bjNFeTVLSy1sSG9mTHpuLWc2RWdNYkp4eG1mMFZLenpNR04tQ2U3X1RVMTZXMkpLMWs3MHgzemdGZ0drUWdmMkExTEJ2d3pPWDg?oc=5",
+   "source": "KBS 뉴스",
    "date": "2026-08-21",
    "tags": []
   },
   {
-   "title": "울산시·정치권 공조, 공공기관 2차 이전 유치 총력",
-   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1mOVJsMjJ3dVFaX1B4QXhWT0VXb3dEZUVfcG1tMHNxYzY3OHlWZ2cybDdISHR5QUNQV2FtVF9qS1owSTZ1WEJSMml3ZkJieHlEbmhhX3E1ZGxjQnZ1bVhBOXZHNjZnd2xiM1E5UEN3?oc=5",
-   "source": "울산일보",
+   "title": "기후위기 인천비상행동, 석탄폐지지역 지원 특별법 보완 촉구",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBMWkhMYnVoeW5DVkNhSkowbU1RcEVYODVFRkY5cHVOXzRaOVBvdjViOVZyVldDdmR3R0ZYVjVoUXphaUJQa1RDMHBaNVNlRVBpY1NySEtBTzNjWmZkWGtMMDFId3ZDNk1hNVFWWTdqWmd1bm1RUjdoZNIBeEFVX3lxTFBMWkhMYnVoeW5DVkNhSkowbU1RcEVYODVFRkY5cHVOXzRaOVBvdjViOVZyVldDdmR3R0ZYVjVoUXphaUJQa1RDMHBaNVNlRVBpY1NySEtBTzNjWmZkWGtMMDFId3ZDNk1hNVFWWTdqWmd1bm1RUjdoZA?oc=5",
+   "source": "인천신문",
+   "date": "2026-08-21",
+   "tags": [
+    "인천"
+   ]
+  },
+  {
+   "title": "학생 400여 명에 장학금 5억 원 지원",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5wNDRwMnMxWVFRWjJSVTlEYUtEeDNXdjFCWkctR2xXLVhQOVNqSXMzY0JrR3BwR2ZWc2ZETW5uRVluNnJnSnkyMEhYTWlWdmtlcEYyUDMzYmVSTFV5b0NzUlZ2NHNyb2lrVkJpYkV3UdIBb0FVX3lxTE5wNDRwMnMxWVFRWjJSVTlEYUtEeDNXdjFCWkctR2xXLVhQOVNqSXMzY0JrR3BwR2ZWc2ZETW5uRVluNnJnSnkyMEhYTWlWdmtlcEYyUDMzYmVSTFV5b0NzUlZ2NHNyb2lrVkJpYkV3UQ?oc=5",
+   "source": "당진시대",
+   "date": "2026-08-21",
+   "tags": []
+  },
+  {
+   "title": "(R)\"석탄화력특별법 통과됐지만\"..예산·대체산업 '첩첩산중'",
+   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5WVEpqZ3k0clBBLVAtai1EUHJxMWpURF9SNDB1V0piZDlYbEgtc19yR2Y0NENlcW5JUHRXVzFUSzd6NUpfdlBta1B5TzhFY3pNUWQzU0F5SC15QWwt?oc=5",
+   "source": "티제이비",
+   "date": "2026-08-21",
+   "tags": []
+  },
+  {
+   "title": "'석탄화력특별법' 국회 통과···노조 ‘정의로운 전환 기반 마련’",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9QQThkYXZPMnBCbzFUS0FVdi1lVXZLd1hlMXJMbERETV9oX3BkdTJsTDZVLXp1eDlkSm5nS3pBV2hyWk5JNV80WktrUDJDUjgycnRialcxeUVPZFNDa29uWjZ5YmZkS3lHQ1dFM193?oc=5",
+   "source": "참여와혁신",
+   "date": "2026-08-21",
+   "tags": []
+  },
+  {
+   "title": "석탄발전 폐지지역 특별법 국회 통과…사천까지 지원",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE8xblY3QjE1UWNYaFN4c0IxX3R0RTVucmFjN0I4Z1hWQkU3S2tPYW9sV2hVckVKU3BOeFE3Z0ZDd1ZrZk9Dc2tDNTA2TF9pVlZtQnc?oc=5",
+   "source": "서울경제",
+   "date": "2026-08-21",
+   "tags": []
+  },
+  {
+   "title": "경남·진주 체육계, 발전공기업 통합 본사 진주 유치 서명 1,200명 전달",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5SX3BNZWVWbTlhbHpqdkd3ZkNUZUxrQTVwdnVPUXNPTy1tVkRrVEVfV3VhTGdEY0ozM2dtYTdLMzQxT1Z2NXB3MDk3WFI2NDQtU0JSc1I4MUdraGZ1OEN0OTBFdFZfV3hBWHc?oc=5",
+   "source": "진주뉴스",
+   "date": "2026-08-21",
+   "tags": []
+  },
+  {
+   "title": "메가 프로젝트가 바꾼 전력수요 전망…2040년 최대전력 165GW",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5jYmtYRVU5QXJSQ2JDbGJqdlNhT3VOVUxzd0dDeG1SM2p4MkFyNk01X3dKM2xPLXhUOHJKcURUdnprb2FvRTZFR3A4TGNwMjg1Vm5FcFpqUWZ3RjFTV0k0ckV3QmlYQ0w0LVQ3eTY5MNIBc0FVX3lxTE00MVF2aWUybEZGc2NzRjdCSmp3dlFkNEc5cjdRNU1jR2lxaWFVX1NhRHRCOERqbk1aTUowVlRtMm9yOXRNQVliN3pyaDhXMkZZNl95WVpvS1V4Uzd4RFAyT2xCSlp2U2g2YThzZHcyMDlQWUE?oc=5",
+   "source": "데일리한국",
+   "date": "2026-08-21",
+   "tags": []
+  },
+  {
+   "title": "석탄화력 문 닫아도 지역·일자리 지킨다…경남 숙원 ‘특별법’ 국회 통과",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE82MlZ5UXctUkV6aXYtbERVTFh2ZWpBaXZGZXpBSWpISjI2dVMxdl9ORTFLcXlreVFoX2h2MHoyMUNVakVnNWpPWXRLZzMtZlM4WWpZejVERXJDVFVmRUQ3dUZMRUsyVnBpS3dGX05zYkpHN00?oc=5",
+   "source": "코리아이글뉴스",
+   "date": "2026-08-21",
+   "tags": []
+  },
+  {
+   "title": "울산, 2차 공공기관 유치총력…'완결형 국가에너지 공급망' 구축",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9LaGhsM2wwWFBXY3BIV0IyRmxmVGtTZU5xYlg1WTlKQ2FqRUZLMGlwakR2TTlwaDg3R1Baa0JKNVd5NTU4RDZKSWF3Yldic1hjZlE?oc=5",
+   "source": "매일경제 마켓",
    "date": "2026-08-21",
    "tags": [
     "울산"
    ]
   },
   {
-   "title": "‘석탄화력특별법’ 마침내 국회 문턱 넘었다!",
-   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB6Q1hUWW9jZ3ZiNXpsR0kzTE42LUszaUFfaTFzcW54azJvcTQ2eHpqejJMMm9LQW5vODJfbDZ0VEtjMTB6SzRuMXVZTU80M2M5ZEQ1eW1tSEpPb1RKNVE?oc=5",
-   "source": "서해신문",
-   "date": "2026-08-20",
+   "title": "경남도, 석탄화력 폐지지역 지원 특별법 제정 환영",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1RNlZTckpnVGVoSzV2US0yMXFQM1Y5c1BTRDh4YXNfT3AxWG0zbUVUcHpwbHlyWktZZEZVaGJyMjVhZnQyRTdHb3BEeHAxemR1ZEdMRWJwTFlGRDhzV3prRm9rWk53VkF5T0h2WEJpd0Nsdw?oc=5",
+   "source": "웹이코노미",
+   "date": "2026-08-21",
    "tags": []
   },
   {
-   "title": "충남 숙원 ‘석탄화력 폐지지역 지원 특별법’ 국회 통과",
-   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1GdGVOLWdla283Q0RTZEZuN1prUHlLY3VrVmVrTHlTb3RURjZXeXBQQ1Z5dy1wQXVVM3ZtLWRIY2YyQkRSYl9PY1hpVU4yVGZ3bmN0enphMlYwT09IRVE?oc=5",
-   "source": "nmn.ff.or.kr",
-   "date": "2026-08-20",
-   "tags": []
-  },
-  {
-   "title": "충남 석탄화력 21기 폐지 앞두고 특별법 국회 통과",
-   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1lVU5MYzQ0R0h0aUdPMjhkMHlzcHNsdEdsR1VjRUs2aTdaZ1h4U2RtdWR0Tmx2eHhtZVowVTJOdjdXNHBWcXM1MDZ0SE93TzZSVjE0?oc=5",
-   "source": "아산데일리",
-   "date": "2026-08-20",
-   "tags": []
-  },
-  {
-   "title": "강릉시, 대동1리에 강릉 커피식물원 준공- 발전소 주변지역 지원사업으로 결실",
-   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9lSVV4a0YxS1lTeGF1TExzTlNHLWZ0T09WQnNmVVk2X1BFc2NVSjBrZ0tUN2lXUk9abzlYZm1aTm0yNmt2dmpkZ3o2Y3k3OWNqQmNxYzFrLTVtaGQxbWdVcTBMZTBnUGN1TzJkcEd30gFyQVVfeXFMTlRadUMxVFBDT1VyXzhET3FhaWhvR3NRR0JOOFdHbUt1RlFBV3VGVVpadzNyTk9kRDZBMEEzOEthc2ZOVTB2b1lmREltSC1WdDZuYkU5bjlCTFM1TWFzbjN5R083NDJPYVNHNzlEaGNwdmF3?oc=5",
-   "source": "강릉뉴스",
-   "date": "2026-08-20",
-   "tags": [
-    "강릉"
-   ]
-  },
-  {
-   "title": "‘석탄화력 폐지 지역 특별법’ 국회 본회의 통과",
-   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9URlFXaUNBdTN3MXdMS21uZWloNnV5dy1vSmhOZ2VtSEJOcFVjTVZBWFlFS0V2aUMxRXZnQkZ3MEw3dmxjZVpTOTZjYnVuaW8?oc=5",
-   "source": "v.daum.net",
-   "date": "2026-08-20",
-   "tags": []
-  },
-  {
-   "title": "\"진주 3대 중대 현안 위해 34만 시민 역량 결집\"",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBnUFV3alZILUpsTWQ3T1ZXOWpSYzIxaU1oX1lhb3lSa1VXRDZLQjlpWWYxcmh1TmRacVdaQ3hHRldfdldGazdpQXN0NkhKVGJkLV8tTm5ibTJ5RjAtbGhMbWdiVzJkSjJQVHc?oc=5",
-   "source": "경남매일",
-   "date": "2026-08-20",
-   "tags": []
-  },
-  {
-   "title": "탄소중립 그늘에서 벗어난다…'석탄화력 폐지지역 지원 특별법' 국회 문턱 넘었다",
-   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5vU09WRUtialJPY0g1UjQ4bEV1cUNxd3lic09BdS1PbEtaNVVwejBjaHJocElyRjZMWF9oV3lSU0k0RGpvTkk3ZmlXd3prT1BVdnJN?oc=5",
-   "source": "네이트",
-   "date": "2026-08-20",
-   "tags": []
-  },
-  {
-   "title": "기후에너지환경부, 제12차 전기본 수립을 위한 재생에너지 보급 전망 정책토론회(6차) 개최",
-   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE16cmVoc3BUNjZDMTEyUEw5ak9ON2ctdkdlSm9XZEhOT0dyZF81SGp4QXNWXzlUWm12cjNGSVNDMmsyYVgyNk5rQXFLaVhXY0VuaEk3cXg3TlJEcjBtMkN3bXI0N1A?oc=5",
-   "source": "외교저널",
-   "date": "2026-08-20",
-   "tags": []
-  },
-  {
-   "title": "이철규 의원 \"석탄 화력발전소 폐지 지역 특별법 본회의 통과\"",
-   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE01SUQ1cmplQkF0NWdFZmNtNHhlRUxBSFcwNU9NTU1CZWZXT1VhME5WT3BUQUJfelBNQWZJaVhRSTVHYU1odlFVNmlndE44S01pMlRHeFpMUEpsZm43WGpqeFNCWEQ?oc=5",
-   "source": "G1방송",
-   "date": "2026-08-20",
-   "tags": []
-  },
-  {
-   "title": "허성무 국회의원, 대표발의 ‘석탄화력 폐지지역 지원법’ 국회 본회의 통과",
-   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5BWklkR1pSLWFwSFFmT1k2MC1LSXpZc25OX0otLTdOZ0t0NHpzUnBBQ0h2U2lMVVI5UTlLS205QjZxcWZJSzV6V1VJamFFZ1FfU3E3Sk5wZWt0UzJBNmQwUEZIZUhyaGfSAWtBVV95cUxOZlRCVzJKYlZrVjVxOHVWWi0teVNoMGFIWkxWbGo4eG00bThhb19zZDA2RTVqM3FlbVRYbUhCUzJibU1NNkY3WndDVmdDLTdZWnJoSlRmWnZXR05MRkZHRUV5dDVqVmtvczBIaw?oc=5",
-   "source": "한국원자력신문",
-   "date": "2026-08-20",
-   "tags": []
-  },
-  {
-   "title": "김소희 의원 대표 발의 ‘석탄화력발전소 노동자 및 폐지지역 지원에 관한 특별법’ 국회 본회의 통과",
-   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE95aHg1ZVduRENFVmxTUkg2dlE1aHVET3hNM0FBS2NqNmlFODNnS29YakVQdmlqSzhZY3BzeXpHN2hBWGMxaElNSC1xOThaVGNEQWd2NDIyekFpbjA4RGkxQnJocFNfNnpzVGVF?oc=5",
-   "source": "충청메시지",
-   "date": "2026-08-20",
-   "tags": []
-  },
-  {
-   "title": "어기구 의원 대표발의, 「석탄화력발전소 폐지지역 특별법」국회 본회의 통과",
-   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9DQlVtSkh1bThXSFUyWVJGZHBnb1VNU2wxOEtsU1o4cjFISlZaaFhfNHNSdWJ2UHFEM25JZGNSWGV2Xy16OWVZcG9zRUlsV044bW1EVUNlWWFQMzlmaDgydkhfTFdwaXo5YlBj?oc=5",
-   "source": "충청메시지",
-   "date": "2026-08-20",
-   "tags": []
-  },
-  {
-   "title": "충남도, ‘석탄화력발전소 노동자 및 폐지지역 지원 특별법’ 국회 본회의 통과",
-   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE92WWNGUnRpYVVlU2lWdVZZWkM0TEE2ZEh4M0VtdXVhTmZVRlVHR1NHSTYzYkVaNGlOSnliYy05Y2VSXy1PNVdzeldDNk15VERyLWdZejhqeWljSENwXzZHZm9HUW5mSmhLMXQ5dndB?oc=5",
-   "source": "뉴스타운",
-   "date": "2026-08-20",
-   "tags": []
-  },
-  {
-   "title": "2026년도 당진발전본부 장학생 선발계획 공고",
-   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1KRVJNYU43S1U4WUdIRzltNTB1dm9MMy1Pa2x6eU5KeW9rX0g1QWEybHBwUjQ0UWF5RFp0R1N6eW9QaVNWcEdfLWJFTlBmSWNSSGdlWlo0WGQ0WlFRXzJRYmZ0UDdOdw?oc=5",
-   "source": "중앙매일",
-   "date": "2026-08-20",
-   "tags": [
-    "당진"
-   ]
-  },
-  {
-   "title": "'석탄화력발전소 노동자·폐지지역 지원법' 국회 통과",
-   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBqN3hDZ2xpTVBvNGUxWjlxMnFGN1B4dF9yN1R5TlNyemVVOHNMR1VuQm8xWmRwcmNweGtrZm1jWDVtZmZVZ0gwZ0FzR3JYdDNUbk1OazctR2Q5NDcyV1A5Z3N4SUZRQnZjV2t1bFd3?oc=5",
+   "title": "석탄화력 폐지지역 지원 특별법 국회 통과…경남도 \"산업전환·고용안정 기대“",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9DZ1lMQ0UtT1B2czVzM09ZVDU4dHZPdXJ4Q1dRdW9RaEpnUjBwM3Qtc1dWNlRDbDZxVTY3dDRJYmVWLWZwbVdhT3hJN2tub1MtY3VvV0tTVFEtTWRkajc1Wk44QndBNDNqVEVTbjd3?oc=5",
    "source": "newfilenews.com",
-   "date": "2026-08-20",
+   "date": "2026-08-21",
    "tags": []
   },
   {
-   "title": "‘석탄화력발전소 폐지지역 지원 특별법’ 국회 본회의 통과…정의로운 전환 입법화",
-   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1aRlhXdFg1RXFZYkRlZVZUTWNoQXBYMHdCNXlZb0M4T0NRbWdqQUlaYlY5YTJEcVhIbjBKX2doMmxaOEsyck4xcGNhT3pOSmRTQmNicEd6MHJuQjJmREJXZDJIMXVGWjAtQkE1S2hB?oc=5",
-   "source": "뉴스스토리",
-   "date": "2026-08-20",
+   "title": "석탄폐지지역 지원 특별법 통과…“취지는 환영, 탈석탄 원칙은 빠져”",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBLbGpiNGkyS1JHbjkxLU0tREktMzJidlBrYmw4c2kxYWhSY2FyWVl6RjhDajNLV3ZBdkpTUTk4N20zVzhjMFBoRE1hbUo4bFFEb21IMTJzM2RUa21hVGpkX003X2I0aGZ1OVdPUdIBcEFVX3lxTE1rYjYwMTN4dy1SZkgzWGl4NkNLNktVN20zalNscEk3STNlc3B0d1k0WXhrNmF4czU0YmNUWXBGQkVFaEs5T05hNEhwTWNHNVk4dE5RdnppbTFVYWlZTEZqZWxwQjlOOV9JdFI3aURvSEw?oc=5",
+   "source": "시민의소리",
+   "date": "2026-08-21",
    "tags": []
   },
   {
-   "title": "충남 숙원 '석탄화력 폐지지역 지원법' 국회 통과",
-   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5CN25IMU1tREIzVGhIZ1JnOFRoTmZQTUdPUExSVk9xY2U4S1VaZU5FNW5INEJtN0U3U1dobFRraUhMQkRaQ0tKZXQzRzlhOEZfaF84RHVRNW9tWldX?oc=5",
-   "source": "티제이비",
-   "date": "2026-08-20",
-   "tags": []
+   "title": "울산, 발전공기업 '통합본사 유치' 본격화…'에너지·AX' 집적화",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBXNVVhSl9pdUxobThqY0xodUtjelJEYWZNMlZVSUlPVHkyc0JHRDZpZXFVbWhKZGh0ZXBqMTVWSkRlS254aXdIbnlKbXNKb1JtZnYxNjBxZ1ctUWc4cDZiOA?oc=5",
+   "source": "뉴스토마토",
+   "date": "2026-08-21",
+   "tags": [
+    "울산"
+   ]
   },
   {
-   "title": "\"3대 메가프로젝트 더해 2040년까지 전력 수요 감당하려면 원전 19기 전력 더 필요\"",
-   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5nWlJaU1JIQWFRcmFqbFM0b3NMTGlTWUZmVEdkeG96TDh2bEc5NzQ1SVR4RTJlTU1zUTU1OERiNFhheWhSRXpBNzJ2V1JjUjljZHhNVXpXS3czX29URFBxa3hNbVNXNmhCSzZZMWgtTEx6bzA?oc=5",
-   "source": "비즈니스포스트",
-   "date": "2026-08-20",
-   "tags": []
-  },
-  {
-   "title": "충남도 석탄화력발전 폐지 지원 특별법 국회 통과…고용안정·경제회복 탄력",
-   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9CYzhuQW5YdEF0QTU1TU9BWm5adTN4MkpFdkZhTU9uMkhZSmpzQXZmMjNvSHZNQlBja2ZSSzRGaXBBLWR3MkVPRmh5Ukh3UTlXZFBiVHo2VGdrX2tvQ1VDaVFlXzg0cFBFU1BabXlB?oc=5",
-   "source": "gukjenews.com",
-   "date": "2026-08-20",
-   "tags": []
+   "title": "울산시, 공공기관 2차 이전 유치전…IBK·발전공기업 정조준",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBjRktwV25jYkZjQVFTdGgyWmNfZTdINkt2ZGsxenZ2S0JYUTBRdW1OMXNIRVBCNlduWWl2QVAyTkRYUkhMX1VFaU1OLTFHcjFzbi1fY0g1ZFgwWWdaOTZKeUJ1NE1nbXQ4RjdBZmx2RGloSGl3M2hXZQ?oc=5",
+   "source": "네이트",
+   "date": "2026-08-21",
+   "tags": [
+    "울산"
+   ]
   }
  ]
 }
