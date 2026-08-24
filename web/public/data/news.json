@@ -1,187 +1,183 @@
 {
- "updatedAt": "2026-08-24 07:11",
+ "updatedAt": "2026-08-25 07:15",
  "note": "구글 뉴스 검색 기반 자동 수집(제목·링크만 게시, 본문 미복제). 기사 내용·저작권은 각 언론사에 있음.",
  "items": [
   {
-   "title": "석탄화력 폐지지역 지원 특별법 국회 통과…충남 ‘정의로운 전환’ 기반 마련",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE4zTXkwU0prVW5OYXM3R1p5UXpUU2JvX0NPMkFtRnU1T2RBMkRiTzFweUFMbm96SmRRbGNNMVdhUkxmaDlyRThnR0pZQlptNjVNY0dGMl9FVVZXcURSRzdsd25fTExBNFdNT2c?oc=5",
-   "source": "금강일보",
+   "title": "[송민 공공노련 상임부위원장] “발전사 분리 25년, 경쟁효과 없었다, 이제는 통합할 때”",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB6N1RoMXdEQXVpSUVWZlRLS1dBcjBvalNQWkFuX29Ha0xIemdVYWU3N2FiSnhYNC1Ddm1hbnl1RHhMdjlZTDZyT2JQTUN6WHFiVFJHdTJpZXpuYmdoeXZwbS11VDF3MGtLTkU0R1c4enM?oc=5",
+   "source": "매일노동뉴스",
+   "date": "2026-08-25",
+   "tags": []
+  },
+  {
+   "title": "[기자가만난세상] 전력수급기본계획의 민낯",
+   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5YdGU2ME9CWGtURHV0R3dkMURsNXJ1c19jejgtQUxreG4zcS0tbnRCZ2U1OEZQZDRMMkhMQ3hfYXNkVDc0ZlQ5dURaaklyWGhuOVZ4YTFPZ1DSAVRBVV95cUxOQ2VtbGNVQzRvaTVCUWR1c1g2RWpGbU1qY0ZxZXNWX2d0NG5xSFZPRlBBSjhIVkJ2N3U2bmJySzFncjFhMEs3UFpvNktkcGpTX0F4bDg?oc=5",
+   "source": "세계일보",
    "date": "2026-08-24",
    "tags": []
   },
   {
-   "title": "[사설] 석탄화력특별법 국회 통과, 폐지지역 지원 물꼬 트나",
-   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9DNzFodE5jem82VGxiOEF4OHFfLTNWWl8zZ0RtQ08tM3BLOV9Ib2t3Y0VZbF81V1R1REFJckdXNzd3Zk5yREZCMVNfbE9aOGs?oc=5",
+   "title": "안호영 의원, 5개 발전공기업 통합법 발의",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9rOFgtMUNMb1hKVGV2cmY2RDdiV3o3dEEta1o0ZkdQV2I2SHJ6UGdXT0JsZ241SDRsS3QyZl8wTHc3ajREUVZtcVdCU05hN3dNby14TE9pcDE4YXlpdWdzMF9EYng4N3RK?oc=5",
+   "source": "환경일보",
+   "date": "2026-08-24",
+   "tags": []
+  },
+  {
+   "title": "‘안보전원’ 남겨라…2040년 탈석탄 목표 흔드는 ‘화력발전소 옆 데이터센터’",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE8yYlhoSU9hVkphQUxiMGIzd280NVZpSE5fOTNscGRTUmZncUs4allZSXU5VDBiRFhpeGZQdkNvV2MzcnJBMWg2NG9tVTV2TUl6THhCLWVCR1lqQdIBX0FVX3lxTFAyeHRkZ1l0aVJ2TFktVFFQM1NiN2NlOXdLdUtYUnhmcUxWY0phSjJ1eU5pTFZLN181dUpWUTVKLTA3MEZ0TUtGRkVzMXhPU1FnSXhHNXcxMkFhV2xvY0dB?oc=5",
+   "source": "경향신문",
+   "date": "2026-08-24",
+   "tags": []
+  },
+  {
+   "title": "‘석탄화력 폐지 특별법’ 바탕… 영흥도 발전 그린다",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBwa2xra2lHZWhGVmNTSVZ0UjJwdnZvNTloSTFwS09RY2QzR3UzUG5RbVBmZW4waDJ3U1g5bW5HN1Y4UG5kQVdfdmo5cGhjOEhnZXc?oc=5",
+   "source": "경인일보",
+   "date": "2026-08-24",
+   "tags": [
+    "영흥"
+   ]
+  },
+  {
+   "title": "결의안 70-NQ/TW: 칸화성은 까나 LNG 발전소 개발에 대한 투자를 촉구한다.",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNbjZUM1BhcWg3Q21FRmFySVhJeVo5RUJtRVM3b0hFbXl5eHlURm5mMndBR1ZyU2REODhvSmMxenBPWkplcDMzcXZqZVZBbGVTWGo3MDZWR2o5TnpTRTFOSDg4SFdtWlBNbm9EbFJrNEw3MVBoaEUwMkR2V2RJWkY1YmUwNmVRYnVRU2VZRmdoWkpGekViUnZjbU5iS1dBbjFEc0Rv?oc=5",
+   "source": "Vietnam.vn",
+   "date": "2026-08-24",
+   "tags": []
+  },
+  {
+   "title": "안호영, 발전 공기업 5사 통합 추진 법안 발의",
+   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9OWXJlemZQSUd4UlhLR01RX1NZM3J3cWFFcU1LbDZIaWhrUldWWmZuTmlqOXhzT0kyak1iVnhNWXg1UlcxMkc1bDM0TjBUNld3eWlrNGItZExib2FBb3p0akNGQnJrdw?oc=5",
+   "source": "KBS 뉴스",
+   "date": "2026-08-24",
+   "tags": []
+  },
+  {
+   "title": "발전공기업 유치 사활 건 충남…'숟가락 얹기' 나선 타 지자체",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1sZ2NKQXJKTjJzVjJwWkE3MEJ2ckVQNGZYbUNiX2FPYlcxSmlKYzJSb0FWbnlJQkxfbVk0QWV3RlF3Mkp1aE1idFI2NEV6Z3oxcExxSFRwR2l2T1NROU9teGs3dWxzUEE4TzVmQ2J0UW9jMkXSAXNBVV95cUxNbGdjSkFySk4yc1YycFpBNzBCdnJFUDRmWG1DYl9hT2JXMUppSmMyUm9BVm55SUJMX21ZNEFld0ZRdzJKdWhNYnRSNjRFemd6MXBMcUhUcEdpdk9TUTlPbXhrN3Vsc1BBOE81ZkNidFFvYzJF?oc=5",
+   "source": "대전일보",
+   "date": "2026-08-24",
+   "tags": []
+  },
+  {
+   "title": "전력수요 27GW 폭증…영덕 원전 역할 더 커지나",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBDWTh6bnBOX0ExZmY2UXdBbUpCdngxM2xqSXl3Nk9vZVRBNW9zYnNLZUVQRTh6a0dxa3FOQllseU1uVlBoWG5rMGVEM3BvcURLazZWOQ?oc=5",
    "source": "v.daum.net",
    "date": "2026-08-24",
    "tags": []
   },
   {
-   "title": "‘제12차 전력수급기본계획’ 대국민 정책토론회 20일 개최",
-   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE0tcklmVDNRRElHaFg5OXpKSGJmazZYeUVjQ19WUzl5WV84NXowbVZRYXQxcWhiYV9TYUpNN240ZGl1MkZaZnFIWXUtWkdOSHBpQ2RKcWdzeVVxS1lnbVlmeUZnX2VLN3ZybGl3?oc=5",
-   "source": "재개발재건축매거진",
-   "date": "2026-08-23",
+   "title": "25년 만에 다시 짜는 발전산업…전북, ‘32조 한국발전공사’ 본사 선점 나섰다",
+   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFAwUDkzaERkd1ZvOVRXa0JCVHZBWEFQengya1JZWW5xUUFIMkdMYURLWDNuektOeW5yalZVd184SGIyWldjZ0g3ZDN3cjZHZ1JFT3AtaVBPQnTSAVhBVV95cUxQMFA5M2hEZHdWbzlUV2tCQlR2QVhBUHp4MmtSWVlucVFBSDJHTGFES1gzbnpLTnlucmpWVXdfOEhiMlpXY2dIN2Qzd3I2R2dSRU9wLWlQT0J0?oc=5",
+   "source": "전북일보 인터넷신문",
+   "date": "2026-08-24",
    "tags": []
   },
   {
-   "title": "발전 5사, 25년 만에 다시 하나로…‘한국발전공사’ 통합론 본격화",
-   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5WQktVZVNwVV9xSmF1VGl3eGgwMDVQR0x4QTRiZ0hxYUFyQXpFaldHZHVlOU94Z180MVRPdWpuOE1PM3luaF9FUlBsdmtKanZZUkFoRlQyZlRMNXliUUUwcUZWYnlVQVnSAWtBVV95cUxOenBleUpELUVIdU80ZG93bWgxVUN0aFpldEdnek5TaG1mM3FaNGFneTIzbS0wQjZrTFdraEdCSmgtSElNbnR2U0VhMmxzdGxzMnNYTmJmMmc2dHl2SlNMelZUUG1RbnRLZW03OA?oc=5",
-   "source": "한국원자력신문",
-   "date": "2026-08-23",
+   "title": "[사설] 특정지역 콕 집어 명시한 해괴한 '발전공사법안'",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBTR09sZFF5NGJhQUVJcWRIZUowcXlDQmNlNDhGMExOODU5c0owX0xTSnUzZzcxVWVJT1RSUmUtSFpZYjQyWi1DdnZIeGtWMlBHY3FZRHZpZ19ERzkxNnQyMmZNMlhUTUVqM2w0TTFrdk5nTmPSAXNBVV95cUxQU0dPbGRReTRiYUFFSXFkSGVKMHF5Q0JjZTQ4RjBMTjg1OXNKMF9MU0p1M2c3MVVlSU9UUlJlLUhaWWI0MlotQ3Z2SHhrVjJQR2NxWUR2aWdfREc5MTZ0MjJmTTJYVE1FajNsNE0xa3ZOZ05j?oc=5",
+   "source": "대전일보",
+   "date": "2026-08-24",
    "tags": []
   },
   {
-   "title": "‘석탄화력폐지 특별법’ 국회 통과… 사천도 지원",
-   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE53cGY2eWZBZUJsQ3NmeXBmMkgzZ0NXcTQxcGl1WG13WEZkSS1WbWNVbVYtcmgzbDltU2VrbnhGMlFBR1NEbUZ4MUdLcVB1ekU?oc=5",
-   "source": "v.daum.net",
-   "date": "2026-08-23",
+   "title": "‘안보전원’으로 남겨 둔 석탄발전…‘2040 탈석탄’ 흔들리나",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9nQ1hwRHl5NU1LYmpZZWxoYWRuVmJ1Y1VnVDdOeGQydEVGNmYxa0Q1ZDBFODJnSGJDb1NKTGY5czVVcVBhX21GRUx0V1VMb1hTWXdMWGkzU0lHSHlEUjVz0gFfQVVfeXFMT2dDWHBEeXk1TUtialllbGhhZG5WYnVjVWdUN054ZDJ0RUY2ZjFrRDVkMEU4MmdIYkNvU0pMZjlzNVVxUGFfbUZFTHRXVUxvWFNZd0xYaTNTSUdIeURSNXM?oc=5",
+   "source": "경향신문",
+   "date": "2026-08-24",
    "tags": []
   },
   {
-   "title": "허성무 '석탄화력발전소 폐지 및 폐지지역 지원 특별법안' 본회의 통과",
-   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5PYXozQUZsRHRQWkRSaHpDc0ZQSU90amVXTlZjclZ3TWI5dG90dUYwbTdPeWtqSUNWNEQwUGZhWFdGRzM2bERLTDZfOGdONDA2eEpn?oc=5",
-   "source": "네이트",
-   "date": "2026-08-23",
+   "title": "안호영 발전 5사 통합하는 「한국발전공사법안」 대표발의",
+   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBzZkswMnFvcWNZZlZmLWN0dHVpT3ZUazhGWUQ3aGJYNERoQzZXZ1BRVTFHRzhoS2lPVXVaYi1pRzJ0Znp1NDV5M0FVUlRWdDl3a2FJMmlzb1k5cEl1TUx1c3RYMVNBdw?oc=5",
+   "source": "전북타임즈",
+   "date": "2026-08-24",
    "tags": []
   },
   {
-   "title": "“발전 공기업 통합, 본사는 전북 설치” 발전공사법 논란",
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPZXZ1ZnpnQnRleDhGcGEtMTdGOE5SdEJ4eEdDN2NiSlczeXg2VDZjbFZkZWhyYW9lTF9HOWF6bGZ0dDlZcllqdzc3Q2xHRTluVnhDbW10SFBnLWR4eS1XRmFqc0tMQ181cEV4OUFEZnhkYjFwVFVLWi1wdWhRdzBTM2VCWEhiRU96Q3BKRg?oc=5",
-   "source": "국제신문",
-   "date": "2026-08-23",
+   "title": "[공공기관 이전] 신설 '발전공사' 쟁탈전…전북, 새만금 내세워 입법화 선수",
+   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE8zOWRqQkF2S3lYQVNRemZUVUZBdWt1YmJuNkdhd1VNODgzMElfVm5iZENscWpDZWM0eTMxTmdTSVd0Ym92MktqVnRwMm5fbnA2MzJuaE5SSTBpRk8wR0dtdEVIYkQwUWhYU2xHZUg2Rlo4ZndoQkhJ0gF3QVVfeXFMTzM5ZGpCQXZLeVhBU1F6ZlRVRkF1a3ViYm42R2F3VU04ODMwSV9WbmJkQ2xxakNlYzR5MzFOZ1NJV3Rib3YyS2pWdHAybl9ucDYzMm5oTlJJMGlGTzBHR210RUhiRDBRaFhTbEdlSDZGWjhmd2hCSEk?oc=5",
+   "source": "스트레이트뉴스",
+   "date": "2026-08-24",
    "tags": []
   },
   {
-   "title": "서천호 의원 대표발의 ‘석탄화력폐지 지원법’ 20일 국회 본회의 통과",
-   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE8yVFpDZFpLSzJxc3R4WlRFaEJTanJSSHZLRzBxYWxhd0dTNzJEbTB2WlNMYlQ0dlZqYzAxRS1Ddm5yeXRVYVotU0NMMXVMRXJvNElEWVBmU0drOHZfSmlNMFpDdnM?oc=5",
-   "source": "KNS뉴스통신",
-   "date": "2026-08-23",
+   "title": "안호영 의원 \"'한국발전공사' 본사 전북에 설립해 에너지 중심지로\"",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5rZWtfbkRDMm50QnFHQjJEcHJmVDEzV0QtRElIRHVsVTNMX0x6Y0p1cWVLOFpWTU9jbFBqam41VmcyT010S1lqdmh4WDBxSVRwTmtfY1pyVEhUamtQZDh1QTltWE1GYTJ4MTJMU1BVVQ?oc=5",
+   "source": "시사저널",
+   "date": "2026-08-24",
    "tags": []
   },
   {
-   "title": "서천호 의원 대표발의 ‘석탄화력폐지 지원법’ 국회 본회의 통과",
-   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5DTmlXYzBJSHdzOG1RcExIQlhiRWVfTDdKNXQ5VnppWDFvSHdDei1LMHFybmJNcmhacENEUG94c1FpVjh1Mll2RTdvcDBMbzNLd2Jrbnl1MVExRVhLbHFQRkc1Ynd1Z21MM3NV?oc=5",
-   "source": "경남일보",
-   "date": "2026-08-23",
+   "title": "사천 포함된 '석탄화력폐지 특별법'..구체적 지원 '과제'",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBnUUd3MUpCZ2gzaVljQ0dSQ1FtRnhxT3duSmtxczlEcHBhd2kzeEx2RHUtaXdKdkZfZmJGVTNxT2t5N1EzUlJlTmlNYnNCTVdzRXB3MWtXQTZwTGxRSldHNVlWUmdiOF9NYVE?oc=5",
+   "source": "투데이서경",
+   "date": "2026-08-24",
    "tags": []
   },
   {
-   "title": "발전 5사 통합본사 유치전 가열…與 의원 “전북에 와야”",
-   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5TNkwzdU1QRkt1SVgwc2hvRHR3RFRfM2l1aGVtbi1BZWxHNTNhYzZZWEduYzJPZHJReXdUYWRrTE9EWjc3S0NvM3FZV1QwUGZCQlE?oc=5",
-   "source": "서울경제",
-   "date": "2026-08-23",
+   "title": "전북, ‘한국발전공사’ 본사 유치 승부수…에너지전환 중심지 도약하나",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE85aU5DdktwbXhzclJTaE1ia1RKNjVZWUFFVHRGWUtoeWpUdkRjVUhlYnFsSE9IYm8xSUxvRDh0cjhGSkV1LWVNcGNkai0yZkdhV05KcHNFcTQxQ2VnRGxqVTByeV85azZxZElB?oc=5",
+   "source": "전민일보",
+   "date": "2026-08-24",
    "tags": []
   },
   {
-   "title": "충남 숙원 석탄화력특별법 2년 만에 결실…”지역 경제 타격 최소화”",
-   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5Sal9CZWEzRElNVkhiWk5GQTZfbmhIUWIxdWNMSnFjYVBtNHFvOTQ0dUNlU2o3aU5lVVJ3Y2FJMTNXZ1liWDI2UFQyVk0yTmNHZGEwcnc3aDdEU2dFTGNkZUFRZ3p2cm8tYTl3d3pR0gFuQVVfeXFMTlJqX0JlYTNESU1WSGJaTkZBNl9uaEhRYjF1Y0xKcWNhUG00cW85NDR1Q2VTajdpTmVVUndjYUkxM1dnWWJYMjZQVDJWTTJOY0dkYTBydzdoN0RTZ0VMY2RlQVFnenZyby1hOXd3elE?oc=5",
-   "source": "충청신문",
-   "date": "2026-08-23",
+   "title": "[기자수첩] 영남 312조·AI센터 2GW 청사진…정작 전력 로드맵은 빠졌다",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5FckRET194WXdSc0YwYVozbUxiWElNY0FtVnVGYXpGSlhScmk4VFBLUHFKdnpxTW9aWkJiY2VVME5UYXZ1TXlDY3JGbkVsMXJVOHhIX2RxRVlnbGNLLUJyOFJtbk1nS1A0X3BLWl9ma9IBc0FVX3lxTE0wMktxT01wc3hSNkk4QVY1c0hJWHBSR0dFeTJqN1RrUDdsd2ZwUTloY2I2RWtqa0JZT1VnN0ozYTdMUk9JV3NzZUdxd3ZIQlFWT2hORkRiYnFTc29BdGVLYTFpTVZCT3NsU0QzSzl2X2hCVjg?oc=5",
+   "source": "뉴스퀘스트",
+   "date": "2026-08-24",
    "tags": []
   },
   {
-   "title": "한국전력 산하 발전 5개사 통합 추진",
-   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1xZWREU2stNU9ySTNRLTlBUnhFc1M3dUhiS1VqMWcwakJOM1pJVGFaR1ZHWXBZaFptdF9kdEFTTjVQaGRubnNlMTRlSlc4UVFBMFI0?oc=5",
-   "source": "네이트",
-   "date": "2026-08-23",
+   "title": "[충남도] 에너지 전환 속도 낸다…석탄화력 폐지지역 지원 근거 마련",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5NR0dfZmdQY0diSWtaZWRTaXlEWmFkRU83MDlGRkhsOFRNeGI0WlZBWXR2RVhuYWVzUGxXWWtaWmxmQWd5N29mVjRPR25UeGVKaU9uRmJGVXRpQXJFTzVaNVlDLTNTWFhibExnZ1lJWlJWVl9ScVHSAXZBVV95cUxOTUdHX2ZnUGNHYklrWmVkU2l5RFphZEVPNzA5RkZIbDhUTXhiNFpWQVl0dkVYbmFlc1BsV1lrWlpsZkFneTdvZlY0T0duVHhlSmlPbkZiRlV0aUFyRU81WjVZQy0zU1hYYmxMZ2dZSVpSVlZfUnFR?oc=5",
+   "source": "워터저널",
+   "date": "2026-08-24",
    "tags": []
   },
   {
-   "title": "안호영 의원 , 발전 5 사 통합하는 「 한국발전공사법안 」 대표발의",
-   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFByZnBpYVlmWkdnV0EzTGFwYTF6WjhWc2RqLWdrRnVBT1FJS0lRcjB6RVZpVnNXVHp4YUhwZ3hnNFB6SmdaaDNCczJHSVNSMGpBRHpmRWR0WnBRQ2VHV2c?oc=5",
-   "source": "불탑뉴스",
-   "date": "2026-08-23",
+   "title": "[분석] 발전 5사 통합론 수면 위로…25년 발전공기업 체제 ‘대수술’ 시험대",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5KcFdINDVVVEdzeTVMUk5UWHhjbDl1OFZHY1Utd1psbS03MXNtVkF2WThRckJzeFp4WVUtcHUtbmM3MmduU2ZwR015QmpsTUpZeGpCOWxBcjE2LTNTZUhsbWtjYlFMMEVUcXZMRkwxVXRLQQ?oc=5",
+   "source": "에너지데일리",
+   "date": "2026-08-24",
    "tags": []
   },
   {
-   "title": "경남·진주 펜싱협회, 발전공기업 통합 본사 진주 유치 서명 1200명분 전달",
-   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBaYlQ3SjNPU2t2WHkwRWIzYjlXcnJxaHlyenhFTXBqaHpoMlN3c2cyMkZUTlhzNXJHdndaZnJHWGxLNzhjUlNJTHhXX1VxUnlRTVZFT0lmZVVEYzNCY1NVODhVdFRwYnZM?oc=5",
-   "source": "경남도민신문",
-   "date": "2026-08-23",
+   "title": "한전 발전자회사 5곳 통합 속도 … '한국발전공사' 설립법 발의",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBDM19jcWdxNTVtcEtyY19lMGhrd0JhUW43QzFMUnF4Ui1wSEZVc2tXcy1kV3QtNlgzVkNnSWlEUEozTllzb1RhLVU5bkkxelBtNVVQRnZYWS1GYm1rX0tOQkdmZ1NnQ2E4Z2k1Rk1iY9IBc0FVX3lxTE05U2M1blZ6eUJKZ2c0ekZTajZsQXBrTlBZMXpTak91eE4wSFViMm1DT0tDck1SYVk3eXRWcUhTR0ZCZ0lfUmRnX1dKNFNRSGpxMWpnRHFteWFlcHhzSTgxcE9fMmVsU3lKNDI1cm02NzBKY1U?oc=5",
+   "source": "세이프타임즈",
+   "date": "2026-08-24",
    "tags": []
   },
   {
-   "title": "발전 공기업 5社 합친다 … 이르면 내년 7월 출범",
-   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBibFFWWTZKSkRURHA5M043dmh3eUxrSHdWaUVhcFFVa1FEZDNJeFpzRlQwaE9ZNk9UaVRSTmdBb2lYNjZ4ZzRPZFBNTFBNUzN0LUE?oc=5",
-   "source": "매일경제 마켓",
-   "date": "2026-08-23",
+   "title": "박수현 지사 “정의로운 에너지 전환 앞장설 것”",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9YdnNGelo5d2Vhbzd0NFp6SmprX002UTJTNks3UW90Y0lGZWhKNmdmcEdnalBucnVkU1h2Wkt0UjB0T1dLMmtydFdhb1hBQ0JmMUpWMy16dGF5cWZ5UkE?oc=5",
+   "source": "한국방송뉴스",
+   "date": "2026-08-24",
    "tags": []
   },
   {
-   "title": "진주시, 발전공기업 통합본사 유치·LH 존치 등 ‘3대 현안’ 총력",
-   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9FQmJNNFVZVXNpVWRnZi1iRUJLRnp0ZUFQVHRVTklzTTJQQVdGTUYtSUVodE9iaFJiTlM1Zko1MldRQkRXWVA5ZC03OG8xWno3SC01MUhQR0hhcm9Pa2c4TlB0djRBUjAxVjR0T3lR?oc=5",
-   "source": "전국매일신문",
-   "date": "2026-08-23",
+   "title": "발전 5사 하나로 통합한다…‘한국발전공사’ 설립 추진",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9HbWNmYUxDU19rTHVscnJ2RThlbnh3WFdtU05fT3lHbTVneVd0eWp1Q3IwX3ZROUJLeUJoU3ZHdWR4a3dTTWFnLXB0dkpzenVKZGNKY0hVd04yQVBqRXVDWElVX25xa0RVS1dWZm5DalJtQQ?oc=5",
+   "source": "에너지데일리",
+   "date": "2026-08-24",
    "tags": []
   },
   {
-   "title": "정부 2차 공공기관 이전 임박…경남·진주 “사활 걸었다”",
-   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9yQmcwTC1ia3hIdUxYem5mZHBVY3VhN24yclllQ1h2NjB6WmZEeklqZVh5cThaaHJRdHdIV0RVWTRUUXBiTUNCN1d2eUQ5UnMzT0hUNloyWExRNkdhdWotQUwxMUFSMWRx?oc=5",
-   "source": "뉴스경남",
-   "date": "2026-08-23",
+   "title": "기후솔루션 \"12차 전력수급기본계획은 수요 과대예측, 석탄 안보전원으로 남기지 말아야\"",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5yV0lhdC1aLVFVRkNORmFQMFVMaHZOXzBhQ1ozaGl5ekluU09pdjVlaC1JclFfSFdLQU9TelBGSVBFZ2Q5NENPamcxNTZKUFJDa1hiV1lHWmFZdDZiX28tNmRrQTI4ekxJV0lWelJQWTdiTTA?oc=5",
+   "source": "비즈니스포스트",
+   "date": "2026-08-24",
    "tags": []
   },
   {
-   "title": "충남 석탄화력발전소 폐지 충격 흡수 본격화",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5SblJPNHRJRE1vLXNMY3dfVVM5OFlyR2RWbzBvN093X2xua1lDWno5YU9jZjNuYkYtLU0tNkFsc1RQUmJJaDA0UGN3b3hfS2JwZVlVRGxfNmFPcHk2eXI0a3lMSTZlSi1JR3c?oc=5",
-   "source": "금강일보",
-   "date": "2026-08-23",
+   "title": "허성무 의원, ‘ 석탄화력발전소 폐지 및 폐지지역 지원에 관한 특별법안 ’ 통과 환영",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4tZUpMVVhKVkJPS1VLcFdtU2p1Y0ZZOGY0bEoyZjBWeXUyc25lYlZEQm5icHlodmtHb1NVX2RRX1BrVUM3cjRIZGpzSTdHZnBHNDUydXlVLURFejljVndXc0NDbWVVT1BxWDhGUA?oc=5",
+   "source": "데일리경제",
+   "date": "2026-08-24",
    "tags": []
-  },
-  {
-   "title": "발전 5사 통합 재점화… 안호영 의원 \"자본금 32조원 한국발전공사법\" 발의",
-   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9LSkRxOGZHOWttaFhncFdjVEhrenBUbXdYaERUNFM5NHRMY0paX2hoWjdNWjBBSDZVbDNfd2FvMnFXOUYtWHJoY05MYndvenFha0hRWHJ4TEtfTDZWMWJzdTgxOWR0RVVh?oc=5",
-   "source": "녹색경제신문",
-   "date": "2026-08-23",
-   "tags": []
-  },
-  {
-   "title": "[인터뷰 ①] 엄승용 보령시장 \"발전공기업 통합본사 충남 유치 주장은 전략적 판단 따른 것\"",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBkNy1sZWQ1RFhrYUtUaDlnam10WFlMWFZ2Um1xMDNxSTRLaG1HRm5Fa21NSXF4d1FuWWdMallVelVYZGVXQWlrYnZpemxlZkxpeVUtcS1HY3Q2cUhxVnV0Z1k5bVp3VTBuSlp3OVg4LURTdw?oc=5",
-   "source": "굿모닝충청",
-   "date": "2026-08-23",
-   "tags": [
-    "보령"
-   ]
-  },
-  {
-   "title": "안호영, 5개 발전공기업 통합 ‘한국발전공사법’ 승부수",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8wWG9HYWxvSXlmTm9jOXp5ZWx3RDZZamI2ZmRqOFJNakVOc1BHbDlIa3NmU2Y2LXdXUnNvZmhkQzRkZzlvMWNncW5qRnRIQk9McUxPeG5UVExJS3pyWWNMX3Zidy1jMjBkTjNmNdIBcEFVX3lxTFBBblJyTWxBcFlsTWFQTnZPUm02LTFWMzk1ZXB6ckR3bnUtbm10czY3VnNxdUFDVVUwYUU3c1JZMWxyaXViVW5LWS1XWjJfTVBLb0FxVmZUS0owcmZhbC1BUXpzc2l0QmlpQzdTZXEwMms?oc=5",
-   "source": "전라일보",
-   "date": "2026-08-23",
-   "tags": []
-  },
-  {
-   "title": "발전5사 통합, 지자체 6곳 앞다퉈 유치전… 정작 \"누가 주도하나\"는 안갯속",
-   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOR2Jud0plRF9xR1lGZVRuNHVSeUtGeHVyNWtLQWRHVlBLek5HaDRJaVA3dkt2ZjV3Zy1xSXFMT0d2VGM5b1BYSnZ1YllBR3puejJlcHM3WldUT2FnVWdhR1VHaDB4Y1ZOLWc1eUswaG1Pa3RoUDJUQXpLME4yZ1BpRmVJb3dEU1R4X3c?oc=5",
-   "source": "글로벌이코노믹",
-   "date": "2026-08-23",
-   "tags": []
-  },
-  {
-   "title": "안호영 의원, ‘한국발전공사법안’ 대표발의",
-   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5UTG83VHgzaTVjOFFwQTFHMUQyOVd1ZlpDNXZEWGhsQm1jUHpDZFZZOVBCTWN2ajRhMXZVMXBLSEZzWEJlTGZuZWRLT2ZBaWV5ekpabkZoSmJnTGhFVUhRMzFvUGdfMXpsX05z?oc=5",
-   "source": "일간투데이",
-   "date": "2026-08-23",
-   "tags": []
-  },
-  {
-   "title": "2차 공공기관 이전 계획 25일 발표 유력...울산 유치 촉각",
-   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1rN2sySFNuQjhCdk5VUTVKV1dtbFBfck1rRW9mSXpVejRZeG9RZkhjeWtNOUhjVWt2TWVqRHQ3ZlJOYjlFV0VjQWk3MTJQbFRtcUU3X3lIVHh5MW5lWXdaYU5lR0ZxVm8?oc=5",
-   "source": "울산시민신문",
-   "date": "2026-08-23",
-   "tags": [
-    "울산"
-   ]
-  },
-  {
-   "title": "발전소는 인천에, 본사·에너지전환본부는 전북에? … ‘한국발전공사법’ 지역 파장",
-   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBGLUotVDQ5dXdLODA0bjdWWjFnZzZUTlh3VGE1Mk44RkFzZG9QeFRFWmMyVDJmajc2Y25lNm9ncXJIM0s0QmNWQ0I0RW5jS190RURBb2ctajR6bmJKamg3ZWg4YXhvVmItOEllX0ptdw?oc=5",
-   "source": "인천뉴스",
-   "date": "2026-08-23",
-   "tags": [
-    "인천"
-   ]
   }
  ]
 }
