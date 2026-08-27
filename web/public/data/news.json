@@ -1,196 +1,182 @@
 {
- "updatedAt": "2026-08-26 07:16",
+ "updatedAt": "2026-08-27 11:24",
  "note": "구글 뉴스 검색 기반 자동 수집(제목·링크만 게시, 본문 미복제). 기사 내용·저작권은 각 언론사에 있음.",
  "items": [
   {
-   "title": "울주군 \"발전소지역 사업절차 간소하게\" 원전지자체 모임에 건의",
-   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9rc0VPTHVtN3o4UzA1LXNDZFRaRV9IWTRlZzZYeDZBaHZDdExDdmp4LTJWanlpNko2cllqWGNSRWwtSVNlM2haYXdtSVlWLW5KaXc?oc=5",
-   "source": "매일경제 마켓",
-   "date": "2026-08-26",
+   "title": "서부발전, 발전공기업 최초 중앙아시아 재생에너지 시장 진출",
+   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1Lcjd6TUM3NW14Y3loNjAtS0h2RGVWUEJ1ODJaRlhnQ0ZndGhNTE9KQUJlRnhudjZ3TjhqTFo0dXE1ZkxtN3B2X3ZVNWpYMXIyM2FnSkROX2c1OElwRFhqUzZUM3VIUVl0UEI1NkZHZWRkMkxDYXBF?oc=5",
+   "source": "OhmyNews",
+   "date": "2026-08-27",
    "tags": []
   },
   {
-   "title": "메가프로젝트 이후 전력계획, 남은 질문들[우보세]",
-   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBNaXJmVFhnVFZkZWp4MzVUckZLM3dhWDIyNmkzUlJsTlEtN3RWRVo4eEQwR0UybU1pTHBDQ29Zc1EyNXF3N2o0ZlpwVDJuRk1PYjY0?oc=5",
+   "title": "\"발전5사 통합본사·2차 공공기관 나주로\" 시민단체 촉구",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE10V0p2alBjQlpaTlVUMUhnQkRZOE1ZY2R2R3ZCUl9GLTRXMGRRMGhSXzRyelFndW82a2ZkUkhCM1hkaE5kSTJfVTU1MjU0ejg1SnRkOXlXLWhpT2JTRlpTbtIBeEFVX3lxTE44X21ZQ0xGbW9PRFBfMDdER3VtRzVPeGZvbEFaamxpODVsLWo4aVB2NlZnQ093VThEMy1DQWJHWGZ4QTdCalNBc21Pc3dtbDhRZi1wOGlzZ2N6dmxwTzdmY3lqcHI1OE9mcHRXLWRucmMtY040NUpjRA?oc=5",
+   "source": "뉴시스",
+   "date": "2026-08-27",
+   "tags": []
+  },
+  {
+   "title": "한국서부발전, 발전공기업 최초 중앙아시아 재생에너지 시장 진출",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1wYWxpejEzSmJ1NXFTeTVfSjRkZUpmQ0lmTW1lLWRqbDRtQ0pfRGVJR0t6Ym4xX1lENV92MHlLb0ZjcFNhdXpZNlpBOUtHM3FUakoxLVQwM0tLZ3VSTkQ5LWs0V1FjeUcwbEZNWmV3?oc=5",
+   "source": "뉴스홈(newshome)",
+   "date": "2026-08-27",
+   "tags": []
+  },
+  {
+   "title": "서부발전, 발전공기업 최초 중앙아시아 재생에너지 시장 '노크'",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBQWmw3TFFTNEhPVm92d0NleDhWTU9QczA4ZXRaVFFJVk5pazJLUzhpVFFQZExab2N6aWtHMndON1phclF0ekpCZzRPR0R4cVMzUGp3?oc=5",
    "source": "네이트",
+   "date": "2026-08-27",
+   "tags": []
+  },
+  {
+   "title": "한국서부발전, 사우디 아크와와 손잡고 중앙아시아 재생에너지 시장 공략",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5wbVhsMXRDREZUZThINWxXaHJoOHRCMXRKVjdROXY4N2NQM3d1blR6V1paTTVTa2xVd0N3YnE2SndLN2xQTGI4WV9KS3VwaUp5dkN3?oc=5",
+   "source": "네이트",
+   "date": "2026-08-27",
+   "tags": []
+  },
+  {
+   "title": "서부발전, 발전공기업 최초로 중앙아시아 시장 개척",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1nVEhsTWtSd0pHLVVBTUl6dk5iWktQNkhrRlA0aFdhNmJKZXl2UUdXMkswdXNPSEZiZFhOMG9QRlVyVXNtZkFxOHYzZjZRX1FjN29Wbnk3N1NqR05WR1Y3c2JQbHZ5QjdDNmVB?oc=5",
+   "source": "한국건설신문",
+   "date": "2026-08-27",
+   "tags": []
+  },
+  {
+   "title": "서부발전, 발전공기업 최초로 중앙아시아 재생에너지 시장 개척",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0xbGxoZEg3ZVg0cGt2ODlnTWhlb1B4aUU5d1BqcldxcHNheXdYWjd1LWNvNUlTR0FhU0xsN0lwWkE2clpHc3dBRmdyYS1RYW9BSGlMUmEwRFdPSGdibDFyOC1GbTRwNTdzTTRfYQ?oc=5",
+   "source": "중도일보",
+   "date": "2026-08-27",
+   "tags": []
+  },
+  {
+   "title": "서부발전, 중앙아 'K-에너지' 확장",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5oajRyTk10RjZnZ2FmZEg4cWJDdU8zWU9KSVAxQjdGU3VuYl9RMFBqWE50b1pJYnpoVHplVVlMbjF0dGhlNFBjaF96UEhJMHNwUHVZNHdaWUQtMF9MeXMwVWhOeUp0b0xhVnfSAW5BVV95cUxOZm1UcVR0NnpiRU9FWldqcUx0M1Y0bm51enZ5U2dubWtfcDJBM1FJRkpGbkIwNWxfWXlGcXhBdGpVMzV5SldEZ2lsenhLekJpcHJkbzNhaGhhODlGNnh1NnJ0MFVHck1JUTRIVEdhQQ?oc=5",
+   "source": "충청신문",
+   "date": "2026-08-27",
+   "tags": []
+  },
+  {
+   "title": "서부발전, 발전공기업 최초 중앙아시아 재생에너지 시장 개척",
+   "url": "https://news.google.com/rss/articles/CBMiogJBVV95cUxQSFI3LWtfQTdqczZ1NjR4NWlqcWRwS3FkOVJZUjdUUy1TOXZZZndyX0V0UDBaY1hKTHdET1JSUEp0bUZBSkE5YWV4RXdSWmtpZ2FzZlV0aXJ0UG5zaWRTZmsyWkdLaUlZbkZNbWgyQzk3ckQxVnF6Y3hxYVVyQl9abTZJZG9vTDFzcGVCWGJCOWZLNW8zeWl2N3lWR0pZN25Td05DYXktUUdfRTI5SkJfZE9sWUp6bTlfNDNGbmdHUndEWGthenNvbkdZN1hnT09EODFCRWNsZTV1N19FRndXR2lPR21vOVo5TEZYM2lWT1FjR3FiSnU5dU1CYm02c1pER1JybnZjQ2dDRVh4cTJtLTY3bl9xRi00YXB6NktpWWtrUQ?oc=5",
+   "source": "데일리안",
+   "date": "2026-08-27",
+   "tags": []
+  },
+  {
+   "title": "\"발전공기업 최초\"…서부발전, 중앙아시아 시장 개척",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5tai1WY0MzajBkREdsUWw2NzY4UGkwTXRxdlNIM1dpRFVWVXE0ZmNZRUNsdkl6SlBxM3RpbEZfMUtwUkJZVkNTdEFneFJjSEt4ZVdJ?oc=5",
+   "source": "네이트",
+   "date": "2026-08-27",
+   "tags": []
+  },
+  {
+   "title": "발전공기업 첫 중앙亞 진출…서부발전, 우즈벡 공략",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1TeUJrZG45M01TeGIxc2hHYmotdF9QLTlWVDQ2Q1AyMmpCYU9VXy1uZHB6Z1JncUM2VU5tVV9PRjNIX01zdm9Db1VNOG9lWmlXQkI1LXozZE8wNEdXREVqRUxiZzZMSktDNDZCczY4MC3SAXBBVV95cUxNU3lCa2RuOTNNU3hiMXNoR2JqLXRfUC05VlQ0NkNQMjJqQmFPVV8tbmRwemdSZ3FDNlVObVVfT0YzSF9Nc3ZvQ29VTThvZVppV0JCNS16M2RPMDRHV0RFakVMYmc2TEpLQzQ2QnM2ODAt?oc=5",
+   "source": "전기신문",
+   "date": "2026-08-27",
+   "tags": []
+  },
+  {
+   "title": "서부발전, 중앙아시아 재생에너지 시장 개척…“발전공기업 최초”",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFByd0w3R3dZLUpTdGczUWJ3N3JMOU5DSGtsdHpIajFKbmdhOHN4RVFoQVpsTkxkRVdqcEJFN3Z5STVuMi1lUVVQMWl6YWhMZzF5anhKRHBIRVBUbTE1WV83SXAzOFVQTlVQZ01MOG5Yemh1S28?oc=5",
+   "source": "마켓인",
+   "date": "2026-08-27",
+   "tags": []
+  },
+  {
+   "title": "경남도, 발전공기업 통합본사 사활…3000억원과 5년 아끼는 진주 승부수",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBlZllZYmEwVlJLbWdVQm5ITFF3ZUZTZjdBMkZ5UU5TbDN1akdUbndGcElJUTc3MHlmRmhsZFZ0WjV0RlNGNTFXdElUYUxWSHNQWTBscGJPdHNJLUhXZHhwRFNJOWVjRWhIczhJ0gFrQVVfeXFMUGVmWVliYTBWUkttZ1VCbkhMUXdlRlNmN0EyRnlRTlNsM3VqR1Rud0ZwSUlRNzcweWZGaGxkVnRaNXRGU0Y1MVd0SVRhTFZIc1BZMGxwYk90c0ktSFdkeHBEU0k5ZWNFaEhzOEk?oc=5",
+   "source": "창원특례신문",
+   "date": "2026-08-27",
+   "tags": []
+  },
+  {
+   "title": "재생에너지 6배로…‘3대 메가’ 다른 발전원 구성 계획이 관건",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9rM2Y3U2ZBelQ2R3pNZk9hbVBWVXBjUnJ6am9rWUNnS21QM1UwRWNSTmExMGVkTFAxSVR1Y0ZGbzdpMjZuVExtWmktV1diNU9TclNQUlI2RFpNaGx1SjlN0gFfQVVfeXFMT2szZjdTZkF6VDZHek1mT2FtUFZVcGNScnpqb2tZQ2dLbVAzVTBFY1JOYTEwZWRMUDFJVHVjRkZvN2kyNm5UTG1aaS1XV2I1T1NyU1BSUjZEWk1obHVKOU0?oc=5",
+   "source": "경향신문",
    "date": "2026-08-26",
    "tags": []
   },
   {
-   "title": "민주당 “발전 공기업 통합본사 유치 힘 모아야”",
-   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1ZdFRBeTdRSTlDdGY1WVpTNjZ3U1lUNlFiZGczZGNoenc0QXUteGdVQUZtVjNUWDBVR25xbnBOZFZOUUJRd3FrY1pNUmR1aGtxeGdaYlcwdmVMWXM?oc=5",
+   "title": "'발전공기업 본사 유치' 목소리 더 키운다",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1fUTJic3I5ZXcza3FzT1VwZ2JCNmw2cnUzb3RGdGVsb0xSbGxHelBrcDM3ZTV3T1hVSkt2REZRbzRjRm40eW9qOFdFYlpHQm9jRFd6M0hzLXhiXzEtaU9ObkNMdjJ6dDQyWVE?oc=5",
+   "source": "경남매일",
+   "date": "2026-08-26",
+   "tags": []
+  },
+  {
+   "title": "재생에너지 6배 늘려도…‘3대 메가’ 필요 전력 못 채운다",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFAyNGg5UXFMS1Jjd0hITkg2eDduYURUR2tKV1hLSnlLUFJZWDRSUUI3VEZOTS1qS3JYNlk3WGNLZXJub3ExTkh4N1Z6N1BoNTU4RHlBQUlzWUtEZEdXcnpj0gFfQVVfeXFMUDI0aDlRcUxLUmN3SEhOSDZ4N25hRFRHa0pXWEtKeUtQUllYNFJRQjdURk5NLWpLclg2WTdYY0tlcm5vcTFOSHg3Vno3UGg1NThEeUFBSXNZS0RkR1dyemM?oc=5",
+   "source": "경향신문",
+   "date": "2026-08-26",
+   "tags": []
+  },
+  {
+   "title": "울산범시민사회단체연합 “발전공기업 통합 본사·2차 이전 공공기관 본사 울산 유치”",
+   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9TR1F3Mk41a0JCN1JyeFAyQVpabk00YWNNRkZkbFcyckVjQjBrYnY5R05pRFRzQUhoZmRfRXhfWW92NUdjTTRibUY4dGlxOWJFME5zcEo1LVljbXFuMzlsU3RRcEFSZw?oc=5",
+   "source": "울산제일일보",
+   "date": "2026-08-26",
+   "tags": [
+    "울산"
+   ]
+  },
+  {
+   "title": "‘발전공기업 진주 유치’…정치권 결집 ‘부족’",
+   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5MbGtTY2U0d2p6d0M5YXQ5RkNJYWotMjZmZmd2SUo5UW94X212NWFxeWhvR3R6cHRNUmhNNjY0cEk5WG1VbjdaQjlRLXM3d05EZl92cDFqOEJyQVJqUEtKUm5KYzVPUQ?oc=5",
    "source": "KBS 뉴스",
-   "date": "2026-08-25",
+   "date": "2026-08-26",
    "tags": []
   },
   {
-   "title": "전북 정치권, 발전공기업 통합본사 유치 ‘선공’",
-   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5zbWRNckwwRDZZMWtVRjlmRzVtTlFhNHByS2w4NXpVVW1fUDlKYkF1YTAzZWJtT256djVVOVNQLWpsektCeEdseGVEYVQtSFM4OF9ycFdmUWowd2QweFB4YTRXenVwUDlsRUxJ?oc=5",
-   "source": "경남일보",
-   "date": "2026-08-25",
+   "title": "도민의 함성 “발전공기업 통합본사 진주로!”",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFA0NS1jUkt5dF8yRWVjRDI0cnBkSEl3YmUxa0tpNGhmMVc0N1VPaUJCdkRCNVdUelg4dUw0MVRja1Z5c1otRUROdjJHQnA3R2ZNd0hTZEN6d2c5eGlvX1NOUDRQcm80ZFdTMXpz?oc=5",
+   "source": "경남신문",
+   "date": "2026-08-26",
    "tags": []
   },
   {
-   "title": "진주는 사활 걸었는데…발전공기업 통합본사 유치, 지역 국회의원은 어디에 있나",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9ZSjZWSzQwaFlDQ3NLS2I0cG9LOEVsN2tUbG5iald0WF9qWEY5YzdDaElHQi14QzZ6by1rN2R4akhHaEFnRmNjZHIxb2hiN19kWVlPMDlHWmNVVmQ0QWFpekhqMXFnbW85cFJkYmpYN3c?oc=5",
-   "source": "포인트경남",
-   "date": "2026-08-25",
+   "title": "\"발전공기업 통합본사, 진주시 건설이 최적\"",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1vSzcxaElnV2V6akM1VjZpb09XNTIyams1RU9XQ0pORGNyZnRHTVpuLUlsT1ktQXF3LVQtZVh3azZVbkloZXNzZzM2M2ZRTVpJejUwS3NvNGJ6Zw?oc=5",
+   "source": "한국경제",
+   "date": "2026-08-26",
    "tags": []
   },
   {
-   "title": "“발전공기업 통합 본사 ‘진주 유치’ 국회의원 나서야”",
-   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE42d0JEc3VfZTFOaHRFeEZlc1U3T2JHZ1d1SkVLSkdIZnc0RzhiSnBDVm9WYllLZVg4aE5HWkxDNHBkZ0JRNTZrS1BKNUdubGJrQ1FXUDh6dTBKVFZNX1JxOXNXNE1Lb0lvVS1F?oc=5",
-   "source": "경남일보",
-   "date": "2026-08-25",
+   "title": "경남도, 발전공기업 통합본사 유치 시민결의대회 개최",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1KQ2xFWGF5UkxsX3ZHa3VYZFNZcTI5NHp6S2h1SDBlaHItRWUyMlg1MGlGaXNMYWRtc3pmZTduNmVsT05fRThFa1plaHNONlREejJPMGhGN2ZUaGNBTFB5YmtJREppd3dWcmtTVjlR?oc=5",
+   "source": "newfilenews.com",
+   "date": "2026-08-26",
    "tags": []
   },
   {
-   "title": "\"굴뚝 내려간 자리에 핵발전소는 안 된다\"",
-   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBMNE9lVVZ4MGRhR2FWMjc3TDlIV1BQSU9ObVg0QUE3eXpFb2EtOE11TWllMWdfTVlpd04yOWw5U2lmM2tqWDBJT1EyNjhqU0tBQldjSEtveG5NamU5X2ItN2t4TXZ4UnJC?oc=5",
-   "source": "당진신문",
-   "date": "2026-08-25",
+   "title": "재생에너지, 2040년 236GW까지 확보?...이행계획은 '갸우뚱'",
+   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBFVEY1QXRZSE4xVnFvUTN5M2RNQ0FpbXkweGduV1FfcUh4VDM2QzVKQUZJejd2Q00wLVVGS3kzR0tjRmYxbHNJN0FFZ0JmTGllNjBIWWloZGJoa19B?oc=5",
+   "source": "뉴스;트리",
+   "date": "2026-08-26",
    "tags": []
   },
   {
-   "title": "석탄화력 폐쇄 앞둔 당진, 고용·경제 충격 해법 모색",
-   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBkcXRFcFNCRjI0VExxXzZsQ2x6a0M5S1dPZWlPVm5pWVJOTWhTUzFxblplZTBUUVpMRldzWV9vdXVOaWtVWENObVZUX1VJalVfTklGblJLc3N6ZE5G?oc=5",
-   "source": "아시아뉴스통신",
-   "date": "2026-08-25",
-   "tags": [
-    "당진"
-   ]
-  },
-  {
-   "title": "정부, 2차 공공기관 이전 발표 10월 연기...지자체 '전방위 대응 경합'",
-   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1UbjJYUXV5Z1VKT1RmV2J2RzYwYXo0RnozRkpXVnp1LUx2RVUxMkQyWHRMMjFTVDNTNUMzdXI1N0UxUHNTbVd5MVdjZnBGSWxDUTF3bkJseVRxaUZRVXM4bmRxSlRuMGs4?oc=5",
-   "source": "경남뉴스",
-   "date": "2026-08-25",
+   "title": "2040년 재생에너지 220GW…계통 확충 등 이행이 관건(종합)",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5iTVY5MUVvajFaMjUxN20zakNNNVR3SUl1emdzYi15SUZGUkV3X3BvTmc0dUFrS1pVV2NYcEx1cUVGdjU1NXk5eklldm5mbms4NEMzUW9QYXdnRVc4VFU3SdIBeEFVX3lxTFBIVjNaUDZpZ0xjZFNDejFENEQyNEVRMzBqX3hyM05YcjYtbU9teGpVMHpUUzVHV1dKWk1rUzJXd0kwWlZjdFZkNXFBTVdSRXI2cDM4YmptamhtZkNZQ0k1WGdCWFdRNDUxRWVKQUpwSDd1MkJsWU10Vg?oc=5",
+   "source": "뉴시스",
+   "date": "2026-08-26",
    "tags": []
   },
   {
-   "title": "[전력난 경고등] AI 데이터센터 전력 어디서…전원 조합이 관건",
-   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB5WFl3U1MwTkJ4ZFh3Q0pjNEowMUpnSVVpWkxvRk9vaFh0dEJMN2FQQ3BORExRMVNyd3ZMNzdyVWhZTTFNUFdkTk1DblZKQ3lEajgweFdsVEpWZ9IBWEFVX3lxTFBzSEYwZWFLc0tFdzFwNmd1RzVEUks4dTFYa3U5a3RpQnZna2JzdHNyX2FSRnZ2d3NIZ2I1ZnhEdW8wZl93M3lsaE9jUWdZcUlLelpLMmlTVTU?oc=5",
-   "source": "아주경제",
-   "date": "2026-08-25",
+   "title": "전력 수요 급증에 2040년 재생E 6배로↑…\"유연성 자원 확충부터\"",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1jYXBBcU1IeDJFdUFkcW1mOVJSak1qbzlmQUktMjA5WWJKNmF4NXYtYnhDOFVfZlVoV1pOa0NhOVhOR2YwRFcwTlVjOTIwLUczMDNZZ25wUzNWdS1xU0JjN29iRXg5REdfM1dzMmp3a2tIeTZxSXJZZNIBeEFVX3lxTE1jYXBBcU1IeDJFdUFkcW1mOVJSak1qbzlmQUktMjA5WWJKNmF4NXYtYnhDOFVfZlVoV1pOa0NhOVhOR2YwRFcwTlVjOTIwLUczMDNZZ25wUzNWdS1xU0JjN29iRXg5REdfM1dzMmp3a2tIeTZxSXJZZA?oc=5",
+   "source": "뉴시스",
+   "date": "2026-08-26",
    "tags": []
   },
   {
-   "title": "당진시의회, 석탄화력 폐쇄 대응 의정토론회 개최",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1iZEtqbHNQUW9iYk0tRk1NYU10RjRmLWIwcU5fUVZqTkJhdVR0amhqVUgyN3ozWGdNRDlySEVTTXgzdW52LWZDdGFXTV81d2Z1clgxSXdhd2UtN1I4dVhaVHYyQnJDVTVSdGc?oc=5",
-   "source": "뉴스티앤티",
-   "date": "2026-08-25",
-   "tags": [
-    "당진"
-   ]
-  },
-  {
-   "title": "민주당 진주위원회, 발전공기업 통합본사 유치 촉구",
-   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE16MlVhZkpybVpnbUE1NUVldjhFZlcxeHdhdGx5ZWx2UmNKVkNOcXdITkotM3ZUODU3S3FEb3laS29LSHhkQnkzUHVXdmQ0NGNkeEtxUk0zS3gzUi1uZnVPc3oxM0ZRaVg0?oc=5",
-   "source": "경남도민신문",
-   "date": "2026-08-25",
-   "tags": []
-  },
-  {
-   "title": "장문석 민주당 진주시갑지역위원장 “발전공기업 통합본사, 진주 유치” 촉구",
-   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBEdUlGcjNPTy1IYVh5cVlPOXhGT2FvVEFJUXkybG9Sb2ItTGdLempMX0RuUGRNNkVvcFhBcXJyZV9BV0M1d0xHdV9YaTF5QThkZjVtSEU4Y3ByRmRjMktJVWtyWlV2LUY1S1dZ?oc=5",
-   "source": "단디뉴스",
-   "date": "2026-08-25",
-   "tags": []
-  },
-  {
-   "title": "당진시의회, 석탄화력 폐쇄 따른 지역경제·고용 충격 해법 모색 - 보도자료 | 기사",
-   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1sMy1rSUhkTUV1Qng0UTQ5QzhETmNzQ1RhOWMyYWF1RVR1OEt1LUh5Skxnc04xWGRKbzdtSXhLZGJBRDNEQzlaVTFfanBWT3EyZW5LamQ2dnhKQU5IeFhB?oc=5",
-   "source": "더팩트",
-   "date": "2026-08-25",
-   "tags": [
-    "당진"
-   ]
-  },
-  {
-   "title": "당진시의회, ‘석탄화력 폐지 위기’...“미래산업 육성과 시민참여로 극복한다”",
-   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5HemNNdzllS3lUS05od0xvZkRWWGtoZ0tSajhCRm9Ma0EteDBYZlhDUm5HVk1kMFNlbWdxcWxwcGpHZlhpRGxpMVR6T1QtX0owNzRJSnMxdG9VNHV3Z2phR09QdXZ6dHFmeVZURnN0TzBkcjTSAXNBVV95cUxOR3pjTXc5ZUt5VEtOaHdMb2ZEVlhraGdLUmo4QkZvTGtBLXgwWGZYQ1JuR1ZNZDBTZW1ncXFscHBqR2ZYaURsaTFUek9ULV9KMDc0SUpzMXRvVTR1d2dqYUdPUHV2enRxZnlWVEZzdE8wZHI0?oc=5",
-   "source": "대전투데이",
-   "date": "2026-08-25",
-   "tags": [
-    "당진"
-   ]
-  },
-  {
-   "title": "석탄화력 폐쇄 대책, 시의회 당진 미래산업 논의",
-   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1oYzZwZDF0Tlk1bWQzbzlfNGplSGVnVjdIZG9yVWJZaGlXQ3pFcFlfcEVlNFFRNTBSUmdHa2pZNk1qN2x4UUxMelA1TF9hN0JQUnl3LXBvRWJDbV9XTDdCNUFQaFdHZU5oVy1ZczZMSdIBb0FVX3lxTE1oYzZwZDF0Tlk1bWQzbzlfNGplSGVnVjdIZG9yVWJZaGlXQ3pFcFlfcEVlNFFRNTBSUmdHa2pZNk1qN2x4UUxMelA1TF9hN0JQUnl3LXBvRWJDbV9XTDdCNUFQaFdHZU5oVy1ZczZMSQ?oc=5",
-   "source": "당진시대",
-   "date": "2026-08-25",
-   "tags": [
-    "당진"
-   ]
-  },
-  {
-   "title": "당진시의회, 석탄화력 폐쇄 위기 대응 위한 미래산업·정의로운 전환 논의",
-   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5ydlc2ZjJQcFNGOTJTRkFrUnNrLUJ5WWQzWkNham90d250TjFyUmllMnZaU0dheHpuTG1ua09mNHJuTU9oaW1mZmhMR2J6X0diNDJr?oc=5",
-   "source": "네이트",
-   "date": "2026-08-25",
-   "tags": [
-    "당진"
-   ]
-  },
-  {
-   "title": "“발전공기업 통합본사 유치 지역은 사활…진주 국회의원은 나 몰라라”",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBqQW9hQTVxWWdaUnlQMnFLbTE0MFNGUDdqcVNEVnh2d0wzU0JJeVBmWEJZVjBibkxWNWVNQndHSzJQV0xPczFXNzI5d3p2RUJSY3NuYUZLeHlHYVgwalVnRkNHRGV2R3RJYUE?oc=5",
-   "source": "경남도민일보",
-   "date": "2026-08-25",
-   "tags": []
-  },
-  {
-   "title": "당진시의회, 석탄화력 폐쇄 대응 토론회…정의로운 전환 조례 추진",
-   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5OeG9hMUxaWnN3SFg4Rl9uVGVmUk5oOExiXzNmYmFYMHdkZlVfeVdXOGlOY1JsbWJVMU9MVUVRNmhHTklVUExHMzJmN09YdVRCNy1qNlFjVURNU1lKNkUxLXRqcnpOdUlCdVFr?oc=5",
-   "source": "충청뉴스",
-   "date": "2026-08-25",
-   "tags": [
-    "당진"
-   ]
-  },
-  {
-   "title": "[에너지이슈] 12차 전기본 ‘가스 확대’ 방침에 환경단체 '화들짝'...“수소혼소 믿고 LNG 늘렸다간 2035 NDC 붕괴”",
-   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5fZTZEWnkzM2REVW90ejNvRjY2eE14Vy1PRGpvLWQ3c3pqZk1wYy1mdFc3aTYtcjNMUkkzZTVWNWdJSlBlTmZrWUxKSUprc180dW56WFVKTF8xN1RXUWlIN1hxQkJCMmM?oc=5",
-   "source": "산경e뉴스",
-   "date": "2026-08-25",
-   "tags": []
-  },
-  {
-   "title": "당진시의회, 석탄화력 폐쇄 대응 위한 미래산업·시민참여 강조",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5pQ0FJMXZBVS1TWVctamM3ZGxQYmp6TVpKdER0UFc0eUE0dUF3cS13eTdnQ0hUU3hDdGZBZGZfbHQzVll6amwzYWdPaFpGN3dsbF9nY2Q0NTRDSzRDVDV3MWMxQlgxOTZXWEZjZ0lVbUFMdw?oc=5",
-   "source": "웹이코노미",
-   "date": "2026-08-25",
-   "tags": [
-    "당진"
-   ]
-  },
-  {
-   "title": "석탄화력 폐쇄 위기, 어떻게 할 것인가",
-   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1YdmVrbWVvOEZpQXFGc3FHeXJPdlNjd1pwX3k0VzIyR0JQWmppYkozcmxOSkNRNDRIVTYycGlrWE5OQ2dBMU0ySTgxTVRMYl9Jd2ZOcl9KNE9SWFlkMEY5aUwzNXZiUHJ3cExj?oc=5",
-   "source": "동양일보",
-   "date": "2026-08-25",
-   "tags": []
-  },
-  {
-   "title": "민주 진주갑위원장 \"발전공기업 통합본사 진주로 유치해야\"",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9CSlNXb2QzQzBtR0hEdXBjaDZpc2Q5TXE0RUdhMEZxQkhCY011c3NLLW1TTWRXdEN6RGFFbjl1LUpzN2RnSEllMW9VTFlWVF9zWWx1bWk3NDMtZ0g0cnVWetIBYEFVX3lxTE9CSlNXb2QzQzBtR0hEdXBjaDZpc2Q5TXE0RUdhMEZxQkhCY011c3NLLW1TTWRXdEN6RGFFbjl1LUpzN2RnSEllMW9VTFlWVF9zWWx1bWk3NDMtZ0g0cnVWeg?oc=5",
-   "source": "연합뉴스",
-   "date": "2026-08-25",
-   "tags": []
-  },
-  {
-   "title": "‘73조 공룡 공기업’ 유치전…정치권 공조는 어디로",
-   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1Gdmh3LVV4ZXlsOVRBcktfWC13b0tlZWtSOElWQ0diQzhtX1VaUnlhV050YTVuMGJneVhmLVhURkluWldFMmw1bm5WYkRNR0E?oc=5",
-   "source": "v.daum.net",
-   "date": "2026-08-25",
-   "tags": []
-  },
-  {
-   "title": "김기운 민주당 경남위원장, 발전공기업 통합본사 진주 유치 촉구(종합)",
-   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5mdG55TGFxbnpyTE9oWDVGNU1iQ3RPQnBLY3pocFVRazNoUEhnLWVmd1R1VDYxelA3aGt0SXZuazd1OGtvRkNrSk9acGZab0tlRTF0UnNvbzRiNVh1M05v0gFkQVVfeXFMUHpYNlltQ2xzdXRicU41LTBQQWthNmNRWW9wMDZoQW5MMXp3S2twYVZfWFFBbXBZWllESWtuMFpKbTVTV1RQUENpUkxUVTUyVXAxNnI3Q25yVjJkSkdibTRfYnlQeQ?oc=5",
-   "source": "뉴스1",
-   "date": "2026-08-25",
+   "title": "경남도, 발전공기업 통합본사·공공기관 2차 이전 유치 총력",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBRNktOZWR1d2xhTlVNSmtGRUpUOHBMT3RPUmZEdHVmeEQtajVBOGV6WFJzWWlBazQ3MHdCY1EyRURUdlV2MTNxaFVXV2VmY09TRHA2dnFMZDM3cnZYQ1duUVhYVFpQTWVJ?oc=5",
+   "source": "더쎈뉴스",
+   "date": "2026-08-26",
    "tags": []
   }
  ]
