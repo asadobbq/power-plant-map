@@ -1,11 +1,25 @@
 {
- "updatedAt": "2026-08-29 12:25",
+ "updatedAt": "2026-08-30 08:42",
  "note": "구글 뉴스 검색 기반 자동 수집(제목·링크만 게시, 본문 미복제). 기사 내용·저작권은 각 언론사에 있음.",
  "items": [
   {
-   "title": "진주시의회, 국외연수 전격 취소…“지금은 진주의 미래와 시민 곁 지킬 때”",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1FSF9kLTNZaklSMHotQW9LZVRwWEpoa0Q3aHpXNmVFbzZTQkxGWkNPZ2RsdERHczB3b2NZOFl4VUY0aHZuX1hidGpLWGVHZ2x6ZlVRZ1NwVWEzNUVYM2VlYldhX19rUnh6YTZJcWtWTGk?oc=5",
-   "source": "포인트경남",
+   "title": "2040년 재생에너지 220GW 전망. 신규 원전, LNG 발전 추가될 듯",
+   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBMb1VhMTUwYVZMTmxoZFk5cWNLajVONE9EeXNja1JzMlRSZC1TVVctNHhCbThEbWJyOW9ZNDI3VmQ5M2pQODNoLXh5dGZBRzVDMGFkVkZzZlpTWjdYLVhiOXlqS3d3Z9IBakFVX3lxTFAxMWRwdHRrVWxMT2xtRC1UbkJ4M2MxR0NhMHZHVVRPOEM2XzZRT2FMRzFpT09zaDU4ZWRkYnlBQlFqT3JfRGtPUmY4TEZ0S19DeUM5eVlOcTYwUG96RVhZbklYN1lyemtuTXc?oc=5",
+   "source": "새한일보",
+   "date": "2026-08-29",
+   "tags": []
+  },
+  {
+   "title": "민주당 이재관의원 대표발의한 “석탄화력발전소 폐지지역 지원 특별법” 국회 본회의 통과",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE91X1hINDcxUERZYm5kaDhqc1d1eEJBRW5aSk5jMzR2RGxlU2RMRWQ4cEFvYWlkb3FSdDBwcnlYQi1wRmdLcVp4Z0FRYjZpOHJ3?oc=5",
+   "source": "시사코리아",
+   "date": "2026-08-29",
+   "tags": []
+  },
+  {
+   "title": "진주시의회, 중국 국외연수 취소…“발전공기업 통합본사 유치 집중할 것”",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1XTzVHNDVTY0IzLU5TcVlsZG84MjhnV1lhVEtJQUFMSDhVUlpkOVNfZE1sa0tLZWNoaXNHTmRkdUVKUFBSbFZqY05vdmZpaHROVUJNa3BBYnNOZ2kzQmx5N09yb2dvbTFORDM0?oc=5",
+   "source": "단디뉴스",
    "date": "2026-08-29",
    "tags": []
   },
@@ -24,9 +38,30 @@
    "tags": []
   },
   {
+   "title": "용인 반도체 산단 전력·폐수시설 점검…주민 우려 듣는다",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE8yZEpvTmxGMGEzNklJMEYtc3ZmRExGaXVfdlJnNTBBazhxMHl6N0tJQmxRYUVTa09WSnVKb216cThmTlNNUUVhVXM4UUJFOFVnd0ozelk2UkxlNFMtMWpsdldIT2ktRml2YW1WbDR4dlpXWE1W0gF0QVVfeXFMTzJkSm9ObEYwYTM2SUkwRi1zdmZETEZpdV92Umc1MEFrOHEweXo3S0lCbFFhRVNrT1ZKdUpvbXpxOGZOU01RRWFVczhRQkU4VWd3SjN6WTZSTGU0Uy0xamx2V0hPaS1GaXZhbVZsNHh2WldYTVY?oc=5",
+   "source": "수소신문",
+   "date": "2026-08-28",
+   "tags": []
+  },
+  {
    "title": "서부발전, 발전공기업 최초 중앙아시아 재생에너지 시장 개척",
    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB4U2ZHeWNrUmxLbkszMXBXYl91engxaU40N094cEhmMk1Pdm9ELUJBLXBuTmF6TWpreDcxQTd4QmduQkNJV2syMFRpYmdWQzFfYWFBYWdTM3ZNZ19hVlNLcml0cGZXZw?oc=5",
    "source": "중앙매일",
+   "date": "2026-08-28",
+   "tags": []
+  },
+  {
+   "title": "“국민 10명 중 8명 신규 원전 건설 필요…원전 확대 공감대 높아”",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE82M3NZRGFMTC1tQlNxX0dmQmxER21HT2ZjRFc3SlRoWlBJU2o4ZWVGWC1UUGU5eE5WTFZpZFZLVjIxaHVlUUJsSEdIZWlkY0I4Z1JmNUVvVjJ0bk1UeXc?oc=5",
+   "source": "기후에너지데이터뱅크",
+   "date": "2026-08-28",
+   "tags": []
+  },
+  {
+   "title": "국민 83% “신규 원전 건설, 전력수급계획에 반영해야”",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBwN3JQdk5sU2ZKN2VhR1hqYUpadGw3THAwTE9NQW1YNTJZb1pnLTM5dGwzUm5KRldSdng1QnFTZDd4cVdxMnRuNjcwTERmTjNFVTA1ZUtwcTJXU2xGT0VWd2p2V3BYOTJ5?oc=5",
+   "source": "매일경제TV",
    "date": "2026-08-28",
    "tags": []
   },
@@ -73,9 +108,23 @@
    "tags": []
   },
   {
+   "title": "김성환 기후장관, 용인 반도체 산단 현장점검…주민 우려 청취",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1IN214d1pZQVFBMHhMOXFpdUh1eHhZQ2RGNHE4NVFranJjakR2RzJsV1RFMV9GNTNnbm1zcThzVnpNVFhGeEFuLVNHcnllYzFOTGg3bGRZcUNYSDdic2xITENRNlZpYTcwNUN3cVlHZC3SAXBBVV95cUxNSDdteHdaWUFRQTB4TDlxaXVIdXh4WUNkRjRxODVRa2pyY2pEdkcybFdURTFfRjUzZ25tc3E4c1Z6TVRYRnhBbi1TR3J5ZWMxTkxoN2xkWXFDWEg3YnNsSExDUTZWaWE3MDVDd3FZR2Qt?oc=5",
+   "source": "전기신문",
+   "date": "2026-08-28",
+   "tags": []
+  },
+  {
    "title": "용인 반도체 산단 LNG 발전소 추진",
    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1jQ1ltZDZYNGJITkMycnpCRzJBVEpMVmpnTlIzdnNscEM2eGxqeENOWWxaTFBzTkdNMEJ0MDNsWWNVQjNveVUtRHRTQ3Z6cUNLdV8yRmpKeDJaNlZfTGpKTlNOeFRLTVdD?oc=5",
    "source": "2news.co.kr",
+   "date": "2026-08-28",
+   "tags": []
+  },
+  {
+   "title": "기후부, 용인 반도체 산단 LNG발전·폐수 방류 영향 점검",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5FZWhmYVEtd3dFM2hBaVJJdDdSM0xNaUY1NmR6cFNyVlNUM0tab0RRTnFDX1VKNnBiZlh2TG9EaElZaGVJcmNheUFOS0NveVBwSjIzSHQ2clVxRDRBQkdGLXRWQ0ZyRThE0gFsQVVfeXFMUHppWjhrSmhJbXBFdDBVR2psQnFJWmR1THNaaHV2VVdzZ29QRldWVlZ0U2YxeEtJdWZGaTd0cjJRcmM1ZWc1alRoSzB5aFg0WFlfZGRtRDhLU2t2VmRDWVg1X05qSGNkUWkzTDRy?oc=5",
+   "source": "직썰",
    "date": "2026-08-28",
    "tags": []
   },
@@ -95,7 +144,7 @@
   },
   {
    "title": "용인 반도체 3GW LNG발전·폐수 방류 ‘환경 논란’",
-   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQdWhmZXdNM19Qa25yODFDNmF4SEtqMnlBYkRRQjNRamh0SW5ZWHVwODJQZFg1MXdwYWdlQzhtOF9kTU1yc1dNVDRfclk4VlhmZ1dFNHBTVWtTOFBXRjVXeDhueDFYZDlBdlFmbEZuM1FzUDVPQ0pZb243VGttWEFLeA?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNSUtlNHNFU05Qb2MySjFYQkJ4c0wyYVRzcFdJc2UyNjduWHBJeGhHcFJtRFg4TWgzdGZiOXEyVkV3M1d4T3lqWnVLOHZuYVpTRUlCV1F6b0p0ZThLS0ZkdTNuNFlIYkRld3U1RFpTOEVmVEVDZk9tS3VYTW9iOUtGYQ?oc=5",
    "source": "edaily.co.kr",
    "date": "2026-08-28",
    "tags": []
@@ -115,27 +164,6 @@
    "tags": []
   },
   {
-   "title": "김성환 기후장관, 용인 반도체 산단 현장점검…LNG·폐수 주민 우려 청취",
-   "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFB6MXRHNXFtQjFXUmZjb0JGVkZrdE92eWVqSGlmdGxMY05COTVPcTVNcEdYcjVxUlB0N0pkYkVnYlJjM20wWGZVOUU2TGlwUQ?oc=5",
-   "source": "전자신문",
-   "date": "2026-08-28",
-   "tags": []
-  },
-  {
-   "title": "김성환 기후장관, 용인 반도체 산단 현장점검…주민 우려 청취",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFAwOW1nb09YWDJHalhJYnF2TVc3YTcwOVVlQmUyRUNBdmdzb1RhRjE0VnRoZUlwZ0dROUFjdDhPemFmMU5UWk1tNzY2aThyNFhLYWF6Sl9pcU9idXcxd1h1ZXBXdEtMaTVtVVlfQdIBcEFVX3lxTE1IN214d1pZQVFBMHhMOXFpdUh1eHhZQ2RGNHE4NVFranJjakR2RzJsV1RFMV9GNTNnbm1zcThzVnpNVFhGeEFuLVNHcnllYzFOTGg3bGRZcUNYSDdic2xITENRNlZpYTcwNUN3cVlHZC0?oc=5",
-   "source": "전기신문",
-   "date": "2026-08-28",
-   "tags": []
-  },
-  {
-   "title": "용인 반도체산단에 LNG발전 추진…기후장관, 전력·폐수 갈등 점검",
-   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1LZVhqb1NHRTZJTmg0eHJtOFpQLWQwLVJZTlpISXlSSFA4YXd5MlpKMkc1OU5VaExId2tnbS1LYWdDMnpRa3c0Q1A4cUxUQndNSU51UGpuNWFfRE5i0gFiQVVfeXFMTXdPMi0tY0lPeG1MOEpGLUhwSDBVRC1vdWJ6Z0ZCWF9BMlhkeERReTdnY1B1VmJWNTdBd2xjODkxdWhVZ0lRWGZZRkh3ai01UFRKTVdqbnZ1WjlDblNqMURRNnc?oc=5",
-   "source": "뉴스1",
-   "date": "2026-08-28",
-   "tags": []
-  },
-  {
    "title": "용인 반도체 산단 3GW LNG발전 추진…기후장관, 주민 우려에 현장점검",
    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBXR1dRUENyanRIVEp4OXpjQTdBd1pBaVJlNVZfeEVtNmlCbEZTQV8zdTNNcFpBeTVjWFQ0Qm1oN1Y1ZFRrVmNpVGRTWmRlbzhfa3NtNF9ESW1ZUdIBWEFVX3lxTE1NMlNnZ2tKZDYwc0xfMUgwMkc2THB2bkdrSUw4emc5M3pCN3lPLVhJMVFRSE44M2l3bDE0VkZtUVJwaEUxSnVaaFVpeTZGLWwweG9OajZfVDU?oc=5",
    "source": "아주경제",
@@ -143,37 +171,9 @@
    "tags": []
   },
   {
-   "title": "'용인 산단' 발전소·폐수 떠안은 안성시…기후장관, 지역주민 간담회",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9RS1ZvbkJNYVZ1WGhwOWdhbzd0cFFqTEswOVBZbHNfTUVlVmZnUFRTYm1NMVg3YTFOUGZJN0t1VV9YcUhHZXlEd1JPc0hYMmlDaFNOZHZyQVFZYTZoV1NaTNIBeEFVX3lxTE1XdVpFZ3lPNEdOMS1lUlpNVnc1R1FDUFVobU56S1dsa1k3ZXVNc0lVcGtjUkpZQU5rRVphN3QzUmNFQmZSc0ZiaG14QUhaQXduM3pBekRRWWlGdlhRRGRnX0lPNDFOY05lQWFjdktab1d3Tk9adDVzWA?oc=5",
-   "source": "뉴시스",
-   "date": "2026-08-28",
-   "tags": []
-  },
-  {
-   "title": "발전공기업 통폐합 문제점 짚는 토론회 열린다",
-   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE14bWZJdGxwa3Z4Y19DWS1ZUzhZODdkNWZ0YmNyMFAza0c1STJYUWZCMXZpeDFBZThkTVczS1Rxd3d6Mnc3d1ZvTWJZaEc2NGt2d0UtbWtXRldfUWQ0NkhfTC1YeWprZmPSAWtBVV95cUxQSldncTNIU2d5NEU3VThzMm94a1MwUXRneGVzRGswclliZVRSVXZoUE95TzU3ZjJxMmhrQTdpQm44aWZ5MnE4bkR1RXBHT2RRMWVvSzRYMHhDUXNFaGtiTEVlWm52RkNkNk0tWQ?oc=5",
-   "source": "이투뉴스",
-   "date": "2026-08-28",
-   "tags": []
-  },
-  {
-   "title": "9월 발전용 가스요금 9.2%↑…에너지 공기업 ‘초비상’",
-   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBDcWZOTTNBdTh0amVmS2g5dUhXSk5fWTBUVHNOWERPSTdGa1N3VVFtNFJNSXJnQnRQSm8tQ2tfcEVTbmQtZFNCd055NUQtSFU2d1M5RWN6dlZaSUk?oc=5",
-   "source": "에너지경제신문",
-   "date": "2026-08-28",
-   "tags": []
-  },
-  {
-   "title": "통합 발전공기업 본사 유치에 정치권도 움직인다…법률에 ‘본사 위치’ 명시",
-   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9kWWQtNDhNRzZibk12MFU2TlE1LV9PdnMzWHVuUFdONWd1M3JDdHlPN2JnNDc0cEhzeEZVZlVydFl6SzdmN0tMNmNFWlZJczhvaVBBaDJESEN3OWJNWVo2a3pnUW9oeHZxNnpDTTRn0gFwQVVfeXFMTktiZnp6N1RDaE8zc2tpcXI3WEJzVXJEWk1wM2VOdEFYY2pQVS1zTm5IU1BsVHo1RGszOGZzelJyYnZWWHNUWjU4bzVTczNsZG5LNVd3Rk1hdUJoSHlkcW82M1UxTWg5Q0JpWDhLX0lEVQ?oc=5",
-   "source": "에너지플랫폼뉴스",
-   "date": "2026-08-28",
-   "tags": []
-  },
-  {
-   "title": "석탄화력 폐지지역 지원법 국회 통과, 남해 영향 주목",
-   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5tdVdDUG5XZ0xZSlNuTExua0lRVTM3ZEhoeW9UeGc3bTZpcVRBd3djZnNmcXd6dWhwZ0I5ZE5yVmxmX2lyT3I0N3ZqOWg5bDZuLU90M1FXTFpVM19uNTUxNlhxQWbSAWhBVV95cUxPbzBxRktLRlZBQ2xpcHFjSFh0SlFXUUhYeDYta0hXZUR2MUtLbEtjdVlrTVJuTjVBNnJHdncyblhqeXE3SUZxLUxuLUxZVVlXVnBvZkJKN3NDOFl3VV9ZbXB3LVA0X3lidQ?oc=5",
-   "source": "남해신문",
+   "title": "김성환 기후장관, 용인 반도체 산단 현장점검…LNG·폐수 주민 우려 청취",
+   "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFB6MXRHNXFtQjFXUmZjb0JGVkZrdE92eWVqSGlmdGxMY05COTVPcTVNcEdYcjVxUlB0N0pkYkVnYlJjM20wWGZVOUU2TGlwUQ?oc=5",
+   "source": "전자신문",
    "date": "2026-08-28",
    "tags": []
   }
