@@ -1,7 +1,51 @@
 {
- "updatedAt": "2026-08-30 08:42",
+ "updatedAt": "2026-08-31 09:01",
  "note": "구글 뉴스 검색 기반 자동 수집(제목·링크만 게시, 본문 미복제). 기사 내용·저작권은 각 언론사에 있음.",
  "items": [
+  {
+   "title": "전력수요 폭증에 2040 석탄폐지까지…신규 원전 공론화 개시[12차 전기본③]",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE54Z19HVjQxLWszMjhjbmdPcDlocG0teXlUS1QtcUJOcFVKM3UzazBXY0dmbFNpOTBtZmhJZnMzR2JWUVJpWUJ5NVlmUmhYaHB3NTdJOFFoMEhWdjZTVDFiNzBNQ1NOVEVieEJPSW9SbHVvd1dERkhNddIBeEFVX3lxTE54Z19HVjQxLWszMjhjbmdPcDlocG0teXlUS1QtcUJOcFVKM3UzazBXY0dmbFNpOTBtZmhJZnMzR2JWUVJpWUJ5NVlmUmhYaHB3NTdJOFFoMEhWdjZTVDFiNzBNQ1NOVEVieEJPSW9SbHVvd1dERkhNdQ?oc=5",
+   "source": "뉴시스",
+   "date": "2026-08-31",
+   "tags": []
+  },
+  {
+   "title": "서부발전, 발전공기업 첫 중앙亞 재생에너지 진출",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1jSkRDODBZOFFITHQtLTVBUk1uS25KU2dFQm1BYWw3ejBoV1VSSTh6ZG5BNUlZUU53NGdqLUcxS05uWjd1bFF1amdVVEFIVmtTTUhKVmFfV1E1TVRYWTY2Ukl3eldlVWZIOXdsN1hzUQ?oc=5",
+   "source": "서울신문",
+   "date": "2026-08-30",
+   "tags": []
+  },
+  {
+   "title": "당진 석탄화력 8기 폐지 앞두고 첫 의정토론회",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBDZEktUl9jd0hfRW5WNHYtWC0tdHhzaUlhT2w2UWpERllEcEdjNVc5bGhEd3hrWUtNR1R3RmNMNmdENThhVm9xb0E1dTE2Wjl1MDRMMXEtcndnSlpJcW5VRWlCQWtURHJPdmxj0gFvQVVfeXFMTmdZQXdEYnNPNnZrNGlTZmtkdlNJSWl3R3FfaGVKS3czSHJJVFJ1R01faVZDaHJScjcyUnRtSk9pZXVBcnhxRVNvYzRZTmowOVJ6eFZsdUpxOERqc1BVa3F5S2lFcXQ1dG1DanhRcUxn?oc=5",
+   "source": "당진시대",
+   "date": "2026-08-30",
+   "tags": [
+    "당진"
+   ]
+  },
+  {
+   "title": "[관련보도] 아산 장재리 LNG발전소 논란…천안신문이 추적한 7개월 > 뉴스",
+   "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE9kSFB2ZE5LWlJVMlRJT3RrRy1lMnFyMDNIQktnS1ZQZXNuTnpkMEhUdERNV3djaXFSeWZIVEpSUHcxU1E?oc=5",
+   "source": "천안신문",
+   "date": "2026-08-30",
+   "tags": []
+  },
+  {
+   "title": "남아시아 수력발전 뛰어든 국내 공기업, 자연재해 ‘비상’",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBTNFJUV0x2TTllTEJaWXJDM3NTa3d2YUZYNl83UXFMaFVlM3lBWWdORy1Mbk9vNmJWUXBROFlEX3pTQlNsU2dJeEl2VFM4VG4wSFRfc3EwYkhsWkhGWno3NGhFV0ZuUGxZUmRzTHJZNlFKYWt5NFhOQ0xZdFk?oc=5",
+   "source": "부산일보",
+   "date": "2026-08-30",
+   "tags": []
+  },
+  {
+   "title": "제11차 전력수급기본계획 실무안 발표",
+   "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9SNUJ6RTAzV0lrNmxTc3Q2VjBPdk9zNGRReHBCTmt5c0xTc09CUGNkWk85MGdqTThRNVdyM2dHZWZaRy1PRUJzSW40NA?oc=5",
+   "source": "v.daum.net",
+   "date": "2026-08-30",
+   "tags": []
+  },
   {
    "title": "2040년 재생에너지 220GW 전망. 신규 원전, LNG 발전 추가될 듯",
    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBMb1VhMTUwYVZMTmxoZFk5cWNLajVONE9EeXNja1JzMlRSZC1TVVctNHhCbThEbWJyOW9ZNDI3VmQ5M2pQODNoLXh5dGZBRzVDMGFkVkZzZlpTWjdYLVhiOXlqS3d3Z9IBakFVX3lxTFAxMWRwdHRrVWxMT2xtRC1UbkJ4M2MxR0NhMHZHVVRPOEM2XzZRT2FMRzFpT09zaDU4ZWRkYnlBQlFqT3JfRGtPUmY4TEZ0S19DeUM5eVlOcTYwUG96RVhZbklYN1lyemtuTXc?oc=5",
@@ -34,13 +78,6 @@
    "title": "12차 전기본 풍력 60GW 시대 연다",
    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9KOFl1LTBITE1NbnVBWDZ4NUNBVWlaQVg4SzRvS3hhWkNmMUdDYnM4ckRGYXBLaWE3WDVrc1FwbGJQeGZNZkpkWFZ1TTZEUVJva3dNaFRLWnpwMDRHci1FY0w5QTZFdw?oc=5",
    "source": "일렉트릭파워",
-   "date": "2026-08-28",
-   "tags": []
-  },
-  {
-   "title": "용인 반도체 산단 전력·폐수시설 점검…주민 우려 듣는다",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE8yZEpvTmxGMGEzNklJMEYtc3ZmRExGaXVfdlJnNTBBazhxMHl6N0tJQmxRYUVTa09WSnVKb216cThmTlNNUUVhVXM4UUJFOFVnd0ozelk2UkxlNFMtMWpsdldIT2ktRml2YW1WbDR4dlpXWE1W0gF0QVVfeXFMTzJkSm9ObEYwYTM2SUkwRi1zdmZETEZpdV92Umc1MEFrOHEweXo3S0lCbFFhRVNrT1ZKdUpvbXpxOGZOU01RRWFVczhRQkU4VWd3SjN6WTZSTGU0Uy0xamx2V0hPaS1GaXZhbVZsNHh2WldYTVY?oc=5",
-   "source": "수소신문",
    "date": "2026-08-28",
    "tags": []
   },
@@ -81,14 +118,14 @@
   },
   {
    "title": "국민 80% \"신규 원전 건설 필요…전기본에 건설계획 반영해야\"",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1kTUh1Vnc2WFdfMXZTSVZaNVJfdTNuMTN1dkpuNDlGTU8yR1otQ2UyREF1YnhNckVjVm15RjBzSGlYWnhZb1laaWYxTWQzZGRSWG5Xajc1cXIyS1U2eG1Nc9IBYEFVX3lxTE1kTUh1Vnc2WFdfMXZTSVZaNVJfdTNuMTN1dkpuNDlGTU8yR1otQ2UyREF1YnhNckVjVm15RjBzSGlYWnhZb1laaWYxTWQzZGRSWG5Xajc1cXIyS1U2eG1Ncw?oc=5",
-   "source": "연합뉴스",
+   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5aYzYtWGZQQTR5VVFROWZjb2k3ZjZ1RUpab3BldV9RVnRLT3Y5UnZUZ2FQQWROUkl5YW9KSUFnSUIyeGZQbV9RR1VHV1Q4UE5NTDd4RzZNeHdMTnpq?oc=5",
+   "source": "supple.kr",
    "date": "2026-08-28",
    "tags": []
   },
   {
    "title": "용인 반도체 산단 LNG 발전소 갈등에 기후장관 안성행",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE42RDNZQUM5dGYyS3JveHJLUWRxei1JWHNtYWpSLU1PanI4bjBNRkJXdmQyV3RWUzZjVFVUaEJQZWMyMktPY24tN1NzYktQYlhWRDMwUXBCQlR0c1pZSVdNQS0xckU0QkZrb0ZMcHVrRXBzUQ?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5sZTh6eVYzcGJQTFpTR09pWjN6cGpXSmxIZVc3V0hXTHNncXpsV1I1Ymdoa2I2U2swdkZ4RWJwVzhBanQ4dm9ybnlUMWQtVm9SYkhkQmNYTEZFZHV3WWpyLXVPQ29QUF9qcnpRMzRsaXdXSms?oc=5",
    "source": "스페셜타임스",
    "date": "2026-08-28",
    "tags": []
@@ -139,41 +176,6 @@
    "title": "김성환 기후장관, 용인 반도체 산단 LNG발전소 건설 예정지 방문",
    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE81aVZ1Uk5rNUc1ZUFSbFpVR2ZkT0tNV1V2V1J4ZmdGTTF3dkFTME8yamNoWVp4c1o5MXIxMjdNSXgyNWY1WG8zWlhSSWVMMmN0cDktWXNMRmo?oc=5",
    "source": "세계일보",
-   "date": "2026-08-28",
-   "tags": []
-  },
-  {
-   "title": "용인 반도체 3GW LNG발전·폐수 방류 ‘환경 논란’",
-   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNSUtlNHNFU05Qb2MySjFYQkJ4c0wyYVRzcFdJc2UyNjduWHBJeGhHcFJtRFg4TWgzdGZiOXEyVkV3M1d4T3lqWnVLOHZuYVpTRUlCV1F6b0p0ZThLS0ZkdTNuNFlIYkRld3U1RFpTOEVmVEVDZk9tS3VYTW9iOUtGYQ?oc=5",
-   "source": "edaily.co.kr",
-   "date": "2026-08-28",
-   "tags": []
-  },
-  {
-   "title": "기후장관, 용인 반도체 산단 인접 주민 만나…환경 우려 청취",
-   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1ySXpvNUhiZlktY1VUREFmV1piNG44UGNzcnJnb25pU2hxR3pmaXFiODJYemw2V091WjkwaU1FYjY1d0p4RWI1Vkk4Z3BSVGFLV1E?oc=5",
-   "source": "매일경제 마켓",
-   "date": "2026-08-28",
-   "tags": []
-  },
-  {
-   "title": "김성환, 용인 반도체 산단 LNG 발전소 건설 예정지 방문 “환경 부담 살피겠다”",
-   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5NOV9BYW5GbW42b3ZyMFlfallpcnVOX2NYOC0xdGpTSmFKMTFrZUJOazRfY0ZYQW4xNTBtc2RUNUdZWkxRRzdqOUg4YzJTM3VuOWtOWjI5d1BsUdIBX0FVX3lxTE1hZDhBVlNFTzAtV2wyYVh5V0p4SWtfX0JSTTc4eGc3NkpDdkJBTHNkVzE2eXEyNEZOQUplWkg5OGlGWG9CaUpURU8tcm5aQ2duTGRqMnZfdFFaOE4wbC00?oc=5",
-   "source": "경향신문",
-   "date": "2026-08-28",
-   "tags": []
-  },
-  {
-   "title": "용인 반도체 산단 3GW LNG발전 추진…기후장관, 주민 우려에 현장점검",
-   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBXR1dRUENyanRIVEp4OXpjQTdBd1pBaVJlNVZfeEVtNmlCbEZTQV8zdTNNcFpBeTVjWFQ0Qm1oN1Y1ZFRrVmNpVGRTWmRlbzhfa3NtNF9ESW1ZUdIBWEFVX3lxTE1NMlNnZ2tKZDYwc0xfMUgwMkc2THB2bkdrSUw4emc5M3pCN3lPLVhJMVFRSE44M2l3bDE0VkZtUVJwaEUxSnVaaFVpeTZGLWwweG9OajZfVDU?oc=5",
-   "source": "아주경제",
-   "date": "2026-08-28",
-   "tags": []
-  },
-  {
-   "title": "김성환 기후장관, 용인 반도체 산단 현장점검…LNG·폐수 주민 우려 청취",
-   "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFB6MXRHNXFtQjFXUmZjb0JGVkZrdE92eWVqSGlmdGxMY05COTVPcTVNcEdYcjVxUlB0N0pkYkVnYlJjM20wWGZVOUU2TGlwUQ?oc=5",
-   "source": "전자신문",
    "date": "2026-08-28",
    "tags": []
   }
