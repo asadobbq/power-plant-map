@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-01 09:54",
+ "updatedAt": "2026-09-01 10:06",
  "note": "구글 뉴스 검색 기반 자동 수집(제목·링크만 게시, 본문 미복제). 기사 내용·저작권은 각 언론사에 있음.",
  "items": [
   {
@@ -24,9 +24,16 @@
    "tags": []
   },
   {
+   "title": "˝5개 발전공기업 통합한다˝...'한국발전공사법안' 발의:동아경제신문 & daenews.co.kr",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1ZcS1FZEpESV91SWN1dFlsalRyWEtZNmpta1NKNDhheGk2TlcwV2pBT0FFc0ZKX0UzOGRLdVlHZGo1OUdsSHM2cUtja2FDMlhtUDlmd3lOZW40OVFhS3B2bS1R0gFiQVVfeXFMTVlxLUVkSkRJX3VJY3V0WWxqVHJYS1k2am1rU0o0OGF4aTZOVzBXakFPQUVzRkpfRTM4ZEt1WUdkajU5R2xIczZxS2NrYUMyWG1QOWZ3eU5lbjQ5UWFLcHZtLVE?oc=5",
+   "source": "daenews.co.kr",
+   "date": "2026-08-31",
+   "tags": []
+  },
+  {
    "title": "\"석탄화력발전소 폐지 충격 최소화해야\"",
    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9OUDRxa25EbnpTRmp6QkNCN1J4c1FTWlB3VFh5MFprVWQ4RGJYN0NxRGZWNXZOQXFuUlliZGpDOE11WTl2c3lsUjRDU0J5dnVpR3A4anY3NU9tMjRob2YyR1prbVhaYTAyTXc?oc=5",
-   "source": "gnmaeil.com",
+   "source": "경남매일",
    "date": "2026-08-31",
    "tags": []
   },
@@ -40,21 +47,14 @@
   {
    "title": "경상남도의회, 석탄화력발전소 폐지 대비 에너지 전환 지원 조례안 발의",
    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE54WjNEVnVBek1GbDJDT01paEtiRmM3NXJWaHA4ZzRNakNJdnVrMDdXOUc5b2hqVWhHUmJIZXZmY2RXdGhvRVdWQ0ZraXEyckMwdnhMZTZxUjMwN29ZTlZmb3J3SnB5NV8taUFxbGs4Vk5zQQ?oc=5",
-   "source": "webeconomy.co.kr",
-   "date": "2026-08-31",
-   "tags": []
-  },
-  {
-   "title": "‘석탄발전 폐지’ 직격탄 맞나…노동자·지역 상권 생존권 지킨다",
-   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE54MHZYUng1bENSTUZ2WUllZlhVTlhXcnQ1ZUpNbmt3ajZ1b3BqQ1ZtWFliWVpZZmJtMWg5QWRicW91czFNRmJpRGpFSVgyaVdvRE9PQ1FldG9tekI3VUU0cDJwX1owbmlP?oc=5",
-   "source": "뉴스경남",
+   "source": "웹이코노미",
    "date": "2026-08-31",
    "tags": []
   },
   {
    "title": "김구연 경남도의원 “석탄화력 폐지 대비 지원체계 마련해야”",
    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9ZX1hfU2MzXzVmRnNKNWJUcDZFUWtTbnFJRVZyd3RkS3BvWGljSE5URE5BTnNyOExpZlRaZ0lBNVNzUlh1WFJrNGhZYzkyYkRVbml6YVpyb25RZkFYQzdtTmw1UEVyLXph?oc=5",
-   "source": "gndomin.com",
+   "source": "경남도민신문",
    "date": "2026-08-31",
    "tags": []
   },
@@ -75,7 +75,7 @@
   {
    "title": "‘220GW 재생에너지’ 어디에 짓나...목표 현실화할 ‘실행계획’ 과제로",
    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9xUFR0SG1ydTBEdG96TjZoRC1ZSm8yY2dZaW1weWtFSjJfUFZvZ2FDa3RHMzFwRThTN0VaUFpzbmFkQzJlTUtCZXdPTEk2VXJWOTVJbDFsbW1YR0YzREl5emVkRkNmNWFWVFh4ZNIBcEFVX3lxTE9qdVpVd0RRVlNEVEp1VHFCWklIZ3JRR2ptcFE4WEhaZEx4NUtEVUwxYnNlRDVQU0h4dVczQmhSSE9DMS10N1lDZWRFVmdfZ2pJazlZeHdZSVBFaXBiSFdmUGdBeHdKdkU4bUZodm1GWi0?oc=5",
-   "source": "전기신문",
+   "source": "electimes.com",
    "date": "2026-08-31",
    "tags": []
   },
@@ -124,14 +124,14 @@
   {
    "title": "경남도, 발전공기업 통합본사 유치 홍보영상 3주 만에 47만 조회",
    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE0zRUpmTXlLcjNpVk04amhZSW5Hd1FLX2tqM3ZUSnlDX3F2cHZTaF8tTkhtT0M5c24yaUlGd3FqVUwxWkVVbW9BRWhnZlU1cUJHQVdBdnNtSm84aGE3Mks5Z3lnVGpkY2gyOUpQTkgtNTc4dw?oc=5",
-   "source": "webeconomy.co.kr",
+   "source": "웹이코노미",
    "date": "2026-08-31",
    "tags": []
   },
   {
    "title": "발전공기업 통합본사 경남 유치 홍보영상, 3주 만에 47만 조회",
    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1jSjA2M3Y3ZkNNRVJQU09pWDhHMm9lREZmSXJJUEpXLV9uT2RVMkRSRVZTQ1ZtOWFmTTlFUHFFYXpmdnBRZXNhSERjbGtmNVpjLWJsd0VJUEdxSFBINWU0cEJzZk1Tbl9XcVE?oc=5",
-   "source": "krcom.co.kr",
+   "source": "도민연합뉴스",
    "date": "2026-08-31",
    "tags": []
   },

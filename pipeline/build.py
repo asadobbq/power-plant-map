@@ -18,7 +18,7 @@ OUT.mkdir(parents=True, exist_ok=True)
 FUEL_CAT = {
     "농축U": "원자력", "천연U": "원자력",
     "유연탄": "석탄", "무연탄": "석탄", "역청탄": "석탄", "유연탄*": "석탄",
-    "LNG": "LNG", "LPG*": "LNG",
+    "LNG": "LNG", "LPG*": "LNG", "LNG*": "LNG",
     "중유": "유류", "경유": "유류", "LSWR": "유류",
     "바이오중유": "바이오", "바이오": "바이오",
     "수력": "수력", "소수력": "수력",
@@ -71,7 +71,8 @@ SIDO_CODE = {"서울": "11", "부산": "21", "대구": "22", "인천": "23", "�
              "충북": "33", "충남": "34", "전북": "35", "전남": "36", "경북": "37",
              "경남": "38", "제주": "39"}
 
-COMP_SUFFIX = re.compile(r"\s+(GT|ST|CC|G/T|S/T)$")
+# EPSIS는 연도마다 GT/ST 앞 공백 유무가 뒤바뀜('김포열병합 GT'↔'김포열병합GT') — 공백 없이도 분리
+COMP_SUFFIX = re.compile(r"\s*(GT|ST|CC|G/T|S/T)$")
 
 # EPSIS 원천 정정 — 등록 명칭 오기·행정구역 개편
 BASE_FIX = {
@@ -86,18 +87,50 @@ ADDR_FIX = {
 }
 
 
+def _clean(v):
+    """EPSIS 셀 값 정규화 — 2025년 원천부터 셀 안에 줄바꿈이 섞여 들어옴.
+    (줄바꿈 낀 '현대중공업 (Man B&W)' → '현대중공업(Man B&W)')"""
+    v = re.sub(r"\s+", " ", v).strip()
+    return re.sub(r"\s+\(", "(", v)
+
+
+def norm_completed(s):
+    """준공연월 표기 정규화 → 'YYYY.M'.
+    2025년 원천부터 "'94. 8" / "&lsquo;23. 10" 형식으로 바뀜(과거는 "1994.8").
+    개조연월이 병기된 경우("77. 7('11. 9)")는 최초 준공만 취함."""
+    t = re.sub(r"&lsquo;|&rsquo;|&#821[67];", "'", s)
+    t = re.sub(r"\s+", "", t)
+    m = re.search(r"(\d{4})\.(\d{1,2})", t)
+    if m:
+        y = int(m.group(1))
+    else:
+        m = re.search(r"'?(\d{2})\.(\d{1,2})", t)
+        if not m:
+            return _clean(s)
+        y = int(m.group(1))
+        y += 1900 if y >= 40 else 2000  # 원천 최고령 '43 ~ 최신 '24
+    return f"{y}.{int(m.group(2))}"
+
+
+DETAIL_YEAR = ""
+
+
 def parse_units():
+    global DETAIL_YEAR
     txt = (HERE / "raw" / "epsis_detail_2024.txt").read_text(encoding="utf-8")
+    ys = re.findall(r'gridData\.push\(\{"year": "(\d{4})"', txt)
+    DETAIL_YEAR = max(ys) if ys else ""
     pat = re.compile(
         r'c1 = "(.*?)";\s*c2 = "(.*?)";\s*c3 = "(.*?)";\s*c4 = "(.*?)";\s*c5 = "(.*?)";\s*'
         r'c6 = "(.*?)";\s*c7 = "(.*?)";\s*c8 = "(.*?)";\s*c9 = "(.*?)";\s*c10 = "(.*?)";\s*'
         r'c11 = "(.*?)";\s*c12 = "(.*?)";\s*c13 = "(.*?)";\s*c14 = "(.*?)";\s*c15 = "(.*?)";\s*'
-        r'c16 = "(.*?)";\s*c17 = "(.*?)";\s*c18 = "(.*?)";')
+        r'c16 = "(.*?)";\s*c17 = "(.*?)";\s*c18 = "(.*?)";', re.DOTALL)
     units = []
     for m in pat.findall(txt):
         (ftype, name, ucap, cnt, cap, done, ftype2, fuel, mk_b, mk_t, mk_g,
-         company, volt, biz, member, market, central, addr) = m
-        raw = re.sub(r"\s+", " ", name).strip()
+         company, volt, biz, member, market, central, addr) = [_clean(x) for x in m]
+        done = norm_completed(done)
+        raw = name
         comp = ""
         mm = COMP_SUFFIX.search(raw)
         if mm:
@@ -499,10 +532,11 @@ def main():
                 hit += 1
         print("상세주소 병합:", hit, "/", len(plants))
 
+    detail_year = DETAIL_YEAR or "2024"
     result = {
         "generatedAt": __import__("datetime").date.today().isoformat(),
         "sources": [
-            "전력거래소 EPSIS 발전기 세부내역(2024) — epsis.kpx.or.kr menuId=020600",
+            f"전력거래소 EPSIS 발전기 세부내역({detail_year}) — epsis.kpx.or.kr menuId=020600",
             "WRI Global Power Plant Database v1.3 (CC BY 4.0) — 좌표",
             "제11차 전력수급기본계획(산업통상자원부 공고 제2025-169호) 부록 5·11 — 폐지·대체·신규",
             "시군구 경계: KOSTAT 2013(southkorea-maps) — 근사 좌표 폴백",
