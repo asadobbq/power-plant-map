@@ -1,207 +1,183 @@
 {
- "updatedAt": "2026-09-03 08:41",
+ "updatedAt": "2026-09-04 08:41",
  "note": "구글 뉴스 검색 기반 자동 수집(제목·링크만 게시, 본문 미복제). 기사 내용·저작권은 각 언론사에 있음.",
  "items": [
   {
-   "title": "[이슈K] 발전공기업 통합 본사, 전북 유치…가능성과 효과는?",
-   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5EX3pCaEFkU0E5YUQtYWZzV1JIQ2JyVXR2emNGVGNrOTVwVUExNlZoZ1N1cDJ1dG80cWthcFhhdENmRWJad1VjY2NZRTlWM09RMDNkbE1BekZpM21UeDMwWjJZTE14dw?oc=5",
-   "source": "KBS 뉴스",
-   "date": "2026-09-02",
+   "title": "진주시의회 “공공기관 개편, 국가균형발전 원칙 지켜야”",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE0zS0QzbmU2OWNuY081SnBvb0xlQngxZC1hOHgwV2k5dkdpaUhwbmU4NFFXRlZsbFpPOHZGdEx5THhZYXZGZUNDQkREZDJfYjFKSnc1dndDenVNNEZhQ2phbnNTcG96OUpTT3BN?oc=5",
+   "source": "단디뉴스",
+   "date": "2026-09-04",
    "tags": []
   },
   {
-   "title": "발전공기업 5사, 폐'배터리·태양광 패널' 재활용기술 실증 러시",
-   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5XOEJkYkNZbjM0TW9BSjE4dzNqYVlWMFpHTHhaWVl4OVAxOFRSc0FnQy1wT3dGaExaaGh1eFA5V3NRUE02TXJhRkQtUjNybW9DWWRVOUE3X1hIMmQxclBkSjJpUQ?oc=5",
-   "source": "엔트로피타임즈",
-   "date": "2026-09-02",
+   "title": "경쟁하라며 쪼갠 발전 5사…25년 만에 다시 합친다",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9DclpidU96dTJNc0R1Z1RTWjhORnBfTk5JWEd0bmlsSGthVTRwYW5ucnZ5RzFMeGRMX0pWZXF2UWV1NTFoWFp5RDFuSEVLRFZ0b0Mw?oc=5",
+   "source": "네이트",
+   "date": "2026-09-04",
    "tags": []
   },
   {
-   "title": "박명우 의원 “발전공기업 본사, 당진이 우선”",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFB0aENMOU10X1c1MHZtbzFfRU1DOUlQT3QtVTNTQi1JMmNhVUpFZjl1dEk2T2RWTnRyeUNWRk5nM09rWnQyeU9SSDBQWURqN1NRTEpSdWpsVVROUmJ4Y2dTUFJBS1RTemtSRjZ3WEF0TGtMQQ?oc=5",
-   "source": "투데이충남",
-   "date": "2026-09-02",
-   "tags": [
-    "당진"
-   ]
-  },
-  {
-   "title": "“해외 빅테크 협약, 말뿐인 MOU”…12차 전기본 ‘AI 데이터센터 20GW’ 거품 논란",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFA2emNXV3RfUndDUWVucHVfZXZuM0FOUVZsSTFBVzUyWFl3RWtHVWF6WDkzVmdJeUtkLUwwcllaVDhINHdTUXByazNaSFNzS2lqczdqTVgtYmFRVjJ6MlA5bWhR?oc=5",
-   "source": "에너지경제신문",
-   "date": "2026-09-02",
+   "title": "박대출 의원 LH 분리 전면 중단…남동발전 중심 발전공기업 통합해야",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB3cVg0YVFhTG5jSnRfa21ZQ05sZ3FTa1VIeHY0QjQ5UE1DOXplMWhPQ1hnbklsYWNIdXlqekJqc1RoQ210azNPZW90OFpfRUpWcUhjVDQ3MDJmMDI0aXc?oc=5",
+   "source": "불탑뉴스",
+   "date": "2026-09-04",
    "tags": []
   },
   {
-   "title": "김구연 경남도의원, “석탄화력발전소 폐지, 지역경제 충격 최소화해야”",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5JbWVJcnpuZWRNZHhGRU5UNDd2R3NRVWZ6endTUC0zRU1SckVveE5DdmxibmxhdTBJS2VEN1ZlUGxvcTliTWtfQVRoRFRrRlVVUVZsSjFjR2ZTZ3JIQ2dvckhoSGtZeU1aV3UwUnk0NFrSAXRBVV95cUxPNFRwMGJwblZTb0NTLXFzU1ZDcDZqbTYxdzdSeU5QV2hJRnhvVmRScXBiSzM5M2xpcUQ2dGVKNC1QdVlhdllvRnVyelBPODRQcnZfYXhjR3Z1N000MWw4N1ZndEwxbDNFaWRVdVdIVFZDZWE3aw?oc=5",
-   "source": "이뉴스투데이",
-   "date": "2026-09-02",
+   "title": "예상 못한 카드…석유공사·가스공사 통합",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE51QkpuaF9pUS1OZEMxZ1lDWXRLbEJEeEFuTkNTNlZJQUZyYjVuWFppa3h3dEdvNkd6MklJUjlBTkJZWlZWUllrMTdYalF0SEI4bmRka2JpVHF2VnEtSWpVOWdWWWFMQlVvbWUwdw?oc=5",
+   "source": "에너지타임즈",
+   "date": "2026-09-04",
    "tags": []
   },
   {
-   "title": "소비 살리고 일자리 넓히는 ‘활력 태안’",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE15Wm9Vamd0Mjd1X2RxZngxdFpzR1RlWERiUDlGbmxxUkFpUTdZWGFBNjdNRnI0QTl5aXhVeEJRNUFXWUZlTnB3SEZEYjEydUZjWDlxbUotVTFzdnZ5UkJubHJsV1c4d0NobVHSAW5BVV95cUxPa0JvOExrRTFaTGZiV1R6aUlmTzRaYUZtREZwcXYyRkhKcmVOcW5ueGQxMnkxWWFUMjJ1UkpBazVmSVZudHB6eTAtamRPbVZoMUc4TzQ2dFM5TFBfbnpGTTJsbmlISnBlOS1ZLUFldw?oc=5",
-   "source": "충청신문",
-   "date": "2026-09-02",
-   "tags": [
-    "태안"
-   ]
-  },
-  {
-   "title": "발전5사 합치면 왜 문제인가…전문가들이 꼽은 '3가지 역행' - 머니투데이",
-   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9MR3FHNi1odnJiTUJRTllYdUhRVlNya3VkUVo1Q1NSTmg5Mk9GSmczejExZzNYdzBLNVZoZHNpRzhaM2ZBaV9XWHNBa3JodzNsUC15UDF5V05ublFfZ0p3NW85aXRyNWF1SUp1OUtWbkp5bDJYR0tJMtIBfkFVX3lxTE9OdmtTT3gtYkN3TC1xZXZWQVlZT2pIb0VNbXY3elRDemt0Vy1DNFc1NFYybnVBSFBVOTlTbnhnUzZIUS1LSm12dENodzFEWUZrX1I0SVhVS2JtUXVEa1JwaEN4a1BHZ205MVl5WnNPUm1panhhdEhSVm16NndZUQ?oc=5",
-   "source": "머니투데이",
-   "date": "2026-09-02",
-   "tags": []
-  },
-  {
-   "title": "당진시의회, '발전공기업 통합 본사의 당진 유치 촉구 건의안' 채택",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE04T09BZDQyYzl6Qjg1RlJUeU9FOGcxajU3eWNtR3Vic2FGR1B0dG5ENUI0NTczNlBXbG1rcmk0eFFRY3BzTkpaVW1kVzBVMHBHbzM2MHl3aGRCUW01QUlaSVZGYWw0ZE1nOFE?oc=5",
-   "source": "뉴스티앤티",
-   "date": "2026-09-01",
-   "tags": [
-    "당진"
-   ]
-  },
-  {
-   "title": "“발전 5사 합치면 거대 독점”···시장 경쟁·재생에너지 투자 위축 우려",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5vYTNsWmVaakt1amRSZ0xNWHhHMjhVcmJyU1RCRnAzSUNoNzhUQlFaZVdQc2JodTBRM2dXT2NwQUl0ZGFZSFpPVkp0MjFXQXdZOHYxWnNweC0zMkU0U1FlMWNld1FTS0JsZzc4RG5oTGZ4RkRQ0gF0QVVfeXFMTm9hM2xaZVpqS3VqZFJnTE1YeEcyOFVyYnJTVEJGcDNJQ2g3OFRCUVplV1BzYmh1MFEzZ1dPY3BBSXRkYVlIWk9WSnQyMVdBd1k4djFac3B4LTMyRTRTUWUxY2V3UVNLQmxnNzhEbmhMZnhGRFA?oc=5",
-   "source": "이뉴스투데이",
-   "date": "2026-09-01",
-   "tags": []
-  },
-  {
-   "title": "\"25년 만에 다시 하나로?\" 발전 5사 통합에 '시장점유율 60%' 경고",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5DWWVHMmdXcDdub1cxQjlnUTZsNGFrWlVBTnZzOE1WdlFHXzZycldaMFlsWHZJT2RiXzZMNmQyMFJsSHVjSkxQVG1ISkt3Y3JleFh2SjBIX2pQR1FHMEdfYTY2NjZwcFFmRm5yaQ?oc=5",
-   "source": "ER 이코노믹리뷰",
-   "date": "2026-09-01",
-   "tags": []
-  },
-  {
-   "title": "발전5사 통합 어떻게 재편?…\"시장경쟁·지역위기 함께 봐야\"",
-   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE50M3BXNzNicE9fcjY4V2ZGQmNOT1Jocktxb0NEZFFLeXVmNTFSdHVVUmJDMDUtVDI2c0RTZ2taaTNhNUJXeVI3dThfbjFlR29wX29lc2hRWU5pVEhG?oc=5",
-   "source": "뉴스;트리",
-   "date": "2026-09-01",
-   "tags": []
-  },
-  {
-   "title": "당진시의회, 공공 화장장 건립·발전공기업 통합 본사 유치안 제안",
-   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5xWWFja2p4YUVJTTZXcjU2blhzR2pRSENyOVp1cERXUHVSOHJ6YTAtbXQtNEZqVW1HcENGb0xuVXJEOFd4WkdveUJMQ2htbHFDcGhhLVR0UDk5TWlnbnhnZDJaaw?oc=5",
-   "source": "쿠키뉴스",
-   "date": "2026-09-01",
-   "tags": [
-    "당진"
-   ]
-  },
-  {
-   "title": "\"에너지발전공기업 울산에 와야\"...유치위에 노·사·민·정 '협력'",
-   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE12dU9NT2w1eTdUdlZnQWVKRTgtaHdTZ1NFMzFHVkN1VTlEaWFndDhxNFlNYllSb3M5ajM1T1p6ZVVfS28wZG9MeW1wYmZTcXRrb2xDQzEyTjV1M3V5T0IxUWhUcmRDUTZjRFlCS1YtM0RCSDQxTzdn?oc=5",
-   "source": "OhmyNews",
-   "date": "2026-09-01",
+   "title": "울산, 통합본사 유치·고유 기능 방어에 사활",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1pb2dQUzNGbW5FSVZHRlFGaUhRd1VIaS1mXzBpTHZoOV9Va1ZBdTQzRm0zZ2RYUFNrSXZNbmVUdllfelhNTU10cUhMS1h6MXNyMWV3YzVBRThLY2NvWV9qcTVaVjNpN0lUMGpVWk1n?oc=5",
+   "source": "울산일보",
+   "date": "2026-09-04",
    "tags": [
     "울산"
    ]
   },
   {
-   "title": "두산에너빌리티, 하동복합발전소 6,658억 원 수주∙∙∙ 'K-가스터빈' 실증 무대 된다",
-   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5YVllZSFM3TlYyeGRNejJkcnBPY09kckVQNXMzSWVJMmNaYmlFRFhaSjM5RFNsNV9jbHJlUUJfazNyS2F1RGJuMVlPMjB3aU1RQ1MyNFhFb0xoaFRKb29aUDNUNEdXeG5jUWln?oc=5",
-   "source": "한국신용신문",
-   "date": "2026-09-01",
-   "tags": [
-    "하동"
-   ]
-  },
-  {
-   "title": "어기구 의원, 기후위 이동… “석탄화력 폐지 대응·발전통합본사 당진 유치 총력”",
-   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE80N3NPQUZlNEx6Wmw3NzA1RmI5REdsUlZobnZwUGZ5clN0d2VlTFFNU1ZGTVNYOFllMUVHSlBrZ2FlalJqaVg3X0FfRC03VTJBWmlLYjlxNnJSN19RcnNZamZlS2xWc0dKWVBKWkNzZ9IBb0FVX3lxTE80N3NPQUZlNEx6Wmw3NzA1RmI5REdsUlZobnZwUGZ5clN0d2VlTFFNU1ZGTVNYOFllMUVHSlBrZ2FlalJqaVg3X0FfRC03VTJBWmlLYjlxNnJSN19RcnNZamZlS2xWc0dKWVBKWkNzZw?oc=5",
-   "source": "당진시대",
-   "date": "2026-09-01",
-   "tags": [
-    "당진"
-   ]
-  },
-  {
-   "title": "남부발전노조 “발전5사 통합 전 노동자와 실질 협의해야…조합원 권익 최우선”",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE15SmRPSEhEbDVaQ0taSzVpaG5VTS1QQWFwVDA4RWxJaVBqdjY1a2k5S2YzZS1uV0ZqSFAwZkdpSERqYzR2WEtBOVFReURfcFhlTzN3c1BNcTJNWElYX0pxSEdhRjQtUUdobkh0ZGxjNHVGU0RQ?oc=5",
-   "source": "부산일보",
-   "date": "2026-09-01",
+   "title": "남부발전, 대미 투자수익 ‘1억 덜로 국내 회수’ 시행",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9PMUtqdWhjdkdYYUNKMGVhZmE3c05iN2MtQVdUb0kyTUtCbDlUMEJXeEQ1MDFZcTlnVlFvR25QU3Q5dEtueWtkeldwbUtMVXZVWTBfeUFn?oc=5",
+   "source": "지디넷코리아",
+   "date": "2026-09-03",
    "tags": []
   },
   {
-   "title": "남부발전 노조 “발전 5사 통합안 마련 단계부터 노조와 협의해야”",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9zTVhVSVh3Z1hpdDhvX1dhT1A3aGwwckl4dW5jNklNSE1BRlplUDdWeGg5aG94NC02dVRmXzIxTmlDQ0lNVE96QmlUZmVXRDNLeUZpOW5PUDhZQmIxNkN4MGFabzNBZTZwamtjN0ZqWljSAXRBVV95cUxOZkJ1N3llRUFzcW1HbnJRNkRYZUk4MXBpdU5VMEE5SXBiWm1UbUNTamZ0am9NY3pzMy1JYjBYMHdvYWxHWmhST3pKZkRUdmZGc19wZWZibkJ0Y0ZabEtVLUVmVHNOQ19QemxKUkdXanNsUTJvOA?oc=5",
+   "title": "공공기관 109곳 줄이고 발전 5사 통합…금감원 노조 ‘탄원’",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9TTFRYTUVUQ2JFV3FwcXRmdGZYOHB6d3hOY3RteGZIVmtITk5EWGxFSmhSWm5hZ2NvYnViVVM4MEY1SkFWZUdjY1VPc0VBY21EZnNEdi1Ec21Cak1EdW9oNS01R2x6WC1yd1BGRHpzN2_SAXRBVV95cUxOeFdPcGI5cDNmWkgzQkRva2RZelFsYWNuMDNvUVRYWWR2ZUhmTktRRlZwVTJJOUh6QUdvYWdiN1B0VU1kRHA4ZFlIWURtc2JxTkZMVGZzRDM5VnNETHR4cmNFb3NYZC11YXRVc3Ryd04xOWxCMA?oc=5",
    "source": "주간한국",
-   "date": "2026-09-01",
+   "date": "2026-09-03",
    "tags": []
   },
   {
-   "title": "남부발전 노조 “발전5사 통합안 마련부터 협의해야”",
-   "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxQSWE5S3U4WHJ1MWJmTG1kU1BFX1FUQXhTLXBmX1c2bm5sLTBjTGt6X0lVVS1qRm5kWjJMVkwwQmYyZ2JETi1ELUd3TTIya2pGSU9HR1pmQmhHa0ZydGZOUzBuUG5uRGxYMnE5S2hlUUkzOG1oWUpmUjE4d3lUYzZsTVdCdklBY3hnRXVfNzVXUjlZOFZ2MnpNSTVXVmNXeU1RTGt6ckpGMDdZdjlrdDVsY2xWdDRZd1NDeWV2cTBLd0RwY1F5SnVINnVEU183VUJMRDExN2tuMUtmTDZHV2VyUmNIU2FzdG9udF9QNGdneDZ4MHdQV0xXaE1DTm5WM0ZvR3MwcmhoMFBNbXVkVVNwS0lraExqck5r?oc=5",
-   "source": "데일리안",
-   "date": "2026-09-01",
+   "title": "‘민영화로 경쟁’ 무산…재생에너지 전환 ‘규모의 경제’ 기대",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE8wcUJsYjZjcVpEM0VaeGtyLXZrSFowaU05NTBNd0xnanA3N3JhLVJobmVja1pDUU9HejFhbzRWYWVral84SjR1R2lPTWpIa1Z0aFBSQ2dFd0J0RVZyckxN0gFfQVVfeXFMTzBxQmxiNmNxWkQzRVp4a3ItdmtIWjBpTTk1ME13TGdqcDc3cmEtUmhuZWNrWkNRT0d6MWFvNFZhZWtqXzhKNHVHaU9NakhrVnRoUFJDZ0V3QnRFVnJyTE0?oc=5",
+   "source": "경향신문",
+   "date": "2026-09-03",
    "tags": []
   },
   {
-   "title": "[당진시의회소식] 당진시, 고용부담금 납부 지적 등",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE15aWlUbWVzNVpXYk9iRk1VVld3Wk5VczQ1RHN0VmtOWDV2dW42bG52dzVhUGx6SUtIcElzUnBHVkNtOWgwMXlUT2dpU3FpRzlBcTZhOWlxa2xHZzdvYy1iMV94eHNIYUtqRWgzUDRlWVrSAXRBVV95cUxOWUhtNTluWVc5aVRnZWNOTDBudS1LM3REZ1dydjlNS3A5VVR0YUtlYXJCTm9XOFN6OHRQTVJNelBrdEdnQVNNYnlkTnhDOEdJdkFOSDJXTFhLSGx0Q2pJVUN0VzlHMHNHVFRfQWxsVTFpZ0dVTA?oc=5",
-   "source": "주간한국",
-   "date": "2026-09-01",
-   "tags": [
-    "당진"
-   ]
-  },
-  {
-   "title": "당진시의회 \"수십 년 전력 생산, 발전공기업 통합 본사 우선 검토해야\"",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBWbFJHRU1ucHlfY05rQjdKWDZDZHliZzgzTTBNcG9DZDRVVzhyWllUM19DODJONTNmenFJLVY4TzN3VHpjMmFwc2ZieW15NU96NlF0Y0g5dFdxd3BhUTR0aGEyRUtoNTBFSkczX3pmTFhGUQ?oc=5",
-   "source": "굿모닝충청",
-   "date": "2026-09-01",
-   "tags": [
-    "당진"
-   ]
-  },
-  {
-   "title": "공공 화장시설·발전공기업 통합 본사가 당진에 있어야 하는 이유",
-   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFAyTnNYa093eEoxaVZPNDk5UHpjTEhXbkhkNHRCVXFhdzJXYV9XOXROaWZhSHlEOTA1UGk3T1pIdTYteFNIVXkzV01hTk9oUWZSRUJscg?oc=5",
-   "source": "v.daum.net",
-   "date": "2026-09-01",
-   "tags": [
-    "당진"
-   ]
-  },
-  {
-   "title": "반도체 ‘장밋빛 전망’에 6배 뻥튀기? 12차 전력수급계획 과잉 예측 논란",
-   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQZnVVYmFwUGhYTVhVcXpyYk84dXQzT2FUT2s1S1EwTE1uWlRuU0hGZWZxZGpBR0gwY2lUek11LW1SZWZxanByOUFQNWNHREFkOXluQ3Nwa3FFNUNJUEhhZC1QOVROdUM2ZWY0R3RfRmRSRkprNHNWT1dfSk9MRXlITEF3?oc=5",
-   "source": "비즈한국",
-   "date": "2026-09-01",
+   "title": "남부발전, 美 발전사업 수익 1억달러 회수…8년만에 대규모 수익",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9nS0toSUJ5a0F6M29sdmVqZS1NSlFHdjdNaDFHWDQwZGZmYjhseDJqZy1zZWNVYlo2SmYyVWM2MHN4TjB6MHFNRVQ4OVp3S1FGOXpB?oc=5",
+   "source": "네이트",
+   "date": "2026-09-03",
    "tags": []
   },
   {
-   "title": "당진시의회, 발전공기업 통합 본사 ‘당진 유치’ 촉구",
-   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9ScXYtLWx0MlVTTVU5QUc1NGhTdGFMUjBPQ043b2JhMlVZTzEydDUxb2drVXF5U3dSbXBTVzFaZVNuWi1aUFE0RmFSVmUwSF9OVjZIaHhzanhxWHhHVDVQOF9ydC1UNHpaUjFjQUw1UdIBc0FVX3lxTE1fUGFMZ0JJNERZeHVYV2owc1lYY0FNdGllWU5GbF9kdTREdUFsOW9wbEhYLXFWbVhDRnduVGJnbUg3b3E1eFNWeGVkdGNuaEFFRVNLOFdyQzg2MHFkc1pwaGZqQWpFT2piSkRtVm4wMGxubFU?oc=5",
+   "title": "“한전 5개 발전공기업 통합본사 잡아라”…지자체들 경쟁 가열",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4zNTZtcm5kVWxWSUpnam9nRDNCZG5UeVBsZ21URnFsaFVxNnJJNHlMSFF1N3hyUEhNeDRlM0ZCb0tTT21RMV9Kek5EX3hCQXNZbWhwUnZlbUFEZ9IBX0FVX3lxTE8wcGdoREtPdUdvSGJMMUFoR21UOE5xSVdPa2ZDVVNjUklZZWpQSEQ0a2dLYVNzSFBwVUVoSWpHSjYySmx4VDlIdG5Xd29zUWVueGRuTUFrNll1WVVNdTFR?oc=5",
+   "source": "경향신문",
+   "date": "2026-09-03",
+   "tags": []
+  },
+  {
+   "title": "공공기관 109개 없애는 고강도 구조조정… 발전·항만 합치고 LH 분리",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBCQlhEaThiQ3FoTVpacTlMbElXWXVSSW5yT1VxTFZ2bmhmOVVQTUVZakJ6QkpCV2Z3NFBwbGJsRDhmLWdYMm9SSnctU3NrbFpDOWRtOE5IM1ROZGo5TV9xT1NETEtpWU5zVndVQTV30gFzQVVfeXFMUDljOXF1alZvYy1CNGZKMG9MaHFyN0x1M3JBSVdkUEhJTER0MjdkaDFSYWNJODlhd2FVVjBES3RjSXJCaTRKdEtITW5HeEtZUldjYklJTU5MbW9TSldsbGtGZ0FSbUdnYkE3MHJkX0c0R3hSbw?oc=5",
+   "source": "한국일보",
+   "date": "2026-09-03",
+   "tags": []
+  },
+  {
+   "title": "진주시, 발전공기업 통합본사 유치전 본격화…LH 본사 존치 여부도 쟁점",
+   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE41UzZBdU9pTHRjRzloWkZTNVV4Mkg0YTY0VjNOV0RZcldBTnVncl9JNTdtOUlVX01PaHk1OGNRNFhlWmFzMDFvUlJYTjdneVlidThmYzhOYkpyUWho?oc=5",
+   "source": "뉴스핌",
+   "date": "2026-09-03",
+   "tags": []
+  },
+  {
+   "title": "직원 1.4만명 '공룡 발전公' 탄생 … 재생에너지 발전 총력전",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9INlNFbmsya2g2ZUl2UGI0N2pnU0IzVmwzZWNWeXl2ZmdvVmJNZ2tRc21PMXpob2lET2JwUlBTZWZHMXJrbGRrSmo2MVZXZ0VvMnhqXw?oc=5",
+   "source": "매일경제",
+   "date": "2026-09-03",
+   "tags": []
+  },
+  {
+   "title": "“공공기관 개혁, 혁신도시 흔들어선 안 돼”···진주시의회 반발",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1tY19oTjMwZGNBT1Yxbi02ZHdRdElrRnZEYXVJVTlCRTlZTm8tZ0dPZjVpSTZSUldGRTBDNkxWdU9xVTdGb2p4QWltOEV5TkJHZE1ZVjBGbklvTV92R2NjTlNHdHFQZE9Ic1ZJ0gFvQVVfeXFMT1dyaV93TTFtY2RHRHZFTXRwRnZJSmNzVVh0X1NWTzBGTE8zVUF1Y0dJYmxobldLcXdLbHlwZTdheTZYSXVXNExSS3k2MDRaOW5JanF6QW1NRjdTdXU0R3c1ME40UTVRQUE1Q00ycWtV?oc=5",
+   "source": "펜앤마이크",
+   "date": "2026-09-03",
+   "tags": []
+  },
+  {
+   "title": "진주시의회, 공공기관 개편 성명…“진주혁신도시 기능 지켜야”",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE8tU2FaX05sb2gzaVRsR3NMdzRPRjcycVhfOUl3M2xZeUdES21IeUNpai03WWp3ZEFEYTA4OHFGdzRPZXBqT0FoaXVjdTJ6UlZUeVczLVVRUHFEc1pGbTFNdE4wR3h4cnB3N3A4?oc=5",
+   "source": "mediagn.co.kr",
+   "date": "2026-09-03",
+   "tags": []
+  },
+  {
+   "title": "진주시, 공공기관 개편 대응 본격화… 발전공기업·LH 사수 총력",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9nODRoVTJjbWJZMWRVY2tYWWRLUmx6TXh5dTVwQVRZdDhYU1FRN2d5WjM2ODNGaFBVRWY2el80c01zT0E4cHhNMmNJRDAtMlhWQWpESDl4NUZ5RXdFVkZxNGdaQXpwWnE5TFE?oc=5",
+   "source": "천지일보",
+   "date": "2026-09-03",
+   "tags": []
+  },
+  {
+   "title": "공공기관 109개 감축…발전·항만·에너지公 통폐합",
+   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5hNDBLNF9QTjQydVdmMHlwR2ZXdGpMRnlIdTh6RUtpTHVGWi1iWnNxZGZCT2h5aUJuMHUwUjdTVDdQSlZUeEhFdlpTZjUyWjVROGJVcEhGUThrNk85ZzBRZk5Ia3YwaTJxYUo2cllWY09raXdBaU1j0gF3QVVfeXFMTmE0MEs0X1BONDJ1V2YweXBHZld0akxGeUh1OHpFS2lMdUZaLWJac3FkZkJPaHlpQm4wdTBSN1NUN1BKVlR4SEV2WlNmNTJaNVE4YlVwSEZROGs2TzlnMFFmTkhrdjBpMnFhSjZyWVZjT2tpd0FpTWM?oc=5",
+   "source": "핀포인트뉴스",
+   "date": "2026-09-03",
+   "tags": []
+  },
+  {
+   "title": "5개 발전사 통합, '규모의 경제' 실현 vs '거대 공기업' 탄생 방만경영 우려",
+   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1nMDY3M2NoMV9XMWZYR0d4cVhwTklHRUZpNnlUNUtPV1hBdmxfOERYeVdEMzBPWlozc05LWHlrc0FyYVpIaU9NdWxscG91Wmk1ZTFreDdrU0wxdnlMVHcwNHdHQ1lVUQ?oc=5",
+   "source": "자투리경제",
+   "date": "2026-09-03",
+   "tags": []
+  },
+  {
+   "title": "정부 공공기관 '대수술'에 진주혁신도시 직격탄…LH분리·발전5사 통합에 지역사회 '발칵'",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4zSjlobGJBc2pCUm1zbjhraDZrSWRmZm94V05XOTZpR0REMDZmNFBoVjM3UkEwZnozdmpYWEJZbmY4b1JCOWtnVGlldGxURm1Va29nbjM3TnZjTEHSAVZBVV95cUxQOFoyR3FOakRYVW1zb2lDY2Y0VjFrVUdTTlEtb0JsTGtmLXZPcWx6TFdjWUhkMlhObDAtcjhoV0NKSFZabnJsbUFuOGZ2V2lpQWgtNTV1Zw?oc=5",
+   "source": "더팩트",
+   "date": "2026-09-03",
+   "tags": []
+  },
+  {
+   "title": "정부 공공기관 개혁안에 진주지역 반발",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE52a0hXRm5iMGxpM1p1TVhVVGdMaFFmTFlOYUpGak5yOWJSTkJlbm1IRGxwWDNSQ0hCc2h2YVdKbHNIdzFHWTZpanVBVENBTXhINnR2VGxtQ3hGU2gxUU9Kd2Jfc0tNUTNOOU5B?oc=5",
+   "source": "단디뉴스",
+   "date": "2026-09-03",
+   "tags": []
+  },
+  {
+   "title": "진주시, 공공기관 이전 계획에 발전공기업 통합본사 유치 집중",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBFNUJJUGU4MkdoSE5PZnBSa2d1c3VzU1B0U1hOY0NISDBoT0d0RmwzUVFfY0NOLXlZVUl2WDBoc0VXeEFXaFRrZHJEMjIydHRrQW5laDlfTi1aVzY5ZUJxeUs3WWctNlJaVUJ5bFAyRkdJTVhLN0drZA?oc=5",
+   "source": "네이트",
+   "date": "2026-09-03",
+   "tags": []
+  },
+  {
+   "title": "발전 5사 통합해 재생에너지 중심으로 재편, '100GW 조기달성' 가는 길에 재무관리 시험대",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5CMmQ2UkpSWEpkaUZiTVE1WWdBQXlqa1llbUNXdWpnRUZxWGZscmtxYjJoSEt2X05MR3c5ZVAyVDVjNklFR2dsRTFUTTRpR2NSYU1HQ05IRkNUeG1KeHVlTlluSVJ2SzRTT2R2U1I3Q0hZMlU?oc=5",
+   "source": "비즈니스포스트",
+   "date": "2026-09-03",
+   "tags": []
+  },
+  {
+   "title": "발전5사 25년 만에 다시 하나로…‘한국발전’ 출범 추진",
+   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBCa3hIT1RYYzBYLVRta1FXajNiaTU1Rm0zQS10a3dXUVBaOWdaTVMtbzJ6OW8wZXhvcHRseUJDOXFvbVBibnhYazVwOHBuN2w4U0E4MnRzWGRiSjMxWU5LX0RmTzJpUQ?oc=5",
+   "source": "인사이트N파워",
+   "date": "2026-09-03",
+   "tags": []
+  },
+  {
+   "title": "5개로 쪼갰던 발전 공기업, '한국발전' 하나로 통합된다",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5vYTVMU0tEc2NVNk9kSXA0Smo1Sm1lVVBwUUVZWG1xb1hhUjVLSzJYZU4tQkxoSFloMUhhUkZua1NfQU1FRVA1Ml9SYmRYY0xqdkRrTG95QTVTZFVGajFQaThCV0xwWGV4a2lZU1NLRQ?oc=5",
+   "source": "이코리아",
+   "date": "2026-09-03",
+   "tags": []
+  },
+  {
+   "title": "남부발전, 대미 투자수익 1억달러 회수…국내 발전공기업 최초",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE0zendiQ1VpTklOX3pNQ3pvclNla0VyQzFkYjlHUnZqRWlnZjl0MzBpWElhZTlXTWZ6N2VqMmZzRDZOdEVVb2xmb2E1YkxIUHpsRnI1bUNhRU1jNU5OeEhJWEowY3VDZHBidlpUUEFmWdIBc0FVX3lxTE41Sk94eWJ1ZXcwem5kRUJTUGl5RnpYeEN3Uk10cVRLc2Nvb3NpOEdBWFQxdWdZNTFzTXdjeGp2cXc5RmVyVjdRUEpweUpudGxiOVBRYjFfR2FxdTZVaFZFVkpzZmZUZkFGNFNYZVp6YWF1REE?oc=5",
    "source": "데일리한국",
-   "date": "2026-09-01",
-   "tags": [
-    "당진"
-   ]
-  },
-  {
-   "title": "울산시, 공공기관 2차 이전 총력전…발전공기업·IBK 유치 나선다",
-   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA5M21HV3RYd1dkSTBfSEtHSVhqLWpRU2FvSDdCNHVuWm1xVXZsNFoxcDI0ZFg0aHFjUjQteEt4c0k3Vk5SMnBzbkZMTEpvSnhTSFVFOWg1bmItbHRneFdFOVdRbVlkVFVT?oc=5",
-   "source": "더쎈뉴스",
-   "date": "2026-09-01",
-   "tags": [
-    "울산"
-   ]
-  },
-  {
-   "title": "“발전공기업·기업은행 잡아라”…울산시, 유치전 총력",
-   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE81VklZcXh4ZV8zdjdrWXJLRlJfUmUxUHdjclNnSHR4UzlfcUE1bXpBMWhxbmhzM0kzSkhaNHJ5dF9nTlpHeERPdGZKSC1Lc2s?oc=5",
-   "source": "v.daum.net",
-   "date": "2026-09-01",
-   "tags": [
-    "울산"
-   ]
+   "date": "2026-09-03",
+   "tags": []
   }
  ]
 }
