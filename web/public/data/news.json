@@ -1,18 +1,46 @@
 {
- "updatedAt": "2026-09-05 08:34",
+ "updatedAt": "2026-09-06 08:27",
  "note": "구글 뉴스 검색 기반 자동 수집(제목·링크만 게시, 본문 미복제). 기사 내용·저작권은 각 언론사에 있음.",
  "items": [
   {
-   "title": "발전사 통합 '기업결합 심사 면제'?…간이심사도 건너뛰나",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1NYk11TDZUbTFYLThkT3FiUE05WUpjX2ktalJDODI0cG9Ld3FRWlJKM3FELWV6UzV5TEQyM3VMR2dmaDl6bHZLWG8tX29QdVlRaEFVS3BYN05kV09XRnQyRtIBeEFVX3lxTE1hZUxCNTdRMUNYeWNBenRISHZ3S0lBRVpnUzZ0WW54aWowandPWWxTRG9CYzd4YmtoWWxhYk1RVklfRm1GbXlsbGR3dnYwcmdOcnpIZjRrUmhHVEVHQllVU3NVazF6ZkpTNnpqLWZVNmJDUXlXV1hyWA?oc=5",
-   "source": "뉴시스",
+   "title": "석탄화력 문 닫는데 지역은 뭘 먹고 사나…박수현 “특별법에 충남의 현실 담아야”",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1KbGwybWcyWDZQMm1nQVk0UjBGY2RydW0tMXo3WWJrNklmSFJUaGozVjhRQnZTX1VoSUpNS2NBQkFXaUhXM2dEMV80X1dlU1ZWRVdRcnF3U2xtcUlCZ3JHOTNlelJmbWJ5UnpRUEtn?oc=5",
+   "source": "뉴스홈(newshome)",
    "date": "2026-09-05",
    "tags": []
   },
   {
-   "title": "통합 발전사, 본사 새로 짓는다… 지자체들 “우리가 유치”",
-   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE81N2VpdFpzMHcxMmNreE0xQUVvcGgyeHVrd19TTk91M3pOQXJITXcwMWFzek9lY2Q5ZDhHYXpzVkZILUZTQWNsSDVZMXFULU0?oc=5",
-   "source": "v.daum.net",
+   "title": "종합 석탄화력 폐지 지역·노동자 지원 요구",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1vaUNvLW02TjQzMWE4TG1EN2RKMjVvZ2tJXzJpZEg2WUsxRjZyM1B4RGpKMlJfSE9iNVY2bFAyNHdBdzJDSjREY1pKbTdBbFdpZFpmckEtSndGUQ?oc=5",
+   "source": "뉴스케이",
+   "date": "2026-09-05",
+   "tags": []
+  },
+  {
+   "title": "“석탄발전 폐지지역 아닌 에너지 전환 중심지로”…충남, 새 성장축 전환 시동",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBaZ3NlcUZTbEMtSnJHUnR4NGVBRHdZTlFwcmpMejh4Z0Z6Uk9QdHNMQTBhc0pSNWN1cy1pQWVSMlQxY2RISlpYemM0UmpfY0FDeGJGcUI4djZHcld0amV2dGhib0tGbDFt?oc=5",
+   "source": "녹색경제신문",
+   "date": "2026-09-05",
+   "tags": []
+  },
+  {
+   "title": "특별법 만들었지만…충남, 석탄폐지 지원 6가지 요구",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE15MnliNzJHWEcyemFELUlvcWptSkZkTGRab0Y2U0I5SHp6WWRGOGpfdFY2ZGItU2hYZm5QdldaRkRXOVF3a2xBVzBPMzd1dElPcTdpQTR5cWp3WWRGNDZTVk90U0ZJMDc1emExODBB?oc=5",
+   "source": "충남내포뉴스",
+   "date": "2026-09-05",
+   "tags": []
+  },
+  {
+   "title": "발전5사 합친 ‘한국발전’ 새로 짓는 본사 어디로",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9sVUtVTkx0U3BCLTItUm9qbjBjV1hqbWZvLWZLQVZJZnZQX3F4QlNNY1BfZ0NXQXhGMjIzVTZoNDlFX0E5WHhtRWpVem8zMndjNHA1WGxweU56NmFMSUFv?oc=5",
+   "source": "미주한국일보",
+   "date": "2026-09-05",
+   "tags": []
+  },
+  {
+   "title": "[해설] 발전 5사 통합, '효율'인가 '독점'인가…㈜한국발전 출범의 명암",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1uQjFSYXZ2cHZHR0YyWWNQa1lMalZrT091Y3RGSHlRMzFlZ1NycWZxcU9NQ2FxaEJHenlyb2dWRWRrenhhRzdBbExHQzdHRHdNWUZESWN3?oc=5",
+   "source": "urban-talk.com",
    "date": "2026-09-05",
    "tags": []
   },
@@ -75,7 +103,7 @@
   {
    "title": "[현장인터뷰] 최철호 전력연맹 위원장 \"통합발전공기업, 선언 넘어 재생에너지 실질 이행주체 돼야\"",
    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9YaXJHdUVTcUEwSko2VEdUY3ljT0lONG53Z0wxcUNIZnNxckhvbVYzTGlwcnlUTjJ2SzJnSXNKeWpueGU4b3VHcjZPVFR6dGo3SUY5LTBLdGlLQnJZbFhYRVpmbWFqSzQ?oc=5",
-   "source": "skenews.kr",
+   "source": "산경e뉴스",
    "date": "2026-09-04",
    "tags": []
   },
@@ -94,20 +122,6 @@
    "tags": []
   },
   {
-   "title": "충남도, 여당에 석탄화력 폐지 지역·노동자 실질적 지원책 촉구",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA0aS10c2pPWWV3OVI3aUN2ZkpuVHZHeGo3aThUTUttQXd6ZnJnYjdFOUF4M092eWxwaWhUWTJXakZtaVBjQXVPQnVPaGlFM3hINEpBZWdyck9kSEdzclBRb21fWG1BYmlERlJJVQ?oc=5",
-   "source": "뉴스타운",
-   "date": "2026-09-04",
-   "tags": []
-  },
-  {
-   "title": "발전공기업 5사, 한전 100% 자회사인 ‘㈜한국발전’ 1개사로 통합 추진",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5faFdEbEw5WVNzTVZQN2tvTmprNkJlM0JRbm53M0FTUHNJYVM2S0J4RTZhZzJPS05UVVRCakNTX3owN2FubzdpbFNFV0ZtZ0Zva2ZESkRiU2U1dXVxYzdKTnhMR1Vta2RYSXc?oc=5",
-   "source": "한국전력신문",
-   "date": "2026-09-04",
-   "tags": []
-  },
-  {
    "title": "5개 발전공기업 통합 ‘한국발전’ 내년 10월 출범...본사도 별도 신축",
    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQQ0wtT2RxYUlwV3hDc3lQNkc0RVJLVkI3dWZDQWNET3pyMkFCT3E5Mk5wQWE1ODQ5LTNCTUNNMmc1QXZTczhFcHRvdmg0dDJiTFdTazVibWZpc195cUhIMUxRc2NjVDM0enlTT0VOaUw5WDZ5c0tqZTF1d0RPeTNxV0RsVWE?oc=5",
    "source": "글로벌이코노믹",
@@ -122,13 +136,6 @@
    "tags": []
   },
   {
-   "title": "발전5사 25년 만에 다시 하나로…'한국발전' 2027년 10월 출범",
-   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE91NXZMQU1vNWJySnFpaHNrdVFMU0UyR1lNYWJ0b0o1Z3o1dUVCMnFsOXJMMlBSckU0Nkp1cEJDRjRXcVdmbk5Ca29ZcDJnRDNVdF9WZGZxYno1STEzV3pXaE04enVuZHVR?oc=5",
-   "source": "복지TV부울경방송",
-   "date": "2026-09-04",
-   "tags": []
-  },
-  {
    "title": "기후에너지환경부, 발전공기업 5사, '㈜한국발전' 1개사로 통합 추진",
    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5VS1FNMmRNS3FoTVl6R005MlhxcTVwZTBfWjlrM1BsYktGb2hvM2YxUUtRMC1fMWpZbThnQkpydzMzeWhwU3lFYUdDWkVvaUlQempFbktxRmk?oc=5",
    "source": "메트로타임즈",
@@ -138,7 +145,7 @@
   {
    "title": "[발전5사 통합] 기후부, 통합 발표 하루만에 노동계와 대화 시도...발전사 사장, 전력연맹 노동자 참석",
    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1lR0oyVEFYdlQ2YjJWOTZyWVdka09IYkJrTzVVU3Q3SVZkR2MwNEI3UWcyLXlUU0F5ODQtYlJSZmM1TjBfUUFkLUdaVGIzMDBfcGZIUnVCOWl5dnhhdWxuSmJkMEcySUU?oc=5",
-   "source": "skenews.kr",
+   "source": "산경e뉴스",
    "date": "2026-09-04",
    "tags": []
   },
@@ -150,13 +157,6 @@
    "tags": []
   },
   {
-   "title": "발전 5사 합친 '한국발전' 내년 10월 출범…53GW급 초대형 발전사 탄생",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9PTkFuTllYTlAtVkVjNXQ1V3FrRi0wS2thRUxOczVxdUtnWi05bmxxalZyZ2JzeU9mZC1UNEZSc1Y4N1BTdVotZ3JsSzhHa253TVdrUUs2ZXhVczZtN3lwZnI5ckNlWS1zSm1ndg?oc=5",
-   "source": "ER 이코노믹리뷰",
-   "date": "2026-09-04",
-   "tags": []
-  },
-  {
    "title": "발전공기업 유치·LH 존치 한목소리… 경남도의회, 산업 경쟁력 강화 총력",
    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5lLU4zRWlTZnhTNEpSeFBqUGZldV91aS1HWjhSeTRCMVJ5dU5HeWp0N3V6R01obHk3dUFQaXdldW0wVjlwc0traVZMU1dqLWllb2tlN1lrZFpsclRidmFuV0VrYjhXRzdxUVE?oc=5",
    "source": "천지일보",
@@ -164,16 +164,16 @@
    "tags": []
   },
   {
-   "title": "발전공기업 \"고용 안정은 기본, 임금·복지 상향 평준화돼야\"",
-   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBrUlM4bklBeUlNNDBtSDlYWFUwQXc3V1JuR1g1b0p5al9sZDJ5WlJCb1RqUmZrZ05tNkNfR0hqbDJZa015MHRveFJmS2JRU2tmQWxN?oc=5",
-   "source": "네이트",
+   "title": "발전공기업 ‘하나로 통합, 내년 10월 출범’ 밑그림 구체화",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1WeWRiTU56eGQ2LV9jLVRaVVFQa3ZzUU44c21ZWndnLUFZaE56MGNIRjdjazZBaS1mdzN2RXlVUkh0aWRaXzljWk9kbE1hR2pfYW9KQ3dPVmZXbV95cUhWc3JMdUtsV21iZ0pTN0pn?oc=5",
+   "source": "참여와혁신",
    "date": "2026-09-04",
    "tags": []
   },
   {
-   "title": "발전공기업 ‘하나로 통합, 내년 10월 출범’ 밑그림 구체화",
-   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1WeWRiTU56eGQ2LV9jLVRaVVFQa3ZzUU44c21ZWndnLUFZaE56MGNIRjdjazZBaS1mdzN2RXlVUkh0aWRaXzljWk9kbE1hR2pfYW9KQ3dPVmZXbV95cUhWc3JMdUtsV21iZ0pTN0pn?oc=5",
-   "source": "참여와혁신",
+   "title": "발전공기업 5사 통합 추진… 2027년 10월 `㈜한국발전` 출범",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5QMms1N1BPNUx3Y2pZUVVxOWtCdXFqSXhEYm5rVm1QSUc3czRhc2duZWFfY1JxVXVPUEJvNXBYRDEyUFRpRXJma3RremxieDhlSmQ2TVo0b3VrUQ?oc=5",
+   "source": "seonamtoday.com",
    "date": "2026-09-04",
    "tags": []
   }
