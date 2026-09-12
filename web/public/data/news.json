@@ -1,13 +1,80 @@
 {
- "updatedAt": "2026-09-12 08:41",
+ "updatedAt": "2026-09-13 08:34",
  "note": "구글 뉴스 검색 기반 자동 수집(제목·링크만 게시, 본문 미복제). 기사 내용·저작권은 각 언론사에 있음.",
  "items": [
+  {
+   "title": "대미투자 1호 이르면 이번주 공개…택사스발전·원전 8기·알래스카LNG '촉각'",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFAzNlVEVldHVzVPemhiRFRBMlRucHZoUktfeVg5QUYtV3U2LWtfbWE4ZHpkMVg2ZE00U21aV0hrMlliWkphWnZmSEpmbWptdUx4QlNZNFdLcUx3d9IBWkFVX3lxTFAzNlVEVldHVzVPemhiRFRBMlRucHZoUktfeVg5QUYtV3U2LWtfbWE4ZHpkMVg2ZE00U21aV0hrMlliWkphWnZmSEpmbWptdUx4QlNZNFdLcUx3dw?oc=5",
+   "source": "뉴스1",
+   "date": "2026-09-13",
+   "tags": []
+  },
+  {
+   "title": "월성본부, 주변지역 대학생 207명에 장학금 2억3850만원 지급",
+   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5XTE1iblpnajBsLVZrYV9VN0gtdkY3TWFadGFUUTlWc19IMFZPV2lVcHlXMUNiMHVRS3pBay0weUh5ZzNSTUJEWDB0VXAzcXZaUUVzLWk4Tkw?oc=5",
+   "source": "경북신문",
+   "date": "2026-09-13",
+   "tags": [
+    "월성"
+   ]
+  },
+  {
+   "title": "박수현 \"발전공기업 통합 본사 유치 사활 걸겠다\"",
+   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5NUC0teUFCTGV0RjJwaWtFUzA2c3ZIenAyZWJRaFhuVVFkQkJUbDc0ODhDcmM5VE9vT3lRRnluZV9kUHRmRXN3cmRSakh5WE0?oc=5",
+   "source": "v.daum.net",
+   "date": "2026-09-12",
+   "tags": []
+  },
+  {
+   "title": "박미경 진주시의회 의장, 발전공기업 통합본사 유치 및 LH 기능 분리 재검토 촉구 1인 시위",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9MQ2xoYkdjNGdlT2UwNlR6S3JfQTRRNS1rT3hrMnFlX0J5X0wyWmVVbHJOTDhFLXNjSTJPTThja3hySk5iUUQwZGRIeDNiRDB5bTY4?oc=5",
+   "source": "네이트",
+   "date": "2026-09-12",
+   "tags": []
+  },
+  {
+   "title": "석탄 화력 폐지 위기 연대로 돌파",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9qcHhjQXNLNUUzOTk5dDJQSkphM3VaNFFOX2NTemJScWhNbG9sSEFROHlCNnlHZkhqRHllbkVzRDlfMW5FY0NXOU9aRXo2YTFreEdxZGNXRmNodzIzZmUtOVNpUWNxNWs5elZ5MG5R0gFuQVVfeXFMT2pweGNBc0s1RTM5OTl0MlBKSmEzdVo0UU5fY1N6YlJxaE1sb2xIQVE4eUI2eUdmSGpEeWVuRXNEOV8xbkVjQ1c5T1pFejZhMWt4R3FkY1dGY2h3MjNmZS05U2lRY3E1azl6VnkwblE?oc=5",
+   "source": "충청신문",
+   "date": "2026-09-12",
+   "tags": []
+  },
+  {
+   "title": "자원순환과 청년 자립… 공기업의 새 이정표",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9zS0t6M0p4V1FtMXBhZkxRclUxSktUVnJRMV9jTEp4Tmh4OXA3WFkyX2VYY2o5REdialhwRjJCclhTOUhxclFfV1YwQkZ2MHpKWWVKclI2M28yRUMydlFPdGFCM3dKWXhvT3fSAW5BVV95cUxQVXY4Q1pZdlJFMjd1WFRYbzNqZEh0OUFiYTh2azZFTjB5b3d2WVlhdGY5SGN3ZnNSQl9LY0NNZE5zbUlBTjQ0QkZ1a25udFpOMDJsQmY5MU5MVmpQVnhWYUtCWjVndG5fME53eEVDQQ?oc=5",
+   "source": "충청신문",
+   "date": "2026-09-12",
+   "tags": []
+  },
+  {
+   "title": "[분석] 12차 전력수급기본계획 '예측의 계획에서 대비의 계획으로'(박주헌 동덕여대 교수)",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9IelpuSms5WjdoWGZUcllnNkdsRlA3ak1KTGNjMTdMcE12QWR3azRaRnA0ZGZycVZUbVd2Nzk2MWRDVGpTSVBMSlc0YXBENm94TmQyblFfRGFjNTRzUEJESmtzclg?oc=5",
+   "source": "에너지안전신문",
+   "date": "2026-09-12",
+   "tags": []
+  },
+  {
+   "title": "박미경 진주시의장 \"발전공기업 통합본사 유치 필요\"",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFAyRk1hRDJ4WTNwWmNfUVF1bGNqTkdiUV9NbmkyRTFlN0hENlllYW9lRjBiZ0RESFhhZGFUM2NFbmp2bVY5dUZibkNiRkw0aWFpblpVSXVmcEZxMEh6cVl5NDZPWWJVRDRIUGVZ?oc=5",
+   "source": "프레시안",
+   "date": "2026-09-12",
+   "tags": []
+  },
   {
    "title": "박미경 의장, 국회·청와대 앞 1인 시위 전개…\"발전공기업 통합본사 진주 유치해야\"",
    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBqSzFsNWp1VGtLeGk2YjhvOW1lZlJlUXE4Vkl1WmpKR3BpdUtJdy1ZeW4zR2ViQ3NNVk5odGZibS03TUh6M2dxWVYwYUhQN25nQ2dldkhVcEJUakZKc2R1TjY3SQ?oc=5",
    "source": "쿠키뉴스",
    "date": "2026-09-12",
    "tags": []
+  },
+  {
+   "title": "경기지역 공무원노조 “발전공기업 본사 태안으로”",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9odzFrUkJkOHFweW9NN1lMSG9YeGo0di1wLXM4SGZMSXZlY0JSc3hBaTFweWpzaUdzaFVMOWw3TWRBZHV2eHU1aUk1dTFCMjEycjFod3hlNVI0cjg?oc=5",
+   "source": "KBS 뉴스",
+   "date": "2026-09-11",
+   "tags": [
+    "태안"
+   ]
   },
   {
    "title": "조동준 충남도의원, 정의로운 전환 특위 구성 주도…석탄화력 폐지 충격 막는다",
@@ -24,23 +91,16 @@
    "tags": []
   },
   {
-   "title": "우리은행, 한국동서발전 연구비 통합관리시스템 구축",
-   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1zWHZlZVo2Vkx1Nk9abkxSblRJc3pnZFpNZDZsRU50WWtYMVRlS1c0ekljbnUwN3VPNlBJY2RSb1pmZXdvODlpN3Q0Z2IweXNMWHQ2VFE1REVPbXI1dzVlUkFYZXBHaVpjQjNF?oc=5",
-   "source": "BBS불교방송",
+   "title": "서부발전, 태양광 폐패널 자원순환 위한 선제적 협업 체계 구축",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5Tc3kxek9Ydm43S0FvelFpQUFCbnB3NE1KbGRSTnpzaXp1Y1BqOGxXdnNXQ0hXdGh6VG1YdkZVSlNrRmZrQU9KamtWREdzVWxrQm9ZT3BPSTR2d3NvbVN6Rm1va0hORnhGWFpYVFRSRdIBc0FVX3lxTFBvd3h6WUxVS1N2cFYwMmM3Ym94cEdFYWJzVE4yUmJFMjhYc1FnMTdBaEw4cnJWSFZtNHRWWTNWZEdFYm52ZlVZeWVFVm1ZZUlieG9QakRtcE8zclZMNnRXQVlQWDluLTUyVzlGRWlGUVRuekk?oc=5",
+   "source": "데일리한국",
    "date": "2026-09-11",
    "tags": []
   },
   {
-   "title": "남부발전, ‘사람 중심 복합지원공간’ 꾸려",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE50NG5vakdGRGZESnVnTk94UGJJTGhnOEJycWxMdXdLV2RYa2RzRmRpYXM3d055eWhPaWt6N0pQSnduSDBvZWNTUk9QMHJ0V1FHOXBnNGI1dEZNWHlmYVg2RG9VUDBGNVFJU2tVTDlmR3HSAXRBVV95cUxPTlVsbm1DcHdJZWkzbXdmQWlEc2pTeEljVWVPU1E3U2dfMUpJMzFOWkI4VEU3ZVhBVk9jX2d2aEl0WGRXZFRKWkpERi14NHFxTFI0RXBiRXBLMEpzREJKc3VZZkJDLWJhWjNqY0VlYUViMlU2NQ?oc=5",
-   "source": "주간한국",
-   "date": "2026-09-11",
-   "tags": []
-  },
-  {
-   "title": "건의문 들고 국회로···박미경 진주시의장 유치전 가세",
-   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1JTXlJLTJyNEZhbEpOelo4YUZSVU0xTEFWRDlKX1QxVVJZalVDN1otMDJOY044ZkFfa3NFWWZCOGxHeDZxX1FOMFZVRG5HdzJsSHBKRE1TRmFQazI3SU1RUUFNUTlpQ2dfZldj0gFvQVVfeXFMUHZDeDUtS3QxTF8xZmxjeklUTUh2NnZFeUcxZmllc1BBODZSMFRMckNNOWVmSHNfV2R0akV6NllJVEZmMnoyNGU0MVNyVGlZMFFfQ2NZelU0RmhtaFJrODd3dTk3RXRFT2NZYWtUME1z?oc=5",
-   "source": "펜앤마이크",
+   "title": "광주·전남 반도체 클러스터 단지 안정적인 전력공급 방안은?",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFAyY09qUS1WZXlwS0ZpNDY5U2ctLW1STWJWbGVBWmZWZ3JvTmxsOEpTRkQwQVJQazBfTjJ1VllQYU5NUzFmR052dW8xMGJkYzRHTEtSZ1YxMDBHbTBEdTBRQzFOc0xSM2VucmNB0gFrQVVfeXFMUDJjT2pRLVZleXBLRmk0NjlTZy0tbVJNYlZsZUFaZlZncm9ObGw4SlNGRDBBUlBrMF9OMnVWWVBhTk1TMWZHTnZ1bzEwYmRjNEdMS1JnVjEwMEdtMER1MFFDMU5zTFIzZW5yY0E?oc=5",
+   "source": "한국원자력신문",
    "date": "2026-09-11",
    "tags": []
   },
@@ -52,16 +112,9 @@
    "tags": []
   },
   {
-   "title": "우리은행, 한국동서발전 맞손…차세대 연구개발 자금관리 시동",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB0Vmk1a2RWbTlhWjF0RjZYQ2RGYmRfVHp6b3hzQkUxRG94SERKYlhzNjRGOEpOWmJwb0RHM0J1QWpfR0RacVFRX3Z5X0pNM0NoOXNzZ3Y3bTFxR2JIcDFnYl91NkJkcDBRRC1HNg?oc=5",
-   "source": "뉴스락",
-   "date": "2026-09-11",
-   "tags": []
-  },
-  {
    "title": "박미경 진주시의회 의장, 국회·청와대서 발전공기업 유치 1인 시위",
    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5zTnVRM3dlMVFkUVMyXzliWkc3VWVqaTNNU09xbWEzRWttTWVwbDBkUy0wamxqVE5HTmJWZ3BVWlRLbDZPVVVLRXpQVEhubW9CQjlvQUpVblBkRVdBRFFB0gFkQVVfeXFMUEUwbzdPV0NlUzlVU0FweDNpLXpQS2l0SkdxZUVQRGNIMHU0Vnp3ZkxfU2ZackJxUE5WQkZWdWYyNW1mS2xNTzZsUTkteFdEa3VvV1NIZkdCcW8tbFRNZU0tbXgzXw?oc=5",
-   "source": "news1.kr",
+   "source": "뉴스1",
    "date": "2026-09-11",
    "tags": []
   },
@@ -76,7 +129,7 @@
   },
   {
    "title": "발전 공기업 5社 통합 법인도 한전 자회사로 남는다",
-   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5pakZKX25kd3VVWXZZYWhQekVwQUJVNmN1V2xqalN0QllDc3I4NTBPV2lQZVlacFZZeE9pZEtYZEFaVDlzZm90NGdELUFiUHRnSEZJTWFFbVh3dTNIczJQOE9WblBsRGJuSWF0R3hGcGpBZjTSAXdBVV95cUxQZ2JrTnpib2xvUFMxZUFYZldDVGlJZFJWRmZoaWU0aU0yUC1HUWNlV2hnU1FXQWlXR1ByYVdhMTBGWkY2M1I3dkhkeG5maGUwRkFWODN3M2k2a2otZjg0aXZkeUtzSkg3X0haRTc5TUxKV19UNWRTQQ?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBnYmtOemJvbG9QUzFlQVhmV0NUaUlkUlZGZmhpZTRpTTJQLUdRY2VXaGdTUVdBaVdHUHJhV2ExMEZaRjYzUjd2SGR4bmZoZTBGQVY4M3czaTZrai1mODRpdmR5S3NKSDdfSFpFNzlNTEpXX1Q1ZFNB0gF3QVVfeXFMUGdia056Ym9sb1BTMWVBWGZXQ1RpSWRSVkZmaGllNGlNMlAtR1FjZVdoZ1NRV0FpV0dQcmFXYTEwRlpGNjNSN3ZIZHhuZmhlMEZBVjgzdzNpNmtqLWY4NGl2ZHlLc0pIN19IWkU3OU1MSldfVDVkU0E?oc=5",
    "source": "핀포인트뉴스",
    "date": "2026-09-11",
    "tags": []
@@ -88,15 +141,6 @@
    "date": "2026-09-11",
    "tags": [
     "부안"
-   ]
-  },
-  {
-   "title": "“정부가 선언한 정의로운 전환, 태안에서 실현하라”",
-   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE84SUpZZldENnU1MjZJUTYxTFh4R21sbDVsbGdhVjR3djhneDdGSHJwVEVyM2hlS1V1djFEQ2llenJfNGJER1JibTVzR2oySmZ2cGpoMGx4LUdHRW1sdktuNkwzSnFPcTZNRzdDa1VR?oc=5",
-   "source": "taeannews.co.kr",
-   "date": "2026-09-11",
-   "tags": [
-    "태안"
    ]
   },
   {
@@ -118,7 +162,7 @@
   {
    "title": "\"발전5사 통합본사 태안으로\" 힘 보태준 경기 공무원노조",
    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBGbVI3SHpXVTgzd2pvWk0yYjA0TTFoQzJGNWJWbm9YX3ZOaGN4UXZEbEhaWWlJemtMazBDaHUwYldpWnJUVXh3c3UxSC1la1lMaGxya2NuQ3ZMYk5zYWwtZFExSWNMd9IBZkFVX3lxTFBGbVI3SHpXVTgzd2pvWk0yYjA0TTFoQzJGNWJWbm9YX3ZOaGN4UXZEbEhaWWlJemtMazBDaHUwYldpWnJUVXh3c3UxSC1la1lMaGxya2NuQ3ZMYk5zYWwtZFExSWNMdw?oc=5",
-   "source": "news1.kr",
+   "source": "뉴스1",
    "date": "2026-09-11",
    "tags": [
     "태안"
@@ -127,7 +171,7 @@
   {
    "title": "한빛 2호기도 멈춰…원전 4기 개점휴업에 전력수급 ‘빨간불’",
    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9uemJEMFA5M2dGcUJ1X2ZFQzFubkVrVnZZcXFnTXQ1MlNkZGV5dldrOGkxclVUVklPVzZsTG1CTlhldXJuX1o2cVF1R1JWM0UyRXfSAVNBVV95cUxQcFlRaTFjejdwRlZoN3BzdkI5M2ZZNHRtOVg1bks4ZU5nZUdPbUpmTUlpbDVyVzF1LTM1dEs1VXdvV2tIS0JFQXcxd2I0UWpLak1mdw?oc=5",
-   "source": "서울경제",
+   "source": "sedaily.com",
    "date": "2026-09-11",
    "tags": [
     "한빛"
@@ -146,50 +190,6 @@
    "source": "전기신문",
    "date": "2026-09-11",
    "tags": []
-  },
-  {
-   "title": "서부발전, 태양광 폐패널 1만6000톤 재활용…자원순환 선제 대응",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5DNjhnUnluS2lKbGxTeTZKdVpCclFCdkZPUXlYcXY5OS1OazhPb0NuWXQzcGZpaDFtVjV1VS1NOVR6OTJITHRPSkJ3ZWFyM2o1eXdsaG9CcUlmcm52dUNoddIBZkFVX3lxTFBOZlVUdHgzaDVxVGpkS3JNT0c3SlZHVF9GT1Y2QmZuTk1xRVZPVXU0TEFHdnhnRXE0ZEtHdG1aTFNibHZTc0F2OVc1QVZZTkl4ZHVCc1J2dFgtZE50UDBHOEwxVG02QQ?oc=5",
-   "source": "news1.kr",
-   "date": "2026-09-11",
-   "tags": []
-  },
-  {
-   "title": "충남도의회 조동준 의원, 정의로운 전환 특별위원회 구성 추진…석탄화력 폐지 충격 대응",
-   "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE82Zng2OWEyeWtSMXlEaWMzRi1KSV9QekxOcXFUdHdTdDltY3I5dlFRTVlfS2doWTd2bTJFZ3V5MldSV3FkSnc?oc=5",
-   "source": "뉴스충청인",
-   "date": "2026-09-11",
-   "tags": []
-  },
-  {
-   "title": "동서발전·우리은행, 180억 규모 연구비 통합관리 구축한다",
-   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFA5T2o4bEhscjFOTnNxVFBHd0UtOWh4TTR6bG52ZkxUU2JpX0NGazV3dEJsMUpheU8wWmJvMEx1R2ZRMXg5U1ZFaWpaZFZ1eUszdzlBQVhicy03ay1ZaERzekJHMzNtZ0NQN2xr?oc=5",
-   "source": "sisaon.co.kr",
-   "date": "2026-09-11",
-   "tags": []
-  },
-  {
-   "title": "동서발전, 우리은행과 연구비 통합 관리 시스템 구축·운영 협약 체결",
-   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE54MjJEcnZLcWJST3ZPTmtYY0VZM0YyRVRVbGdENTNmUTJFOGg1SWc0dFhaNG9zUXdvNHN1dG5TWWphMW9YcFp5bU5kWlFZeVlpYlJQNkxhdWIxa2ZDN214X19YVzFvdmRVWmJtc0JzVdIBc0FVX3lxTE9tUldkMjhqTHFrSHl1cEpyVDliMXFBMWV3em0td1ZLZFJvbE5fb3JwSHB0WmFGaW5fUHg3cGV2QUFSUkEzTnBkVnhWY1AyVmQ1OVlnTllEbW9heVJLUG5vclJHaVlDaUMwR2xlNXotbHJKSVE?oc=5",
-   "source": "데일리한국",
-   "date": "2026-09-11",
-   "tags": []
-  },
-  {
-   "title": "실시간 연구비 관리…동서발전, 시스템 구축 추진",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4wc3dZODlWSDB2WHdncmdzTkhJV2VlOG1QUUVsem1lS2Z3a1k5NThudTExZTQwdjRYOWhjR2t0S1Nyc0p1a0FCUjB5M2t5elp4VmlRd0V6d0JrLURRNGlDQzcwa0tIY1p6Q2NpVw?oc=5",
-   "source": "에너지타임즈",
-   "date": "2026-09-11",
-   "tags": []
-  },
-  {
-   "title": "월성원전, 발전소 주변 대학생 207명에 장학금 2억3850만원",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA1UFh3T0VxaExHQVNLWU1EaWJGd2YyUWJvemtOZk9fWGFObmwycTU4aC1CekhkWjdNN0FaQ1M3eEpka2M1a3ZLbFVndm1JeDFwNTk2d3dkaWgxVVFnWi1QOXFDNm1jUlFWRDUtTjhvS2E?oc=5",
-   "source": "신아일보",
-   "date": "2026-09-11",
-   "tags": [
-    "월성"
-   ]
   }
  ]
 }
