@@ -1,194 +1,187 @@
 {
- "updatedAt": "2026-09-14 08:46",
+ "updatedAt": "2026-09-15 09:04",
  "note": "구글 뉴스 검색 기반 자동 수집(제목·링크만 게시, 본문 미복제). 기사 내용·저작권은 각 언론사에 있음.",
  "items": [
   {
-   "title": "美 환경보호청, 석탄·가스 발전소 탄소규제 폐지 수순",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOcEZ0dk5ENXp6OWJreWtuVk0zYUU3QnAtMlpmNlJhV01vTGdLc2hKaVNrWHpCUERvM3FXOHpzT2xtU2tBNmcwTHNha2xfRDFSTG9UVTFZUDc2ck43RDd0NVZlNEtuUTBKT0Z3eWpOR1QwNjhtNGgzMVJPbTA4QlJfUjVQVWszZTRL?oc=5",
-   "source": "글로벌이코노믹",
+   "title": "트럼프 행정부, '화력발전소 탄소배출 90% 감축' 바이든 규제 폐지",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB1RF9uak8yUzdBMFhwUHhKdUhOSmxyc1BLTkg3ZGdEM0xvLWtDcVBQUkVESmNVOGVfMVBmLWlRNnJrakU3dDhtb1FLcjRNTTA4M3RiQnFKbTNxWG9hbGx0cdIBeEFVX3lxTE0zYjhHMjNoLU9oYnRrRm03RmtvN2Vja2p2RW5JX3FnRkxqd05aMXAtdDJVUXlwMkFucldJWGxNa2dpZzNxcHYwVnNOSnRjNHRuVEUxMFpkSXAtQi1HalhweS1tV1YwS2lTWWxDM1JjZ0h4c2lJekVadQ?oc=5",
+   "source": "뉴시스",
+   "date": "2026-09-15",
+   "tags": []
+  },
+  {
+   "title": "경남도·국민의힘 의원, 공공기관 이전·통폐합 4대 현안 공동대응",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFAtU3pzV0JXWGx3RU5KUDJjZEdSLTJaLTBNZmtGV3JqRDN1STRVYWwzbks0MGxiMjZyLU9GTjU2anN5NTYyVjg3V1UxMVdGZnJxQ1ZEcE1DM2FwMHVQT1pRTEFsNWJsZTdt?oc=5",
+   "source": "더쎈뉴스",
    "date": "2026-09-14",
    "tags": []
   },
   {
-   "title": "김택세 진주시체육회장 \"발전공기업 본사는 진주시다\"",
-   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE00cjRrNVpNT2l2RmllalZPZlN0NWphYU80TU5pakpOc29adkwwNUM5NGdpZEdWZUx5VXY3bDJGelNDaW9FQWswQzAtaVZyYV9SZWNMOWZINTFQTkpPTWVZdksyYmo2QWxuWVg0?oc=5",
-   "source": "프레시안",
+   "title": "태양광 폐패널…서부발전, 재활용체계 선제 구축",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4xalFTWXljZzBTRGdmaGRnaTA3SHk4OUVqVF9mZ2ZYYXc0UmRCclNLeUJNbWJYY3lIeFg5em15UnJBR0hEZ0hqTTAtZ0hLcFI3NDFHTEFQbEx6OEFzMlNXVmNoc1lsbVJJRW9Tdg?oc=5",
+   "source": "에너지타임즈",
    "date": "2026-09-14",
    "tags": []
   },
   {
-   "title": "[리포트]박수현 \"발전공기업 통합 본사 유치 사활 걸겠다\"",
-   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5wVmlQMm9qRkhTTWV4ZURxVHlWWGRCNDZJa3lNbWl4VnA2bDZ3UmJEOUp2dXJNRkFEZExtVUVXSDN1ek9RLUlUNEd6ZlVuQ00?oc=5",
-   "source": "대전MBC",
-   "date": "2026-09-14",
-   "tags": []
-  },
-  {
-   "title": "가칭 '한국발전' 유치전에 뒷짐...주도권 빼앗기나",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAtWV9ocjhRMHVXSkt6bW5fRF84YVNlQm45TTRFbVZyckJaVnppZjhLX1BhcGZCT3VueWZaYU5mZmtscUFrRW9UdktjbEQtT2tEd2NLdmo1TmtUY19rTWpEVw?oc=5",
-   "source": "ikbc.co.kr",
-   "date": "2026-09-13",
-   "tags": []
-  },
-  {
-   "title": "'전력' 급한 정부, LNG 용량시장 연내 개설",
-   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE8yLXZYTWJMelp3cHJnTE5ldkM0YUFjQ0VIaWpZbU1ZbnZBcDhMOVRySUpNRV81dURyMHRiS212YjdoeTJBOUxtcmhxUnBYclhldkE?oc=5",
-   "source": "매일경제 마켓",
-   "date": "2026-09-13",
-   "tags": []
-  },
-  {
-   "title": "[단독] 원전 1기급 'LNG 용량시장' 다시 연다 …\"탄소저감 위해 히트펌프 도입 의무화\"",
-   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5uSm82ZlV3XzZhaWhkU2VpaWlhY3h6VnhBZjVqeWRydElfMWFCTXVDQVZYeGRsaU8ydkpHNW5Ccll0NjNadzlvT1RhZ1BfSEt2S3c?oc=5",
-   "source": "매일경제 마켓",
-   "date": "2026-09-13",
-   "tags": []
-  },
-  {
-   "title": "경기지역 공무원노조, “발전공기업 통합본사는 태안으로”",
-   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9icU5sLTZ5Q29sTEtfUFlYQjd0VzNHek9tanNrVjJZaWZCMmU0OWJLQmlqOVU4MEZUUWRjVzhaT0U3aUhvSnNSSHBJUzFab01TdFo3Nm9vR29vRlhBS1Vsb2w4NEdZd1U?oc=5",
-   "source": "경기매일",
-   "date": "2026-09-13",
-   "tags": [
-    "태안"
-   ]
-  },
-  {
-   "title": "한수원 포천양수건설소, 2027년 주변지역 지원사업 공모…연 3억5000만원 투입",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBndnhpLTlfWnBFanZzX1B4WUx5bTZMdGYtUmdqTVhwR3FRdmgySW5KcHJ3Zkp6YnZhenZvRHozekJIakJuRzBEVFBBSU5DSVRPcS1KZXBJM0Ewc2ZEbFl0dVpWVldyNmdaLUVZMHZWRlA?oc=5",
-   "source": "wikileaks-kr.org",
-   "date": "2026-09-13",
-   "tags": [
-    "포천양수",
-    "포천"
-   ]
-  },
-  {
-   "title": "한수원, 발전소 인근 초등학생 대상 ‘아이수(水)크림’ 캠프 개최",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9KVUdzZjZmNnFaVzJuSWVYaHZFZDgyczIyUjdkWm00UE95Ujgwd1llUGI1RDhUY1FBYW9wMlc3TkJQalpveUpQUlZkSUFpS0VMclE3UnZVTlc4QjUybzRWbDQ4OTNpWGpVU2VvSTA3SkU?oc=5",
-   "source": "wikileaks-kr.org",
-   "date": "2026-09-13",
-   "tags": []
-  },
-  {
-   "title": "김택세 진주시체육회장, 세종청사 앞에서 LH·발전공기업·공공기관 2차이전 촉구",
-   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1oUU4xNjZwTWFOWlFncExUT2FKdzRSb1V2VHFPRVBORTBGVFdXRTE3TXpFUENmYlB0Zjd6YW4xNzVtUEdvMVd2bnJWNGhhSTZ5cWJkM0RuNlprbW9aaXZrSDNuME5RMTNRYVdmZzJR?oc=5",
-   "source": "gukjenews.com",
-   "date": "2026-09-13",
-   "tags": []
-  },
-  {
-   "title": "경기지역 공무원노조, 발전공기업 통합본사는 태안 유치 촉구",
-   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE10TjhZRjFucFJ0cFp2M2lWa0R3TElienhvRkExU3NQMUJLbVFYTFZhMW5HT1RscDJLVVpIdFhORkMyb1lJQjAzVUQyckpPdzhxbTBzczR4ZUNLWUVXT2plUlZmZ2pFc3VYS2lB?oc=5",
-   "source": "동양일보",
-   "date": "2026-09-13",
-   "tags": [
-    "태안"
-   ]
-  },
-  {
-   "title": "AI 때문에 원전 19기 더 필요?…한국 전력수요 확 늘어난다[이영민의 알쓸기잡]",
-   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQM2lfUjFubHlZNUJIajVSZ1VmRnk0Q2hnQWIybG5LTWRrQml2RDZsSDVYMnNkY2RXNjh3TUFuZkVoRVltZjBzZ2IxdzJ0QklsRGxmQXc1M2lhUEM5SHc5dFNMUzBXcUZBZ25rZS1zWWowc1AyTjV1UjlDVkUtbDM4cQ?oc=5",
-   "source": "edaily.co.kr",
-   "date": "2026-09-13",
-   "tags": []
-  },
-  {
-   "title": "월성본부, 주변지역 대학생 207명에 장학금 2억3850만원",
-   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5kVEl2eWJUaVJGdzdKQ29PUjhQd3RkelRCMVhPWkZIQnZyQTBydGtncldOSnh4MlQ4elUzRy1FbVRjb0xucUpvZnB2N2M0MlVsTE9JSTJfdUJCZw?oc=5",
-   "source": "경북매일",
-   "date": "2026-09-13",
-   "tags": [
-    "월성"
-   ]
-  },
-  {
-   "title": "충남도의회, 조동준 의원이 대표 발의한 탄소중립 이행 정의로운 전환 특위 구성",
-   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBsVU5LQkhjZC1NT0cyTlRVeWZzQVAwVkowTkVsc0pPbi1vdElaRmEtZ0NVdy00MmppbDlaWFhGN0pmcFdoTVZoX3ZEMUdzZFAtT09KOFdpVHRFRlBOOGEyaUZWRVI?oc=5",
-   "source": "중도일보",
-   "date": "2026-09-13",
-   "tags": []
-  },
-  {
-   "title": "대미투자 1호 이르면 이번주 공개…택사스발전·원전 8기·알래스카LNG '촉각'",
-   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFAzNlVEVldHVzVPemhiRFRBMlRucHZoUktfeVg5QUYtV3U2LWtfbWE4ZHpkMVg2ZE00U21aV0hrMlliWkphWnZmSEpmbWptdUx4QlNZNFdLcUx3d9IBWkFVX3lxTFAzNlVEVldHVzVPemhiRFRBMlRucHZoUktfeVg5QUYtV3U2LWtfbWE4ZHpkMVg2ZE00U21aV0hrMlliWkphWnZmSEpmbWptdUx4QlNZNFdLcUx3dw?oc=5",
-   "source": "뉴스1",
-   "date": "2026-09-13",
-   "tags": []
-  },
-  {
-   "title": "월성본부, 주변지역 대학생 207명에 장학금 2억3850만원 지급",
-   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5XTE1iblpnajBsLVZrYV9VN0gtdkY3TWFadGFUUTlWc19IMFZPV2lVcHlXMUNiMHVRS3pBay0weUh5ZzNSTUJEWDB0VXAzcXZaUUVzLWk4Tkw?oc=5",
-   "source": "경북신문",
-   "date": "2026-09-13",
-   "tags": [
-    "월성"
-   ]
-  },
-  {
-   "title": "박수현 \"발전공기업 통합 본사 유치 사활 걸겠다\"",
-   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5NUC0teUFCTGV0RjJwaWtFUzA2c3ZIenAyZWJRaFhuVVFkQkJUbDc0ODhDcmM5VE9vT3lRRnluZV9kUHRmRXN3cmRSakh5WE0?oc=5",
+   "title": "경남도·국힘 경남의원, 발전공기업·LH·해사 사수 ‘한목소리’",
+   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5wRmNUQVotRnV1ckFxZGpHX2huZVB1LW1ucDZlbk9yRGVTR2d6VDB1N1EyQU1CZGthSTZlM2pZQjFMS01lWHJFd29QMDlaNFE?oc=5",
    "source": "v.daum.net",
-   "date": "2026-09-12",
+   "date": "2026-09-14",
    "tags": []
   },
   {
-   "title": "석탄 화력 폐지 위기 연대로 돌파",
-   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9qcHhjQXNLNUUzOTk5dDJQSkphM3VaNFFOX2NTemJScWhNbG9sSEFROHlCNnlHZkhqRHllbkVzRDlfMW5FY0NXOU9aRXo2YTFreEdxZGNXRmNodzIzZmUtOVNpUWNxNWs5elZ5MG5R0gFuQVVfeXFMT2pweGNBc0s1RTM5OTl0MlBKSmEzdVo0UU5fY1N6YlJxaE1sb2xIQVE4eUI2eUdmSGpEeWVuRXNEOV8xbkVjQ1c5T1pFejZhMWt4R3FkY1dGY2h3MjNmZS05U2lRY3E1azl6VnkwblE?oc=5",
-   "source": "충청신문",
-   "date": "2026-09-12",
+   "title": "박완수 경남도지사, 국회 찾아 발전공기업 유치 및 칠서취수장 개선 건의",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8tSlM2TWV6X2NLaVhKcEgxdThGcG5kblVIUTc1aXlCRHFYb29xWXlRZXpBWE1pQzJDRjZtU0Z3MzhUWThmcTJjb3dnT0xCN29UUGFBRDVmNVFCZnZxOWJRUEdlblRfLWQxWmk2VQ?oc=5",
+   "source": "NANOOM ENERGY",
+   "date": "2026-09-14",
    "tags": []
   },
   {
-   "title": "[분석] 12차 전력수급기본계획 '예측의 계획에서 대비의 계획으로'(박주헌 동덕여대 교수)",
-   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9IelpuSms5WjdoWGZUcllnNkdsRlA3ak1KTGNjMTdMcE12QWR3azRaRnA0ZGZycVZUbVd2Nzk2MWRDVGpTSVBMSlc0YXBENm94TmQyblFfRGFjNTRzUEJESmtzclg?oc=5",
-   "source": "에너지안전신문",
-   "date": "2026-09-12",
+   "title": "경남·여당 의원, 공공기관 이전 공동성명…지역 전략산업 연계 촉구",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9kR2M1MzBhTjBWeHBWTUx1ZlhUTXp2alRUenNaVlNoUDZ2WC1zSUpGb1BSRkloaG4xcExRS0xZazJJRnpoblVSQksza21iaV93NmRoTVJvUVcxQzdNOWVKUEVEOWhyV29qc2hRVkJB?oc=5",
+   "source": "newfilenews.com",
+   "date": "2026-09-14",
    "tags": []
   },
   {
-   "title": "박미경 진주시의장 \"발전공기업 통합본사 유치 필요\"",
-   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFAyRk1hRDJ4WTNwWmNfUVF1bGNqTkdiUV9NbmkyRTFlN0hENlllYW9lRjBiZ0RESFhhZGFUM2NFbmp2bVY5dUZibkNiRkw0aWFpblpVSXVmcEZxMEh6cVl5NDZPWWJVRDRIUGVZ?oc=5",
-   "source": "프레시안",
-   "date": "2026-09-12",
+   "title": "발전공기업 통합본사 유치·LH 기능분리 재검토... 지역사회 한목소리",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9TbVA4OGYyVlhnSW84TU1idDJ5WmxLY21vc3VNN0JLbUQ2NzRsTWFxcVh6b3VkQldrcGJVbXIzVjh5aEY1Nzh5S2c1T2VNRjZYam9jU1lsaVc5Qy1IdEZ3bWZPMGl2VzRq?oc=5",
+   "source": "경남뉴스",
+   "date": "2026-09-14",
    "tags": []
   },
   {
-   "title": "박미경 의장, 국회·청와대 앞 1인 시위 전개…\"발전공기업 통합본사 진주 유치해야\"",
-   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBqSzFsNWp1VGtLeGk2YjhvOW1lZlJlUXE4Vkl1WmpKR3BpdUtJdy1ZeW4zR2ViQ3NNVk5odGZibS03TUh6M2dxWVYwYUhQN25nQ2dldkhVcEJUakZKc2R1TjY3SQ?oc=5",
-   "source": "쿠키뉴스",
-   "date": "2026-09-12",
+   "title": "[시론] 전력수급의 패러다임 변화가 필요하다",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9jdkw3R1gtX1k4anlzMFFONVV4dVozeDd5OF9hVlNhQU9pcTRMYjdLM1MwWVRPZmxvQ2hZMVZNd3o5QlVPU2pDVEdPRjlkMFhGM2tlOWsybnhLOUZJc3FpVWNKMW9fTEJuRmNORHdSV0xhZ01W?oc=5",
+   "source": "대한경제",
+   "date": "2026-09-14",
    "tags": []
   },
   {
-   "title": "경기지역 공무원노조 “발전공기업 본사 태안으로”",
-   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5UU3FuQ2xKMmlPWEpBMnFiVFl1andjZ042RGctNWktUEpnU0d4Z01YV25nb3NJVGFEbVNBSkhQVW5PcDRnT3g1QVBxUkdKaWdOMllrVjZSRVB4NUJCVWt5ejVreG5QZ2piNUxN?oc=5",
-   "source": "KBS 뉴스",
-   "date": "2026-09-11",
+   "title": "‘진주혁신도시 완성’ 릴레이 시위 불 붙었다",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBDLW44MHd3bzNFRW4wamxkZEdmakpPellJV1ppZ0FidkdqNFNkc0FMWnd0SVI2OXVfUzdacWExLXZSUUpwOGtrOGw3eG9UVU40LUdXQTBFb2pNQzZiNjhxNEZLZkhIZDJ0QUJzelJZUWl1MXl4LXRobEFvWno?oc=5",
+   "source": "부산일보",
+   "date": "2026-09-14",
+   "tags": []
+  },
+  {
+   "title": "허성두 진주상의 회장, 1인시위 동참…지역사회 한목소리",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5kY1RKcTUweDlTSEFMRjdyM2JSMzRpX3BRc3hkWENYSm9JMzVQNERUb2pfb1FTbkFEbUFvbWJIUXpLcVJZNGlMcTBSZEw1UW9TTENiOFY2d1Y2Y0hnQ2VmaHItZmM4SlpxT1E?oc=5",
+   "source": "진주뉴스",
+   "date": "2026-09-14",
+   "tags": []
+  },
+  {
+   "title": "국회 찾은 박완수 경남지사, 김정호 의원 만나 에너지 현안 지원 건의",
+   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5lX1NIVngxN1lJSHZHSGJQaGdOVkRpT0hCY2xLZnpMamNzUk9BQ20wek05YXkycUdJUnY1dnp2QlFtUzVzTnRIX19FWGw5WjNCMUY0TnpMdHVVSkJz?oc=5",
+   "source": "뉴스핌",
+   "date": "2026-09-14",
+   "tags": []
+  },
+  {
+   "title": "네팔 대홍수에도 '역주행'…트럼프, 美 발전소 온실가스 규제 폐지",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBlYkFYSUpfb2pNQ0dDU1MyS0RSTjVjcTQ4RlpaWkRDNlVkaUVRbVp5S1hEbGduZHMtYy13a25tcl9QcDZmQWZUa3JkMEkyUkx0OEpxTkNYMWV2bTlxMjVfR9IBeEFVX3lxTE9fcmgyakZUOUZxY1VYOTh3S0lGX3hVTkR1UkljMkdKOERKVVg1RFNxOUFUM1Nnam1FcnAxd1hhTWJlWUVQcU9ZbEtfcUlTRGZnQUE0dUlUVlRNWUw4QXFuS05va0FsYWpZMzdGZlBxbWVlenJRUTZqdA?oc=5",
+   "source": "뉴시스",
+   "date": "2026-09-14",
+   "tags": []
+  },
+  {
+   "title": "트럼프, 발전소 온실가스 규제 폐지⋯바이든 정책 지우기",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5fQkdQeGtMbmY0UlNkWmdJSmtIekF1R1lobk8zaVBXamhLVzYwSzNLU2VqcG1LZVR3eE5VU1FWQkZScUFoaVdERkwwRTB5OXNWZ2dwbQ?oc=5",
+   "source": "이투데이",
+   "date": "2026-09-14",
+   "tags": []
+  },
+  {
+   "title": "박완수 지사, “발전공기업 통합본사 경남 유치, 부울경 함께 나서야”",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5NNzhIa3pIX2E3eVY0TnowSXJPMnlTZ2NkOXVXQzJ3S3Z6U2p0ZGJyVWRlV2ZiLWpvQTBLel9fT05ZMmRKYTVoVzZ1SGJkc0h4b01KdzA1dDR6U2ZxRV9UUEMyY0locHEwT0E?oc=5",
+   "source": "천지일보",
+   "date": "2026-09-14",
+   "tags": []
+  },
+  {
+   "title": "미, 발전소 온실가스 규제 폐지…’바이든 정책’ 뒤집기",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5EQThQeFBaNlBvTU5DNHJtTUlIUDVkTTJnelo1aVJiRzhVeW5FcnJ2OFdnM2czLWdNS2dQYmVyelVyb3ZFTkk3Q1lDVWRvNlB0dldSVmY4ZjR3Q1hnNW41Vmt4eTdVbTg?oc=5",
+   "source": "연합뉴스TV",
+   "date": "2026-09-14",
+   "tags": []
+  },
+  {
+   "title": "미, 발전소 온실가스 규제 폐지…'바이든표 환경정책' 지우기",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5vNkZ6QTJSWE9ETWdNU1NNVUNiVDZGbHV6eHc0QVVYSW9DZUFYSmhIbzI5U2J6ZGtCODJHYm5GUnY5bFVxUzZJQ2htVUJWODd2c3dDZEw1dkhaV3FPeW5tc9IBYEFVX3lxTE5vNkZ6QTJSWE9ETWdNU1NNVUNiVDZGbHV6eHc0QVVYSW9DZUFYSmhIbzI5U2J6ZGtCODJHYm5GUnY5bFVxUzZJQ2htVUJWODd2c3dDZEw1dkhaV3FPeW5tcw?oc=5",
+   "source": "연합뉴스",
+   "date": "2026-09-14",
+   "tags": []
+  },
+  {
+   "title": "HD현대이앤에프, 대산산단에 LNG 열병합발전소 세워...석유화학단지 에너지 공급 본격화",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9LZTNwanhoLTBiNFhfeHpHbThGeGRTZUJHM0hWWmlMZjhOcV9mZUo1b2oyN2hJM3A3UlJLYXBzelNWVEd4MzlUV1RycHYyZ25GanVER0ZnakUtUEMtWThLSTVsVmVpVjZiLU9pUjd3?oc=5",
+   "source": "투어코리아",
+   "date": "2026-09-14",
    "tags": [
-    "태안"
+    "대산"
    ]
   },
   {
-   "title": "조동준 충남도의원, 정의로운 전환 특위 구성 주도…석탄화력 폐지 충격 막는다",
-   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1NQWJnQ214dEF3d2JmRUs4MVFuNmhSVDRtY0s4SXRUSnowdUY3SDhfYml6YzVzc3UwMWhLVHJOLXBOMWo5SEdYLUZZU2FJSm5HMU16MUZCQmLSAVhBVV95cUxNTUFiZ0NteHRBd3diZkVLODFRbjZoUlQ0bWNLOEl0VEp6MHVGN0g4X2JpemM1c3N1MDFoS1RyTi1wTjFqOUhHWC1GWVNhSUpuRzFNejFGQkJi?oc=5",
-   "source": "아주경제",
-   "date": "2026-09-11",
+   "title": "경남도·정치권, 공공부문 개편 ‘4대 현안’ 공동 대응",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1kM2cyOUFmWVNvaHR0alJ6UEhuM2hUc1RIeTJCTE9TNWRlVW1yd1FTNTltTjhpanlBcDM2S3FWc2tuQnBvdDF6dGJnQ1V1T2lpVTBzbkI1dzFuZWt2M0s0N0VKOUNzVmZ6RlE?oc=5",
+   "source": "경남미디어",
+   "date": "2026-09-14",
    "tags": []
   },
   {
-   "title": "조동준 충남도의원,\"석탄화력 폐지지역 지원 특별법 통과\" 특위 역할 주목",
-   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFA3eHNnajZ5LU1Qbk16UUJkUTJ4RDZhTG9xaTB0SW80QnFZQzZncHJXOE5hcERmWndYdkpJZWlkdS1YaXhvUXZTMENnYmpJX2FnbHAteFY3RlgySXVjd05oWEd4SDlzNVdRcGpwem5xMTVJLXM?oc=5",
-   "source": "충남일보",
-   "date": "2026-09-11",
+   "title": "허성두 진주상의 회장, 정부세종청사서 릴레이 1인 시위…\"발전공기업 본사 유치\"",
+   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9lT2E1THR4Y2N0QlROenpjaTJYeWZwNGZ5T3ZXa1RzRllOR2xnU29ENnVQNWZKaFJWa2h0TDQ4T2dselZ2OUM2VVpEUXgzdDJGU2NkUlB0UDI3WHBD?oc=5",
+   "source": "뉴스핌",
+   "date": "2026-09-14",
    "tags": []
   },
   {
-   "title": "서부발전, 태양광 폐패널 자원순환 위한 선제적 협업 체계 구축",
-   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5Tc3kxek9Ydm43S0FvelFpQUFCbnB3NE1KbGRSTnpzaXp1Y1BqOGxXdnNXQ0hXdGh6VG1YdkZVSlNrRmZrQU9KamtWREdzVWxrQm9ZT3BPSTR2d3NvbVN6Rm1va0hORnhGWFpYVFRSRdIBc0FVX3lxTFBvd3h6WUxVS1N2cFYwMmM3Ym94cEdFYWJzVE4yUmJFMjhYc1FnMTdBaEw4cnJWSFZtNHRWWTNWZEdFYm52ZlVZeWVFVm1ZZUlieG9QakRtcE8zclZMNnRXQVlQWDluLTUyVzlGRWlGUVRuekk?oc=5",
-   "source": "데일리한국",
-   "date": "2026-09-11",
+   "title": "경남도-지역정치권, 공공기관 통폐합·이전 대응 한목소리",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFB6TWVBck5CSUZnX2hOcjVOSVo4a3N6ZHJrVG9FTUJfNUlyOTQzc010a1B1XzFNdkw2OTFZLWc3Qnp4VERBb1c3U1dpWDVjM2hPVVotMTBwb2FZTV91VG9Fd19WOEZsVm9GZldqck1Jc2RyZzNaWTVWd05hUXQ?oc=5",
+   "source": "부산일보",
+   "date": "2026-09-14",
    "tags": []
+  },
+  {
+   "title": "美 EPA, 발전소 탄소규제 폐지…청정대기법 근거까지 흔든다",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBES0c2ZG5WVW9rSjRtRXhURlg4Vld1bXprVHc0VnlqM3Fad2dlcjFZd2JOSHRKNWpjcUNDYU1ZaFlSd2FrWF9MaHk2bWNzUG4xOW5fNFlyUUhURFI1TGNtZHdWZGYwNFcxS0JhWQ?oc=5",
+   "source": "ESG경제",
+   "date": "2026-09-14",
+   "tags": []
+  },
+  {
+   "title": "\"LH기능분리 재검토\" 허성두 진주상의 회장, '1인 릴레이 시위' 동참",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE4yNzF3N1dHblc3c3NKaHN2cHgxZU5rWmVfcVNXbGc4NVdiTEo2WkZYdUVMNi1RcVphYi1TT0RwWEg0dlJFMm9yYmF4Wkw5UXA5Z2xvZ3NUbUI3bElSbnBOVtIBeEFVX3lxTFBxVnp1LVBadE5pelhFcXpTaHFlYTFRc1B1N1lHRVhqdlZsUlp2OEFDMnZUajgxN2k1dTgwbWpncFpybURkemhTX2YxRmNibHV6b1BvMDBVemx1YWtrVzNJYUZiT0RJRDI1cV9YSHVvb25JcUNPMkdzYw?oc=5",
+   "source": "뉴시스",
+   "date": "2026-09-14",
+   "tags": []
+  },
+  {
+   "title": "이은정 전남광주통합특별시의원, “발전 5사 통합본사, 나주 빛가람혁신도시가 최적지”",
+   "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE8zNi1GemhNM00ybmJXd2ktN3pPODlkTHVWbDlTenhQVWhfek4zWVdOYUNaTGtLdlN3ME9GeUt4a3hmN0gzRk9nMmdEQXU?oc=5",
+   "source": "시사일보",
+   "date": "2026-09-14",
+   "tags": []
+  },
+  {
+   "title": "HD현대이앤에프, 대산 LNG발전소 준공…석화 재편 속 에너지 효율 높인다",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5zRTJwek93RlBGTkNqcUxVYnBMamo3cFBSUWtQcWhZTlRxbV9adTdkNXpwSW42NW5LT3gtV2FvLVhObXZNLUk2ZF9BUTRmNkN1NEJoWlV1akJmVVFxZEt4NWRlQ1E?oc=5",
+   "source": "포쓰저널",
+   "date": "2026-09-14",
+   "tags": [
+    "대산"
+   ]
+  },
+  {
+   "title": "HD현대이앤에프, 대산산단 LNG 열병합발전소 준공",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1WZ09PYXhwUGVIZFZxSGwtS0prZkl1UFl4RmVCUFJqTmxDWWFyQVJkbndwanI4ZjdYTHl3MkVxaUwySmNzVkJCOWp1Sktnck80ZjJwSFVCMWViMVnSAWBBVV95cUxNUzUtUk9Ta0l1ZjVPRHZ5Wk5qbkYxc0hnd3FxdktFWG9sd2owWGN4bXUzcXZOd3RRS2tVY2I4MG1ZQlRrNjBhYW1QWVlHZ1ZKMWEzaTF0OEliZHhSOVlScmY?oc=5",
+   "source": "연합뉴스",
+   "date": "2026-09-14",
+   "tags": [
+    "대산"
+   ]
   }
  ]
 }
