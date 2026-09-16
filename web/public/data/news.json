@@ -1,197 +1,207 @@
 {
- "updatedAt": "2026-09-16 08:49",
+ "updatedAt": "2026-09-17 08:58",
  "note": "구글 뉴스 검색 기반 자동 수집(제목·링크만 게시, 본문 미복제). 기사 내용·저작권은 각 언론사에 있음.",
  "items": [
   {
-   "title": "[12차 전기본 의문점①] 2040년 전력수요 전망 165GW...근거는?",
-   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBPZ0ZaQVJPaXBEeFhtUy1STDA5d2k4U3lKN0oxcHJkampQYkdUMnNBTXU4elVuNFI2b3kxV3hqWXJqSGdOYzFVUFVyclNsNjZCeVJveTdXb3hUM1R6?oc=5",
-   "source": "newstree.kr",
+   "title": "[태안의 하루] 화력 10기 사라지는 태안…발전공기업 통합본사 유치 ‘승부수’",
+   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1QQTFOZjJpeWk4eU45c2N3TVE4QkItRWlZcnJaZXR3N2U1MGpRZWxFcUIwNFQ0a2prUy11bi04RnpsTUc4WG9wUi1UandaVW5vdjB4bDB2bHI?oc=5",
+   "source": "타파인",
+   "date": "2026-09-17",
+   "tags": [
+    "태안"
+   ]
+  },
+  {
+   "title": "태안군, 발전공기업 통합본사’태안 유치에 사활 걸었다",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5najYwTzVVbUNRTTg2MC1lMVR1Z3BOcHpmNF91dlY5TTlETzBzY2cxWkdTMzkycnY3WklOWDJ0bnpuaTZfaHR2ZHV5S3lnRGdpT25aRlBDc1k2MWxPTUJSUXNBV2lsd1RP?oc=5",
+   "source": "서산태안신문",
+   "date": "2026-09-17",
+   "tags": [
+    "태안"
+   ]
+  },
+  {
+   "title": "태안군, \"정부의 정의로운 전환과 지역 균형발전 믿는다\"",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE43QmNfaFlESlp5bGRZYmE3SkNDVmdCSVF3Yy1JaXJkanZhOXhtOUdNYVh1dFdzUlB3OWdyRU05ZEhyV3NFRUVReHczSFBKRGswQkl6TDh5eWhuaktmekNfaWU0M1BkZzhE?oc=5",
+   "source": "한국NGO신문",
+   "date": "2026-09-17",
+   "tags": [
+    "태안"
+   ]
+  },
+  {
+   "title": "[오늘의 공기업 채용정보] 한국남부발전, 2026년 하반기 신입사원 76명 채용",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBoak9RaU5Kakd0MGxvWk4tQ2M3V0pHd2lxc19WZGpwWk5fbWZWTWdOUlB4bkV2eUQwYUxFaU1IRUVCZHI3ampJUGtXNlF3SkdRMlh5Z3VkeXVDVUNLNWNWY2VKNHdESUxQVUVXcHdLcVhzdw?oc=5",
+   "source": "아웃소싱타임스",
+   "date": "2026-09-17",
+   "tags": []
+  },
+  {
+   "title": "태안 석탄화력 빈자리, 구미 LNG 복합이 잇는다",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9NZTBHb1RpS2lvV1IxajFic0swX1c3VEpjdkQ2VEtlRnJyS0J0MnlmektWU2I4Zm1kTFM5Q0VyYk5QTmVGSzY1MWVZOHlzRmhHOUdjVjZObDVLU205U3dsenNWX29YcktSUUgwUVJxV2Q1QQ?oc=5",
+   "source": "에너지신문",
+   "date": "2026-09-17",
+   "tags": [
+    "태안"
+   ]
+  },
+  {
+   "title": "송균호 진주방위산업기업협의회장, 진주혁신도시 완성에 힘 보태",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE94LTJCTk1NYmZXbTZERnJEaFVHTFk2Q2VxZkJrNUdYcTRzdHo1R2J2SEhjclgyUXp5LWotRHNzekpJY1g3WGc0aENfd0NVV2lwek5KLV9yWUxUUnNtUGNvVjA0STdWYnFMWVE?oc=5",
+   "source": "진주뉴스",
+   "date": "2026-09-17",
+   "tags": []
+  },
+  {
+   "title": "‘발전공기업 통합본사 유치 결의안’ 등 34건 의결",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5ENGVuWmx3NG03VTVkdXhSSGdHWjZFMmxDMHNQaG12dkpwV1lmUm10eGc5emxveG1VNGdlNWFaXzhidEM3bm84SmxITUU2S0hYOEVVLUZLRmh3RGE2MnF1Qko2bGh2YTY3RERQUmN3?oc=5",
+   "source": "울산일보",
+   "date": "2026-09-17",
+   "tags": []
+  },
+  {
+   "title": "한국서부발전, 500MW 구미 천연가스발전소 준공·운영 시작",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1hc2NmN2VUeHI1dEV2eEFaLVJiZC1KSXNoNlhteldxSjVkNlJHX2EycEJiOC1scnVFOFk3b0FPR2pHSGlXa0lNWDlrYTFaZE1wVVBZSWJwdXdxQnBZckJLb09aNkZaVlBM0gFoQVVfeXFMTWFzY2Y3ZVR4cjV0RXZ4QVotUmJkLUpJc2g2WG16V3FKNWQ2UkdfYTJwQmI4LWxydUU4WTdvQU9HakdIaVdrSU1YOWthMVpkTXBVUFlJYnB1d3FCcFlyQktvT1o2RlpWUEw?oc=5",
+   "source": "매일일보",
    "date": "2026-09-16",
    "tags": []
   },
   {
-   "title": "부안군, 발전공기업 통합 본사 유치 나섰다… 새만금 R3 입지 제안",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE91M2EtRGFmS1hWYl9vbDhRakpMZjRCajE0NjVuVm9ESWwzbG04bjdTZHZwd0dGT01lbHpmZzlJdGtvVUN3czYtSDhJZWJQSTFUNTJ1YUNJcFFER29qb3NjVWhxeUJLTzVienc?oc=5",
-   "source": "천지일보",
-   "date": "2026-09-15",
+   "title": "한국서부발전, 국내 첫 석탄화력 대체 구미 천연가스발전소 준공",
+   "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1nRFFfekNDeElOSUstS2NuS1RXTFBVZkNuc2l6NU5xWWlRZElDN01RZXlrNTJKZVI0aXpqWnpuZ1Z6b3RSSEE?oc=5",
+   "source": "뉴스충청인",
+   "date": "2026-09-16",
+   "tags": []
+  },
+  {
+   "title": "한국서부발전, 국내 1호 석탄화력 대체 ‘구미 천연가스발전소’ 준공",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5zWkpwcGljQ2s1T1dxd0xZbVA1c2FvSzdqYnhlYzgwVFg1Tkg4Q3U3eEM0c3JQUE4ycHl4XzdaZUJxR0xuN1pwQzFaNUc0bmgxamc1SUlJNkd1ZkJyZHd3Q2RJWlJFY0xkazVHY05kMkU?oc=5",
+   "source": "에너지코리아뉴스",
+   "date": "2026-09-16",
+   "tags": []
+  },
+  {
+   "title": "‘석탄화력 이후 보령’ 해법 찾는다…엄승용, 박수현에 3대 현안 지원 요청",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9QbFBlLTN3ZG9udEhTWU03TVVYNjFVWEFSWUMxR19KZ21IUlJrTXFmUm5aaHBrb0tmVTJ5TjA5all2WHNvaEJ1UndBaFV2Si1IYTdYcVlsQjRNMVNFMHVsMjk4T2RXSmxY?oc=5",
+   "source": "녹색경제신문",
+   "date": "2026-09-16",
    "tags": [
-    "부안"
+    "보령"
    ]
   },
   {
-   "title": "“국민성장펀드가 LNG에까지?” 공적자금 투자 원칙 놓고 논란",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9KdHpMZmMxMFIwYUt5a3hOT2x0ZnlMeE5FVHBmMDlleVYwWGdCaWdBa3BCU0FKNnVJOFdNQzBhQ0RHUWdPLXNJQU1NQzdXeFdKcVZzbDJ1SXdwU0hGSmFCWS1oTUZ4Tm9QSm1kTFV3bmxYWFVC0gF0QVVfeXFMT0p0ekxmYzEwUjBhS3lreE5PbHRmeUx4TkVUcGYwOWV5VjBYZ0JpZ0FrcEJTQUo2dUk4V01DMGFDREdRZ08tc0lBTU1DN1d4V0pxVnNsMnVJd3BTSEZKYUJZLWhNRnhOb1BKbWRMVXdubFhYVUI?oc=5",
-   "source": "수소신문",
-   "date": "2026-09-15",
-   "tags": []
-  },
-  {
-   "title": "“기후변화는 사기” 트럼프 행정부, 발전소 탄소규제 핵심 폐지",
-   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBLNzQ4aEVOS3RhdWRkYnoxeGtJQW15MUFDdV9ZcERhMm4tV2FZTmlid0piNWZCcG10Y05MUFo2aDFfWTVBc0k5RkZWajZHeXlqSFNwSEJkWDMyNFkyUHJRek1sMGNuekNCeXJ6S0E0NA?oc=5",
-   "source": "한겨레",
-   "date": "2026-09-15",
-   "tags": []
-  },
-  {
-   "title": "석탄화력 폐지 특별법, 지역 살릴 대책 중요",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5Xa0E4aVZmRWxxX1JvMHZuUXlFZlQ2UFNHazRBVTM5UUl3NWRmWi1jTWdMaHNlbXkxTTlhNFZTaUNmVm8zMndhSXY5VmNseHVRMzItZ2lkS3ZMdTl5bjE1UUY1LU1MajlYNmRDMG5aM03SAXBBVV95cUxOV2tBOGlWZkVscV9SbzB2blF5RWZUNlBTR2s0QVUzOVFJdzVkZlotY01nTGhzZW15MU05YTRWU2lDZlZvMzJ3YUl2OVZjbHh1UTMyLWdpZEt2THU5eW4xNVFGNS1NTGo5WDZkQzBuWjNN?oc=5",
-   "source": "다바(DABA)뉴스",
-   "date": "2026-09-15",
-   "tags": []
-  },
-  {
-   "title": "미국 환경보호청은 발전소의 온실가스 배출을 규제하는 법규를 폐지했습니다.",
-   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNa2pPSV80aEpzZ3ZYaUlJVUNhdFdudk9IbDY1T2szUkh2cTNlNjhnTzJCLUx2THdjNDEtTXh0T2VhazZ6alRCczRRbEdZZ2IxMS1DY2Z2MlQ5d2l2UFBCSlBmcVE4ZHRsVFoyNFVzc2VkT0VoVW5ETWJMUWQtRS1wZHYyZFl3RFQwMnB4VVp6aXdpaWE4YkcxWWNzWnVNXzZkb0NkQ25XbTJqcWFoZ2pWQjMyQmxWVDFDUDlwb0xmaUtOczBkaFdJ?oc=5",
-   "source": "Vietnam.vn",
-   "date": "2026-09-15",
-   "tags": []
-  },
-  {
-   "title": "부산 동구의회 '제2차 공공기관·발전공기업 통합본사 유치 촉구 결의안' 채택",
-   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFA0dERmNkdkRGNGMmpZYkp3OUZGazZMb2Jqem5kaEQ5OE1kNlFKNDhqWi1WQmJkNUdDLURUS1FlMFNiM1R2N0xheTAtQUYwVWo4WkF5clhaVHFLTzN4Rkd0TUtLcEUyYml1bDcwSHlR?oc=5",
+   "title": "송균호 회장, LH 기능 분리 재검토·발전공기업 통합본사 진주 유치 촉구",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE8wRmFLYVV5OTMtSFlRYVctV2NZblFZTE9YUUh3ZUxEN3VBV1l6ZWs2RVEwN0RTWWtTRmQ0SDNsLUx5cXQ3Vlh3eDI3SXpYU0VsS1g4RWhJNUtIUnFsT25QOUtSWUU4dTdFTWxwSjh3?oc=5",
    "source": "gukjenews.com",
-   "date": "2026-09-15",
+   "date": "2026-09-16",
+   "tags": []
+  },
+  {
+   "title": "태안군, 에너지전환 심장부로 다시 뛴다",
+   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5fVVRIT1hOaUJCNEpsUDh6WDRtTy1HSkdzQVF6UTdzQmU4cko0LUlYbUJwS3g3ZWJlSGFaMi1XblF5ZHB2VE9xV3lEcVV6NkZuTG9YdnJGeE9BSmhWT0xKU2c2QUU2UQ?oc=5",
+   "source": "코리아플러스",
+   "date": "2026-09-16",
    "tags": [
-    "부산"
+    "태안"
    ]
   },
   {
-   "title": "AI 전력난에 화석연료 ‘족쇄’ 푸는 트럼프…발전소 탄소규제 철폐",
-   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9LbTd6REt1X3BtV0ZrN096Tnp0YU5WMzR2OG02SGVKOXJtNXdoX0tPNWhueXJWRkVJVUdOR2hqU01Rc2p4QUpvX2VQNm1kb3BicUk1Vg?oc=5",
-   "source": "이투데이",
-   "date": "2026-09-15",
+   "title": "[기후 역행하는 미국] 발전소 족쇄 푼 트럼프… 1기가톤 탄소 더 뿜는다",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9NTmE2cEgzalFnNU9rWWFwMzdkU2RIMVhlQ0pjclZ4alRlLVlzMktIaDFyS2VEUGxCUVZRemVlREFUMnlBelBoWU43aUEzazBBdzQxRDNtQ0xQYThCX2o4YURzZmFfMURUT2fSAWpBVV95cUxPTU5hNnBIM2pRZzVPa1lhcDM3ZFNkSDFYZUNKY3JWeGpUZS1ZczJLSGgxcktlRFBsQlFWUXplZURBVDJ5QXpQaFlON2lBM2swQXc0MUQzbUNMUGE4Ql9qOGFEc2ZhXzFEVE9n?oc=5",
+   "source": "findb.co.kr",
+   "date": "2026-09-16",
    "tags": []
   },
   {
-   "title": "권익현 부안군수, 국회 방문 국가예산·군정현안 지원 건의",
-   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBTem8xc1NTOXQyMmdPVWNFcVJrcC1zY1BWMC1VaVhnZVI0c2pxcFpQd2loa2duQjVVNzN4VjRZVnhwd21ZUDlGWjFNUjVka1NVTlE?oc=5",
-   "source": "전라매일",
-   "date": "2026-09-15",
+   "title": "'주민 1만명 반대' 역풍 속…송도 LNG 열병합발전소 향방 쏠린 눈",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1PenlLLWNhczNXWGl2VjNIMl9HMkFodHh2S2sxQzZ3cE93WEh5UUx2RDRxbkRZa0dfZUd5My16NERscHREOEROTEpwY0dYS2ZHaDFYSHRVNGN4X2pTbEVGWUxWN0o2aUJScG9LcC1UeTE?oc=5",
+   "source": "인천일보",
+   "date": "2026-09-16",
+   "tags": []
+  },
+  {
+   "title": "‘에너지 전환 1호’ 서부발전 구미 천연가스발전소 준공",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE52bThmMHlDdG80OGlScXAtaVpiR0tBdkhCZW5jRHA3T2FJSzY4NWNRMkI2VExILUdBVlNQXzhMbkNsREdGMnNpUUliaHJmS1JQVHM2ajhXdzdseGpPUEI3c2JpdWNCMF9aWnZN0gFvQVVfeXFMT2tBVElHaVp2eUdmRXl1eU9HbmJaenJvc3pHR0k5TEtlYXBJdVFHbmxyRHdlaGZWN1E2SG5nR1BtV0Jra0pCR0IxbGw2STRMdlo3RVBQcS1jSzk3YTJvR3RzMVBuT3RqZi1nR3h1RnV3?oc=5",
+   "source": "한국아이닷컴",
+   "date": "2026-09-16",
+   "tags": []
+  },
+  {
+   "title": "서부발전, 태안 1호기 대체 구미 LNG발전소 준공…국내 첫 연료전환",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFAtdHNJUWx5cTdsOFF1RkFrWXM0REV0akpLd3QtMzNnSS1pUU5HUHNHdHNpaURDTFVzbHRzaV9FWHlEWnFDemVfWExIQWc0aDZsazlodDVfbm0zWHN3dTBwN2xnUk5ubkRnNlVrUQ?oc=5",
+   "source": "충청뉴스",
+   "date": "2026-09-16",
    "tags": [
-    "부안"
+    "태안"
    ]
   },
   {
-   "title": "[이로운촉구]KBF, 국민성장펀드 LNG 발전소 투자 배제 촉구...\"ESG 책임투자원칙 세워야\"",
-   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB2Q1hDUm5oS3NRRnlIaWxOQ0E2QTVBUFNjb3NMQks5ek5zQmlNNmZ0dFoxdXNsSGs0QXhBbGdLbmpNdU9RSHRtNjlKbXF4RGZDaWUxd25pMVZjVFBPQzJoV3FvOVFnZw?oc=5",
-   "source": "이로운넷",
-   "date": "2026-09-15",
+   "title": "서부발전, 국내 첫 석탄→LNG 전환…구미발전소 준공",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE44eElITkVOSlJnUkVydXNuS2ZrMGJLeVl4TEgxeE9wY0FIekdfeVRranhRVFdUdk1lYzBmTjdhcWVVVFUyejZYb2FSTmkxMWh6YUp2MjM3X1laZHJlYWVVcDk0YU0tbWdCTTJQNA?oc=5",
+   "source": "전기신문",
+   "date": "2026-09-16",
    "tags": []
   },
   {
-   "title": "남부발전, 에너지공기업 첫 ‘기술이전 밸류업’ 지원",
-   "url": "https://news.google.com/rss/articles/CBMiogJBVV95cUxOekFIZ3oxQTlyQk56bWcxcklySUFYMFNNWHUtQlNTaGd5ZVNJNS1HT2tWTE55NmE0Rl9HUkFMR3E5NDJBZmdCdTRkQm1vVkZTYXp0M0pkdGVPU01jWVlzMnJLMnF5MURrRWNpZ1VnNm1WaHdDZ19pSWIxV1ZZLTFWWDk4Ry1mZHZaQ0xOb1BOQ3QxbWFrUTB0Q180bWZNUW9oYTlTVDFHT19DYnVCb29wRDVjUnc5RzB1d0lncVBMYlNjMjdDTHlsb2JZN0R0cmxpWGlqaU5fQy1sN0VGV1ZMd2wtakJoMGYzWEhvRmZONVNZaEI2MmwxcEhkRG40WnFhUW9CN0JQelNlX0k3bXVSc3RrUElPR3laclFXN3BuYjlUUQ?oc=5",
-   "source": "데일리안",
-   "date": "2026-09-15",
-   "tags": []
-  },
-  {
-   "title": "박완수 경남도지사, 국회 김정호 위원장에 에너지 분야 현안 협력 요청",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9GLWxSSVczaVhETjd1ckJtaFZ6MEpYU05PV1M0MF9meUtQR3ZQUm92M3BOckM5NmFVdHBfazVpNHV6TzBuNk8yY3AyOEhFR3J6cU0yZXJvQ2dMYlJBc0x5WGJaTW1BdnNfdDhfM0hhUUnSAXRBVV95cUxPTzQ5NjFtaXNtOU8zOU9HMzBob2s0TFM5WEgwOXh4c0hORnc0dTJRR0J1R3VZa2NCYWxySGh2X2FxR09KZlViQndWX2h1VDUwQ19DTnBQbjlYeFpCaXRNWXdHdk82TmlONjV6cnh4NmJYQ2VSNw?oc=5",
-   "source": "이뉴스투데이",
-   "date": "2026-09-15",
-   "tags": []
-  },
-  {
-   "title": "한국남부발전, 에너지 공기업 최초 '기술이전 밸류-업 사업' 추진",
-   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5EeGY5cVZnMWxUeEo4clNlYnJ5cEZkQWM5LWpqVEFoOFFhaEktQWkySF9Nck5PekdJOXBUVi1QdDI2YTRKcHpqVDRhSUtnZlhLU2xGUjNOTEphRWQzUkdQRkZqOE4?oc=5",
-   "source": "중도일보",
-   "date": "2026-09-15",
-   "tags": []
-  },
-  {
-   "title": "남부발전, 에너지 공기업 첫 ‘기술이전 밸류-업 사업’ 착수…총사업비 7500만원",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE16ZmVlNDRGR1pySnN4UVRvazJwZkxmOWJMSVQyWW1IUEhXNm10dmlISHRfdzgyNG9QSGZSSkdPUGh5QU1fSEFSd3ZrdkFldjk4QWJrcWMzT2YycEJ3Q19XTGlUUXhwUlJGNXdEUzBPdXFQa2RI?oc=5",
-   "source": "busan.com",
-   "date": "2026-09-15",
-   "tags": []
-  },
-  {
-   "title": "부산 동구의회, 제2차 공공기관·발전공기업 통합본사 부산 동구 유치 촉구 결의안 채택",
-   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBRMnRvbkpuWEl3VS05NjBTOE1lMXl5VjFKR01SUjliY09vb0ZkOEF3N0o4V3p0MUVPRFN3UG9jaG9PVEM5cW90NHhQY0kxazF3dTJ3c1lCbWs4UTVVdnVWMHlqVQ?oc=5",
-   "source": "경기뉴스원",
-   "date": "2026-09-15",
+   "title": "태안군, 발전공기업 통합본사 유치 승부수…화력 10기 폐지·대체설비 전무",
+   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9HaUNoM2FaNlJ0QUdUSWxFUTR6Yk1vdUVoSFBqa2tEUTZ2Ny1wampMdUM3cVpnVDEwZkQ1RXlvRzNLZnMycmsxbi0wN19xcE9OMTZxZjRCY3fSAVhBVV95cUxPR2lDaDNhWjZSdEFHVElsRVE0emJNb3VFaEhQamtrRFE2djctcGpqTHVDN3FaZ1QxMGZENUV5b0czS2ZzMnJrMW4tMDdfcXBPTjE2cWY0QmN3?oc=5",
+   "source": "아주경제",
+   "date": "2026-09-16",
    "tags": [
-    "부산"
+    "태안"
    ]
   },
   {
-   "title": "한국남부발전 에너지 공기업 첫 기술이전 밸류 업 추진 - 머니투데이",
-   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBhTGtjNnBLWXQ3OFEzRGpoYVN4ajRjTktPUkNTdldwN0RjUTB5VTBvcTR1alZTeTNWSC1pYjg4TjFzbXRwejdCMEF2N2MwMERnTF9WQkpkZFVkVk1qOUtUSkRxVzQ2ODVpN2x3cFdGaHc1cy1EUExF0gF8QVVfeXFMT3NmMjRzay1OTzZMNWhHVUlwOFVkV09DNjc1enFtZG82LWJpZDFLNTM2QllublIxc0VjMHdJTi1OSWFPYVZXT05TN0RuVkRCMHF4VEFzRGJZLU9zZ0g1R3JtaHQtNDl4b21iYkFjd212M1hzUzZoSUNpSGVHZA?oc=5",
-   "source": "머니투데이",
-   "date": "2026-09-15",
-   "tags": []
-  },
-  {
-   "title": "권익현 부안군수, 국회 방문해 국가예산 확보 총력",
-   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBVNjdGNHpRcHZBbmUxNjVzMmItZ1AyVnNzMGUtVGI5TzBwYS1vSDJ2N0U4NVc2VnptWDIzVjNJOVo1MmdKTlB6Q1V4MjgxdjJpZTgyX2prOG9fNHcwSDdGWU1ObGJUUTZHM1l3YjU2T2F4OGRHeG9pRGQ1OE4?oc=5",
-   "source": "thepowernews.co.kr",
-   "date": "2026-09-15",
+   "title": "한국서부발전, ‘에너지 전환 1호’ 구미천연가스발전소 준공",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5EUWFOWDM3MW1iOU9fc2xJOGZscldRY0RVdnhkQVpjTm5XYjctNndOMTAxc2hwaFJMUFhFaGpEalBVZW1NWTZVbWx1Z1QxazVRT0JLdFUyenlqN1JnZ2t0Yy1hc1M?oc=5",
+   "source": "OMATE 시니어",
+   "date": "2026-09-16",
    "tags": [
-    "부안"
+    "구미천연가스"
    ]
   },
   {
-   "title": "남부발전, 에너지 공기업 최초 '기술이전 밸류-업 사업' 추진",
-   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1DQmpTOEtLS3FFWk0tX1ZKckNSLXc5ZmFvZjh0UmhUTUNuM1cyb1pQd3l3dUZ2SDdza1F3d3RvbjBvMU9VbUFqbzBELVRHc3haaGR2Tmt6cC1tWjN4c282RU16dlV6MEVIeVdnUTVn?oc=5",
-   "source": "gukjenews.com",
-   "date": "2026-09-15",
-   "tags": []
-  },
-  {
-   "title": "부산 동구의회, \"제2차 공공기관·발전공기업 통합본사를 동구로\" 결의안 채택",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE8taUZ5Qk1zUWROOTRjaGpMTi03OFZpQ1FUeVRYeVlIVUNNZGJxQlVaYUw2UU9BNkVEQU1LZnA0bVp6TU52dE9sRjlFR3F5dExhMXg0UzM4WGZXZXlTTXdSUDE5UVhYUEo1LUJqZHgwSFN1QQ?oc=5",
-   "source": "LG헬로비전",
-   "date": "2026-09-15",
+   "title": "태안군, '발전공기업 통합본사 유치'... 전국 최다 석탄화력 폐지 위기 정면 돌파",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE52anFfaXZRcVQzR3p3MGQ2ZzNDUW53N0JNWjlULU5mQ2RWbjFIOVBfNFhZc2tyM2RldC16TU9yYWR4S1kwNDJyZU10ZjJsdkNsYWJCbEhEZzJjZVBlWjBfMW1TUGQ2RExieWxLWGg2R2poUEM10gF0QVVfeXFMTnZqcV9pdlFxVDNHencwZDZnM0NRbnc3Qk1aOVQtTmZDZFZuMUg5UF80WFlza3IzZGV0LXpNT3JhZHhLWTA0MnJlTXRmMmx2Q2xhYkJsSERnMmNlUGVaMF8xbVNQZDZETGJ5bEtYaDZHamhQQzU?oc=5",
+   "source": "뉴스워커",
+   "date": "2026-09-16",
    "tags": [
-    "부산"
+    "태안"
    ]
   },
   {
-   "title": "기후변화: 미국 환경보호청, 바이든 때 제정한 ‘석탄·가스 발전소 탄소 배출량 제한’ 철회",
-   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9ZMVAwNWdDYmI4aTlwSUdORTNXSmRrakkwUWhMQ1EzdURndXRHUjJRbF92RGI1YnR0SnIzNi1iU05vNE9xNHBkeDBmQ1hmZ1lZWmtDTUJucHlETldHakHSAWNBVV95cUxNSGZ1RkJkR2pMTklpMEhqZnpYSTB6NTFXXzN3R0tXdDBkMzhaN19wbFJOVmR0QWZfaUJRX2NVbVU0Z1R6SnlPYjhwS0FhalRFdFpDQnZTcDk3RmlnMUNpTkhkODQ?oc=5",
-   "source": "BBC",
-   "date": "2026-09-15",
+   "title": "송도 500MW LNG 열병합발전소, 건설보다 열공급 방식부터 따져야",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFA1M1VVSXJrbmtzcUFlSlcyMnhQeWtpMFY4V01QQ1Z2NHE2SHA5TXdpOWlHa2c5QVZsRUJyalhFVF9ZbExPSjJZMHhFYnMxbWlRWlFVQ2ZDWWkyYy05WUtiNWlSbncyQUVTMXZTdUU2d1Vtcjg2anlrZ9IBeEFVX3lxTFA1M1VVSXJrbmtzcUFlSlcyMnhQeWtpMFY4V01QQ1Z2NHE2SHA5TXdpOWlHa2c5QVZsRUJyalhFVF9ZbExPSjJZMHhFYnMxbWlRWlFVQ2ZDWWkyYy05WUtiNWlSbncyQUVTMXZTdUU2d1Vtcjg2anlrZw?oc=5",
+   "source": "인천신문",
+   "date": "2026-09-16",
    "tags": []
   },
   {
-   "title": "미국 화력발전소 이산화탄소 배출량 규제 폐지는 국민 부담 완화 차원? 환경단체 \"데이터센터 전기료 낮춰주려는 것\" 반발",
-   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE8tZ2tGczNYWmwyclZJSVh2V3JDa1ZaRUJUMTh2SEE1NklCSjNZLTlxWXRyR0NWaFc3eFR2TDZEdDNhaFVGbVJLTUdlNXhFYzhlZmZ0UW05MA?oc=5",
-   "source": "허프포스트코리아",
-   "date": "2026-09-15",
-   "tags": []
-  },
-  {
-   "title": "발전공기업 통합 본사·농어촌 기본소득까지…부안, 국회서 ‘현안 패키지’ 지원 요청",
-   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE4tMkFXcUE0ZGlqdl9ubW11aVZIOHczUU92Q1NQb2hQakpzeUEyNWswSXE4MWxCNjIxRG9JY2syQUlGZnhoNHMtQTk3aHJhMzdldXlTYm8wMjRLMWVZZ1RlVElBWQ?oc=5",
-   "source": "thepennews.net",
-   "date": "2026-09-15",
+   "title": "서부발전, ‘에너지 전환 1호’ 구미천연가스발전소 준공",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFB1cjA3eTJUb29TbmV2T2U2cmhLTTFrVVRDQmx4VnlhY0lNRm1Ja2o0aDl1QXdNSmZhdy04bGxXRzNLbHNPRHFpd1NuZjlnSUd3SjBCRUVGbkdOcEo1YS1JWkExREV0eWh2X0t4a1lGczJHLTTSAXdBVV95cUxQaGFMZHNxWEVBbGtmc25PSUxweVkxQ2NBaFF0cG1KbnQ2alBiQldOajB4OGZSYVNXYlhXZlYyMXJkcTZhTS1LRGVsazVLdUQ4T1N4ZXhtdWUzM0VsbG1ydk95Q05mT3N4WHdoNV8yTGJXNTduek54NA?oc=5",
+   "source": "스트레이트뉴스",
+   "date": "2026-09-16",
    "tags": [
-    "부안"
+    "구미천연가스"
    ]
   },
   {
-   "title": "부산 동구의회 “공공기관·발전공기업 본사 유치 나서야”",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA3S214SUMzYzZNb3BDQlJYV00zdk9ISWxfdnp1UjA5M1FZdjRIV2FIUzU0MkxiTjc3bElsNkEzZUVOQjN4QUp6TG5uYW9pTGhCaXpkU1dLZGZ6UzB4Q2VJaEVyTzNsRnZWdEFQSA?oc=5",
-   "source": "중도일보",
-   "date": "2026-09-15",
+   "title": "어떤 기준으로 평가해도 태안이 정답...발전통합본사 태안 유치 당위성 피력",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE93WS1pRFRLRnJaTzJ6cnZMYlpYR0MtVlRPTWFxanBCbGJBbVNSZm42b2tncE85N290c1VFcEh2eDRqcG1CSkxvUjBVd3JFdUVuY2drc3JweVdVV0hoNkN2bFFhTFE3TWY2?oc=5",
+   "source": "팍스경제TV",
+   "date": "2026-09-16",
    "tags": [
-    "부산"
+    "태안"
    ]
   },
   {
-   "title": "국민성장펀드, 메가 프로젝트에 LNG 발전소 투자 포함 우려 목소리",
-   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9CVEhtN2xjYTVrQ19Cd3dSdmRVZmVJc05odDhLd0tLNV95enJwV2M4Mi1zSXpZejF3OUF3aG9POHN6YmhYQURBM3gwZ2ZILVFTVTZUa0pQM2VNZHdiVEszNldjSTZjT2E2NEF1XzNB?oc=5",
-   "source": "투데이에너지",
-   "date": "2026-09-15",
-   "tags": []
-  },
-  {
-   "title": "美, 화력발전 탄소규제 폐지…비용 절감·전력 공급 안정성에 ‘방점’",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5zNTZaV0ZfeDMtSkpwTkdRSEIxNHJRZ2QzTkJLU1J0T0RRdmowcnp6MlNKMFNkbUJYU04ycTdWQmQtbnZYYVZBZTgyVHVNdEVmbXhXZGhPcHN5bVQwV2draFZJMUNoR1laSTRNbkNDR2XSAXBBVV95cUxOczU2WldGX3gzLUpKcE5HUUhCMTRyUWdkM05CS1NSdE9EUXZqMHJ6ejJTSjBTZG1CWFNOMnE3VkJkLW52WGFWQWU4MlR1TXRFZm14V2RoT3BzeW1UMFdna2hWSTFDaEdZWkk0TW5DQ0dl?oc=5",
-   "source": "electimes.com",
-   "date": "2026-09-15",
-   "tags": []
+   "title": "울산시의회, 발전공기업 통합 본사 울산 유치 촉구 결의안 채택",
+   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1pSlA3OThGS2ZRZ3FpVjFlQ05XcVg4NkRvZTZKdnpfTVMzeUhZUjlRSElEeHViVEFwd1FzWmVLNUNZNUhiNzNBaU5pU2QzN2c?oc=5",
+   "source": "v.daum.net",
+   "date": "2026-09-16",
+   "tags": [
+    "울산"
+   ]
   }
  ]
 }
