@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-19 08:44",
+ "updatedAt": "2026-09-20 08:47",
  "note": "구글 뉴스 검색 기반 자동 수집(제목·링크만 게시, 본문 미복제). 기사 내용·저작권은 각 언론사에 있음.",
  "items": [
   {
@@ -22,18 +22,11 @@
    "source": "당진신문",
    "date": "2026-09-18",
    "tags": [
-    "당진",
-    "울산",
+    "태안",
     "보령",
-    "태안"
+    "울산",
+    "당진"
    ]
-  },
-  {
-   "title": "충청광역연합의회, 충청권 공동발전 위한 협력 결의 환영",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9yM01XdFlndnh5UENRZjlNNUYxc1JfRFc5dFFmc2EzZE1YbU1BS0xyRThKak55NkphQldiZDJTOHdyOUd2X0QwZ0dxM3ZPeWo1WlRsdUI2R1Z2Nno4bWxzdk1jX3FNR2lrSy0tQnRUYnY4UQ?oc=5",
-   "source": "특급뉴스",
-   "date": "2026-09-18",
-   "tags": []
   },
   {
    "title": "2040 탈석탄 로드맵 윤곽… 태안 9·10호기도 '조기폐지' 갈림길",
@@ -61,16 +54,30 @@
    "tags": []
   },
   {
-   "title": "\"꾸잉랍 LNG발전소 사업 속도내라\"..베트남 응에안성, SK이노 등 컨소시엄에 요청",
-   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5XYTR1WmZTZVNiY3NuNE51d0Nia25xdHdOS19hOEwwOXh1eFk2SktYUXFEUXRKOGJrODFWOG9SZG85djRlUHFmTkpZa2xXb2xla2dBZA?oc=5",
+   "title": "\"뀐랍 LNG발전소 사업 속도내라\"...베트남 응에안성, SK이노 컨소시엄에 요청",
+   "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5BeTVpcS0wQlBVRURKdW5VaHMtSGtoZmVDX09WRlY4RjlzUHp0djZmaW1VNWdaRlB4RWtLOXp2VnhZN3RmV3c?oc=5",
    "source": "v.daum.net",
+   "date": "2026-09-18",
+   "tags": []
+  },
+  {
+   "title": "\"꾸잉랍 LNG발전소 사업 속도내라\"..베트남 응에안성, SK이노 등 컨소시엄에 요청",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFByajZwWHRzNW5IZW5MY1dwQ0pBMzB6RWVoUFNTTXRxRVhqMVJVTDNsS0dRRHR5Y0ZneThuRWNJTG5YUDU4c1hjeW53QlM0WkY3bF9DNDlqOXlwZw?oc=5",
+   "source": "파이낸셜뉴스",
+   "date": "2026-09-18",
+   "tags": []
+  },
+  {
+   "title": "美 EPA '발전소 CO₂ 기준 폐지', 법정 심판대 선다",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1wcEVqQ0x0RjA4WkRGVUJfZHZrMDllMXVfZTgxbjRnczdXeWU2d19zOTZhVU9VZGZFV0lwZFltSkRkbExWcnRyUjdzUHEwbFNwS0NCdGp6UDZDc1J2LW55aFV4VjFncXFaZVHSAW5BVV95cUxQLWJNcTYwZGhnMkJWQlc2eE4zNmZWQWJFUV9XcklDbkR1dzZYdi1ya29hU0FPdmxhb0RQR3FvZFVUc1YzUUhLVHhrdzNVZHpCclUtdzg1ZFU5UW5XZnZQNzN3Q2ZFLTZ4ZUpBU2hOZw?oc=5",
+   "source": "넷제로뉴스",
    "date": "2026-09-18",
    "tags": []
   },
   {
    "title": "2040년까지 석탄발전 60기 단계적 퇴출…안보전원 최대 10기 남긴다",
    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE16SDN0TWUtYzZCU2htenkwOGxPbG12TFFGRGZaNDhTc3NsZkZCdDQ5TlFMckd0NHZkazhRRGJ6YWxub0tjVFFpbmlqRTFOWkFBYWxBMnFBOXhKbVVZVmI5bWpOYTl5S2xoYWFR?oc=5",
-   "source": "서울뉴스통신",
+   "source": "snakorea.com",
    "date": "2026-09-18",
    "tags": []
   },
@@ -91,16 +98,23 @@
    "tags": []
   },
   {
+   "title": "【플랜잇의 전환이야기】AI 경쟁력이냐, 탄소중립이냐, 양립의 조건은?",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBhTlBTTVV3SVloVXFjaTVoRnlGa3g2LW0xZHRmNlFJSnlYX25yN1plS3FXY1N6bkQ1b2R5TnI0TUoyMlY1WVBBSnpVYl9heFQ4allneHF3eVp2VjFEUlRkZGFyazFudmNuc0EwVdIBbEFVX3lxTFBhTlBTTVV3SVloVXFjaTVoRnlGa3g2LW0xZHRmNlFJSnlYX25yN1plS3FXY1N6bkQ1b2R5TnI0TUoyMlY1WVBBSnpVYl9heFQ4allneHF3eVp2VjFEUlRkZGFyazFudmNuc0EwVQ?oc=5",
+   "source": "impacton.net",
+   "date": "2026-09-18",
+   "tags": []
+  },
+  {
    "title": "석탄발전 39기 2038년까지 폐지…최대 10기는 ‘안보전원’ 남긴다",
    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9jMHN6WlBmclFCdTlHMm01bVBSWnd2ZDFOU0J0V240OTlkcDB5cmVzb2lDNHNER3VfTXUwbVJNQ2RSN1V0X2xkU0ZzSXRDbVNrNjBuZnZ5eDZNbW8?oc=5",
-   "source": "ekn.kr",
+   "source": "에너지경제신문",
    "date": "2026-09-18",
    "tags": []
   },
   {
    "title": "\"전력 수급 안정이 최우선\"…독일·대만 탈석탄 사례로 본 한국의 과제",
    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9PS0Q5Z3J1Ylp5dUFJOTlhQmJFX3JzS1U5U0Y5T3puNDZEbmVJSG1wUEF0LTFPd1pUSUw2TzBhOUhkVmtrVGEwSm96NWMxSjk3OXJ0bjVYVTVqUDBwUmMyMmNpa2RVTXVhNTBEcw?oc=5",
-   "source": "widedaily.com",
+   "source": "와이드경제",
    "date": "2026-09-18",
    "tags": []
   },
@@ -133,23 +147,9 @@
    "tags": []
   },
   {
-   "title": "폐쇄 석탄발전소 자리에 SMR 건설 검토…전기본서 공식 논의",
-   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5IYWlITmlOUk1BNGNqOFRGZGtERHJISWM1dmd0ZHNXekFUM01hQmdrYXRUVGxtakQwd3ZYSXdsRktLRkpqQnhkV2JuZmZ5MC1LVVI0YkFvWGNMUGc?oc=5",
-   "source": "KBS 뉴스",
-   "date": "2026-09-18",
-   "tags": []
-  },
-  {
    "title": "\"석탄발전소 폐쇄 부지에 SMR\" … 2040 탈석탄 앞두고 새 대안 나왔다",
    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOM2VCV2dwbFB4R0hEWENkTGVTdGpZQWsxWjBpbm9uNkRIb2pQZVZQaGI0LTd6VE9jSlVhN0Rvc1hSenF6MERESnJBb2xaN1RBRjItMVB0VFpzd05KWXZFbW1fQXJicDdjOWpUM1VFN2hldmJsYjEwRG9ucUVkaUJpStIBgAFBVV95cUxOM2VCV2dwbFB4R0hEWENkTGVTdGpZQWsxWjBpbm9uNkRIb2pQZVZQaGI0LTd6VE9jSlVhN0Rvc1hSenF6MERESnJBb2xaN1RBRjItMVB0VFpzd05KWXZFbW1fQXJicDdjOWpUM1VFN2hldmJsYjEwRG9ucUVkaUJpSg?oc=5",
    "source": "뉴데일리",
-   "date": "2026-09-18",
-   "tags": []
-  },
-  {
-   "title": "“2040년 탈석탄이라더니\"…석탄발전 최대 10기 남긴다",
-   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1kRExPdFA4QU14WGVVd0xxckNLSVlQMldnSFRTeGxmdFJKYU9HY2VnZmg1MHA5S0dZRmJyZWR3M2diZTBaRFNoUjNBTmJIdDJOMUdlc0xCbmo5dnZlWmppWVJxQVFnWnV6?oc=5",
-   "source": "한국NGO신문",
    "date": "2026-09-18",
    "tags": []
   },
@@ -170,14 +170,14 @@
   {
    "title": "'석탄발전 폐지' 전문가들 고심…2038년까지 39기 폐쇄 논의(종합) |",
    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBJY2V2RENFakRJa2RMM3EtOTBqMFhjM0Q1WWVEZ3FQZlltZ3A5VDRzQm9haFlSN0psUjBQN0FQeV82OVNMNkVURXlyd2ZtbHFGQ0dtaF96UG9HM0tLOG82QWlyRGFSWG50b1diQ0hDUWlxWlJE?oc=5",
-   "source": "news.einfomax.co.kr",
+   "source": "연합인포맥스",
    "date": "2026-09-18",
    "tags": []
   },
   {
    "title": "탈석탄도 전력수급 안정이 먼저…독일·대만, 석탄발전 예비전원 활용",
    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBmSTY4MW93aG93ZDlDandtU2hJRTB3em1DOHoyYWJCbGpPMmx6dXhRVE5oa0JTdS1tQ1hOR1BFRi14VnU4YUpTTExFdEJiRk9USW0zeVlEQVLSAVhBVV95cUxQZkk2ODFvd2hvd2Q5Q2p3bVNoSUUwd3ptQzh6MmFiQmxqTzJsenV4UVROaGtCU3UtbUNYTkdQRUYteFZ1OGFKU0xMRXRCYkZPVEltM3lZREFS?oc=5",
-   "source": "ajunews.com",
+   "source": "아주경제",
    "date": "2026-09-18",
    "tags": []
   },
