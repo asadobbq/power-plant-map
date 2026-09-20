@@ -1,7 +1,42 @@
 {
- "updatedAt": "2026-09-20 08:47",
+ "updatedAt": "2026-09-21 08:42",
  "note": "구글 뉴스 검색 기반 자동 수집(제목·링크만 게시, 본문 미복제). 기사 내용·저작권은 각 언론사에 있음.",
  "items": [
+  {
+   "title": "공기업 석탄발전소 LNG로 잇는데… 민간 8기는 ‘조기폐지’",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBvU0EzMEJPRFJBZm84cXFMWWtYa082M0VMQ2Y0bzVMUmdzb3FYc1pIMmhkbE1HWHNTWWpNd1NfajB1VG9DdFRrbXN4ZXI4QUZNZHQ3TkJpV2o4MXN3SVdnNHpfN2VaRjJfTlNONGo2bktoZXds?oc=5",
+   "source": "대한경제",
+   "date": "2026-09-21",
+   "tags": []
+  },
+  {
+   "title": "충청광역연합의회, 충청권 공동발전 위한 협력 결의 환영",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPYTdTbzNOOC1jVS1fbG0xVkx0aHY0SXpmU1RfWjFSRmt5YzF6UV84OGdmLW1vVVJvWkxMZWdfeTdCS3l5dWlnY0tIemd1Sm91Z2JDdVdpVWRjZTVkdlFzSjc3VzMwMlNEVWpNaWVxOUgwdURBOEotTjVZNEhvZVZSYU1lWXF4am1yTF9ieDFJeExVVXVpUGtfVlp3YVdyaUpGY0NwQzVBVGJCVGtiZndOYXpBVGNON0hMbVVLS2pEMGZJUQ?oc=5",
+   "source": "SNS 타임즈",
+   "date": "2026-09-20",
+   "tags": []
+  },
+  {
+   "title": "석탄 떠난 자리, LNG가 채운다? “진정한 탄소중립 아냐” 거세지는 비판",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBpQXloT1dNblVKNmYycHdIUVRjMUhkRGJyd1lLVUljbnZsODZGV0wyMzl0S2hZMUtITWcwSmc4Z2JCajNIUFZKNXgyOS1raExObmdfYUdCcFlJZzRXY0RR0gFfQVVfeXFMUGlBeWhPV01uVUo2ZjJwd0hRVGMxSGREYnJ3WUtVSWNudmw4NkZXTDIzOXRLaFkxS0hNZzBKZzhnYkJqM0hQVko1eDI5LWtoTE5uZ19hR0JwWUlnNFdjRFE?oc=5",
+   "source": "khan.co.kr",
+   "date": "2026-09-20",
+   "tags": []
+  },
+  {
+   "title": "온실가스 감축은 더딘데 AI 전력은 급증…석탄화력 '안보전원' 과제",
+   "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE16Nk13LXlkRm1UYmJnSnVscFAxRkd5cElQdHVTUHJKMmwxNl8wcG51OUNvZkJDa0RSaURpNDVBaWJ4SE1ySllxMHlqMWNBUQ?oc=5",
+   "source": "전자신문",
+   "date": "2026-09-20",
+   "tags": []
+  },
+  {
+   "title": "환경단체 “경남 정의로운 전환, 노동자·주민 참여 보장해야”",
+   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBxNkhSUlM2Vk1fcFFqU1JNV0ZVaHlmaE9xcFZqQnFhd0dyV3V4LXVWMnF1M1JsdFQ5UVpmcko0TUlwUzdmTjR1bDRLcndCTWM?oc=5",
+   "source": "v.daum.net",
+   "date": "2026-09-20",
+   "tags": []
+  },
   {
    "title": "진주시, 공공기관 사수 '올라운드 총력전'…지역사회 한목소리",
    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE85WHJGQUNwUC1WZGxqNE9EaDFJZWRJX1RWOEcyTld3Yk1UckUtZHIzR2VIYUxjZFRFcG5VSXZqNGYyd2pNVkZwakJTdnJCTjJFRlBOUk4wbmdDSzjSAWBBVV95cUxOTnlRbDJFb3R6NW56TUx0WG5zTnRwLWFjeGctcnpwSEdaZHBVeXI4Y2lHODMtUFkybnRFc1ctNjdBUXZCZTVyNGd5UU9sTHhPbVV2SlpQNmJuOTZNb3BVUTY?oc=5",
@@ -19,13 +54,13 @@
   {
    "title": "[칼럼] 태안·보령·진주·울산 그리고 당진..발전통합본사는 반드시 당진이 유치해야",
    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9ab2poT2xTelkwcWZaeWl0VkIwUEdiQWVHLTMxWE5PeGVPaWxBOVh4V0xzdXVqOTEwM1NXdjhMSzNpcnNSZDhGM2JWUGd5NTYwOUluZDhhRTdNR1gwM0dLY3ZDRGp5M2NE?oc=5",
-   "source": "당진신문",
+   "source": "idjnews.kr",
    "date": "2026-09-18",
    "tags": [
     "태안",
+    "당진",
     "보령",
-    "울산",
-    "당진"
+    "울산"
    ]
   },
   {
@@ -75,9 +110,16 @@
    "tags": []
   },
   {
+   "title": "와일드가 모든 심벌을 대신하나요? 경마문화 전문위원 규칙 확인",
+   "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNcW5RRTNmU0NEVFUxM2djQVRKdGt5VFcwV09aZjREMkw0Z1YzbnlMczA2UGQtYXZ0RlJmNXFwNDlYZ2l2YkxkQWRCQ25iWHdtVkptRlNkZmg0bXI1QzQ1U0xRU2N6R1dET0hxUDRReDZERGZrNEFPTlppWFBlRW5Rck1waEJybUNXamtyb1Vub1o4VTdCeTlpc3JqVWlFcjQtV0JnUFc4RWhtMUUwZXVRaWozR3ZEM3JtUUhUZWVBRmRjNVVNc3FIQlZsS1IzeDhPR2N2eXJhaUU1WFVCaGJTMTRuMEVPUQ?oc=5",
+   "source": "Histoire pour tous",
+   "date": "2026-09-18",
+   "tags": []
+  },
+  {
    "title": "2040년까지 석탄발전 60기 단계적 퇴출…안보전원 최대 10기 남긴다",
    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE16SDN0TWUtYzZCU2htenkwOGxPbG12TFFGRGZaNDhTc3NsZkZCdDQ5TlFMckd0NHZkazhRRGJ6YWxub0tjVFFpbmlqRTFOWkFBYWxBMnFBOXhKbVVZVmI5bWpOYTl5S2xoYWFR?oc=5",
-   "source": "snakorea.com",
+   "source": "서울뉴스통신",
    "date": "2026-09-18",
    "tags": []
   },
@@ -100,7 +142,7 @@
   {
    "title": "【플랜잇의 전환이야기】AI 경쟁력이냐, 탄소중립이냐, 양립의 조건은?",
    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBhTlBTTVV3SVloVXFjaTVoRnlGa3g2LW0xZHRmNlFJSnlYX25yN1plS3FXY1N6bkQ1b2R5TnI0TUoyMlY1WVBBSnpVYl9heFQ4allneHF3eVp2VjFEUlRkZGFyazFudmNuc0EwVdIBbEFVX3lxTFBhTlBTTVV3SVloVXFjaTVoRnlGa3g2LW0xZHRmNlFJSnlYX25yN1plS3FXY1N6bkQ1b2R5TnI0TUoyMlY1WVBBSnpVYl9heFQ4allneHF3eVp2VjFEUlRkZGFyazFudmNuc0EwVQ?oc=5",
-   "source": "impacton.net",
+   "source": "임팩트온",
    "date": "2026-09-18",
    "tags": []
   },
@@ -119,13 +161,6 @@
    "tags": []
   },
   {
-   "title": "'안보전원'이 탈석탄 우회로 되나…\"가동기간·폐지시점 법제화해야\"",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE04ZDViRnF3bE85T2RKaHRyeHhsckp3ZFJfWHl0c3FuT0ZVb3A2dnZQckpTRUhoYVNHczZoOVpDelJuM0l4eklQQXRkbWdmUWV4ZTBpSzJCS3JFQWE5VkpLYdIBYEFVX3lxTE04ZDViRnF3bE85T2RKaHRyeHhsckp3ZFJfWHl0c3FuT0ZVb3A2dnZQckpTRUhoYVNHczZoOVpDelJuM0l4eklQQXRkbWdmUWV4ZTBpSzJCS3JFQWE5VkpLYQ?oc=5",
-   "source": "뉴스1",
-   "date": "2026-09-18",
-   "tags": []
-  },
-  {
    "title": "김성환 장관 '전력수급기본계획 수립 공개토론회'",
    "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBRc3BzNWFfTVZLVGZyYW9HQkIyZm5tOEltbm1mR2F5NVFvLXg1eUt0X0pTSjJRNURPbEROSXdqTXdUY3VCRmlrUUNjWQ?oc=5",
    "source": "뉴스1",
@@ -140,7 +175,7 @@
    "tags": []
   },
   {
-   "title": "석탄 발전소 60기 2040년까지 모두 폐지…10기는 안보 전원으로 보존",
+   "title": "석탄 발전소 60기 2040년까지 모두 폐지…10기는 비상용으로 보존",
    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9fVV9hVnJXbHRadTdGbXVaTV9MMVdjUlFrcXNUb3FvcllXdGdRenBDTzZtd0VGQXFaeWFmVWpxRlRtY3ZmZGc2aXU5NnFhNUFVLWlma0FsSl90X3BMRDZJdFZwT2JoQVZqTnh6MQ?oc=5",
    "source": "한겨레",
    "date": "2026-09-18",
@@ -148,43 +183,8 @@
   },
   {
    "title": "\"석탄발전소 폐쇄 부지에 SMR\" … 2040 탈석탄 앞두고 새 대안 나왔다",
-   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOM2VCV2dwbFB4R0hEWENkTGVTdGpZQWsxWjBpbm9uNkRIb2pQZVZQaGI0LTd6VE9jSlVhN0Rvc1hSenF6MERESnJBb2xaN1RBRjItMVB0VFpzd05KWXZFbW1fQXJicDdjOWpUM1VFN2hldmJsYjEwRG9ucUVkaUJpStIBgAFBVV95cUxOM2VCV2dwbFB4R0hEWENkTGVTdGpZQWsxWjBpbm9uNkRIb2pQZVZQaGI0LTd6VE9jSlVhN0Rvc1hSenF6MERESnJBb2xaN1RBRjItMVB0VFpzd05KWXZFbW1fQXJicDdjOWpUM1VFN2hldmJsYjEwRG9ucUVkaUJpSg?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE83TE9URXNoSnVGUUJ4N1lTcjQ5cXhEZ2h0bUo4RDhTSWpVUk4wSURYa3h4bGdzSVdUWVlsQ0dFTEF5cHhKWDFfdi1zcVpzR1oyYUdkSzVSaTJXOXI3MllxMzE3anpXVGNOVUF1ajFRdmNqS2ZyMDIyUVI2VdIBgAFBVV95cUxOM2VCV2dwbFB4R0hEWENkTGVTdGpZQWsxWjBpbm9uNkRIb2pQZVZQaGI0LTd6VE9jSlVhN0Rvc1hSenF6MERESnJBb2xaN1RBRjItMVB0VFpzd05KWXZFbW1fQXJicDdjOWpUM1VFN2hldmJsYjEwRG9ucUVkaUJpSg?oc=5",
    "source": "뉴데일리",
-   "date": "2026-09-18",
-   "tags": []
-  },
-  {
-   "title": "석탄발전 21기 폐쇄…최대 10기 `안보전원`, 호남엔 대체 LNG",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1oUWJaNU85WDZDUEZPN0RjdjJhQXpKODFuQWlBcDVQb3hYNGJRcm1vek5FZ2JGWjZjb1V1RDVJOTZmSWIxOTZXQTJ2ZGVlY2xDdkRBT3FTUktUcGg4MXAzUTVvZHVsWlVZZlBlZGtPd201QjZw?oc=5",
-   "source": "부산일보",
-   "date": "2026-09-18",
-   "tags": []
-  },
-  {
-   "title": "2040년 석탄발전 21기 조기폐지 추진…최대 10기 '안보전원' 검토",
-   "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5hUWVlVjZkbW5IaTNMZEx5dUJWWGVoNmpLN1dicGJST3VpRTg1TmQ2bkJPd3FxUW95S0wyY253cF85dGRwQ0xUYU9EZHc4dw?oc=5",
-   "source": "전자신문",
-   "date": "2026-09-18",
-   "tags": []
-  },
-  {
-   "title": "'석탄발전 폐지' 전문가들 고심…2038년까지 39기 폐쇄 논의(종합) |",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBJY2V2RENFakRJa2RMM3EtOTBqMFhjM0Q1WWVEZ3FQZlltZ3A5VDRzQm9haFlSN0psUjBQN0FQeV82OVNMNkVURXlyd2ZtbHFGQ0dtaF96UG9HM0tLOG82QWlyRGFSWG50b1diQ0hDUWlxWlJE?oc=5",
-   "source": "연합인포맥스",
-   "date": "2026-09-18",
-   "tags": []
-  },
-  {
-   "title": "탈석탄도 전력수급 안정이 먼저…독일·대만, 석탄발전 예비전원 활용",
-   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBmSTY4MW93aG93ZDlDandtU2hJRTB3em1DOHoyYWJCbGpPMmx6dXhRVE5oa0JTdS1tQ1hOR1BFRi14VnU4YUpTTExFdEJiRk9USW0zeVlEQVLSAVhBVV95cUxQZkk2ODFvd2hvd2Q5Q2p3bVNoSUUwd3ptQzh6MmFiQmxqTzJsenV4UVROaGtCU3UtbUNYTkdQRUYteFZ1OGFKU0xMRXRCYkZPVEltM3lZREFS?oc=5",
-   "source": "아주경제",
-   "date": "2026-09-18",
-   "tags": []
-  },
-  {
-   "title": "탈석탄 시민단체 “12차 전기본에 발전소별 폐쇄 시점 명시해야”",
-   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5LM3BLb3pjNTg0YkNGNnpOZmR1Qjd4VjVqUEotc0JsNnE0dFRCVy1MdHJ0eGgxVDJIakRzQXRNZE1OMnpLa0RjTmZIOXE5empaaEVVcEpYMGJUanhDbEJac1drWGpsWTg?oc=5",
-   "source": "M이코노미뉴스",
    "date": "2026-09-18",
    "tags": []
   }
