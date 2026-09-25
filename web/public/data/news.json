@@ -1,25 +1,75 @@
 {
- "updatedAt": "2026-09-24 09:06",
+ "updatedAt": "2026-09-25 09:09",
  "note": "구글 뉴스 검색 기반 자동 수집(제목·링크만 게시, 본문 미복제). 기사 내용·저작권은 각 언론사에 있음.",
  "items": [
   {
-   "title": "[이슈분석] 대통령은 ‘속도전’ 강조했는데…3개월 원전 공론화에 혼란 빠진 12차 전기본",
-   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBCWnNRQzdCWWNKRXVlVWVaMmRjYW1GOGNoYktuU3RLaTdJTEgxWWlHb0NieTlJc2ZnNjhoVmc1Vm5mNmNCM29FdWdZanUtZjB3a3FJaTVaNmMwMGtZQVZrczUxcw?oc=5",
-   "source": "ekn.kr",
+   "title": "광양시 옥룡면, 경로당에 건식 족욕기 지원 > 뉴스",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0wVW15bl9WaUNlSFBLTG1xRzhKdU5QRUMwZjdCdkJZWGl6bEV3S3NvN0hNZ1N1Ty0tN0dteWVUUVEycVlnbEtWbFhFbHdpM1o1S01HVmhBLXl3REtVWWNQZno3T3M3N1ozdk9MTnBsV3A?oc=5",
+   "source": "더코리아",
+   "date": "2026-09-25",
+   "tags": [
+    "광양"
+   ]
+  },
+  {
+   "title": "어기구 의원, '한국발전공사법 제정안' 대표 발의",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB4bk12emRLNHh1YlQ5N2dUN2hHTjRjU1lTVVNPQlBhT1AwX2FDUzNZTkNCREY5em9ENTE2NGNKUFJjTzYxbDhxaldfWHJRNS1KRUdDbkxxUzF3M1FvbF9DdUVwakQ0dzhZZlE?oc=5",
+   "source": "newstnt.com",
    "date": "2026-09-24",
    "tags": []
   },
   {
+   "title": "특별시-나주시 발전공기업 본사 유치 공동 대응",
+   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBJZDZUTFlucVdSNXdHV1AyNVJSM1V3OHFHbHFHdHIwNi1UUWJ1dDI2b2pOUmVEMVE1RGZad0VXSGo4eDV1U1lwYVlINEFqQU92ZXc4cVpOazVDLXdna3ptSUFqd1JhZw?oc=5",
+   "source": "news.kbs.co.kr",
+   "date": "2026-09-24",
+   "tags": []
+  },
+  {
+   "title": "\"발전공기업 통합 본사 충남으로\"…보령서 범시민 서명운동",
+   "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBKYlJKSENhVjk4WXkwZEZaYzZrSTluTHFjSEtDZUhMbkZCX0JfSFN1RGdva0xxMWU3WWpVVU05blp2bkh0RVE?oc=5",
+   "source": "v.daum.net",
+   "date": "2026-09-24",
+   "tags": [
+    "보령"
+   ]
+  },
+  {
+   "title": "감사원 공익감사 결정 미루는 사이…하동 LNG발전소 건설은 계속",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE8zUlVoLU42a3hmT3QzZG1zalNWbkJRR0ZRSnNzWlZtUkVqd05udEtvQ25sLU83Rlprdkpwemx5dk1vWWQzUUY1VlVRYXRDTk5UbnU3Rko0MFFZYWRLZS1obVM1U1ZuSENBa3d3?oc=5",
+   "source": "단디뉴스",
+   "date": "2026-09-24",
+   "tags": [
+    "하동"
+   ]
+  },
+  {
+   "title": "환경단체, ‘하동 LNG복합화력발전소’ 사업 공익감사 촉구",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBSOWIwU3JRZUdZWFc3N0x3VmtKZE8xYzZSdU9VakdUc2ZtM3R0MFN6TTYxWU5LNG9vNTgzYnhrcUlUQzBjQUJiQzBseGNEUzFrMGFYNzAxUEc2Zw?oc=5",
+   "source": "경남신문",
+   "date": "2026-09-24",
+   "tags": [
+    "하동"
+   ]
+  },
+  {
    "title": "전남광주특별시·나주시, 발전공기업 통합본사 유치 본격화",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1MZENKNFMxZ203cDVtQklWOUtZM2FERlFJc0NOZEdONU9LdTZVQk1ZQWlFbkduSjU2SWQxZmJ3b2tpMWRXN0JKZVdkRkpXXy1iOUY0QmhPN2pkM3A1cjN0UWtTV0JrbGptYVpjSA?oc=5",
-   "source": "theleader.co.kr",
+   "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTFBGdkF6cERUVV9jM2M2RFlmOWtUZHNaZDQwSGxkdmZUNjl3WGcxdlFnelVQSWZtRnBvTDhxUjJ5LVBJbVFr?oc=5",
+   "source": "광역행정신문",
+   "date": "2026-09-24",
+   "tags": []
+  },
+  {
+   "title": "[이슈분석] 대통령은 ‘속도전’ 강조했는데…3개월 원전 공론화에 혼란 빠진 12차 전기본",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBzdENHeEVMeGNnbHYwMzZIRnBQSXgxa2N0Q19pYW1QcHQyZVNmZ01DelFVendPVHZUU0VERmhwN3NwdmxKdkxSLUUwa3E1dUlVV1FwZlR6T3ByUFNlbVE?oc=5",
+   "source": "기후에너지데이터뱅크",
    "date": "2026-09-24",
    "tags": []
   },
   {
    "title": "나주시, 발전공기업 통합본사 유치 공동 TF 본격 가동",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1BeHFYRkdpbGp1aGh3TElFVXVZS2xmLWZGSUxFVzBsbmR1Q3FfbkZnU2xFZExwZVRteWJfdmozMmVGckdMcWZuSFlqWWlycWgzMnhNZ1lOem5kVUdiX09MaEJQQzB4WU9nZGV2bQ?oc=5",
-   "source": "호남타임즈",
+   "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBxRC1sSVY3ZFg2SEw4OFJNLXFNVFFlWlNlMTFLcGZXeUh2bENWQlJYVlNmLVZEWW5KdDdFZEZrZTlJU21rQlNr?oc=5",
+   "source": "yaguwang.com",
    "date": "2026-09-24",
    "tags": []
   },
@@ -45,15 +95,6 @@
    "tags": []
   },
   {
-   "title": "보령시 ‘발전공사 통합본사 충남 유치’ 서명운동 돌입…‘뒷북.불통’ 비판 여전",
-   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBRQVphb2lySzBhWWZvNDN0cnRSTzByVmhuS19LZUZxNWN1NzdsRzZnT0sydW1wSkZydGdxc0dIN2d4ZmxBMF9RVjBiblB1S0xBeFBpWVQzb3VmQXhKQ2ZlR2ZMaG9qdWY1dHY4SzF3?oc=5",
-   "source": "뉴스스토리",
-   "date": "2026-09-23",
-   "tags": [
-    "보령"
-   ]
-  },
-  {
    "title": "중부발전 ‘인니 시장개척단’, 4778만 달러 수출상담 성과 달성",
    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1hTE1jUEFEVWNRZjJSVVdxYXJmd2xiS0JHdnM0RzhDS2Z6WjVCS3dObW1saDh6TVBaRlJWQWZxTEtnZVVwVXhOcmRuYWFROWxpb0NibXlPTnNCVmhjY1JRR0Z4akR6ZDZSWDA5QVQ5Tm44bkMxYjZkdmtHV0c?oc=5",
    "source": "부산일보",
@@ -63,7 +104,7 @@
   {
    "title": "'핵발전 확대부터 묻는 정부 공론화계획'…시민사회 “전력수요부터 따져라”",
    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9VSlc3QmRNVzdCOHdkXzBiS0dTVXFqRVlFeVF4Wms4cFUtM2lyYUZibERZQ25rQzZSNE1RRVRTUVdGcHIyTkFQamFUNEVxalJNSS1hRWNwTnJfOV9rZG03ajNMYUo5TzBm?oc=5",
-   "source": "한국NGO신문",
+   "source": "ngonews.kr",
    "date": "2026-09-23",
    "tags": []
   },
@@ -77,14 +118,14 @@
   {
    "title": "전남광주특별시·나주시, 발전공기업 통합본사 유치 본격화 > 뉴스",
    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBzQm9fV3A0cUFsVE42YmdhcWI5Y3pLZTlFWjk5Y1pGdjZGMFZYVEpQc3Q4ajZTS2lOcU0xQWl2d29XWTZYR3VrNEZWZmtRVGdrQm5iR202SGFERmpXb1VVdGtUdE52eVRGUEExRjVGeGg?oc=5",
-   "source": "thekorea.kr",
+   "source": "더코리아",
    "date": "2026-09-23",
    "tags": []
   },
   {
    "title": "전남광주시·나주시, 발전공기업 유치 공동 대응",
    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB0MzdsR2JfM2lHLUhqMzd2ZTRfUDRNbXdxSmZIQ1VaZUtWSF84bC1hUzlZMVRDRnlrSF9WMXJlWjhYUnZlbzEtU0JJT2dNeDJHNV9CTU1wYTYxaWfSAWBBVV95cUxOVWluaS1ZbkRsZGdDdHp6V1llVUx1M1NaUWZLNE5uTm5WX2RlOWFuOWlWQnFxV0FFVjdCczlQcHZWOTZDUnVnTHFJbjMxRXZnRlc1SDdHWmtqVEh2aVZaSWk?oc=5",
-   "source": "연합뉴스",
+   "source": "yna.co.kr",
    "date": "2026-09-23",
    "tags": []
   },
@@ -92,6 +133,13 @@
    "title": "전남광주통합특별시-나주시, 발전공기업 통합본사 유치 공동 TF 본격 가동",
    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1CNTQ0UEh3WkZmRG9oZTFTMmFyTkZlRTdHWnZnckpBWUVVbmZQX2dTdlBkeDViRzJ3c1llZGlHRkJCUUt2ZnR3SV9YYkx1c21JbnBia3J6RW9GbjROT2IwMw?oc=5",
    "source": "KBC광주방송",
+   "date": "2026-09-23",
+   "tags": []
+  },
+  {
+   "title": "미래 전력수급에서 원전의 역할, 국민과 함께 논의한다",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBUT0ZqQUxxUVBWc3NXbU04RV9mQ1h0WDBESl9Jc2QtSDlVM2puWTlsRzVTekNFWWI1bnVXakRpM1JwdjRyWGFkc1B1MFdaMUFXVnJmX1c5am5UdnhmMXpJVTBPY21meVlk?oc=5",
+   "source": "korea.kr",
    "date": "2026-09-23",
    "tags": []
   },
@@ -106,7 +154,7 @@
   },
   {
    "title": "이세리 서해구의원, “발전소는 청라에 있는데… 특별회계는 청라로 돌아오고 있나”",
-   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9KY2hfaDZ0dEJBeUxvYTlRX0laZEpvc1J5U0tPTHEyY1czbU5kYVVtYlBjLVIwblFkamlRbVN2eG10TGZlWkdldmRZcXVxTVU?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFB6S0wxS0d5YnZVM2ROSEtmdzFLSGpUMHd5UXpJWmhTTEQ1UnBfeGNveFBOcEtpZWhaUVgxNHpaQXhOWXV6Y0E?oc=5",
    "source": "v.daum.net",
    "date": "2026-09-23",
    "tags": []
@@ -114,7 +162,7 @@
   {
    "title": "[나주시 소식] 발전공기업 통합본사 유치 공동 대응 본격화",
    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBxWHU0YjJSXzFCR041S0xqX2x5enZxdU14WG9ZcEVfdTdOam1zY1FnNXg4RFFmRmphZXhxS0tqaUs4eVNzMV8wRTlKT3hhR1pHZllTY3hWMFNlWDZZeU1KTEtxbVlrYVc4WDk4YnRiOW93NzjSAXdBVV95cUxNQlhmby1FMzJBbWNVUHk2c3FCLW9yWkMtenZ0cXU2TUpHYTVXRWtyMW4xdFdfOGozYXhON09tZkVZQkJvaTRZRm5oNllRSW1jUEJudTBDSWpCLWVvRzdwUFZlVG5yR3F5aEszZXR5dWRYaWFkekhtQQ?oc=5",
-   "source": "newsfreezone.co.kr",
+   "source": "뉴스프리존",
    "date": "2026-09-23",
    "tags": []
   },
@@ -135,58 +183,12 @@
    ]
   },
   {
-   "title": "나주시 발전공기업, '나주-광주 통합본사' 유치 본격화",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1kcGpRbjZ5VTJPOVBHajJXTTJSUWpwLWJHUTBhb2RKT3NvV1BzZmV1Z0cySHd3M2Q0c1dCLTZsbjVHVG1mMGdfMVdCOVA1MVBVQXVuNkNQSTFGNDIwQmFsVTJrQ2NxMjVWZFE?oc=5",
-   "source": "전남인뉴스",
-   "date": "2026-09-23",
-   "tags": []
-  },
-  {
    "title": "광양시 옥룡면, 경로당에 ‘건식 족욕기’ 지원으로 어르신 건강 챙겨",
    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE92V2M1UU1JaGhGU3M3a1NaeG1EUi1vRGVmcllOaVlzT19EUkJRdkU1MGlERFctLUFlakw5TWhCaUgyUTJxWU83WDJYOUc3NFo4THdVNElVUHdSaFBYcURMNlpNZHpnUHVCUDREQklkTQ?oc=5",
-   "source": "newsfire.co.kr",
+   "source": "뉴스파이어",
    "date": "2026-09-23",
    "tags": [
     "광양"
-   ]
-  },
-  {
-   "title": "\"한국발전 본사 충남으로\"…보령서 범시민 서명운동",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1McFVhbW9QeXlLYVF5NHNQeEVTTWxHWXloX0hGTlBXQnFZV21vaFZNaXBxZkkySXpVQ0tOdnpqZjFwVXF2d0JCVkdRWW11Tnozd2pwbmJoYWpvcElKY2dTTVQtdDJvalBwenVObENpRDYzdw?oc=5",
-   "source": "굿모닝충청",
-   "date": "2026-09-23",
-   "tags": [
-    "보령"
-   ]
-  },
-  {
-   "title": "전남광주통합특별시·나주시, '발전공기업 통합본사' 유치 공동 대응 나선다",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9haUk3d0JyVFlQVHJ4Wk52eTZWVldLZXV6WE9mZmdoZWd5dHk1dUl3V1hwWTQyZkJCM2NmSWlsa2dBZjhUTDdMUGVZN055cEdvQUFlUXVtQ0NfaVVSMVJkRUxhVnNHUWRiOHc?oc=5",
-   "source": "서울파이낸스",
-   "date": "2026-09-23",
-   "tags": []
-  },
-  {
-   "title": "나주시, 발전공기업 통합본사 유치 총력 > 뉴스",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5sWEZRY3RtNEZFT1k5WmtmTTBGdi0walBTNTdoRmJpLUxIcjE1dUlGb1FWQ3U2clY5UEZrdThRelNHVWpVb3pCNS1OcEo3eFlXZkxibU1WQWFpUGdhWUFncFd5NWI1Z1BsQzduRmNBS2g?oc=5",
-   "source": "thekorea.kr",
-   "date": "2026-09-23",
-   "tags": []
-  },
-  {
-   "title": "전남광주시·나주시, 발전 5사 '통합본사 유치' 총력전 - 보도자료 | 기사",
-   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBQQU5Yd0dNMGtfaGtfa0x1ZXpvNmR2TXFha21Iekdiem1YVGpqX20zUkV5TmE1b0ZxSFdlV19aeUk5eE5nRmpCUm5BVjE3Sl9yaDZIU1hKVG5wdFZtV3Uw?oc=5",
-   "source": "더팩트",
-   "date": "2026-09-23",
-   "tags": []
-  },
-  {
-   "title": "원전 역할 3개월 공론화…12차 전기본 정부안 확정 1∼2개월 늦춰져",
-   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBENUN1YjQzM05VY3J5S3ZuRmcwSmJWeDc2SWVfNjAyLUNzVHliQTBTYUQ1RmszTmZobm1HSXAzZG1zXzhjLTJhQWRYQkNMVkVBQll3?oc=5",
-   "source": "industryjournal.co.kr",
-   "date": "2026-09-23",
-   "tags": [
-    "부안"
    ]
   }
  ]
