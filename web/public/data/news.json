@@ -1,19 +1,124 @@
 {
- "updatedAt": "2026-09-29 10:21",
+ "updatedAt": "2026-09-30 09:53",
  "note": "구글 뉴스 검색 기반 자동 수집(제목·링크만 게시, 본문 미복제). 기사 내용·저작권은 각 언론사에 있음.",
  "items": [
   {
-   "title": "최동권 \"경남진주혁신도시 완성, 지역사회 뜻 모아야\" 릴레이 시위",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9oZl8xMjV6bFRNclRHNlpmTnVneVdlTEVTS1BYeEVJaG5qT29seEpwUVVwQjJNV1NuRkVPeENFSGYwYmJTZndqWFJNLVV3THFRSlI2REVXaUxaU2tVV0tMMzRXcS15b0U3Mnc?oc=5",
-   "source": "진주뉴스",
+   "title": "남동발전 사장에 이현빈 前 한전 부사장 내정",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB2VzdfWERFSXlWQ2RQUXNpZUdGSTZ4TG9kb01FUXB2Z2lQNW9FbENudHkyZ1dfalhlSUdzVFJBOUczS3hPWkMtLS1aZ1JBNnVjMmRLTllzSW9ZbXVmRzVfZE1qYW1DQkxlZkl1cw?oc=5",
+   "source": "투데이에너지",
+   "date": "2026-09-30",
+   "tags": []
+  },
+  {
+   "title": "어기구 의원, 한국발전공사법안 발의",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1aNUVfbVlHX2UwcllKUXd2VmVaMzlDcUFpQ1FjLTkyLU1feFY0cWZ0UEJGbk5IeHZMZW1JWWt0QWMzSmFHSXRtMFI3WmRrOWF4a2tLVnQzeWVqaDN2dlJWWlhkWVNJcHJHS3N2aQ?oc=5",
+   "source": "투데이에너지",
+   "date": "2026-09-30",
+   "tags": []
+  },
+  {
+   "title": "[단독] 발전 공기업, ‘녹색채권’ 5조7000억 발행해 재생에너지에 40% 투자…‘화석연료’인 LNG에도 40%",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBYaDNwaURGUXJhbWIteVE2SVVSYUV6MHg1NkMwcXJCcXl2aFVUcm1BNHFYZ2duYUU2OUNoV0NFcDdzaW4yWEpDQW9YS1VQZ3BRZmgyNnFlYUo2emdfSUpJ0gFfQVVfeXFMUFhoM3BpREZRcmFtYi15UTZJVVJhRXoweDU2QzBxckJxeXZoVVRybUE0cVhnZ25hRTY5Q2hXQ0VwN3NpbjJYSkNBb1hLVVBncFFmaDI2cWVhSjZ6Z19JSkk?oc=5",
+   "source": "경향신문",
+   "date": "2026-09-30",
+   "tags": []
+  },
+  {
+   "title": "환경·시민사회단체, 정부 원전 공론화 계획 반발…“메가프로젝트 전력수요부터 검증해야”",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE15QTJNWE1nRTVJU2t4YzhOXzlyQXBFT1kyWDRZVlIzZmlJS096NGktejRvWU15Rk45bW9DX0h6U3NYcVBka3VDcU1sbGV1d0w5c2hnak5VMWpHb2RaYWJxZkpReTRfZDN3bEdva2Z6dFpwUnVCNWc?oc=5",
+   "source": "hinews.co.kr",
+   "date": "2026-09-29",
+   "tags": []
+  },
+  {
+   "title": "대전시, 신규 산단 전력수급부터 챙긴다…AI 전력수요 선제 대응",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE13R2xWQ1Q5TkFfbmw0bFVORGszWmUyQVhqeVpDd2dVR1VxVFk2bTdmaEhrMHVkcXdCbS1qYXBIckEyZDAzMjc1eUFzblhDWjY0cVZnZA?oc=5",
+   "source": "timenews.co.kr",
+   "date": "2026-09-29",
+   "tags": []
+  },
+  {
+   "title": "남부발전, 공기업 최초 ‘AI리스크관리위원회’ 신설",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1fU1IxclozREpGUVdPRE5VR1M1bUZOWjlwM25QejA2RDNrMkdnendldFo5djk2bkc1M1owb0k0NGU1akhuSFE1eFdPRWo3VkZFZ0c2M25mcXZ4NzQ5TjRIM1NGN0s?oc=5",
+   "source": "국토일보",
+   "date": "2026-09-29",
+   "tags": []
+  },
+  {
+   "title": "남부발전, 공기업 최초 ‘전사 AI 리스크 관리체계’ 구축",
+   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1MempkT2oyQmxwLTRRRXhpcXdHTlZpMmIwUUZSMHJkemlnbjRLT2ZiMHhob2wycnMxakZZWHhXbUZYdUFqem1YenF4RTlkbEp2S1U0QlkxUFRJT3B2RzJxeTF4b1MzdC1aZXdfZG1DbWhLTk1SQWR30gF3QVVfeXFMTUx6amRPajJCbHAtNFFFeGlxd0dOVmkyYjBRRlIwcmR6aWduNEtPZmIweGhvbDJyczFqRllYeFdtRlh1QWp6bVh6cXhFOWRsSnZLVTRCWTFQVElPcHZHMnF5MXhvUzN0LVpld19kbUNtaEtOTVJBZHc?oc=5",
+   "source": "스트레이트뉴스",
+   "date": "2026-09-29",
+   "tags": []
+  },
+  {
+   "title": "한국남부발전 공기업 최초 AI리스크관리위 신설 - 머니투데이",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5pN284cFZwVzJyci0xX1VJdEJoczJjOTdCZFJLcGNhbGVxc1djRVcxNjB1N2ZCLTZHclYtcFlGbzFZaVhLSjhfQzR4bnVxRlFUT3pWUnJDLVlaeW5aLWhhYTNHLUU2dDlDbE1pN25id9IBb0FVX3lxTE5pN284cFZwVzJyci0xX1VJdEJoczJjOTdCZFJLcGNhbGVxc1djRVcxNjB1N2ZCLTZHclYtcFlGbzFZaVhLSjhfQzR4bnVxRlFUT3pWUnJDLVlaeW5aLWhhYTNHLUU2dDlDbE1pN25idw?oc=5",
+   "source": "머니투데이",
+   "date": "2026-09-29",
+   "tags": []
+  },
+  {
+   "title": "남부발전, 공기업 최초로‘AI리스크관리위원회’신설 등 전사 AI 리스크관리체계 제도화 추진",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5nbEFpeTRIQl9sbEEtbGtIdTJHdFNaUEhmd0lsajg0N3ZkX2xsc2VrckZaejRZOC1jVjd0TkphNml1QkItVWpZNUNIcnRxRkstT0tBeXI5T3pOY1hfNlpqRF9hdWZnSFRNOUNESUxGYzZVQdIBdkFVX3lxTFBETWlMU2xDRUowd2YtaXhOV3dIXzdvcTViOGhaTnc5WmpvMHpJRm5HYWVHYy1hcUdnMENhdlRUdWQ1Y3ZvSjhUdVkwV09HNmRzdWQxMktEcGgzamFOM1dOWXB5Vm40UXhoV2ZEbEx2dVlLVnhHUkE?oc=5",
+   "source": "에너지타임뉴스",
+   "date": "2026-09-29",
+   "tags": []
+  },
+  {
+   "title": "남부발전, 공기업 최초 'AI리스크관리위원회' 신설…전사 AI 리스크관리체계 제도화 추진",
+   "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxOYUQtY0NtTDVuSU53aTFmNi1VeVBzMEpSb01LMkpGTVdpNzJoV2N4M0pfQjRiZWpLOEdRZnBERW56cm40WHBUcmQwOGdOdnc5ZHlzWUt2NHhQaDJ1bVFXMFdnV1hBZ3R0QmxrSmZaYXRuZnczZzlYNWtxQjRTT0lKcFFaYWw5T05aZnUxNy1zUnRJcVBEeTVsUkpyM2xOT0tMU0tqVWV6YUxlNTY3QV9rNU4xaEJod1NielNmeEN5dmg3YnpOaWZqb3JWRm81Wk53WlZ4Z0hmNnBXaENIQ015NFJtOHZ1ZC1MaWVMSlp6eV9FMnZUNUNLX01hSmJnYnFjMEdCd1I0SnA1Q3ZIOXdjRWpCVjNQakdE?oc=5",
+   "source": "데일리안",
+   "date": "2026-09-29",
+   "tags": []
+  },
+  {
+   "title": "“관리체계 제도화 추진”…남부발전, 공기업 최초 ‘AI 리스크 관리위원회’ 신설",
+   "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBuM1dyR0JLZzl1dG56WG1HVXVlc2VzN2J5Qndsb1FjSXpSc2Y5akt2S2pyTERveGE4MUxCaFJYWjRhbDAtaUE?oc=5",
+   "source": "v.daum.net",
+   "date": "2026-09-29",
+   "tags": []
+  },
+  {
+   "title": "발전 5사 통합 앞두고 남동발전 새 수장…이현빈 前한전 부사장 내정",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1ETkNJb21VUDZWcVFFbEI3TEtManRHQmF5NXFEY0tQTGRKN3Zpd3dEblZlYlEwdVE4bXBhY1Ewa1lSdk1BMkhFVHFMRWFwaERjZGljMFZIMjNVZ9IBWEFVX3lxTE5mMi16ZVVUU3Q5QkU2dFFnbWVLWml3SjdUU2FzeWFkX3diWWRPS2l6Zy01cE9UOE9BOW1STG91VGdJS2hvMXA0WkRiOHZjc2xCbXZkeVJ4STM?oc=5",
+   "source": "아주경제",
+   "date": "2026-09-29",
+   "tags": []
+  },
+  {
+   "title": "‘7개월 공백’ 남동발전 새 사장에 이현빈 전 한국전력 부사장 내정",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1pNkZrZGhVRkRVTGtWaVc1bFExTGNQeDNGYUtEQWstTGliS3RPWE1pYVBxMTg3WV9hTF8ta1dMRzhHTWNvMWo1bTlCekxCRWZ6NkNyWmhfZGJmbTNnWlFnaEJCaHZUeDlX?oc=5",
+   "source": "뉴스경남",
+   "date": "2026-09-29",
+   "tags": []
+  },
+  {
+   "title": "충남도, 석탄화력 폐지 이후 발전산업 로드맵 짠다",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBSWS02Y2JhNnpIV0NWX0R1SVBVdnliei1NbEQ5dFN1N1NZdmNpY3g4YmFCYmpsVVlyQ0I0b283WGQ4YXptSVFMalBDeUJpa1JobldDWA?oc=5",
+   "source": "v.daum.net",
+   "date": "2026-09-29",
+   "tags": []
+  },
+  {
+   "title": "정혜경 국회의원 'AI 데이터센터 수요 다시 검증해야'",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE4wVnA1V1hPMk1PUVFRYVhLb1Z3NDJpVXRJWkJTeFF5UDliUURFY3dqcVNRN0x6ZWx6cVpDS1dCQm9ldVZiZExONW82T01FMjBlN2ZBRlJQY3JxajhtVU1GQm9OQm52VEJTSndMdnlfWdIBc0FVX3lxTFBpNFhwcUJGblR5YnV5RFdhQWRYMk9xUWUzeEE2YTU5YThfQ2RoX0pHZnZVTW03U2tXQVBSSzdWQlB2cE1NVEpqNjJXWHlfcjd4LTg5elFBNnJfbXpLZVBjb3NoVnlmZmVTUnNpOFFEdWVkaFk?oc=5",
+   "source": "daily.hankooki.com",
+   "date": "2026-09-29",
+   "tags": []
+  },
+  {
+   "title": "남동발전 새 사장에 이현빈 전 한국전력 부사장 내정",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE96bVk0OFk5MGZudnFtQV82OVlXODlweHhLV01FTUFnZ2lPUkV6a3hKLURhbFFueV9kNUJyUjB1Ukgzai00NmhzcmtuaVJhMHFzWm0wS01GdHBBQzTSAWBBVV95cUxPY3VqNXRyUHNkR19KMWI1OFhiSFpGQ3o1OVNaT2tUalRjcFVuLVRrZkJBdk5reXZ0YzM1VDZ0VjcwUkFMeW9lSUx2Z3luR3U4cE5QWm5vN3ZTNkNiWG9ZMVY?oc=5",
+   "source": "연합뉴스",
    "date": "2026-09-29",
    "tags": []
   },
   {
    "title": "조기 폐쇄 석탄화력, SMR·안보전원 전환?…“탈석탄 포기” 반발",
-   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBHcG5YMmFuQ2RhZTEwUmpKam1XbGx0V3FSUEUxSUJlVERqZ3gwc1ZEVmd4RE91WlM3XzFVTnhCX2pXYmhsUTNPdWV3bUJBRDA?oc=5",
-   "source": "v.daum.net",
-   "date": "2026-09-28",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1jN0FidmEwdHg0T1pHTGZYN2RGSHlueW53am11cE82RzI0OHpXX0FWSXNqeVNCQUkzbG5XZlA5TS04NjRjazdHQlJQZkltcGxlQzl5ZHZod1R6Rk0?oc=5",
+   "source": "KBS 뉴스",
+   "date": "2026-09-29",
    "tags": []
   },
   {
@@ -33,7 +138,7 @@
   {
    "title": "나주시, 발전공기업 통합본사 유치 사활",
    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5sVndTcFhCaGRkR2U0eXp3dXhYQVR1OHdZLU5XblFlVjVrSDdwQm01Zkk4WFlWRVRXUDBtbTVhS3Q3MkNLMmlzcVYyU0JMZ1FUTVdLVFdBVGdzYTdTZ2VKcVVhamxVeFg3SnBqamRKNkPSAXBBVV95cUxObFZ3U3BYQmhkZEdlNHl6d3V4WEFUdTh3WS1OV25RZVY1a0g3cEJtNWZJOFhZVkVUV1AwbW01YUt0NzJDSzJpc3FWMlNCTGdRVE1XS1RXQVRnc2E3U2dlSnFVYWpsVXhYN0pwampkSjZD?oc=5",
-   "source": "namdonews.com",
+   "source": "남도일보",
    "date": "2026-09-28",
    "tags": []
   },
@@ -47,28 +152,21 @@
   {
    "title": "[EE칼럼] 발전공기업 통합, 지역 전력계획과 거래권도 넓혀야",
    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1BMy13bDBGSDJXR0djVExtR2ZFUWNxNzVtd182NW9ENVVfcUgyc3JqZmM5eXZxeFVxUTdlRm9ManNNWnBCeks3b1lvUjRJa21mOTgtMXZoeDB4ZUE?oc=5",
-   "source": "ekn.kr",
-   "date": "2026-09-28",
-   "tags": []
-  },
-  {
-   "title": "한국남동발전 신임 사장에 이현빈 전 한전 부사장 내정",
-   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1LZDhmaWJ2VFBURW53UHk5YjU2NEZmZHVsYzBjak96eUJ0QTQtR250Y0REdkxRZm9tUTlGSEpFcElXcEwxal94RDJfXzZ6RS0tWjNrNHVvTDRwcXgyQjdtemhpQUdVY1FJeUw4?oc=5",
-   "source": "경남미디어",
+   "source": "에너지경제신문",
    "date": "2026-09-28",
    "tags": []
   },
   {
    "title": "[인터뷰] 김성환 \"산업용 전기요금 역전은 잘못…발전공기업 통합, 민영화 흐름 되돌리는 조치\"",
    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5xQ2p0SVlpVmVZQ084WTIwQU1BSGRKX3pBY19WYWxyTHV3djcxdnNOMjYwUWFqaU9zVG51c2tqZ2lRM0V1SlRKYjN6aG1HcmlxZDdJenYxRnViMm5jQlloeg?oc=5",
-   "source": "아시아경제",
+   "source": "asiae.co.kr",
    "date": "2026-09-28",
    "tags": []
   },
   {
    "title": "나주시, 발전공기업 통합본사 유치 공동 TF 본격 가동",
    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE10MkY3ZUVmYXdGMjdzZzNEVG9hRnAtdVpnOWJWSk9yREZJSjZ6d1R2c1hvNER6Z0J4dkNucThKdkNZanlRZlVRbGhaMjlEZVFSQ2hPTXR3UXc0SjQ5X1ZDY3h0UzNjMGxDc2djNw?oc=5",
-   "source": "najutoday.co.kr",
+   "source": "나주투데이",
    "date": "2026-09-28",
    "tags": []
   },
@@ -80,110 +178,6 @@
    "tags": [
     "보령"
    ]
-  },
-  {
-   "title": "[캠페인 종료 안내] 현대차가 LNG발전소 건설계획 최종 철회했습니다!",
-   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE0yUFAwTWtWSkZTMFBFa3dvcnd1MDJBTHRGanVMUko0bDZ1c0Y4dmR5ZlY2aEdmcE9IemJYN2NKRlhvYWFURS1IdUZ0WHJOdV95eVhtMWlic2JyTnh1ZGlfRU1SMWp4dG16REVieTZZeFM0V09fR1NJc193?oc=5",
-   "source": "campaigns.do",
-   "date": "2026-09-28",
-   "tags": []
-  },
-  {
-   "title": "이세리 서해구의원, 발전소 특별회계·주변지원 방만실태 지적",
-   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9LU0FZS05OR0lqM2cxUWhSRWtiQ1RBazVMRnhOaWJmZ2FpV1pYUlN3NUs1OEQtbHJ5TDZkV0daN2ZPSTc2WDBSb2JXOWtrcWQ0X09LQ1AzdzJUUmw2U3FORVRLWHQxbDVYekU0MUdB?oc=5",
-   "source": "현대일보",
-   "date": "2026-09-27",
-   "tags": []
-  },
-  {
-   "title": "나주시, 발전공기업 통합본사 유치 본격화- 공동 대응 체계가동",
-   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5MbVZ4SDAwV3Z6VWxBRkVCdFNUZ0ZtYVNHVjNHVF8zMjI0N3otTXl2M19hSFJXZWR2Qml5WmhUNEN0Tzd5NFFReVFfeHJVbHhNU3pla2JTSm1TaU1IX2c0bjZsVktCTlNTSmpCLXdB0gFwQVVfeXFMTUZzVVNmbUJEQ0ZKZElrMUQyVUxzLXc3eEZFRjNDVlZ3a2NHZmMxckhVdW9MSXhNVEhRemV0dEI3Vjg4SmEtZmtJSXE4MmhEU2phcHoxS1NTeWRyM1VuSXQ4WC1sU0hURjE3Q2dmeUp3SA?oc=5",
-   "source": "전라일보",
-   "date": "2026-09-27",
-   "tags": []
-  },
-  {
-   "title": "전남광주시-나주시, 발전공기업 통합본사 유치 공동 TF 본격 가동",
-   "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBvekd0T2hSMS1aT1pSRV9EQUdYcnhNaUV4LTBLeWYzZVFmYWVrNkNmOWtPN1JLVC05bG1KVGhnMm1iQ1YyaE1KYUpVcUQ5UQ?oc=5",
-   "source": "전자신문",
-   "date": "2026-09-27",
-   "tags": []
-  },
-  {
-   "title": "전남광주특별시, 나주시와 ‘발전공기업 통합본사 유치’ 공동 대응 본격화",
-   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5vY2EtYmp6LS0ySEt5RzZSNnAzUS1Hb2VPcjJwNDREYlVNTUpVdmt5WWlkbGhwSVQ2TUN4U01TNkVldkdnazJuUmtpX2dRSWdIS3JUdUJMQVctUDFQNmJURS1pR1Nld0Z3Smd2YWdJRQ?oc=5",
-   "source": "서울신문",
-   "date": "2026-09-26",
-   "tags": []
-  },
-  {
-   "title": "인천 서해구의원 발전소는 청라에 몰렸는데… 특별회계는 ‘엉뚱한 곳’에 쓰였다",
-   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFAtV08zV3ZzNU4zX3E4WW9UWExSSGZuOXJyZUo3bmQySFN3czVWeFlldlYtdXV0bjF0d3pfbE1ZM0JYaVd5QzluZElFUDI3c1dlc1AtVk9VdENUUQ?oc=5",
-   "source": "브릿지경제",
-   "date": "2026-09-26",
-   "tags": [
-    "인천"
-   ]
-  },
-  {
-   "title": "\"통합 발전공기업 본사 충남으로\"..보령서 범시민 서명운동",
-   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5xOUZOajZEZHd3V3JyU0VGeWc4VC1pVmdOaENCQWJPVnRBSjZObXUtS29BREpFMGgxXzhuNVpPOHQ1dEFuWWt5Q0hCbTctQW1sX0gxdVZRRGNEelMx?oc=5",
-   "source": "tjb.co.kr",
-   "date": "2026-09-25",
-   "tags": [
-    "보령"
-   ]
-  },
-  {
-   "title": "발전사, 추석 맞아 상생 행보…협력사·소상공인·취약계층 지원",
-   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE00UjFTM1FCWUxLSldiTUNWZWpXbk1YcnVnVDFEdDhDUDZQZm52ZG1MTWpLb29YTFBqQkU2WUJkVnFCc2o0cmdFSGM0RjU3djlCT3dRdEhYbmhwNTFlLVg1Uk5BN2E5bU9J?oc=5",
-   "source": "팍스경제TV",
-   "date": "2026-09-25",
-   "tags": []
-  },
-  {
-   "title": "전남광주시·나주시, 발전공기업 통합본사 유치 공동 대응",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9oWk1EbEl3MWJpcFZTZXVmRE5qZ3B0bjA5bDNVMFJzRWxMRnA1YmRRUmUtazRkdE9KRzJwTlljbEpSYTNUQUpvRjhkYklZRWFkWFNWWjRCNDJPRjd2cWdCYjNya1dBNzVEUUE?oc=5",
-   "source": "전남인뉴스",
-   "date": "2026-09-25",
-   "tags": []
-  },
-  {
-   "title": "환경단체 “하동 LNG발전소 조속히 공익감사해야”",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBMU0dGRjRqVTgwelZ1WFpIejdUWWNycjRFVGNNNTJCZ01RWFFwUUVXdGs3TTlQQ3YwblRnN3QyTWg1UEowTnJpNWJldHpRVUxRUlFfSzdtbzdwU3pUTnRyTmdJSUxOaFFfbWc?oc=5",
-   "source": "경남도민일보",
-   "date": "2026-09-25",
-   "tags": [
-    "하동"
-   ]
-  },
-  {
-   "title": "국민 10명 중 8명 신규 원전 필요하다는데…정부는 ‘3개월 숙의’ 돌입[Pick코노미]",
-   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE40X1BwUWZnUGNqdFQxMFpYMHl5d1JCVi1PQUNpNDExaEw4VzJGY3NjWm05X2FHS1RnMGJVQW1KZmhkQS1WTE94OC11UHRnWlNuWVHSAVNBVV95cUxOMkJzMjFnVzBHc0h3UHNuZ2pjUmNYcU03bDVTM2NPNTliYzRMQmhuMXVlaUhJTDBnVGJXb05pckR4QWxUZ0FuaG5WWVVwQVViZmd0OA?oc=5",
-   "source": "서울경제",
-   "date": "2026-09-25",
-   "tags": []
-  },
-  {
-   "title": "발전공기업 통합본사 나주 유치 '선제 대응'…통합특별시·나주시 TF 가동",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB3UWdMT1FWRFFPRlhBVDNzLVV5QTZKbW9yaTRDTXZ2NXpOY095Y0RUYlFGTE9DQ2owYWo0MU1JSWExNEtmMTl6TWRvTHdOYjhsc3RYMW9yOXJkRUktYjZnY1Ntb0hLY3VYbDdmVQ?oc=5",
-   "source": "theleader.co.kr",
-   "date": "2026-09-25",
-   "tags": []
-  },
-  {
-   "title": "특별시-나주시 발전공기업 본사 유치 공동 대응",
-   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5IaWdMd05WUFJkdkVWVzVXNFlLelRQNWMtODJvSDYtUlJmYU81eEE2N2Z0eUZrMkplVkZtVUxwOHFsdmltMVhlTUwxWDJlMC1DWkg5U1BaYWZXVjQ?oc=5",
-   "source": "KBS 뉴스",
-   "date": "2026-09-25",
-   "tags": []
-  },
-  {
-   "title": "처음 누르는 버튼부터 익히는 더 지니어스 인디언 포커",
-   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPdVFaeVRvSHVjT0FkSWJ3dUtZRlRXOHM0ekRER1Q4TTdhQnZSTTFOSWJsNGpzeFZLR3JxcHNFV3BuTUdWalFROXU0WjFFNHRLekJRajZ2Q0c2MmVzajRScTczdm1SZGFDaE8wRC1yeERzYXoweWltTktUS0hfdzRUMnh4LU0yR1VoUGUwSmhhekd4WDZZOHZiMzlEMk9NMXc0TEJQbWoyM1BwV1ZPUUxFOGJVQWZJTjMtNzRoaVFoS1VtSHlm?oc=5",
-   "source": "calgaryroughnecks.com",
-   "date": "2026-09-25",
-   "tags": []
   }
  ]
 }
