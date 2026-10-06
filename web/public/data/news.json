@@ -1,7 +1,86 @@
 {
- "updatedAt": "2026-10-05 09:19",
+ "updatedAt": "2026-10-06 10:58",
  "note": "구글 뉴스 검색 기반 자동 수집(제목·링크만 게시, 본문 미복제). 기사 내용·저작권은 각 언론사에 있음.",
  "items": [
+  {
+   "title": "[단독] 발전노동자 10명 중 7명 “공기업 통합 찬성”",
+   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB2d3hlbXludEZmYi01ZlFBWjhhWDFNTGVDUjhDRVRnNDlYTzBKN2QxTUZFODFDU0ExT1NFQ2ctdVB3U2Z5OWo5a0x6RUpnUkk?oc=5",
+   "source": "v.daum.net",
+   "date": "2026-10-06",
+   "tags": []
+  },
+  {
+   "title": "기후부 오늘 국감…반도체 전력 공급부터 원전 역할까지 현안 산적",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE50bmlMZG9LaTBkX25mU0RXVGJheGNoSzVrbWVrZ016VU50SmplaF93WnhwSlFRSVRwOVh1dGxEQlVNWHdIblJHMzNJZjdsOHJkbmJUQ0ZVVmNjUXpXT0FIQlZoOXljMUNERjZiT2RSWlFkTm1WQVZCMdIBeEFVX3lxTE50bmlMZG9LaTBkX25mU0RXVGJheGNoSzVrbWVrZ016VU50SmplaF93WnhwSlFRSVRwOVh1dGxEQlVNWHdIblJHMzNJZjdsOHJkbmJUQ0ZVVmNjUXpXT0FIQlZoOXljMUNERjZiT2RSWlFkTm1WQVZCMQ?oc=5",
+   "source": "뉴시스",
+   "date": "2026-10-06",
+   "tags": []
+  },
+  {
+   "title": "당진화력 8기 2029년부터 순차 폐쇄…지원특별법 내년 9월 시행",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5pUXhmWW54bmpjdE01WEFPVjhJZGVzZVdmRzgwcnNLc1dYbWpaZW5KOS16cE94X0d5Tm9aLWJXWHk2TGpSVndvQVBaZTdXSGFxc0w5WEtmclA2UE8wRmZCVzVSNS1OSlhY?oc=5",
+   "source": "OBC 뉴스",
+   "date": "2026-10-05",
+   "tags": [
+    "당진"
+   ]
+  },
+  {
+   "title": "4개 지자체, 발전 5社 통합 본사 유치전",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1XV2cxUFI0WEwyUGRXTDQ4WHJRbDVMQUFYeDJmRVNxUDFnOGV1VkQ4VjdwejVlNHROT09oZW5QYXUzQkUyb1FUVURXUVpTbExucUNvM0JHenRodw?oc=5",
+   "source": "한국경제",
+   "date": "2026-10-05",
+   "tags": []
+  },
+  {
+   "title": "\"충남 유치부터 해야 하는데\"…태안·당진 발전본사 '쟁탈전'",
+   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9XQzlJYngtT2N5X0lqcUtLb3MxZEo2b29mNkJiSVdsZ1hSdHpjQ0ZBSk5ueDdMUU5OZWR5VnZLeHQtUk1zcDdvYmtEY3duNkdmaW1hQ3dJSm5QdmFK?oc=5",
+   "source": "티제이비",
+   "date": "2026-10-05",
+   "tags": [
+    "태안",
+    "당진"
+   ]
+  },
+  {
+   "title": "해외로, AI로, 지역으로…공기업이 한발 앞서 뛴다",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1JXzhBREtEdnI2VXVNbkpDcXBYazhQdjB3cmtDNjV6Q1NfT2RyUGFLQlVOb2dCeHl5N1loZEFUVlB5d3BlNnREM0xJemZpSHEtUGk1N3AtRW9zQQ?oc=5",
+   "source": "한국경제",
+   "date": "2026-10-05",
+   "tags": []
+  },
+  {
+   "title": "아산시, 500MW LNG 발전소 입지 '통계 착시' 논란... 대규모 산단 이전 촉구",
+   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBYQTNIZmxaNG0xYk4za05ibzU5alhkdXNUcGVPTjNna0E0YjQtQXF2YjZBNkVucWVkRWdwbzdqdS1naFc1Y1kydld5d2dtTE1DRnQ3VVQxQm5wUkhB?oc=5",
+   "source": "피디언뉴스",
+   "date": "2026-10-05",
+   "tags": []
+  },
+  {
+   "title": "부안군, 발전공기업 통합 본사 유치전 본격화",
+   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5RM3Z4bHdnUnkwUUNyLUtDbWE3T2trcXZwNlpQUUpYUkdsUXFLdWNjNnZwczRJenZDdFBqb3BxdENPTzg2ZzQ1QnJYWTAzSlVvVnZFNy1Ycjd2anBRX1o5MXdQUQ?oc=5",
+   "source": "더펜뉴스",
+   "date": "2026-10-05",
+   "tags": [
+    "부안"
+   ]
+  },
+  {
+   "title": "[EE칼럼] 전력 공기업 구조조정, 미래를 위한 투자와 혁신을 기대한다",
+   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE81dWo2dlNuUEUxVWFMUmxraTQ0NWJ5dkVoLXNqNkVPMWxveDBSY19aNzIxQUlwbUZ5OGlQX21mWUt6cklORXlSOVlMVGQySnlYRjNZdi1QSXpjb1dvSTg5a0pROA?oc=5",
+   "source": "에너지경제신문",
+   "date": "2026-10-05",
+   "tags": []
+  },
+  {
+   "title": "전북 부안군, 발전공기업 통합 본사 유치 전략 마련 본격화",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1JcTFZLTBwX2JiU1R2NzRFdGlpSWtsbFVhVnZGYkFsTDRNQko1OUp2aEZvTmRwcVE0MWdVZExQYVFxUVcwNDhWak9tZEFFSTAzaERKeEJaNVhfNGJYZ28ydm4yR2M2di03RVd1SzBUcHc?oc=5",
+   "source": "신아일보",
+   "date": "2026-10-05",
+   "tags": [
+    "부안"
+   ]
+  },
   {
    "title": "LH 분리·남동발전 통합·해사 이전…국감 '경남 현안' 주목",
    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5EWmRycF9kdEVaWTBteElqaUVQZjlsV3c1TDhpYkk4ckpnVV80MkhlVGFKQ1JNTEJSZWlRdDZRTXE2NGZ3dEx2ZTIxckpMVGF3MFhNY1VWUjBfM0g4Rnlv0gFkQVVfeXFMT3V3UUR1SVZ4SVc4aWU3S3VmNWUxLXJDdHZoaS1tQmZWb0dUVzV6Tk40RXotS0tvSHZSYWFhMGswYWs5ejU4ZlNjNERnTkxySm1CeGhuRW9udlF3RjV1MVpDYXVMcA?oc=5",
@@ -13,6 +92,13 @@
    "title": "이현빈 한국남동발전 사장 “발전공기업 성장에서 중심”",
    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8wQnJzTW05bVRNMXhPU0F1cVdUMUVhVVRFQzRLRzBnTzc2aElHcXNfSTlxRnJzZ05ybS13TWhvRE5SaGNMRjNPb2JMVHAwbGpWajZpUldabEpQVEd4cWlTZ3YxYU11ZllmTWc?oc=5",
    "source": "경남도민일보",
+   "date": "2026-10-05",
+   "tags": []
+  },
+  {
+   "title": "화면에 남은 심벌을 해석하는 토토 가상계좌 업체 제로메이저 유지 기능 안내",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBvcnlYaWc4Snd6Q2o5cWkwTXFPTDZWZTVfVHZDM2s3SjVSUXUzLU1wUEs1UVl1dEljVndpRk1tZExiT0ZPSkJlWUh6OTZqQ1NGa25OWmo3MjZSMUtwTnhhbDByUzZiVDlGSWdtbGJ1OF9obVFqVGVtVGswVElIZmM?oc=5",
+   "source": "calgaryroughnecks.com",
    "date": "2026-10-05",
    "tags": []
   },
@@ -31,32 +117,9 @@
    "tags": []
   },
   {
-   "title": "호찌민시는 생산, 사업, 소비에 있어 전기가 없으면 운영될 ​​수 없습니다.",
-   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNSzBxMEhfOVFNVVZiWk9yYktFS19ZeXQtblFETXlwR3ppeVJ5NDEzWGhmLXYtLWsyRFp0RjhOcnhWQ21iNUFWbGJzeEhjSFM5eTZSenJjaE0tUXY5LWFOcTFaY2c0UDQ2blFtMTdGT2dJQmg3OTFyLWxpa281TFc5QnQ5TFBCQWdGX2tPV01UdEtkdG8?oc=5",
-   "source": "Vietnam.vn",
-   "date": "2026-10-04",
-   "tags": []
-  },
-  {
-   "title": "부안군, 발전공기업 통합 본사 유치 본격화",
-   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE10UUtxTHYyb2N4bWxCUUdLMlAtVllkbEFBc2pTX1Z3Smd0c24wY2lNT3llbE5EZXVwTEdCTW5GRDIxT1doamZwVmdqYXYwN1NvdFNpSzA4Q3Rxd2F1Q3NWX0FQbmw?oc=5",
-   "source": "중도일보",
-   "date": "2026-10-04",
-   "tags": [
-    "부안"
-   ]
-  },
-  {
    "title": "발전 5사, 내년 10월 통합 본격화…석탄지역 전환 시험대",
    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9pemxmVEJJckRNY3ZRYWF3RVpialY0UXNEenJmM0hjeVE1WEw1OGNvU2h5aUZHUkROOEdqOTdzcEdOdmx0VklJc1ExeDJUQWlmSnBodDFhYmI3ZlZfSU1wbDIzXzJZa0hRZzd3TA?oc=5",
    "source": "스페셜경제",
-   "date": "2026-10-04",
-   "tags": []
-  },
-  {
-   "title": "발전 5사 '새 둥지' 어디로…전남광주·나주, 통합본사 유치 총력전",
-   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5KLUJDYUxjOWhaZEowZ0hRWWNCQ3llLWpOQmtuNnQwSWhjUVZXUnhLN1huaGhxT1A3RV9lVWhveFJlUTlwMjFTTEJrWkN6M00?oc=5",
-   "source": "v.daum.net",
    "date": "2026-10-04",
    "tags": []
   },
@@ -85,15 +148,8 @@
   },
   {
    "title": "발전 5사 통합 '한국발전' 내년 10월 출범…석탄지역 전환이 최대 과제",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9Ca19zTjB4Sk5ENHRUSzM1OWozd0FsWHZEdVg5VHZ6QXhLa0lwYWg3MXBLQll3alpiVFA5Q3hlNmhVR3VhZVZMZHNOd0dqQjdQY1NseUNMQl9TOGpXVzE0ZNIBeEFVX3lxTE8tbmFoSW54cmdsS2FRNUJlaEM4RGhJRi1KUlE4eXRpS1FqemFqQWRkTnZKUlRfS0RCTVZaZ215bFVweE84SVM3YWpuLWlnbUUzRy1NWkhQSkRJaDJlSmpvSmVyMTM3bjVSN0hDeVoxRUJ5aHJENGZ4dQ?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE8tbmFoSW54cmdsS2FRNUJlaEM4RGhJRi1KUlE4eXRpS1FqemFqQWRkTnZKUlRfS0RCTVZaZ215bFVweE84SVM3YWpuLWlnbUUzRy1NWkhQSkRJaDJlSmpvSmVyMTM3bjVSN0hDeVoxRUJ5aHJENGZ4ddIBeEFVX3lxTE8tbmFoSW54cmdsS2FRNUJlaEM4RGhJRi1KUlE4eXRpS1FqemFqQWRkTnZKUlRfS0RCTVZaZ215bFVweE84SVM3YWpuLWlnbUUzRy1NWkhQSkRJaDJlSmpvSmVyMTM3bjVSN0hDeVoxRUJ5aHJENGZ4dQ?oc=5",
    "source": "뉴시스",
-   "date": "2026-10-04",
-   "tags": []
-  },
-  {
-   "title": "에너지 공기업 통합 ‘효율화’ 뒤 숨은 그림자…청년 일자리 문 좁아진다",
-   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOUEpoS1VJR0xuQ3NUY2pzeTRnU1Vwd1lxYUFtWEp0T0M4UVhsYkhPcGpmT2lSZzBTckZaUTQtLXhKel9YMmhCOHE5WDgtaXM2VklUWm1Wd05YV3JVYWdWVko4NENVb2pwUU40SU1HdG85d1BPeDdLUlZHR0ZVNzFETDRpT01wbjlBX3c?oc=5",
-   "source": "글로벌이코노믹",
    "date": "2026-10-04",
    "tags": []
   },
@@ -125,7 +181,7 @@
   {
    "title": "어떤 구조인지 짧게 파악하는 걸그룹 도박",
    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPeU9yVWpObE9pMkltejgwR0hCN0dCcTViMGl2V0hnaktoeUtPWlBKT3FaUmkxdTIzSmhVLUo2TGM3d1cyR2RWVTljeVBhNVUyeWJLQ25aOFJLSEhWMUhpVDhhVnV4cVF4eXFiWVVXMTJ0WkxoTkdUZm5raW1GSjBWV1ZzLWxiT1dKc1A4ZEdIOWVPMi1Ib0dWd01XQ0dtYXUtRDE2U0RUcVlmeGRVV0dkQ1VyOVhtUjBxUU1aQmd4VzNBdWZXR2s0TFpB?oc=5",
-   "source": "Calgary Roughnecks",
+   "source": "calgaryroughnecks.com",
    "date": "2026-10-03",
    "tags": []
   },
@@ -137,59 +193,6 @@
    "tags": [
     "태안"
    ]
-  },
-  {
-   "title": "발전공기업 통합 본사 및 새만금 과학기술단지 용지 조성 부안유치 세미나 열려",
-   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9WSVRYRTVzWlJrOWZpMk16d3dsVzNnMHRiLUlMZTlyQ3N1YThETUVITEZBY3UxamllM0I1dWpOT1ZNQWV2OTRMWF9uYVQ4eWJQWjlnemNkeVNUQmgyWFRhUzBPR0NXZUtnYi1j?oc=5",
-   "source": "domin.co.kr",
-   "date": "2026-10-03",
-   "tags": [
-    "부안"
-   ]
-  },
-  {
-   "title": "부안군, 발전공기업 통합 본사 유치 잰걸음…전략 세미나 개최",
-   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5JVURGZ0tDdHpPWE9Mc3RzWWc5YjdUdGR5QzNzc3lQU19YbFVrU0hXN1cySFZ0Y3lGV2pCU0VMOFY2cThVc0FiaDM0TTkyY0lRS3JTdk1uRlFGZ0h0U3BySkNWekREb1Z2TWdzcGxtei1TYTl5dnBQM9IBeEFVX3lxTE5JVURGZ0tDdHpPWE9Mc3RzWWc5YjdUdGR5QzNzc3lQU19YbFVrU0hXN1cySFZ0Y3lGV2pCU0VMOFY2cThVc0FiaDM0TTkyY0lRS3JTdk1uRlFGZ0h0U3BySkNWekREb1Z2TWdzcGxtei1TYTl5dnBQMw?oc=5",
-   "source": "뉴시스",
-   "date": "2026-10-03",
-   "tags": [
-    "부안"
-   ]
-  },
-  {
-   "title": "(참고) 미래 전력수요 전망 12차 전력수급기본계획 수립을 위한3차 대국민 정책토론회 개최",
-   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOMWJVS2s5dlZhckVzRm5xVWhNTDZpRTNiakM3Q0wzVWRSRXFsSDdSRjEyNkQzMmU0ZElRSXZkcTYxdnRSRUxQZjVQTEpCb1ZPdjFjbXpSVFQzVE9udUdZc3pfYmU3ajBQU0RkQngzXzREcXd2a0M0bmNkdzctdEpwQ2xhWQ?oc=5",
-   "source": "서울Pn",
-   "date": "2026-10-02",
-   "tags": []
-  },
-  {
-   "title": "hshsgame7 도움말에서 자주 마주치는 표현",
-   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1lQVV4WGE4d3RYV0tKZEduM2Rxd3FzOG5oV082Z0JGZVFnOGVVNWZOaS1FVGs3ejdTekl4RkpMWExuVldPQlpUUVBRWFB4QUxobFhGZTNxTUJkdWFFbEd1X284QVBZdUpi?oc=5",
-   "source": "Calgary Roughnecks",
-   "date": "2026-10-02",
-   "tags": []
-  },
-  {
-   "title": "이현빈 남동발전 사장 취임…“에너지 환경 능동대응·안전 최우선”",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5KTzJIcEh1dy1YLVlhN1JmMFRfVm1qQW93QW53QkQzY0JKbFpzcW9JUzdtVjRPaDZKWTNwdE5NZnNET2tKaUJnNGhCUU9OV2swSWwyOUZESzA3dEJmTC1JLXpHM2FVWFZKckdod1RBdGtNTy1M?oc=5",
-   "source": "부산일보",
-   "date": "2026-10-02",
-   "tags": []
-  },
-  {
-   "title": "“5천억 새 청사보다 진주”…김영표 교수, ‘한국발전’ 통합본사 해법 제시",
-   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5OWFhURV9hZE1hLW1Gb25iNEVzN0NRby1kdWdHU1dyUmhPdzdDbUZKZmhKdm5qdVFzT0FjeWRvQWFzcmVLemJCcExZZHEtTkg0VWhWUWtwYWpablF1YXBtYWRpem8?oc=5",
-   "source": "에너지안전신문",
-   "date": "2026-10-02",
-   "tags": []
-  },
-  {
-   "title": "“‘한국발전’ 통합본사 어디로”…국회서 ‘진주 유치론’ 본격화",
-   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE4tWVRxc3BBY3lwV1ZIcFgtX0dhYldRXzViY0dKWDdZUzViNUd1am5WWmZzNXlOamhrVlZvTk1fdEg1aXh0N29yZzdEQ20wSGV3UzREVGZ0U2s4QU50ZnpGZkl3eEs?oc=5",
-   "source": "에너지안전신문",
-   "date": "2026-10-02",
-   "tags": []
   }
  ]
 }
