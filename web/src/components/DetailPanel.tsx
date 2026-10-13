@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import type { Plant, Link, NewsItem } from '../types'
 import { FUEL_COLORS, fuelLabel, safeUrl } from '../types'
 import { track } from '../analytics'
@@ -18,10 +18,25 @@ interface Props {
 export default function DetailPanel({ plant, links, news, plantsById, generatedAt, onClose, onJump, onCompanyJobs }: Props) {
   const color = FUEL_COLORS[plant.fuelCat]
   const [copied, setCopied] = useState(false)
+  // 발전소 id → 정적 페이지 슬러그. 빌드 시 gen-static-pages.mjs가 내보낸다.
+  // 실패해도 공유는 기존 /?plant=id 로 동작하므로 조용히 무시한다.
+  const [slugs, setSlugs] = useState<Record<string, string> | null>(null)
+  useEffect(() => {
+    fetch('data/plant_slugs.json')
+      .then(r => (r.ok ? r.json() : null))
+      .then(setSlugs)
+      .catch(() => {})
+  }, [])
 
   // 발전소 딥링크 공유 — Web Share 지원 시 시스템 공유, 아니면 클립보드 복사
   async function share() {
-    const url = `${window.location.origin}/?plant=${encodeURIComponent(plant.id)}`
+    // 공유 대상은 SPA 루트(/?plant=id)가 아니라 정적 SEO 페이지(/plant/{slug}/).
+    // 정적 페이지는 발전소별 고유 title·description·og:image를 갖고 있어 카톡 공유 카드가
+    // 제대로 뜨고, 공유 트래픽이 색인된 URL에 쌓인다. 슬러그를 못 받았으면 기존 방식으로 폴백.
+    const slug = slugs?.[plant.id]
+    const url = slug
+      ? `${window.location.origin}/plant/${encodeURI(slug)}/`
+      : `${window.location.origin}/?plant=${encodeURIComponent(plant.id)}`
     const title = `${plant.name} — 우리동네 발전소`
     if (navigator.share) {
       try {

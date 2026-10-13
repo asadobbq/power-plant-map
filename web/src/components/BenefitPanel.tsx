@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import type { Plant } from '../types'
 import { FUEL_ICONS, fuelLabel, safeUrl } from '../types'
 import { track, trackOutbound } from '../analytics'
@@ -106,6 +106,27 @@ export default function BenefitPanel({ plantsById, onJump, onClose, embedded }: 
       .then(setLocal)
       .catch(() => {}) // 지자체 시책 데이터는 선택적 — 없어도 기존 기능 동작
   }, [])
+
+  // 정적 주변지역 페이지(/zone/*)에서 딥링크 진입: /?tab=benefit&emd={읍면동코드}
+  // 데이터가 로드된 뒤 코드로 시도·시군구·읍면동을 역추적해 판정 결과를 바로 연다.
+  const deepLinked = useRef(false)
+  useEffect(() => {
+    if (deepLinked.current || !data) return
+    deepLinked.current = true
+    const code = new URLSearchParams(window.location.search).get('emd')
+    if (!code) return
+    for (const [sd, munis] of Object.entries(data.tree)) {
+      for (const [sgg, list] of Object.entries(munis)) {
+        if (list.some(([c]) => c === code)) {
+          setSido(sd)
+          setSigungu(sgg)
+          setEmd(code)
+          track('deeplink_zone', { sido: sd, sigungu: sgg })
+          return
+        }
+      }
+    }
+  }, [data])
 
   // 선택한 시군구의 지자체 전입·정착 시책
   // 일반구가 있는 대도시는 선택지가 '안양시동안구' 형태이므로 시 단위('안양시') 시책으로 폴백

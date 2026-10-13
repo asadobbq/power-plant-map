@@ -1,4 +1,8 @@
 User-agent: *
 Allow: /
 
+# 네이버 검색 로봇 — 명시적 허용(서치어드바이저 권장)
+User-agent: Yeti
+Allow: /
+
 Sitemap: https://kopower.net/sitemap.xml

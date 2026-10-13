@@ -528,8 +528,12 @@ body {
   border: 1px solid #e5e7eb;
   background: #f9fafb;
   border-radius: 8px;
-  font-size: 11px;
-  padding: 4px 8px;
+  /* 공유는 유입의 대부분(direct)을 만드는 경로인데 상세 253회 열람 중 share_click 1회(0.4%)에
+     그쳤다. 11px·패딩 4px은 모바일 터치 타깃으로 너무 작아 눌리지 않았다. */
+  font-size: 13px;
+  padding: 7px 12px;
+  min-height: 34px;
+  font-weight: 600;
   color: #374151;
   cursor: pointer;
   white-space: nowrap;

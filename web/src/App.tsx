@@ -152,6 +152,34 @@ export default function App() {
     if (p.lat && p.lng) setTimeout(() => mapRef.current?.panTo(p.lat!, p.lng!, 11), 800)
   }, [data])
 
+  // ---------- 상태 → URL 동기화 ----------
+  // 그동안 발전소를 고르든 탭을 바꾸든 주소창은 늘 kopower.net/ 이어서, 브라우저·카카오톡의
+  // '현재 페이지 공유'로는 홈 URL밖에 나가지 않았다. 유입의 70~90%가 direct(링크 공유)인
+  // 서비스에서 공유할 URL이 하나뿐이라는 뜻이었다. 읽는 쪽(?plant·?tab·?co)은 이미
+  // 구현돼 있었으므로 쓰는 쪽만 붙여 왕복을 완성한다.
+  // pushState가 아니라 replaceState를 쓰는 이유: 발전소를 누를 때마다 히스토리가 쌓이면
+  // 뒤로가기가 선택 이력으로 오염돼 사용자가 사이트를 빠져나가지 못한다.
+  useEffect(() => {
+    const id = setTimeout(() => {
+      const cur = new URLSearchParams(window.location.search)
+      const q = new URLSearchParams()
+      if (selectedId) q.set('plant', selectedId)
+      if (tab !== 'list') q.set('tab', tab)
+      if (tab === 'jobs' && jobsCompany !== '전체') q.set('co', jobsCompany)
+      // emd는 BenefitPanel이 소유한 상태라 여기서 만들 수는 없지만, /zone/ 페이지에서 딥링크로
+      // 들어온 값을 지우면 그 사용자가 다시 공유할 수 없게 되므로 혜택 탭에 있는 동안 보존한다.
+      const emd = cur.get('emd')
+      if (emd && tab === 'benefit') q.set('emd', emd)
+      const next = q.toString() ? `/?${q}` : '/'
+      if (next !== window.location.pathname + window.location.search) {
+        try {
+          history.replaceState(null, '', next)
+        } catch { /* 일부 브라우저의 replaceState 호출 빈도 제한 — 무시해도 기능에 영향 없음 */ }
+      }
+    }, 120) // 디바운스: 연속 선택 시 replaceState 과다 호출 방지
+    return () => clearTimeout(id)
+  }, [selectedId, tab, jobsCompany])
+
   useEffect(() => {
     fetch('data/plants.json')
       .then(r => r.json())
