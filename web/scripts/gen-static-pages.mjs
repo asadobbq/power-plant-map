@@ -1201,7 +1201,10 @@ writeFileSync(join(DIST, 'sitemap.xml'),
   `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n` +
   urls.map(u => {
     // 일자리 페이지는 채용공고가 매일 바뀌므로 공고 수집일을 lastmod로 — 재크롤 유도
-    const lastmod = u.includes('/region/') ? localData.updatedAt
+    // 지역 페이지는 지자체 시책(benefit_local)과 주변지역 판정(benefit_zones) 둘 다 담으므로
+    // 더 최근 쪽을 lastmod로 — 시책 기준일(7월)만 쓰면 판정 갱신·신규 시군구가 '오래된 페이지'로 신호된다
+    const lastmod = u.includes('/region/')
+      ? [localData.updatedAt, zonesData?.generatedAt].filter(Boolean).sort().pop()
       : u.includes('/jobs/') ? ((jobsData?.updatedAt || '').slice(0, 10) || hrData?.updatedAt || generatedAt)
       : generatedAt
     return `  <url><loc>${u.replace(/&/g, '&amp;')}</loc><lastmod>${lastmod}</lastmod></url>`
