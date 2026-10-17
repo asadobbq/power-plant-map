@@ -1,7 +1,28 @@
 {
- "updatedAt": "2026-10-17 09:03",
+ "updatedAt": "2026-10-18 08:38",
  "note": "구글 뉴스 검색 기반 자동 수집(제목·링크만 게시, 본문 미복제). 기사 내용·저작권은 각 언론사에 있음.",
  "items": [
+  {
+   "title": "송·변전설비 주변 지원금 '물가연동'한단 정부, 발전소엔 반대",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE8teGpTbzBuVG9qUU4teThxcHMzUzgzdUdpQlZKWTBPcHpuemhrd0EweEZsRndUdzlfb1dyNjVYc1lPMzl4QUFWS0dZbjQzaFVTbEdwYUk1Q0N1UVhJal9MQtIBYEFVX3lxTE8teGpTbzBuVG9qUU4teThxcHMzUzgzdUdpQlZKWTBPcHpuemhrd0EweEZsRndUdzlfb1dyNjVYc1lPMzl4QUFWS0dZbjQzaFVTbEdwYUk1Q0N1UVhJal9MQg?oc=5",
+   "source": "연합뉴스",
+   "date": "2026-10-18",
+   "tags": []
+  },
+  {
+   "title": "석유+가스공사 통합, 발전 5사 하나로…에너지공기업 통폐합 국감 쟁점 - 머니투데이",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9JOGhKZ3dmc3N1LUFaRThVZzJ4Y3hMRWQ0TmVHdWhZd1BPckhremF3WnBhejdnNXVyY0Q2V21ULU1GMUgtUlU2dGMwMmhHVk5yNm5ZTEEtSTl3VUhjTlZBYXg0WkF4bGZKZEp6dHBEREHSAXBBVV95cUxPSThoSmd3ZnNzdS1BWkU4VWcyeGN4TEVkNE5lR3VoWXdQT3JIa3phd1pwYXo3ZzV1cmNENldtVC1NRjFILVJVNnRjMDJoR1ZOcjZuWUxBLUk5d1VIY05WQWF4NFpBeGxmSmRKenRwRERB?oc=5",
+   "source": "머니투데이",
+   "date": "2026-10-18",
+   "tags": []
+  },
+  {
+   "title": "\"통합 앞둔 발전5사, `8020억 자회사 부채` 승계계획 전무\"",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOa3BCb25tbEROX19Rb3pRei1ZbjNKT2k0dnJ4TFZubDh3ZHM2MzNUMlF3T3piMExCRGMtc01jeElhcG8yVEZzVnhhclkzWXN0ZVFlZTNFNTFhQndxZzVPUlBJOUpnbGVhWjRRY1h5V20tTVBiWE8wcGdQOVNhT3hraGUzTlZQRXBFTUdqY2dn?oc=5",
+   "source": "국제신문",
+   "date": "2026-10-17",
+   "tags": []
+  },
   {
    "title": "LNG발전소는 이미 공사 들어갔고, 전기도 끌어다 쓰고 있고...안성시는 무기력한 건가? 다른 이유가 있나?",
    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBWblJZbktOWGN6QjZTWW9mM2tqVVRoQVlsR1VTYXFISGc4Q1h6MEtrZHBrbUNHcG9acXlPZkpZM28zbkJjUXg0NGdKdDZERDdhX3ZaRm5sOVpyaElPTFlHWk02QzR3QVY3NkJYYg?oc=5",
@@ -10,27 +31,11 @@
    "tags": []
   },
   {
-   "title": "[단독] 발전공기업 터빈 소화설비, 불 나도 작동 안 하게 설정돼 있었다",
-   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9xc0JtQVhHclJ2NVdRcWI0VVAwYmRBdXJyRkVyTUc5SWxXTVJNUU42bTJJWFBqQ25Qd2lZVU1aYVF6aW1mWWlIWUE1VnpsT1pWYUNDQTZmb1LSAVRBVV95cUxPanlYZTZOUVlTa2hCbDlNSFE1Vm5SZlNrN2Y2Y29URGQ5YWtsNm1PZzh6X3NORFRwWUJBSmcwZ09pakI4MVRPOC1fS2tyMV9BeEEta24?oc=5",
-   "source": "세계일보",
-   "date": "2026-10-17",
-   "tags": []
-  },
-  {
    "title": "\"반도체 만들 전기부터\"…삼성·SK, 발전 인프라 확보전 [에너지 발전 각자도생②]",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9OQm1oMkdwekZHYTNfdUVNVTI1V3M4blVjRkFkekd3MTBQc0s0dndLSGZhekExUWhsWXhjUjZ6NTdCWWU1LWh0a29TTWlScXdzajlzekVRN3hUaU5mMEhlZdIBeEFVX3lxTE9KTFhqVGI0R3VCRmhZQVJJcEgxdU9TWWVLSlIzVEJsbmdRTzFJRGE5T2Y4VWVybnROVUpXSzRkdHZEN1k1dldjcW53VWhQRzgySl8ta0hVYWpsTGYxQVAyWDdBRVJUdWRvT0ZTZ1JlRFp0Y05VRXphQw?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9KTFhqVGI0R3VCRmhZQVJJcEgxdU9TWWVLSlIzVEJsbmdRTzFJRGE5T2Y4VWVybnROVUpXSzRkdHZEN1k1dldjcW53VWhQRzgySl8ta0hVYWpsTGYxQVAyWDdBRVJUdWRvT0ZTZ1JlRFp0Y05VRXphQ9IBeEFVX3lxTE9KTFhqVGI0R3VCRmhZQVJJcEgxdU9TWWVLSlIzVEJsbmdRTzFJRGE5T2Y4VWVybnROVUpXSzRkdHZEN1k1dldjcW53VWhQRzgySl8ta0hVYWpsTGYxQVAyWDdBRVJUdWRvT0ZTZ1JlRFp0Y05VRXphQw?oc=5",
    "source": "뉴시스",
    "date": "2026-10-17",
    "tags": []
-  },
-  {
-   "title": "발전5사 통합 일정 구체화…태안 본사 유치, 입법·입지 대응 시급",
-   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1MSUZzZGtjZnRRSWZabVBaaEZwZ2U3SUZfTnRxQkZSSmduZjJwYUlwNGdRcDBNZVZZazZPdzVSRDM3YndLMGNsRlRBOWJyNUJKMW1yeHNIdzV2d0NZeE1Rd2xQMUJUUk01VF9TLXNqczBDc3JQS2t3?oc=5",
-   "source": "OhmyNews",
-   "date": "2026-10-16",
-   "tags": [
-    "태안"
-   ]
   },
   {
    "title": "조직은 하나로, 석탄은 여전히…발전 5사 통합의 딜레마",
@@ -38,6 +43,15 @@
    "source": "한스경제",
    "date": "2026-10-16",
    "tags": []
+  },
+  {
+   "title": "울산, 67조 발전공기업 통합본사 유치전…입지 경쟁 본격화",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA2Ql9pM05wYVZzUWI1cVF0Y0xGMG9GSWtkS0M5TzNlMFhZNTltdFlfX0x5MmdMTFNOR2pNMGRzb0tZMFhUdXY0RElGS1VhWFJNLXRkUTRMUzhJVEcyV3otSkU1c1F6a1E?oc=5",
+   "source": "영남경제",
+   "date": "2026-10-16",
+   "tags": [
+    "울산"
+   ]
   },
   {
    "title": "성일종 의원 “한국발전공사 본사는 반드시 태안으로, 국가 위해 헌신한 지역에 합당한 보상 필요”",
@@ -78,7 +92,7 @@
   },
   {
    "title": "원전 공론화서 '노후 원전 계속운전·기존 건설계획' 제외",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE90a3huT0U1a3p5VGR4ZVJaUTRfTm1oOVJjSjY3bHFhV3FQZUE2M0xRYlpNblRMYzlzRzZVNHhsSHpxWFdUeDl3eEVxM29wME9pQThoRWwxT1R6eDZyMlNob9IBYEFVX3lxTE90a3huT0U1a3p5VGR4ZVJaUTRfTm1oOVJjSjY3bHFhV3FQZUE2M0xRYlpNblRMYzlzRzZVNHhsSHpxWFdUeDl3eEVxM29wME9pQThoRWwxT1R6eDZyMlNobw?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE43c00zckYtWi1mcTV2bVdJN3hnbTBJSFlCSURzS0M4MndvcWhLQ0lMYmxpMFFuTERqYnliMU5kR3ZiUVZURGJVTE5ZY3ROMThaM0w1cGppWmlkeTA?oc=5",
    "source": "연합뉴스",
    "date": "2026-10-15",
    "tags": []
@@ -87,13 +101,6 @@
    "title": "“메가프로젝트대로 전력수요 전망하면 과잉…실현 수요 따져야”",
    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE4zUnRsdjZYNzUxbEltdDMzNjZFSlBSNWRtT1V4RC13UGlCdl80OVZYeEY1UHdIM1hLN2p2UlF1X2VkZkxfSktCREw4OVI4cjJZMmJWX3d3WkhLU2FXMXc?oc=5",
    "source": "기후에너지데이터뱅크",
-   "date": "2026-10-15",
-   "tags": []
-  },
-  {
-   "title": "동남아 LNG 시장 재편, 韓 조선·건설 수혜 주목",
-   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE11a1p4d1ZodjREbGZoRG9VRnM3LWQ3bmFlNzdybVhqbWM2Vl9iS1RzUnB2SmMzVnRUdjR2Z3p3Z3EtTFFtWkt3ZE1JMlZCMlBSMGFyS180WlN6SFVLcTlzR3RRWkVib1RVUlhjRkRB0gFuQVVfeXFMTXVrWnh3Vmh2NERsZmhEb1VGczctZDduYWU3N3JtWGptYzZWX2JLVHNScHZKYzNWdFR2NHZnendncS1MUW1aS3dkTUkyVkIyUFIwYXJLXzRaU3pIVUtxOXNHdFFaRWJvVFVSWGNGREE?oc=5",
-   "source": "파이낸셜투데이",
    "date": "2026-10-15",
    "tags": []
   },
@@ -139,13 +146,6 @@
    ]
   },
   {
-   "title": "[2026국감] 한수원, 10년간 3887억원 ‘수의계약’ 논란…국회 허위보고에 비리 직원 감싸기 의혹",
-   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE0yNDhFQXROS3VhazVRS29zc1hEYzNJaktCVGZTcmxQOHlpRmpMb1BMNG1SeU1TRVBxQlctQUw4Y2tKMjlFTVdidHplYXhwRnplZ19wY1paVVlDLWtkT0xnUWxHTW1raThOR1NtZHg3cUphak55WjlV0gF3QVVfeXFMTTI0OEVBdE5LdWFrNVFLb3NzWERjM0lqS0JUZlNybFA4eWlGakxvUEw0bVJ5TVNFUHFCVy1BTDhja0oyOUVNV2J0emVheHBGemVnX3BjWlpVWUMta2RPTGdRbEdNbWtpOE5HU21keDdxSmFqTnlaOVU?oc=5",
-   "source": "뉴스프리존",
-   "date": "2026-10-14",
-   "tags": []
-  },
-  {
    "title": "트럼프의 에너지 압박 맞서는 한국…텍사스 LNG 발전소 제동 걸린 속사정",
    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQcjdvaUpNTHRiZjNYR3dCVkVibnoxV0dKV3FRMGFEWTEyWjBmeE1NNjAyODVlNmdQWTlBX1ZJc3dqc2ZMenkxX0tvYVc0SmtSOUNzMVozV2tzdThUbWhhQzhseTd3QkZrQmhRSF9MeWNyRnRCNHFLRGdyQk4xVmlhd29ZQk5aNDJB?oc=5",
    "source": "글로벌이코노믹",
@@ -160,13 +160,6 @@
    "tags": [
     "보령"
    ]
-  },
-  {
-   "title": "한수원 주변지역 지원사업 계약 절차 위반 의혹…\"전수조사 요구\"",
-   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5EbnpfNU9ESXRKaEZBaUN3dWx3cDl5MGlPWHZiX2NwbmNIcUpjOHdVX2kxU1BmY2E1emJIVXFsQUhuTldyeFN0TGhwRExfSnRGY3hWVXpfazE1X09XQmphUDExY0J0OXU1OXpyd0l4cHRBTWZVYzh2U9IBeEFVX3lxTE5EbnpfNU9ESXRKaEZBaUN3dWx3cDl5MGlPWHZiX2NwbmNIcUpjOHdVX2kxU1BmY2E1emJIVXFsQUhuTldyeFN0TGhwRExfSnRGY3hWVXpfazE1X09XQmphUDExY0J0OXU1OXpyd0l4cHRBTWZVYzh2Uw?oc=5",
-   "source": "뉴시스",
-   "date": "2026-10-13",
-   "tags": []
   },
   {
    "title": "석탄화력 폐지지역 지원 특별법 국회 통과…충남 전환 대응 제도적 기반 > 뉴스",
@@ -190,6 +183,13 @@
    "tags": [
     "영흥"
    ]
+  },
+  {
+   "title": "발전소 주변지역 지원, 의료비·이주비로 확대…주민 이익공유 근거 마련",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE8zcm11cURRQnhiYnNSN1lFRkI3UFhsZG9VaENhRzFGNm1EUThPR3JFM01tNlYxZ0tUZk11dlBGVklvR2t3UGxyRGZSVk5kdUJmVFA1TmI2dVF0NG9EUkQzYUE3aU5VZ3JaalRWcXQ3aF9DQQ?oc=5",
+   "source": "에너지데일리",
+   "date": "2026-10-13",
+   "tags": []
   }
  ]
 }
