@@ -1,44 +1,64 @@
 {
- "updatedAt": "2026-10-21 09:14",
+ "updatedAt": "2026-10-22 09:19",
  "note": "구글 뉴스 검색 기반 자동 수집(제목·링크만 게시, 본문 미복제). 기사 내용·저작권은 각 언론사에 있음.",
  "items": [
   {
-   "title": "한수원 노조, 김성환 장관에 최고장… “신규 원전 지연, 법적 책임 묻겠다”",
-   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5NSmxkaFNsSGMtM1JNT0dQQ0RZS2FBWndJb0gzRUpyVlIzZ2F1cmNzc3hjNnZUcUprbW9uNzZnaE11YUhYUFk2ekZHUEwxVmlBaWtyZi1VWGZpTUtrSTVTTEF4dEhUZzNyRVUw?oc=5",
-   "source": "독립신문",
+   "title": "경남, 부산-울산과 발전공기업 유치 힘 모은다",
+   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE10TWtSZ2xqRE1IdGlTdDVBbVNGRjJheC1sanRwcDJNdVRQcEQ4VjJhQnhHUW1adlhrd2pyZmszdkYxVW02U0R3SzFkSFRGNWVqblBQNndRaXFlbTkwc1pZczA1cF9md9IBZkFVX3lxTE10TWtSZ2xqRE1IdGlTdDVBbVNGRjJheC1sanRwcDJNdVRQcEQ4VjJhQnhHUW1adlhrd2pyZmszdkYxVW02U0R3SzFkSFRGNWVqblBQNndRaXFlbTkwc1pZczA1cF9mdw?oc=5",
+   "source": "동아일보",
+   "date": "2026-10-22",
+   "tags": [
+    "부산",
+    "울산"
+   ]
+  },
+  {
+   "title": "경남 공공기관 2차 이전·발전공기업 통합본사 유치 '올인'",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5DRW45X0U0NS1sVTQ0RTJ1d213S1U4Y2dRb3JsYWRtYkI4cXR5Q3NFWjZJYXdCNHl5MjFHM1lVTVVicmE5NWFOOTJjOHMtalNfNnNGOWdDNElGcVllLU9TeVluQWxadnIwTFc4bWN4TDLSAXRBVV95cUxNSFIxdjIwdzFnQ1FCcFlyOVJuM3BrSi0yUFpNak8yNERfSVRsd004U1NhbGdrdlB2Y3hCcXlLT3ZydTRWX1UtcnRsMklJVi1FRHFPRjRMS0RWWVhrQVEzdkF3UVNwU2g5RVBIX2hTekUyMlp6WA?oc=5",
+   "source": "뉴스클레임",
+   "date": "2026-10-22",
+   "tags": []
+  },
+  {
+   "title": "기후부, 석탄발전 폐지 따른 고용 안정 대책 마련한다",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE94cHBJdjRwTnhQRGJSV3hfV3VtWHVmSU12VlBpQ0p1SEJQTjRfZTQzcUN6WHFxZUhOVzlveExPSGZsdTQ3VGVvUW96b1laeGJlSFEycHZPU3Q5ZWZBY2RxNUZXeENrcUpEMUtVSGQxNXTSAXBBVV95cUxPeHBwSXY0cE54UERiUld4X1d1bVh1ZklNdlZQaUNKdUhCUE40X2U0M3FDelhxcWVITlc5b3hMT0hmbHU0N1Rlb1Fvem9ZWnhiZUhRMnB2T1N0OWVmQWNkcTVGV3hDa3FKRDFLVUhkMTV0?oc=5",
+   "source": "에너지플랫폼뉴스",
    "date": "2026-10-21",
    "tags": []
   },
   {
-   "title": "성일종 의원 “한국발전공사 본사는 반드시 태안으로 ... 국가 위해 헌신한 지역에 합당한 보상 필요”",
-   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5qR3hfbFh5VVEzSWZRQjZYLUpPQTZ6QW53ZGNVdmtmeXVoTkR5SjZKQ05RNHp1R0s4cHFfNDBKNE03NnVTSVlSQXZDSDRSdG5tTmo4WExIVWlfSWROUGN5RXlSdzhyQQ?oc=5",
-   "source": "코리아플러스",
-   "date": "2026-10-20",
-   "tags": [
-    "태안"
-   ]
-  },
-  {
-   "title": "한수원노조, 한빛 7·8호기 12차 전기본 반영 촉구",
-   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9udmlnYnFKSU42Ym8xaGtsZWhSS1lYaUxtcmtEQlNaR1plbE5Xb3M2Y3RUR05VLUlLMENfbENBbEpyckpsTTRlQ3ljZ0s3dENRbFVxMnl4Nl9mNTFKTVhWbmhSVQ?oc=5",
-   "source": "국토일보",
-   "date": "2026-10-20",
-   "tags": [
-    "한빛"
-   ]
-  },
-  {
-   "title": "지역별 전기요금제, 재생에너지 투자 막나…신규 발전사업 ‘빨간불’",
-   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBjajVpbVNjY0dXb2doZVJ5N0x5RDVnVzkwTHFsRUxESWQ3MUs1VnpQd0ozZGZ1US03STNTOURsN3BNd0xlbVFhcWRGZ0MzQy1NRFljR05Vc3U1S2FzTXc?oc=5",
-   "source": "기후에너지데이터뱅크",
-   "date": "2026-10-20",
+   "title": "‘발전공기업 통합 본사 충남으로’…석탄발전 폐지 앞두고 노조와 협력 모색",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1iaEZpbFhTc3ZMZ2JPMjl6Mnhpa3NpR1lDUHRKSUJkWU9xRUJCTWVTd3QtRVdmSWpGb0NJUE5DZzU4WG4yMXJtREZobk1iMFJsbzhkZ3RGcF9WTkdySVpCcGtxcHVpdlNp?oc=5",
+   "source": "녹색경제신문",
+   "date": "2026-10-21",
    "tags": []
   },
   {
-   "title": "발전 공기업 수입한 석탄 70%, 국내서 검사해보니 ‘열량 미달’",
-   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxONFhKRFZHWmVhRkVYaTFNMjNuS3k5dkxxYTdSdnFWTUhfRzVucmRxbERZbkI1TUE5cHJfdFRVTEtQbXRGQXJaRjhHV21NQlZNYTlKVGtHZ3Zhb2xxd2UzZE55cUlrdlZ0RWNQUTdKNHhnczd5VHR4VnNocGpadlpmcWZmZ1FCSENVVEFrZHY4SQ?oc=5",
-   "source": "조선일보",
-   "date": "2026-10-20",
+   "title": "석탄발전 폐지 앞두고 고용대책 논의...“협력업체 노동자까지”",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5td1QtOXUyQjFkdUlpS1c0bjV5X3UyOVNOTWoxM01fVlVIOFZfVHc2MHkwVVFQZkFvUzRic053dXZtQk42YVUzb0JxMVl1QjBQcGhtV1JlVUd0RkphY0RXSTRnMUdkMVBMV2NEc29Jcmc2Rzdq0gF0QVVfeXFMTm13VC05dTJCMWR1SWlLVzRuNXlfdTI5U05NajEzTV9WVUg4Vl9UdzYweTBVUVBmQW9TNGJzTnd1dm1CTjZhVTNvQnExWXVCMFBwaG1XUmVVR3RGSmFjRFdJNGcxR2QxUExXY0Rzb0lyZzZHN2o?oc=5",
+   "source": "수소신문",
+   "date": "2026-10-21",
+   "tags": []
+  },
+  {
+   "title": "석탄화력 폐지 대응 고용 안정 및 일자리 전환 방안 논의",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5kVW92WExURmtyTzBHSGU1b1UxQ3U5eHkyc2p0LWdwa3pueVhMQW5rUmxXR3FkTmVhTTc1dDFReDJOUGxfcVVWMkZ0YVpyRmgwSmNPN2dwUUZzSVJoTVJkWTZkOU5FX2s00gFrQVVfeXFMTTJ0Z1ZyOTRNLXdUWmFBZkg1alQzamNxQ2lCaW1LN01zUXYxOUdsTmpGMTE0QUZwcDJ0anJtVTNTMlUya3ZUOGEtNFJENFNiZ25Uekt5WHYtOXRtWnlSbDZCQ3ozTlNxSW5XczQ?oc=5",
+   "source": "이투뉴스",
+   "date": "2026-10-21",
+   "tags": []
+  },
+  {
+   "title": "“메가프로젝트 반영 2030년 LNG 발전 비중↑…탄소감축 점검해야”",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5nZHNMTkc1LVJhMFk1cERWcE1idVA0cjRYUWNyV2t6UHBla2JVZm14a1NGREI0d0ZTbGJGSDhVUTZJeHViZlVCTndWaGNFTlcyN2szQnlJNHk5SHc?oc=5",
+   "source": "에너지경제신문",
+   "date": "2026-10-21",
+   "tags": []
+  },
+  {
+   "title": "석탄발전 폐지 앞두고 발전소 노동자 일자리 전환 논의… 22일 국회 토론회",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1BYVBraWNHRURITVBRcm42TG1vclhTRGVXTXRScU1tTXZnV3p2M1RrcjRqZHI2WGZFaHQxVlNNTDRteURsSWtVY0F1aVFOMmFjbGZwUy0xSktKZw?oc=5",
+   "source": "파이낸셜뉴스",
+   "date": "2026-10-21",
    "tags": []
   },
   {
@@ -65,13 +85,6 @@
    ]
   },
   {
-   "title": "고양시-남부발전,총 1조779억원 규모 복합발전소 건설 추진",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE50OUtjalE5LTRCQWRxSV90d1R1N0NhSlpTNm8xZjh0bVh2WnBwd09XTVpuQWwzQUk3aHUzQXlxNUNiRjN2OFcwR2U5S2lIdFR1b3Nrc3dMZU9UQUhIUlE4YTQwVjkxaE9rSThYTVZHb1JYUQ?oc=5",
-   "source": "디스커버리뉴스(DISCOVERYNEWS)",
-   "date": "2026-10-19",
-   "tags": []
-  },
-  {
    "title": "[2026 국감]여야, 한전 및 발전공기업 방만 경영·안전불감증 ‘집중 포화’",
    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBiR3c2UWV6OUJXdGo2a1J4LWdxUTNsWWxvZmlnaTc1QTcyVjlZYXVnV2FnTFlaWVV6N0E1Um5YX1pjcjNCZlhCbVFiQ1IzS2NNY2hhak9FSVItcG1QbFJFVFFCTDY4WTJVaVZFVNIBcEFVX3lxTE84dUV6UGt4THYycjIyZ0hfYzBMMU9VT0Q0TGhCUS1fLTFKVzJvWS1rN18tQlJsR3d3VHItdGpLTGt5OVdTZzJVN2ExaFRvdE1KNHpuSzdnYjJ6cGhRT3ZKcHY4MzBFdzdJTFcyZ0tLNjY?oc=5",
    "source": "전기신문",
@@ -93,23 +106,9 @@
    "tags": []
   },
   {
-   "title": "증인선서하는 주요 에너지 발전 공기업 기관장들",
-   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1hLXBfWjN6Nzl2aEdiUjdoZ0NqcVZuSnFZOVItZUdpZy1xVlV1NWxGOXZCaVZueFJDZG8ySFd2U2NocHNpMlc2UlBKRGdkZHhMS2J4OE00elE5WHZGLS13TXZrRHZDdw?oc=5",
-   "source": "뉴시스",
-   "date": "2026-10-19",
-   "tags": []
-  },
-  {
    "title": "(2026 국정감사)재생에너지 접속대기 3.5GW…해소계획은 ‘6년 걸리는 변전소’에 의존",
    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9qMjJmQm1HcXM4eFhORXAzcjEtV0YtRG1KWWgyYXhVWDhIMHNyUmRyOVpvOGZ4dTRTdkg3TFpQUTZPQWVidmlUSGVLcHdEYTg2OFl5ek5vQjV5bWQ2TTBTcDg0SkRiaG1kRFVRcHFXRXDSAXBBVV95cUxPajIyZkJtR3FzOHhYTkVwM3IxLVdGLURtSlloMmF4VVg4SDBzclJkcjlabzhmeHU0U3ZIN0xaUFE2T0FlYnZpVEhlS3B3RGE4NjhZeXpOb0I1eW1kNk0wU3A4NEpEYmhtZERVUXBxV0Vw?oc=5",
    "source": "전기신문",
-   "date": "2026-10-19",
-   "tags": []
-  },
-  {
-   "title": "[이슈국감] 발전공기업 녹색채권 5.7조 발행…신재생 투자 40% 그쳐",
-   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1xTHI3MElJdy1ZbEdVenM5TlRRNklyU1ZMRXc2eFNycWJxTXJvYkN4TXFKdnFLT0ZuMmtwZlI5eGtldkVkbVNmT2VKbHJzR1RnTnZLWXptMG1vQ2M1SThsMC1VZEt3WWp0a2lXUTRmUdIBb0FVX3lxTE1xTHI3MElJdy1ZbEdVenM5TlRRNklyU1ZMRXc2eFNycWJxTXJvYkN4TXFKdnFLT0ZuMmtwZlI5eGtldkVkbVNmT2VKbHJzR1RnTnZLWXptMG1vQ2M1SThsMC1VZEt3WWp0a2lXUTRmUQ?oc=5",
-   "source": "한스경제",
    "date": "2026-10-19",
    "tags": []
   },
@@ -121,16 +120,23 @@
    "tags": []
   },
   {
+   "title": "녹색채권 69% LNG에 투자...발전 공기업들 '그린워싱'",
+   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1VTVNfcEhOM3RNZXdLWWJxSHlnOTVCbG9TaVZ4bVljS2MwU0N1S0V4NHNEX1ZxY2lMb0k3T09fVHcxQUZBMEVrQzBOakZQWFNudFRVaUI0WlQxRVVm?oc=5",
+   "source": "뉴스;트리",
+   "date": "2026-10-19",
+   "tags": []
+  },
+  {
    "title": "\"발전공기업 5사 산재 사상자 92.3%는 협력·하청업체 소속\"",
-   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPQ2JENk9XYzFSbGZfUEZXaU9oNG40eXVYZkZUaTFzM1NhR0ZqWVpRNi1uaHV5azJZY2NuRlBoSTctRkROMkpUeS1kcW45ZkRuTDFHblpZZDFwMW16bk45dk9lSVBlMzMzcWVqYnRFZzVsMGJOVGsyMHJxQlhrbnR6eGM3VGVORGIyN09fRkRB?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNaWd0ZEgxT3VYN1gtaWwyU1owSjhoRmI5RWptMnp4dVdKTVRqNllYbWhQSlZ0enpmaGh5Q0NPOW1yaVhSOFYxMWd2RW9yOEwxX3k1c09PNGF0R0lLLWZxdXIycVJlc3pBMGw0UFpLWnpHMkkzSXdJUXExd2xuMnptUGpyblNBQ1FMQWRlWVU3eFlKd3U0c3dpVA?oc=5",
    "source": "국제신문",
    "date": "2026-10-19",
    "tags": []
   },
   {
-   "title": "어기구 의원, “‘녹색’으로 모은 5조 7천억원… 신재생 투자는 40%뿐”",
-   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBsSEZLMmJaSUxEN0JRMWlvd1Z6QWJKUUNYb3p0UlJvdE04UUV6M3FCSGR3RmhpSWxUeTQybHA3VlR4RXNhNzE3WUFhSzVFRWE5UjgwZ2ZyUGw0YXdmYWFmbGFVbXF2aTdyQXZj?oc=5",
-   "source": "충청메시지",
+   "title": "전력수급계획 목표 대비 발전설비 95% 구축, 송변전은 30% 그쳐",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBXUWpwaW5rX01PQnE2SmVJUGo5QlVXcUx3TXIyTFNNYVhJam9QTGUzLTR1VjdxRDFtQXZiajNXS3FXQy1Zby1CUDJEVnBEUkdIMURNYTZGbWRCMWFQMFVWeE9tZ2V6WXN6MTJMU9IBcEFVX3lxTE8tb0l4N3Bib1RmTnZfZTUzTEhtUmUzSHdta1c2My1XSzB0ajl2Mm5nX2tlbmo3R2tXQ3JtbXdrVzVJeDliajM4M1k4eG5OLU54MnJkdGtreHhMNkJpV3JrNGVDcnNYRHJnSDFnbzQ3UmM?oc=5",
+   "source": "에너지플랫폼뉴스",
    "date": "2026-10-19",
    "tags": []
   },
@@ -142,13 +148,6 @@
    "tags": []
   },
   {
-   "title": "[단독] 탄소중립 앞장선다더니…재판선 “기후변화로 경작지 늘었다”는 발전공기업",
-   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5RTkRLRHJHYTIzNXFuVDdJbjRlVGNINUN2X0lObW5wVVlNYy11NGM0NEplQkVZR2h0VHBfeGFtS19nZTZDRmZxeXBDeUFYS19NRE5nV9IBX0FVX3lxTE5iZHRtZGJyRW5ydG9pOWlWX2lLWTJCSjJraVVuN2s3YXVTdUdraW9HQUdBN1dyMVFaNnJVeW0zR2NpcXZneDJQT2x2Ny00TVV2M3N3QWRmaV83dDNfRlhV?oc=5",
-   "source": "경향신문",
-   "date": "2026-10-19",
-   "tags": []
-  },
-  {
    "title": "기후부 지원금 다른 잣대…변전소 되고 발전소 안 되고",
    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPOXY0VmVTTkVOOWNJeFRiQjdqcGkxdmgtQW1ZWkR5bnVFekFEd1BZbGtWeEFMdGZFRDZwZUJVbkFYd0pQV2J1NDVJVUhaeWR1MWJSMXhreV9kZHU1REVvMHBhQzFQS29ZRk1NYWRfOFlzX3VBNXBiNGRwUVNaQ2ZsQ1E4dXZCbEV3dGtieDRR?oc=5",
    "source": "국제신문",
@@ -156,9 +155,9 @@
    "tags": []
   },
   {
-   "title": "발전5사 통합·한전 재무 도마…19일 에너지 공기업 국감 '2라운드'",
-   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBMaUJ2dzl6VmZhTmpyNVdxejdncUkwajQ5UUtLV21QYkkyTVg2TFI1QjRzelFvQzdHZW1aR3VzM1pscDdVNkY5bTFoVWpEcUZmQWZyam1jQ2g3UQ?oc=5",
-   "source": "파이낸셜뉴스",
+   "title": "메가프로젝트 전력수요 검증 필요성 ‘부각’",
+   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE82cEFPS3RQUWdDU2h1bkExcHF3dUNSRS1xeDlpUGdEdkFtLVUtUGtmZHJmMTc4VHVyVGNWREhhZFFZRHhVazhpcjI5X0hGQWJWRGlCd0pFSDE?oc=5",
+   "source": "칸(KHARN)",
    "date": "2026-10-18",
    "tags": []
   },
@@ -170,19 +169,19 @@
    "tags": []
   },
   {
-   "title": "석탄화력 폐지지역 지원 특별법 국회 통과…충남 전환 대응 제도적 기반 > 뉴스",
-   "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQZm1oOEJ4bldvcTJZY1JZMFQ1M1V2dDkwMWRPR0duUVZiT2M2aTZrQ3BpeFlIbGlPZFoxWW9XN3hSQmltZTZiV1lzcDRvQkcwNUFSMkYwZDJ2alBxX3VnYVVBaVFfWkpzNUJKSEdUclVLZW5NTXIwdnBxVTNScGRGRFAwbE5IOTVoOVFDS0xDU1NKTzNlcm1LNEVSbUU3eWpPSVhMY0p2V1NlZG52S1dpUjJHUDJ5bG1BSldfUUo1cWFXOFktQWx5V2FNMmxwWXRxbnFHRFY1Q25Xd2tRUmg1eUxWOWRhY0w3eWc?oc=5",
-   "source": "천안신문",
-   "date": "2026-10-15",
+   "title": "\"반도체 만들 전기부터\"…삼성·SK, 발전 인프라 확보전 [에너지 발전 각자도생②]",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9OQm1oMkdwekZHYTNfdUVNVTI1V3M4blVjRkFkekd3MTBQc0s0dndLSGZhekExUWhsWXhjUjZ6NTdCWWU1LWh0a29TTWlScXdzajlzekVRN3hUaU5mMEhlZdIBeEFVX3lxTE9KTFhqVGI0R3VCRmhZQVJJcEgxdU9TWWVLSlIzVEJsbmdRTzFJRGE5T2Y4VWVybnROVUpXSzRkdHZEN1k1dldjcW53VWhQRzgySl8ta0hVYWpsTGYxQVAyWDdBRVJUdWRvT0ZTZ1JlRFp0Y05VRXphQw?oc=5",
+   "source": "뉴시스",
+   "date": "2026-10-17",
    "tags": []
   },
   {
-   "title": "성일종 \"한국발전공사 본사 태안에 둬야…석탄화력 폐지 보상 필요\"",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9tWFZ0NHktVG9vVjR2NVBwX29ZclFQUlQtWlVZaHI5aW5zOHhsWGUtMThEOHlXTlJ5ZkNCaFV3SktzR2xJX3hCM3VZMThsQkxHSFM4ZG15RUlLWUtUeDJJRw?oc=5",
-   "source": "뉴스1",
+   "title": "박수현 충남지사, 보령 석탄화력 폐지 대응·수소산업 육성…해양관광 기반 확충",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE91SDZ3Qk1HWG8wSVp1amFMYkQzdXpqczVOWmtKcE1GQlBxcS1CbllxdzNhNVFoQzBKdnRrQjBYUVBxTVJKS3poTXhSeEw5ZkxldndHSm9aZ0xNSVRxY05LdG9sS0pBSjFlUXJTWg?oc=5",
+   "source": "농수축산신문",
    "date": "2026-10-14",
    "tags": [
-    "태안"
+    "보령"
    ]
   }
  ]
