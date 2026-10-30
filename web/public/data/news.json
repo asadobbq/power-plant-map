@@ -1,25 +1,59 @@
 {
- "updatedAt": "2026-10-29 10:23",
+ "updatedAt": "2026-10-30 10:26",
  "note": "구글 뉴스 검색 기반 자동 수집(제목·링크만 게시, 본문 미복제). 기사 내용·저작권은 각 언론사에 있음.",
  "items": [
   {
-   "title": "원전 공론화, 양측 이견 같은 분량으로 담는다",
-   "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxPWjdmMWZVLVBIcXNaOThEaGVEN2JtT2YyMmQ5cWRiSTFqTk55ckNZeEp4UDlJUUU5dVlSbzhETXVVNTczTDVCd2JlTGFHandTLTlvT0k4ZHlKQ0Y4MkowaVBvNUxTYTk2bjdONUpWR25hbWZyNHFjcVpTWUFVNnRBeTVqQkR1UVEycnMxVkpOZnBGXzk1TUllNlViYmVVd202TlZUNy1sVU1NRndiV1ZfRk5GeGlhZk5uVFRxaFlMdzNPRUNYMU5CNEJJT3RzNDNpM0U5dGVfSXR4MVpGbnpIS2RTaVhIX0R3ZW1BSlhpbm0zQmVBQnlwZXZtV2NWa1Q2ejlab3lkMnFlelJEMVE?oc=5",
-   "source": "데일리안",
+   "title": "윤희신 태안군수, 발전공기업 통합본사 유치 등 건의",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9VWHdaQ294ZVVEZ2htZmVyVGNvcnpad3NCa1FxMlVLTFJsbkk4YU5YMl91dUVSYVVvVTkzelBpZjBCcW9UY2hSMUVOVGNqUmdxS3hOSFZWM2I3dEFlLXhGOHpoaE5CY3lfckFtc3h0VQ?oc=5",
+   "source": "서울신문",
+   "date": "2026-10-30",
+   "tags": [
+    "태안"
+   ]
+  },
+  {
+   "title": "구본영 충남도 정무부지사, 노동계와 산업 전환 대응…발전공기업 통합본사 유치 힘 모은다",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA5RWY0SDBsb2xFWG9qU3NkSHNMWUlWV2hkaFV6LThsd28yTFFUQmJiZDIzTGZ2aXNsdkF1UmpwRXhFbGc1NGEzQktNaUthNDUwSE5CTmU3NmMyZ9IBWEFVX3lxTE1CdjV6a3Myc1k1SjFOWE9vcEc5MkswcW9JZFJNbi10TTR4WDA0WnEtRS1aN083RlAxclB4aEJ0TVBrdXpGazR3MUdfbDdTNWU3T294dEMwTDY?oc=5",
+   "source": "아주경제",
    "date": "2026-10-29",
    "tags": []
   },
   {
-   "title": "“한전, 장거리 송전망보다 서남권 메가프로젝트에 투자해야” 주장 대두",
-   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9yX1U5ZTMyVUVMc2dlYXduYnFDTkJvV0lsTTJjUDJZTi0tUnpuNUVRUnFRWWdJdGdQblJpSDQ0T2FTWEs5OEtpZklkX3VMQ1FCRmZjaDZRZ0VDWEZY?oc=5",
-   "source": "아시아뉴스통신",
+   "title": "원전 역할 커지나…전력수요·탄소중립·여론이 뒷받침",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1sYUJ5WFJoakItZFllSDMwVVJoZEljZUowcVJ6THpzcUpkVmJicWlyOUpLSHlHeGc4ZHhkaG9rMjlFMExQMkh4ZnU3RmNhQU10bTVSR0xiWk1QT0t5Q3JPaTZxMWM0SVFwMldv?oc=5",
+   "source": "뉴스저널리즘",
    "date": "2026-10-29",
    "tags": []
   },
   {
-   "title": "울진군, 발전소주변지역지원사업 우수사례 선정",
-   "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9tRDJOZnRMZkpjNlV0UXZaWk5RaVR0ZVJNYk5QSnY4UXQ2UkVpU1pwMUdLZHZ2ZlJHZU9HZW5IWVBCdkMyQVgwUkxKaVg?oc=5",
-   "source": "전국안전신문",
+   "title": "제주도, 해상풍력 발전공기업과 투자 활성화 간담회 개최 - 보도자료 | 기사",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5oaUp5ektpeElZZmpRT0UxQU15c3ljTm40b1d4ZXEyLUw2OUgzVW1pdjEtNW9ub1MzTmlwdmttRl92TFQ0X0RocEs3ZHpMOEdNYWswRFduRVp1Y2I0Zy0w?oc=5",
+   "source": "더팩트",
+   "date": "2026-10-29",
+   "tags": [
+    "제주"
+   ]
+  },
+  {
+   "title": "제주도, 해상풍력 초석 다진 5개 발전공기업과 투자 활성화 모색",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1yVUZ5bVVueFEzZEhCRFU0eFZ4Slc5RUgtYTNlVkM4ODVOTzY0cFRvZ29XMFc3UzRjaWtWZmJZbWk1UUhfRGZUVlhmVGJ1RWNGTGFNSlZVZ2VDald6OHc2ZTViWTlmWUZHVF9R?oc=5",
+   "source": "뉴스제주",
+   "date": "2026-10-29",
+   "tags": [
+    "제주"
+   ]
+  },
+  {
+   "title": "원전 공론화위원회, 공론화평가단 운영한다",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9aVmU4WVJjZC1XSmJVdTg0ZnVxUEo0Ri1RTEppMDh0NC1QN3ZoTkQ1YlNZNXVzbWtLVGxLV19vZ21LbExrU0JhZE40dmNFbEpTVjZtU0QtdWk1TVlub09jTWwyeDNXUW10Wk5pNDFR?oc=5",
+   "source": "투데이에너지",
+   "date": "2026-10-29",
+   "tags": []
+  },
+  {
+   "title": "전기본 위한 원전 공론, '공정·중립' 위해 외부 전문가가 평가",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE45U2NtV1BEeUlRUVNiZXkwOUFabng3UmtVZzk2UFotYm9jT3Q3aklNT29nc1RpMG1rcHZOOGduSVdpTjVqUWdWOTMtRDFGbms5aENmTldJNFF1V3fSAWBBVV95cUxPQ2FBYjMzQnpUYTViMjl6SnYzNnpCNjRSdVBsRFJwTkUtakQyOFhaVDdHSGNMRVVpOW1mWV9pblNabWM2OEFoMkZFN3B4bl9ZTEF6ODVoOHN1dDhYMkNDZ2M?oc=5",
+   "source": "연합뉴스",
    "date": "2026-10-29",
    "tags": []
   },
@@ -38,6 +72,13 @@
    "tags": []
   },
   {
+   "title": "울진군, 발전소주변지역 지원사업 전국 우수사례 3건 선정",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5xdXI3NG5LREZ5eUw2UUp6bkdXM3VmbVlnTkl5Y2VnZFd2S0h4TUpBUk1rdWNhSWNFdVljTC1rTndpRU1sQWtqbTk5aUNmWFRYeXBkanhyMHpsYlByWU1HeUc0eXBnNlhK?oc=5",
+   "source": "울진21",
+   "date": "2026-10-28",
+   "tags": []
+  },
+  {
    "title": "발전공기업 통합 대응 논의…부울경, 내년 초광역 사업 발굴 속도",
    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBFSGUxeGxyNWgtbGpUWEZ3QnJJU3dIRnRNY0hLNG5nQ3NSa2MycnJySktlM21sTU50MWFrcHpGbkc3NzczaUROcGRIUlNjekF5VmfSAVNBVV95cUxNVU5LdHVaUmdscjZwcHl2anZvOWZnWG8zQkJLZTZmNHlMekc2TjJqcXUybzRtU0tUejh6dUxNTFhWbUFnMDVSWlRtUDBSMXJhZ3dGRQ?oc=5",
    "source": "서울경제",
@@ -45,63 +86,17 @@
    "tags": []
   },
   {
-   "title": "‘발전 공기업 통합본사’ 전국 지자체 “우리가 적합지”…전북도 유치 ‘시동’",
-   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE11Q2p5bDYtTU1qT0ZvbDdGcUlKdDlGSEpKc204eXcwc1BHeks3X0dIUC1xSjczQm5UYnptWVJLX1Y2NkZ6eHNQWncwS05kUDlFNjF3c9IBWEFVX3lxTFBfeDdPT1ZZZEtwV0dDU1cyaS1WZERTTkJvckF6NGZzd1JlZXNUT3N5eEhIZVlxMDA0enBRSllaaW5DaTJBaW4tVmdnLThjRG5OMHNLR1NncjI?oc=5",
-   "source": "전북일보 인터넷신문",
+   "title": "[에너지인사이트] '화력발전 맏형' 중부발전의 승부수...전력시장 판 바꿀 'VPP 플랫폼' 선점 나서",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE4xUjFEMHJEWWwzQzQxd3pGN0dtV19QRjhlV3lPU0xmVlo4N09hZ01fR1BOVFE3NlJiRDV5blQxVXZDT0Q2VHp3dks3YUJzeFhBQ3FWWkRJSzVGeEp6bjFhX0ItVHUxb0U?oc=5",
+   "source": "산경e뉴스",
    "date": "2026-10-27",
    "tags": []
   },
   {
-   "title": "AIGCC \"韓 3대 메가 프로젝트, 재생에너지로 가동해야\"",
-   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1mYjVUcXlYckxjcW5wNEhHWFMxTGlRTVk3ejNhTWJLUVdFUHAtd3ROQnQwWTNZSm9WbVIzQ19MOUZ5aEFTU3k1ZkMycDBJT01IdTg2RUNyQVVnSnky?oc=5",
-   "source": "뉴스;트리",
+   "title": "“반도체·AI 전력수요 대응, 12차 전기본에 재생에너지 확충 담아야”",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBLZ2ZCNTczYU9pNFMyclB5cGRUcEk1enJqVU5MeU9yaVdxSlljZnJlSnlmbXpUSUROb19vLWJRdFhySVd0Y1hHOENINHFfT2xGUGEtaVdMazlOOG9ZaDUxRndTRW9SZUd1ekVZ0gFrQVVfeXFMUEtnZkI1NzNhT2k0UzJyUHlwZFRwSTV6cmpVTkx5T3JpV3FKWWNmcmVKeWZtelRJRE5vX28tYlF0WHJJV3RjWEc4Q0g0cV9PbEZQYS1pV0xrOU44b1loNTFGd1NFb1JlR3V6RVk?oc=5",
+   "source": "이투뉴스",
    "date": "2026-10-27",
-   "tags": [
-    "동해"
-   ]
-  },
-  {
-   "title": "AIGCC \"한국의 3대 메가 프로젝트, 재생에너지로 가동해야\"",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1VbE9zdTltaFNZWDRqNE1kSkJYbWtreEdZQmdKU21TQ0ZmTFRYUkRLOWd3MmprcldRUzY0el8wdHlyOVhVVzZKZ0NSaVg3UVZueTZYcGNJczljbkRUUWV5Zkl1QnNSVkhMWHJ1Yw?oc=5",
-   "source": "투데이에너지",
-   "date": "2026-10-27",
-   "tags": [
-    "동해"
-   ]
-  },
-  {
-   "title": "[2보] “88명 중 천안 시민 몇 명?”…LNG 발전소 설명회, 핵심 쟁점 답변 미완 > 뉴스",
-   "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE9CSEVpcGNKb3BaYlFSOUxBV3FIWm5jbnV3ck8zclVJVnI4WkQ0b1JFYVplcVg3bmdQcVhYWk8yTkFIQ2c?oc=5",
-   "source": "천안신문",
-   "date": "2026-10-27",
-   "tags": []
-  },
-  {
-   "title": "이윤석 충남미래전략연구원장, “아산 LNG발전소, 시민들에게 진짜 건설 목적 숨겼나?” 지적",
-   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9PVE0zbkNVOEQtZHdlb3F0Y3p0TkZzaUVOUVlzeUpwalA1bk5BcnMzeWhXZUpsR1hKZFdVVjlKUmUzNkZZdVhWSDJLNEU1UXNWS0JUbElOS3lkZTZSWWNQQXViSmJXLWlsY1Fj?oc=5",
-   "source": "아산데스크",
-   "date": "2026-10-27",
-   "tags": []
-  },
-  {
-   "title": "“주민 협의 중 2441억 계약” 논란…천안·아산 LNG 발전소 반대 확산 > 뉴스",
-   "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE5kSjlidWlzYTZJRDF2M0VaZEJ3bTdtYmY1ZVZUZVdhZFpMLXdiMDg3S2lhN0YwUXRYaDdlaFpTSmktOHc?oc=5",
-   "source": "천안신문",
-   "date": "2026-10-27",
-   "tags": []
-  },
-  {
-   "title": "아산천안열병합발전소 반대 주민대책위, 건설계획 백지화 촉구",
-   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5zZEVRR1ZBYkJsQzdsOGN1QWNDX3pxNENJZ2RLYVo1ckE5WDhuNnpqdFpVbEVLWmRkbzEzTExyWnpzeE0tbGlHOWFCMWctLUxzMDBXblA5OGg0cG5OVlRUMy0yaGFXLWZoSnJ5RDdn?oc=5",
-   "source": "아산포커스",
-   "date": "2026-10-26",
-   "tags": []
-  },
-  {
-   "title": "'아산 열병합발전소 건설' 찬반 대립…\"난방 필수\" vs \"대기질 걱정\"",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE52Wk10Ujdpb053dGZfVU5NeGI5V1NDM29SMUNvN3cya2pDUE01a0M4NGdueHdxUjFFOGt5VG94VUE3YUlLMl93dTRITjYtbjlIT1oxMHZsT2pEQmlTZUlfaA?oc=5",
-   "source": "뉴스1",
-   "date": "2026-10-26",
    "tags": []
   },
   {
@@ -112,34 +107,9 @@
    "tags": []
   },
   {
-   "title": "기후장관 \"AI 전력 수요 막연해…12차 전기본에 넣기는 어려워\"",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1oTkhMaElBbERTYWJSUU5NaURaMFIxWlNraE5oREVIMHpMUHVtay12dVpYQ2VTZVhrRkhySnFfbDQzT3dkdEx0Q1JiQkd1bDhyQ1N6S0kzSFdfaHd1dEhiMEJQMFFNNDRvQTFOSEwzMm9mUQ?oc=5",
-   "source": "KB Think",
-   "date": "2026-10-26",
-   "tags": []
-  },
-  {
-   "title": "부안 사회단체, 발전공기업 통합본사 유치 범군민 운동 시동",
-   "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5ZdlNBalhKM25TeTV3OEdWRVNCdjRodnFidUNDTEpET3R1S0lUNVlDTi1QelZLLVlEZnYyelhTYmZMcW1PSlFaQlNUQ1c?oc=5",
-   "source": "아이뉴스24",
-   "date": "2026-10-26",
-   "tags": [
-    "부안"
-   ]
-  },
-  {
-   "title": "\"발전공기업 본사를 새만금으로\"…부안군 사회단체 거리 캠페인",
-   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1aZHhGVHZDcDBrRVFqS1VneGUwWlBrZmV1LW82R3ZXV3NSelg2QjZMdWFILUxLMXpJaFI0Zjg3al9EQlJ0Smp2NEh6eXJhS014UGpxdWpRUHdzWVHSAWBBVV95cUxQWndwVjk1OGdybGR4TThBMzN6QnJnTHVmdHAtSHMwVWFnQlMwcnB3QlEza2hJa0xhSUxtMWQ5QUdJMEIzM1c0S283am1PaENMR3NFTHVlYVhVQnVjRTVXY2o?oc=5",
-   "source": "연합뉴스",
-   "date": "2026-10-26",
-   "tags": [
-    "부안"
-   ]
-  },
-  {
-   "title": "발전공기업 ‘에너지전환·현장안전·인재육성’ 강화",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1LN25iMDM2TTNpbVBaY0FlaTQwVEF0S1lUT2Q3MTU2Tm9Lb2xNTnhsR2dJV2I0VEJWSHlDbHJnazE0VlZDTU1ucGhjcndhX0dUYTlCNjhvUDlSNmdPNXVoUUNmU01Oam1RVnNUekNsOVbSAXRBVV95cUxNcW9QbEhkRGFJQU45MkNKREZYRFFkeWRKdlljdlhOQWpNeUlobFkyNDN4dEwzSW5CWVk2U1M4TnlDQVdtSURuTnF0cXNJUUVxdmlyeGxsY3lKdjJRNXRPMTJFZElmSWhkcHZsYXFfVnF6T0lqSw?oc=5",
-   "source": "주간한국",
+   "title": "기후장관 \"AI 전력 수요 막연해…12차 전기본에 넣기는 어려워\" |",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBKX2FMNFAxaGlJTWhvTEx3ZXRIS05lSGlLTl9XUTFuVEtGX2tSZUhZUnRZZlA3QmR5aVpISTlhNklzN19HSkFEZEFoa2VqOG9HS3RpUEhkUHRTdktsS2l2anp5S1NXWmZOdkdzQUdoV1AtRFNa?oc=5",
+   "source": "연합인포맥스",
    "date": "2026-10-26",
    "tags": []
   },
@@ -165,11 +135,13 @@
    "tags": []
   },
   {
-   "title": "석탄발전 폐지 대응 고용안정 및 일자리 전환 방안 논의의 장 열려",
-   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFByU3A0VVVvdTN2SW5lTUpOVmlWRFhuZ3l1WmZLbnh5RHBnYTlaQVlNZVBINWY3RElFZC1ITGlVYmxhQWFmc3dpdjl0UHh0dGhiT2kzemZXNEIyS0dqbjVPb0VMSzIxUQ?oc=5",
-   "source": "일렉트릭파워",
-   "date": "2026-10-23",
-   "tags": []
+   "title": "남부발전, 하동화력 2·3호기 대체 ‘LNG복합’ 건설 본격화…EPC 계약 사업착수회의",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1zWE4xdWlxUjFaT3phRVNyV0dhMXNkNm5kbjByVVEwczlCMFhrTGJLWVNrVVg0blNEVlpFRXJMNlRqYUdidDJlcjg3Nm44RUs0ZlM2MGZzaEhnLVRydmlWZWhtYlk4cWU2N0J5Ymhtd0luSEJm?oc=5",
+   "source": "부산일보",
+   "date": "2026-10-24",
+   "tags": [
+    "하동"
+   ]
   },
   {
    "title": "보령시, 장동혁 의원에 석탄화력 폐지지역 지원·광역교통망 확충 건의",
@@ -181,13 +153,36 @@
    ]
   },
   {
-   "title": "보령시, 장동혁 의원과 정책간담회…석탄화력 폐지지역 지원 확대 건의",
-   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE16bk4zV2FYalR4dWFaU3FpWGFXaXQwZGtlLXE5UUpjZEwtUTVmWGkzanRwbTRLZ0lVbDZzZTA0YkFySC1DdDRiTlNlcDQ0UEItSzZHZURUVHE3STV0T09pLWgwUjVJXzlxdjBz?oc=5",
-   "source": "프레시안",
+   "title": "보령시·장동혁 의원, 석탄화력 폐쇄 대응 및 지역 현안 해결 공조",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1XRVB4S2Z2dDRQM0JVUk1sTHVURE5WcTJSZ0ZjSnNhRGx1TkxCdndGeWkybVYydk5PNkhQOUdaeUU0Uzl3cGVwcUx6Nk9TaHBvc1p6SzRxd09JRm9jRkViY245UF81eENhTzA0R3Jn?oc=5",
+   "source": "뉴스코리아",
    "date": "2026-10-23",
    "tags": [
     "보령"
    ]
+  },
+  {
+   "title": "중부발전, 보령 5·6호기 폐지 대응 협력사 인력 전환 지원한다",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9FdUR0QWNCaTItWHlFYjVXZ3hrUWtxSGw3cWdXOGtobXo2WS1sZGpGeGNJUXNrRHY2WDhPNDl0SWwyS0xBb3k3em9MamZkQUo4Rkt5aXFDelFiM3VpU2RJTWUtTkhvSWFYdVJDd2QzS1RNdw?oc=5",
+   "source": "에너지데일리",
+   "date": "2026-10-22",
+   "tags": [
+    "보령"
+   ]
+  },
+  {
+   "title": "석탄발전소 폐지 앞두고 노동자 고용 안정 해법 찾는다",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1tSGZEZnh0NUZGM2pPRjVCaUhRMlB0dDVFeWwxTW5Sbzdackd0YWRfc1lUTVVmczNCQnhhY2xxZHZKS2cxUU9wYmxGUl9TZHVfLVZMUVg1czkxQnc?oc=5",
+   "source": "뉴스1",
+   "date": "2026-10-21",
+   "tags": []
+  },
+  {
+   "title": "이정복 서부발전 사장 “석탄화력 폐지…안전한 일터 만들 것” [2026 국감]",
+   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBKc0pRWEpmNU9TdGxWOEZYSjRwdUZKQnlsMHhNOFNOakZZUDgxV3FfSEE4M2lQZXk2WUIwQ1QyejlFWWhXdGJaNDNQWkhwSnJwakZOejdOTzVkeFhJY092WUFQSQ?oc=5",
+   "source": "쿠키뉴스",
+   "date": "2026-10-19",
+   "tags": []
   }
  ]
 }
