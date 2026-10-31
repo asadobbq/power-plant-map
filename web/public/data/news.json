@@ -1,22 +1,65 @@
 {
- "updatedAt": "2026-10-30 10:26",
+ "updatedAt": "2026-10-31 10:14",
  "note": "구글 뉴스 검색 기반 자동 수집(제목·링크만 게시, 본문 미복제). 기사 내용·저작권은 각 언론사에 있음.",
  "items": [
   {
-   "title": "윤희신 태안군수, 발전공기업 통합본사 유치 등 건의",
-   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9VWHdaQ294ZVVEZ2htZmVyVGNvcnpad3NCa1FxMlVLTFJsbkk4YU5YMl91dUVSYVVvVTkzelBpZjBCcW9UY2hSMUVOVGNqUmdxS3hOSFZWM2I3dEFlLXhGOHpoaE5CY3lfckFtc3h0VQ?oc=5",
-   "source": "서울신문",
+   "title": "남부발전, 하동군·두산에너빌리티와 손잡고 ‘정의로운 에너지 전환’ 추진",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBtWDM2ME9lNXhUa0pldkl4STBIVUVxbDkyTkZ5VTRxNVlRcXQtZXZNcXVUYkUtempadFJyV1RMVzFoeUVoQlU1eGtlQnFYQjVSbWVQQnk1UERpM2h2cVlYYld1NE93ZWs?oc=5",
+   "source": "산경e뉴스",
+   "date": "2026-10-30",
+   "tags": [
+    "하동"
+   ]
+  },
+  {
+   "title": "에너지전환 이끌 발전공기업 통합 노동자 권익 보장하는 정의로운 전환",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE50aUoydlNiWnBlODFFcnF3OTY0ZGoxRUhWX3dJNUZ4WElKa1VmVjZ0YWp6RDFydzBnemNkY0lJWkVxWHF4V3UyTzJ0UlVsaDJ0S1dieThpV05tOEowQ2U3MTF3?oc=5",
+   "source": "전기저널",
+   "date": "2026-10-30",
+   "tags": []
+  },
+  {
+   "title": "태안군, 충청내륙철도·발전공기업 본사 유치 등 3대 현안 건의",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9QLVhGNWk1WUVDT3p4N2YzYVpYM1lMYlFkSFhPX3FHNUwxZ3BIcEhVZ1QtNl9aemdNNjI0YXZVVkpYRDhDNlBSM3NCTG0yZWIyWnlWT2ZqeGdsMzlpYzhZR3pGU1g?oc=5",
+   "source": "매일일보",
    "date": "2026-10-30",
    "tags": [
     "태안"
    ]
   },
   {
-   "title": "구본영 충남도 정무부지사, 노동계와 산업 전환 대응…발전공기업 통합본사 유치 힘 모은다",
-   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA5RWY0SDBsb2xFWG9qU3NkSHNMWUlWV2hkaFV6LThsd28yTFFUQmJiZDIzTGZ2aXNsdkF1UmpwRXhFbGc1NGEzQktNaUthNDUwSE5CTmU3NmMyZ9IBWEFVX3lxTE1CdjV6a3Myc1k1SjFOWE9vcEc5MkswcW9JZFJNbi10TTR4WDA0WnEtRS1aN083RlAxclB4aEJ0TVBrdXpGazR3MUdfbDdTNWU3T294dEMwTDY?oc=5",
-   "source": "아주경제",
-   "date": "2026-10-29",
+   "title": "윤희신 태안군수, 박정현 지방시대위원장 만나 철도․발전공기업 통합본사 유치․지방우대지수 현실화 건의",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5HRFZDYUVFdHNmdEhYUFIwV1NyOEpYV1JKSVVTYzI3ZlMzOWtxZEY1LUpCMlhyVzdONzUxMzBvSTVwMEx5M2Z6eDg4NElRWFp4d0hYQjR3?oc=5",
+   "source": "뉴스21 통신",
+   "date": "2026-10-30",
+   "tags": [
+    "태안"
+   ]
+  },
+  {
+   "title": "남부발전, 하동군·두산에너빌리티와 협력…LNG 발전소 건설 '속도전'",
+   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBjSVdabW9oeGpPb2tzc0c4djZqQlFoOVY1VGJ0RlYtNVRqWFB1Q2NQMkh4RWxNa1NVd29kQ2ZKWmhsaUhRc3ZMaFVKMTJRcm83ZHZ1cXVhenR5Q1V0?oc=5",
+   "source": "뉴스핌",
+   "date": "2026-10-30",
+   "tags": [
+    "하동"
+   ]
+  },
+  {
+   "title": "[시선+]원전 공론화, 미래 전력의 현실을 직시해야",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1oLTN1eThWdzZ5ZVdkMTRCQTZDdHNJci03RFJMNXd1SlB0Q3dIOHlYbEVyMUt4d2E5S0J4MEliUndVU2xDQ1l1QXFVSmJxVjVxdVcxZWZVRGtLRGxXRXh6NDZHemdMVkpnSS05UlZn?oc=5",
+   "source": "비즈니스플러스",
+   "date": "2026-10-30",
    "tags": []
+  },
+  {
+   "title": "태안군, 철도 국가계획 반영·발전공기업 유치 대외행보 본격화",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9wTDNBb210bEZScmVmWWtIeTMtNTl2SnFIU0FBQXZ3T25qcEowS2FFX1QyM2h0RW5kWHBGWXdZMWJKRmk4VVA1SUJXcEFyQ0tQUjU2NUQ5NWpFaEVaaXpDczgtV3RWZTdLUWoydk9HWWpzUQ?oc=5",
+   "source": "투데이충남",
+   "date": "2026-10-30",
+   "tags": [
+    "태안"
+   ]
   },
   {
    "title": "원전 역할 커지나…전력수요·탄소중립·여론이 뒷받침",
@@ -24,24 +67,6 @@
    "source": "뉴스저널리즘",
    "date": "2026-10-29",
    "tags": []
-  },
-  {
-   "title": "제주도, 해상풍력 발전공기업과 투자 활성화 간담회 개최 - 보도자료 | 기사",
-   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5oaUp5ektpeElZZmpRT0UxQU15c3ljTm40b1d4ZXEyLUw2OUgzVW1pdjEtNW9ub1MzTmlwdmttRl92TFQ0X0RocEs3ZHpMOEdNYWswRFduRVp1Y2I0Zy0w?oc=5",
-   "source": "더팩트",
-   "date": "2026-10-29",
-   "tags": [
-    "제주"
-   ]
-  },
-  {
-   "title": "제주도, 해상풍력 초석 다진 5개 발전공기업과 투자 활성화 모색",
-   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1yVUZ5bVVueFEzZEhCRFU0eFZ4Slc5RUgtYTNlVkM4ODVOTzY0cFRvZ29XMFc3UzRjaWtWZmJZbWk1UUhfRGZUVlhmVGJ1RWNGTGFNSlZVZ2VDald6OHc2ZTViWTlmWUZHVF9R?oc=5",
-   "source": "뉴스제주",
-   "date": "2026-10-29",
-   "tags": [
-    "제주"
-   ]
   },
   {
    "title": "원전 공론화위원회, 공론화평가단 운영한다",
@@ -67,7 +92,7 @@
   {
    "title": "울진군, 발전소 주변지역 지원사업 우수사례 3건 선정",
    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBsblpHcWVUUWY5UnVWQTV0M3dMQ3FBWFAyNHVsbExvek5ybjBlYjZ4clpWOGlQbXlwVHRLdXE5REVpdzlXUUZNY0h4V2U3OXNMekkzZlBYdzhWVld4UDlzR3paQmt6VmdGSVE?oc=5",
-   "source": "경북도민일보",
+   "source": "hidomin.com",
    "date": "2026-10-28",
    "tags": []
   },
@@ -79,11 +104,13 @@
    "tags": []
   },
   {
-   "title": "발전공기업 통합 대응 논의…부울경, 내년 초광역 사업 발굴 속도",
-   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBFSGUxeGxyNWgtbGpUWEZ3QnJJU3dIRnRNY0hLNG5nQ3NSa2MycnJySktlM21sTU50MWFrcHpGbkc3NzczaUROcGRIUlNjekF5VmfSAVNBVV95cUxNVU5LdHVaUmdscjZwcHl2anZvOWZnWG8zQkJLZTZmNHlMekc2TjJqcXUybzRtU0tUejh6dUxNTFhWbUFnMDVSWlRtUDBSMXJhZ3dGRQ?oc=5",
-   "source": "서울경제",
-   "date": "2026-10-28",
-   "tags": []
+   "title": "\"태안화력 대체 숨기고 탕정2 난방만 내세웠나\"…아산 LNG발전소 주민 기만 논란",
+   "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1HaGNuTXJhdVI3dEZUdVVJN2hmUHdhc2pOc0FQN3hCU0h4eW5jZE1lUGV5Rkw5Zk1jZDd6UzlucmFzQUFPaXc?oc=5",
+   "source": "아산뉴스",
+   "date": "2026-10-27",
+   "tags": [
+    "태안"
+   ]
   },
   {
    "title": "[에너지인사이트] '화력발전 맏형' 중부발전의 승부수...전력시장 판 바꿀 'VPP 플랫폼' 선점 나서",
@@ -93,10 +120,24 @@
    "tags": []
   },
   {
-   "title": "“반도체·AI 전력수요 대응, 12차 전기본에 재생에너지 확충 담아야”",
-   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBLZ2ZCNTczYU9pNFMyclB5cGRUcEk1enJqVU5MeU9yaVdxSlljZnJlSnlmbXpUSUROb19vLWJRdFhySVd0Y1hHOENINHFfT2xGUGEtaVdMazlOOG9ZaDUxRndTRW9SZUd1ekVZ0gFrQVVfeXFMUEtnZkI1NzNhT2k0UzJyUHlwZFRwSTV6cmpVTkx5T3JpV3FKWWNmcmVKeWZtelRJRE5vX28tYlF0WHJJV3RjWEc4Q0g0cV9PbEZQYS1pV0xrOU44b1loNTFGd1NFb1JlR3V6RVk?oc=5",
-   "source": "이투뉴스",
+   "title": "‘발전 공기업 통합본사’ 전국 지자체 “우리가 적합지”…전북도 유치 ‘시동’",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE11Q2p5bDYtTU1qT0ZvbDdGcUlKdDlGSEpKc204eXcwc1BHeks3X0dIUC1xSjczQm5UYnptWVJLX1Y2NkZ6eHNQWncwS05kUDlFNjF3c9IBWEFVX3lxTFBfeDdPT1ZZZEtwV0dDU1cyaS1WZERTTkJvckF6NGZzd1JlZXNUT3N5eEhIZVlxMDA0enBRSllaaW5DaTJBaW4tVmdnLThjRG5OMHNLR1NncjI?oc=5",
+   "source": "전북일보 인터넷신문",
    "date": "2026-10-27",
+   "tags": []
+  },
+  {
+   "title": "“주민 협의 중 2441억 계약” 논란…천안·아산 LNG 발전소 반대 확산 > 뉴스",
+   "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE5kSjlidWlzYTZJRDF2M0VaZEJ3bTdtYmY1ZVZUZVdhZFpMLXdiMDg3S2lhN0YwUXRYaDdlaFpTSmktOHc?oc=5",
+   "source": "천안신문",
+   "date": "2026-10-27",
+   "tags": []
+  },
+  {
+   "title": "'아산 열병합발전소 건설' 찬반 대립…\"난방 필수\" vs \"대기질 걱정\"",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE52Wk10Ujdpb053dGZfVU5NeGI5V1NDM29SMUNvN3cya2pDUE01a0M4NGdueHdxUjFFOGt5VG94VUE3YUlLMl93dTRITjYtbjlIT1oxMHZsT2pEQmlTZUlfaA?oc=5",
+   "source": "뉴스1",
+   "date": "2026-10-26",
    "tags": []
   },
   {
@@ -107,17 +148,10 @@
    "tags": []
   },
   {
-   "title": "기후장관 \"AI 전력 수요 막연해…12차 전기본에 넣기는 어려워\" |",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBKX2FMNFAxaGlJTWhvTEx3ZXRIS05lSGlLTl9XUTFuVEtGX2tSZUhZUnRZZlA3QmR5aVpISTlhNklzN19HSkFEZEFoa2VqOG9HS3RpUEhkUHRTdktsS2l2anp5S1NXWmZOdkdzQUdoV1AtRFNa?oc=5",
-   "source": "연합인포맥스",
+   "title": "기후장관 \"AI 전력 수요 막연해…12차 전기본에 넣기는 어려워\"",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1oTkhMaElBbERTYWJSUU5NaURaMFIxWlNraE5oREVIMHpMUHVtay12dVpYQ2VTZVhrRkhySnFfbDQzT3dkdEx0Q1JiQkd1bDhyQ1N6S0kzSFdfaHd1dEhiMEJQMFFNNDRvQTFOSEwzMm9mUQ?oc=5",
+   "source": "KB Think",
    "date": "2026-10-26",
-   "tags": []
-  },
-  {
-   "title": "[단독] 전력 부족한데…열병합발전, 낙찰 받고도 2년째 착공 못해",
-   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE94cE9WYTRlaDFYdU1HS19CMDczSmcyOTNXbFg4c0VoWDBBYjF5eHJVYnh2UXlkejl5eF84Rm9PbmlGa2pDX3BxNXZpbF9vVVNNMjZDZnRIbmVpdw?oc=5",
-   "source": "한국경제",
-   "date": "2026-10-25",
    "tags": []
   },
   {
@@ -125,13 +159,6 @@
    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFAxZFROaGZ5Mnh3Z0hPcmxpcHI3bm1kd2xRc0pvMDlzenBVMURFME5nTDRiQm52ZTFOb3lQV1lsd181R1YzWUk0YW5taUpmMXRuajZ2X1RSbE5vZw?oc=5",
    "source": "한국경제",
    "date": "2026-10-25",
-   "tags": []
-  },
-  {
-   "title": "기후부, 석탄발전 폐지 대응 고용 안정·일자리 전환 방안 논의",
-   "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5CeEhzUDZWcVRjbDRSbW5tLUhfeFppVHhPeGxLTkM0UkNRei1nbWFiTk1oOHhzcUtXX3Bka0JSYnVtS1loLTNzV0NYM3Q?oc=5",
-   "source": "에너지프로슈머",
-   "date": "2026-10-24",
    "tags": []
   },
   {
@@ -144,45 +171,31 @@
    ]
   },
   {
-   "title": "보령시, 장동혁 의원에 석탄화력 폐지지역 지원·광역교통망 확충 건의",
-   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBTcFZyNjNZMEhyVTJYcGVhQUR4RWJNenIxdGVRUHFZQTVvdElLVFpiWmRUR3pGOVBqN2JCeDh1ZTNUTkFFajh1TXlwSUVsT0lDNTNadUkwMnVRMW51S2tHbUJJZlAwbm5GTzU4?oc=5",
-   "source": "충청시사신문",
+   "title": "보령시, 장동혁 의원과 정책간담회…석탄화력 폐지지역 지원 확대 건의",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE16bk4zV2FYalR4dWFaU3FpWGFXaXQwZGtlLXE5UUpjZEwtUTVmWGkzanRwbTRLZ0lVbDZzZTA0YkFySC1DdDRiTlNlcDQ0UEItSzZHZURUVHE3STV0T09pLWgwUjVJXzlxdjBz?oc=5",
+   "source": "프레시안",
    "date": "2026-10-23",
    "tags": [
     "보령"
    ]
   },
   {
-   "title": "보령시·장동혁 의원, 석탄화력 폐쇄 대응 및 지역 현안 해결 공조",
-   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1XRVB4S2Z2dDRQM0JVUk1sTHVURE5WcTJSZ0ZjSnNhRGx1TkxCdndGeWkybVYydk5PNkhQOUdaeUU0Uzl3cGVwcUx6Nk9TaHBvc1p6SzRxd09JRm9jRkViY245UF81eENhTzA0R3Jn?oc=5",
-   "source": "뉴스코리아",
+   "title": "보령시, 석탄화력 폐지 지원·국비 확보 총력",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFB1bTlyMGFxMWptVmIxSXJoWC1TT2RfNEZyblN0bkJvZXcybkdOUmxyUW1mVkJYc25ZT1BQMDlzc1RISlZmVzZfZDNhNFd1d01BWG9KNXJlczF4N2QzTnMzaHlKN0JXS05WYkFRNEtYazB4UQ?oc=5",
+   "source": "투데이충남",
    "date": "2026-10-23",
    "tags": [
     "보령"
    ]
   },
   {
-   "title": "중부발전, 보령 5·6호기 폐지 대응 협력사 인력 전환 지원한다",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9FdUR0QWNCaTItWHlFYjVXZ3hrUWtxSGw3cWdXOGtobXo2WS1sZGpGeGNJUXNrRHY2WDhPNDl0SWwyS0xBb3k3em9MamZkQUo4Rkt5aXFDelFiM3VpU2RJTWUtTkhvSWFYdVJDd2QzS1RNdw?oc=5",
-   "source": "에너지데일리",
+   "title": "중부발전, 보령 5·6호기 폐지 대응 ‘정의로운 전환’ 나서",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5pbnRBem5aUldNUmNRNHQ1bl9QSGcxWnNpN0dPVE1Kel9ZNHU2NWlvYkptd2x0eWVLb3BhZTlWVkg1MzQ5UUNBNnFMbDQwZ0pvcUY3bUw5T2VkNWpteVJ3ajBleXlnS29iNG83Mk1obmtXYm9kd0xOWg?oc=5",
+   "source": "부산일보",
    "date": "2026-10-22",
    "tags": [
     "보령"
    ]
-  },
-  {
-   "title": "석탄발전소 폐지 앞두고 노동자 고용 안정 해법 찾는다",
-   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1tSGZEZnh0NUZGM2pPRjVCaUhRMlB0dDVFeWwxTW5Sbzdackd0YWRfc1lUTVVmczNCQnhhY2xxZHZKS2cxUU9wYmxGUl9TZHVfLVZMUVg1czkxQnc?oc=5",
-   "source": "뉴스1",
-   "date": "2026-10-21",
-   "tags": []
-  },
-  {
-   "title": "이정복 서부발전 사장 “석탄화력 폐지…안전한 일터 만들 것” [2026 국감]",
-   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBKc0pRWEpmNU9TdGxWOEZYSjRwdUZKQnlsMHhNOFNOakZZUDgxV3FfSEE4M2lQZXk2WUIwQ1QyejlFWWhXdGJaNDNQWkhwSnJwakZOejdOTzVkeFhJY092WUFQSQ?oc=5",
-   "source": "쿠키뉴스",
-   "date": "2026-10-19",
-   "tags": []
   }
  ]
 }
