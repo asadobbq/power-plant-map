@@ -1,12 +1,51 @@
 {
- "updatedAt": "2026-11-01 09:32",
+ "updatedAt": "2026-11-02 10:07",
  "note": "구글 뉴스 검색 기반 자동 수집(제목·링크만 게시, 본문 미복제). 기사 내용·저작권은 각 언론사에 있음.",
  "items": [
   {
-   "title": "‘녹색채권’ 5조7천억 발행한 발전공기업…한국지역난방 신재생 ‘0원’, 서부발전 태양광·풍력 10% 그쳐",
-   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5EcFdIWDNLUHdVMnUwT0tQR1BZdDFaTTVwQmZnZkJFSVlVZk1ENGo5WVFDcUJjVW04T0h6Tm5NN2ZvRUpyb2JXaW8yZ056emRhN1ZUNzM1UGRwM1R6bXJENE5YNA?oc=5",
-   "source": "쿠키뉴스",
-   "date": "2026-10-31",
+   "title": "[제주 24시] 제주관광공사, 일본 마케팅‧팸투어로 크루즈 관광객 유치⋯해녀문화 체험 기항 프로그램 진행",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBvUmxHb2d0U19UTXVUSHJ0SmthZEZlc1dLd1M4cVNCaWl6UGZMTkV4bVhuXy1GNW1aR2N4QlI2LVp3R2w5eHF3b1hzeFBZQVZRNDZYdDg1LVdrLTdIVXZwMUZJV0ZaczRLamxvWlFyMNIBc0FVX3lxTFBuSDlnRlI5dEJJOHFNR3RuYjNDYnpudThJcU00TWdmV0lvWlBhZFhiT2N1UThQLWJUMm1sZWh6QnVrVVJVbkRYSVY4alFSWTVpcklRTXVtU2FpZzZvZ0RnTG1DQ1c4SGpkUmMzNWlORFVMRVk?oc=5",
+   "source": "시사저널",
+   "date": "2026-11-02",
+   "tags": [
+    "제주"
+   ]
+  },
+  {
+   "title": "[In터뷰] 한국남부발전 김대종 처장, “국가 재생에너지 확대… 발전공기업 개발역량 키워야”",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8weW5qSS0wWDVnOU9JZ0tENmxTR0ZGYXdLanZUeWlONktBMFQ4YXAxb05oTVJpajJNWF8wRFp4NUwyV044eTV2WHNsR3lNemduZU1zLW1TYmxKRmZlX196ZlZCS1c3LWw3QjZuY0dEV18?oc=5",
+   "source": "솔라투데이",
+   "date": "2026-11-02",
+   "tags": []
+  },
+  {
+   "title": "태안, 충청내륙철도·발전공기업 통합본사 유치 건의",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9ueTVtZTh4UzVudEQySjc3MElTcUFmY3NTOWNhejY3TGJXcElXQXZuM0hpdUdUYjBybFVSV2xndTZMREwzeFJCT21RSl9xOHVFYTNpOTk5T3B1RTN1UjBzbnQzb1VzSWU0cGFBOdIBb0FVX3lxTE9ZMWwtSGdfYTZDNTE2cnJpYUN1a0ZvcVNsWFFHZjkxUXhGNUh6Sng3dzBRMU5jZFNERnBJNlM0N0JVQlBwM09wSGpoQXVudzRBN080UXpUSUVmYk5hMmdST0JteUFLbWRUdWlLXzBHOA?oc=5",
+   "source": "서울일보",
+   "date": "2026-11-01",
+   "tags": [
+    "태안"
+   ]
+  },
+  {
+   "title": "원전 공론화위원회, 국민기초조사 시작…내달 300명 숙의토론",
+   "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9xYUcxNW52dG04aXNDUmwzSjdyZHhtVndUYzJDb24tNEVjN0dBeXVid19fOVBjSUVNWE9VVWhTYlFocWx2dV9XWTNRTHJfUQ?oc=5",
+   "source": "전자신문",
+   "date": "2026-11-01",
+   "tags": []
+  },
+  {
+   "title": "“화력발전 작작 돌려요, 이러다 다 죽어”…농민 ‘기후소송’ 재판부에 편지 보내는 시민들",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE53Y250RnBQOS01M2NrX2cyU05xYWl1TldLV2hMLTdhbFg2NXdlV1czNGhLdlkySElWbTNPQXA1dGhJVHBIWDUxRnNpSjBtekxMMnp6Q2hTV1Mwd9IBX0FVX3lxTE0zd1ZmcFJ6d1c5N1NFRXNLRTVVWXlEaEM5QUgtWk1PbElsdGNudGlOM1dTWVJjQXF0SmFNNUhIbFhvWUR1ZlJVTnU4amtBV2dMY3R6S2JaZllxR2o4ekV3?oc=5",
+   "source": "경향신문",
+   "date": "2026-11-01",
+   "tags": []
+  },
+  {
+   "title": "‘원전 공론화’ 시민참여단 선정 시작…300명 선정후 미래원전 역할 의견 제시",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5zeHhyR2x0NkY3eGdUXzRuaGJIb2JpVm5pby1ia2JTSXMtMHNwblhHSnFMRXQxckpiNzhNODFZV3Bub1NHX3dLNDF1UWpJTElQMWhGQW5BMjhGbzcxVHFySU5BQ2R1bGpEd3dYYjhpU2lUQkN2VndhR3dXVmc?oc=5",
+   "source": "부산일보",
+   "date": "2026-11-01",
    "tags": []
   },
   {
@@ -19,12 +58,19 @@
    ]
   },
   {
-   "title": "남부발전, 하동복합 LNG 전환 지역상생 협약",
-   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNcDhDWDRHbmJ2Z3AyWG1ZS2V4cHlTM0lfVnpnMUFLZ0J0TGtZMUJNUUEwSnNVNFpPN0hLaEE3Sk1URzUzeTZpNnlHNnRnM2NpY2ZkSkZZaUpkLWdrYTFTSjc3TF9zX3ZZbkRVOHNsVUlwTjE2OTgwMXZCdnVpN1oxSm4wN21CZzJvN25pREtyblRvSnZpUFE?oc=5",
-   "source": "데일리바이트(DAILY BYTE)",
+   "title": "에너지전환 이끌 발전공기업 통합 노동자 권익 보장하는 정의로운 전환",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE50aUoydlNiWnBlODFFcnF3OTY0ZGoxRUhWX3dJNUZ4WElKa1VmVjZ0YWp6RDFydzBnemNkY0lJWkVxWHF4V3UyTzJ0UlVsaDJ0S1dieThpV05tOEowQ2U3MTF3?oc=5",
+   "source": "전기저널",
+   "date": "2026-10-30",
+   "tags": []
+  },
+  {
+   "title": "태안군, 충청내륙철도·발전공기업 본사 유치 등 3대 현안 건의",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9QLVhGNWk1WUVDT3p4N2YzYVpYM1lMYlFkSFhPX3FHNUwxZ3BIcEhVZ1QtNl9aemdNNjI0YXZVVkpYRDhDNlBSM3NCTG0yZWIyWnlWT2ZqeGdsMzlpYzhZR3pGU1g?oc=5",
+   "source": "매일일보",
    "date": "2026-10-30",
    "tags": [
-    "하동"
+    "태안"
    ]
   },
   {
@@ -34,33 +80,6 @@
    "date": "2026-10-30",
    "tags": [
     "하동"
-   ]
-  },
-  {
-   "title": "하동 LNG 복합화력 발전소 건설…지역상생·친환경 전환 박차",
-   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE53YXg4YzY5TXJPeGtjbUlPR2szc196VjJlOFRpRVV2MlpzelJlcUJMTjYyMmVBNnhCb3F2MnVIS0l3RGg0WElGY2kyX1B3a0VyZUdVdUt4U0hRclJRNTJNT0c5cW54bV9GOTNZ0gFvQVVfeXFMT1dDUjd2VmczQ21DRXo2bU54SXFHYnREUW5ZUDRjdU9MOG0zc1FfaG95X1Y3bUxPa25KQWhseTBaakw0Q0owRkIxWF9PZkJoNWVnazZ0ZWNZRmVvWXdJWlFJalVfMjNPdU5hUkN0d25r?oc=5",
-   "source": "중앙뉴스",
-   "date": "2026-10-30",
-   "tags": [
-    "하동"
-   ]
-  },
-  {
-   "title": "태안군, 철도·발전공기업 통합본사 유치 당위성 피력",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE82U1JxQlNjQjZ3Tmd0WmZncmNpT2RIVndVVDVvMHptc2tUbi02d242QkYwbXA4WFpCRnBXQ2xTOWVaYXg4aGl5c3drTHJnNFZkQVlXOU5YaEhRV2VMYVhiXzhWNjNWbVhHVXpUdHU3NWM?oc=5",
-   "source": "신아일보",
-   "date": "2026-10-30",
-   "tags": [
-    "태안"
-   ]
-  },
-  {
-   "title": "태안군, 철도 국가계획 반영·발전공기업 유치 대외행보 본격화",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9wTDNBb210bEZScmVmWWtIeTMtNTl2SnFIU0FBQXZ3T25qcEowS2FFX1QyM2h0RW5kWHBGWXdZMWJKRmk4VVA1SUJXcEFyQ0tQUjU2NUQ5NWpFaEVaaXpDczgtV3RWZTdLUWoydk9HWWpzUQ?oc=5",
-   "source": "투데이충남",
-   "date": "2026-10-30",
-   "tags": [
-    "태안"
    ]
   },
   {
@@ -76,15 +95,6 @@
    "source": "투데이에너지",
    "date": "2026-10-29",
    "tags": []
-  },
-  {
-   "title": "제주도, 5개 발전공기업과 해상풍력 투자 활성화 협력",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9McDIxcHV6bk5PRmZRNUVpa2RpQjdkQzBBLW5idERncmZDRDlvWE5yWTlhNnFoaHBzWUlJei1FVTRJdDkwWnotRXo5OVM5TWlMekRxZXN2NnVKeEJOZ1FHd9IBeEFVX3lxTFAwLTlfNmdMRkdCLVNyZEpxeFJRcUs3Y1NzVTlOLWpsbW1MU05TcDV1YkpjQ2pvVXZUTkp2YjlFVmlSNGpEVFRraWhCbkdCNWNmaWRUQmxHR3l3bk9QM0lrNEZtTjY1eGlFNm5TZU1LR3hUeTdCcVBGdw?oc=5",
-   "source": "뉴시스",
-   "date": "2026-10-29",
-   "tags": [
-    "제주"
-   ]
   },
   {
    "title": "전기본 위한 원전 공론, '공정·중립' 위해 외부 전문가가 평가",
@@ -115,16 +125,18 @@
    "tags": []
   },
   {
-   "title": "발전공기업 통합 대응 논의…부울경, 내년 초광역 사업 발굴 속도",
-   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBFSGUxeGxyNWgtbGpUWEZ3QnJJU3dIRnRNY0hLNG5nQ3NSa2MycnJySktlM21sTU50MWFrcHpGbkc3NzczaUROcGRIUlNjekF5VmfSAVNBVV95cUxNVU5LdHVaUmdscjZwcHl2anZvOWZnWG8zQkJLZTZmNHlMekc2TjJqcXUybzRtU0tUejh6dUxNTFhWbUFnMDVSWlRtUDBSMXJhZ3dGRQ?oc=5",
-   "source": "서울경제",
-   "date": "2026-10-28",
-   "tags": []
+   "title": "\"태안화력 대체 숨기고 탕정2 난방만 내세웠나\"…아산 LNG발전소 주민 기만 논란",
+   "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1HaGNuTXJhdVI3dEZUdVVJN2hmUHdhc2pOc0FQN3hCU0h4eW5jZE1lUGV5Rkw5Zk1jZDd6UzlucmFzQUFPaXc?oc=5",
+   "source": "아산뉴스",
+   "date": "2026-10-27",
+   "tags": [
+    "태안"
+   ]
   },
   {
-   "title": "이윤석 충남미래전략연구원장, “아산 LNG발전소, 시민들에게 진짜 건설 목적 숨겼나?” 지적",
-   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9PVE0zbkNVOEQtZHdlb3F0Y3p0TkZzaUVOUVlzeUpwalA1bk5BcnMzeWhXZUpsR1hKZFdVVjlKUmUzNkZZdVhWSDJLNEU1UXNWS0JUbElOS3lkZTZSWWNQQXViSmJXLWlsY1Fj?oc=5",
-   "source": "아산데스크",
+   "title": "[2보] “88명 중 천안 시민 몇 명?”…LNG 발전소 설명회, 핵심 쟁점 답변 미완 > 뉴스",
+   "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE9CSEVpcGNKb3BaYlFSOUxBV3FIWm5jbnV3ck8zclVJVnI4WkQ0b1JFYVplcVg3bmdQcVhYWk8yTkFIQ2c?oc=5",
+   "source": "천안신문",
    "date": "2026-10-27",
    "tags": []
   },
@@ -140,6 +152,20 @@
    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0zVzFHejgzQnhmQTg4azZhYkNDbk9wU2dXRUljRkw3ckhjMHM2RUszRlVlSW16OWs4Mmk5ZVdrYTVtU2hfeEpTMDhjdXdkemhQQ2VvMmJsMUhNUlZMLXJrU3JoUnFMNDQ?oc=5",
    "source": "연합뉴스TV",
    "date": "2026-10-26",
+   "tags": []
+  },
+  {
+   "title": "[단독] 전력 부족한데…열병합발전, 낙찰 받고도 2년째 착공 못해",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE94cE9WYTRlaDFYdU1HS19CMDczSmcyOTNXbFg4c0VoWDBBYjF5eHJVYnh2UXlkejl5eF84Rm9PbmlGa2pDX3BxNXZpbF9vVVNNMjZDZnRIbmVpdw?oc=5",
+   "source": "한국경제",
+   "date": "2026-10-25",
+   "tags": []
+  },
+  {
+   "title": "[단독] 전력 수요 느는데…낙찰된 LNG 열병합발전소 2년째 삽도 못 떠",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFAxZFROaGZ5Mnh3Z0hPcmxpcHI3bm1kd2xRc0pvMDlzenBVMURFME5nTDRiQm52ZTFOb3lQV1lsd181R1YzWUk0YW5taUpmMXRuajZ2X1RSbE5vZw?oc=5",
+   "source": "한국경제",
+   "date": "2026-10-25",
    "tags": []
   },
   {
@@ -164,34 +190,6 @@
    "tags": [
     "보령"
    ]
-  },
-  {
-   "title": "석탄발전 2040년까지 단계적 폐지…노동자 고용안정ㆍ일자리 전환 논의",
-   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBmcDY0bWJpU0VlUTl1Z25tYlRLTXhxbVpqMHFjcUVhSTZTaEpaRW50SDhHak83a2I4NG9lcGR0WXRfT3VhYVZrNnBGMk9qM05uUE13UEZrRU8wOHNwcnVDamxzSmc1UQ?oc=5",
-   "source": "인사이트N파워",
-   "date": "2026-10-21",
-   "tags": []
-  },
-  {
-   "title": "석탄발전소 폐지 앞두고 노동자 고용 안정 해법 찾는다",
-   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1tSGZEZnh0NUZGM2pPRjVCaUhRMlB0dDVFeWwxTW5Sbzdackd0YWRfc1lUTVVmczNCQnhhY2xxZHZKS2cxUU9wYmxGUl9TZHVfLVZMUVg1czkxQnc?oc=5",
-   "source": "뉴스1",
-   "date": "2026-10-21",
-   "tags": []
-  },
-  {
-   "title": "전력수급계획 목표 대비 발전설비 95% 구축, 송변전은 30% 그쳐",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBXUWpwaW5rX01PQnE2SmVJUGo5QlVXcUx3TXIyTFNNYVhJam9QTGUzLTR1VjdxRDFtQXZiajNXS3FXQy1Zby1CUDJEVnBEUkdIMURNYTZGbWRCMWFQMFVWeE9tZ2V6WXN6MTJMU9IBcEFVX3lxTE8tb0l4N3Bib1RmTnZfZTUzTEhtUmUzSHdta1c2My1XSzB0ajl2Mm5nX2tlbmo3R2tXQ3JtbXdrVzVJeDliajM4M1k4eG5OLU54MnJkdGtreHhMNkJpV3JrNGVDcnNYRHJnSDFnbzQ3UmM?oc=5",
-   "source": "에너지플랫폼뉴스",
-   "date": "2026-10-19",
-   "tags": []
-  },
-  {
-   "title": "정부 에너지정책의 과정과 향후 일정",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5CanAxWXlIT2tJNGxHRFptWHlvV1hKOVA2MExJejR4cndMb3dYeEVzUElyOFV2R041Um5tV3ZXcVlBcm9HZ2thODc0VEtOdmxIdG9UY28tNnRoTWdGb3BaWWNVT1Y5TUI0Ync?oc=5",
-   "source": "경북도민일보",
-   "date": "2026-10-19",
-   "tags": []
   }
  ]
 }
