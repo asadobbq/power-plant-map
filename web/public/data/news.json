@@ -1,24 +1,31 @@
 {
- "updatedAt": "2026-11-07 10:26",
+ "updatedAt": "2026-11-08 09:57",
  "note": "구글 뉴스 검색 기반 자동 수집(제목·링크만 게시, 본문 미복제). 기사 내용·저작권은 각 언론사에 있음.",
  "items": [
   {
-   "title": "윤희신 군수, 박수현 충남도지사 만나 발전공기업 통합본사 태안 유치 건의",
-   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5ORk1KWktvc0c2cFNPWjVPMmNLcFpMYTJDbzR2VV9HS3FKWDMzTkg1Mm91VEFtZXdGcVd6Sk42TFk3alJJcXNQQTJHZDZ4Y3U1OGlnMzBEY0NnWXVHT20zNGROR3U?oc=5",
-   "source": "중도일보",
-   "date": "2026-11-06",
+   "title": "윤희신 태안군수, 밖으로 발전공기업 태안유치…안으로는 조직문화 쇄신",
+   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBVZEMyWXRaTWJkTkdnOTZfNlJseFdDRUF0S25CS2s5WTR6SDlwUmxDRDNNUUotRUV1d0M4MEVDVW1Ua0FwakFmMVVmUzRsRDVZOXF0c3kwTkZQRHFXS01fT2k1bw?oc=5",
+   "source": "쿠키뉴스",
+   "date": "2026-11-07",
    "tags": [
     "태안"
    ]
   },
   {
-   "title": "태안화력 단계적 폐지에 지역 경제 위기…윤희신 군수, 발전공기업 통합본사 유치 요청",
-   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBURXk1UE5qdWR4ZVFiWHFzeFZKV01faS1fOWtyVDhwZFphdEk0S0NTWDJlWmdQeWVQN1oyNVloT1FudEl1QTR1ZTlrQmxLY0VmUlJIWDNyYXJFU21saWc?oc=5",
-   "source": "타파인",
-   "date": "2026-11-06",
+   "title": "태안군 사활 건 발전공기업 통합 본사 유치전 총력",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE13MUVueHhySk56S1I3OEtZUFB3R0xHRVVRVnpXb3dCOGxBeENxUXJPeFh5cFB3U3VMVW45N3BsbHNNM0d6VGEtYUZGQnR0bkpEcEthMnE5NjlPUC1Rd29GMGNsVkVLRjVEbUHSAW5BVV95cUxOZnF3bDFyeHdCN1FCUG5WSGlfaDh3VUM4S2NCeWtYR21UdnpFa3ZaWEJRaVpoMzJramlIN1k5RWNITGljeHgyMGRjcWhKXzBZZ3NKMkFra3dKUUNuX3d3V0QydENpaHVCandHUWE0Zw?oc=5",
+   "source": "충청신문",
+   "date": "2026-11-07",
    "tags": [
     "태안"
    ]
+  },
+  {
+   "title": "경주시, 2027년 발전소 주변지역 `66억 원 규모` 지원사업 확정",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNVUxfdHNqRG5MdFk3Sk5oZUFuT3J4a0ozSzhnX013a3hQa1JidUduTXJ2dTE2RTBfQmJxTVRQYW0wMkVBZGtBQlVoa204aG9VUmJfczRmY21iR2Q3T3I1SFRUTXJpc3puVEN1RUFVR181MXJXZ3NIazFqdFJ0M0lOLQ?oc=5",
+   "source": "CBN뉴스",
+   "date": "2026-11-07",
+   "tags": []
   },
   {
    "title": "경주시, 내년 발전소 주변지역 지원사업 확정",
@@ -28,53 +35,55 @@
    "tags": []
   },
   {
-   "title": "충남도의회, 석탄화력 폐지 피해 대응할 정의로운 전환 특위 본격 가동",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1qN3MyMmQtZGlaOExramFNZVdMWW1LbE9OY2xlWXVaeENMUGVod2NuN2hDVjhaN3ZId0FwdjQ0RU5HWHJpWG5GTm0wR1RqRkk1OUxDeUIwenpWendrZW1NSzBOZnhrYnZHMTFNSWNyU3LSAXRBVV95cUxOZUJ6Rm9WTmRiWTM3aFF4SUFGSlVtaWFseGxnT3FPMVlEdkU0NHd2SGc2ejBrUW91eFZpSU5SWEdmM1NyaHQ4UG0yelZpU19IRkxNVnVQUXJVbXlLT1pUQnpyVm1ObV9tYVgxZlBERVdJRXV6bQ?oc=5",
-   "source": "뉴스워커",
+   "title": "[AIDC 속도전] 인허가 문턱 낮추고 계획 잡았지만···유치 관건은 ‘전력 공급 시기’③",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE90T29lTHJxMFlWenNmR0Q3YUNEVUpaQW5zdHFtT2h3cXAxamw3SFVETTg0VFF4UDVzaE1TalpkbDJXZi1nSWR3TjBQS3QwT0xDajdtWHNGSHFLUllldWRjZGVYSVZXSkVtVW82d1JYcmrSAXRBVV95cUxPYkYtYTZ4bzBucVk5US1TemExZFJuSWhlTk1rZlJqOWNyWW9malJuVnM3V0RGaDA2aDhnUU1iYWlKRnpjQ2Myc21NNFZVaGg2S1MxYnB5b3BqNEtaWjRLbE1QZzRENmtrYmh3R2NkbktJTG9oNQ?oc=5",
+   "source": "이뉴스투데이",
    "date": "2026-11-06",
    "tags": []
   },
   {
-   "title": "석탄발전소 문 닫은 뒤 일자리는…충남도의회 '정의로운 전환' 논의",
-   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1SS3Q5UFA2TjlXTXZ5NnN2SWFNanZrYmZtQUQtdjJyd0dHcjhWY1pSaXYtTExzel9BNVdPVGJfNXB4RVYtTTF5Y3M2cUNySFh5QUxxS195azJ2aTZGbzNkRENTZ0d2NmNqZ2JZ?oc=5",
-   "source": "충청시사신문",
+   "title": "충남도의회, 석탄화력 폐지 대응 특별위원회 가동",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBScERGeUtQT29mX2gyaUhLcVNCb1pMUjE5S2NPT3E0dFRPTmNEM3k3MXVLTVpNejNCUVp0b3JkT0tMQzhMY2ZyTXhpalU3SkgzdFpWa3MzdWxhUEFlMTZpeWdaR3ZONmc1STJz?oc=5",
+   "source": "충청메트로",
    "date": "2026-11-06",
    "tags": []
   },
   {
-   "title": "[데스크 칼럼] 원전 비중 확보로 국가 미래 전력 수요 대응해야",
-   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1pMlpsdzFKTlRnVDU4RzcwU3RqcjMycFhpeTF3OWhTa2lSMV9OUkdjUDZlV011azFlQkpmX0JyV25CUmV4LUwzbEJTd2ViYVd0X3owZXlkM3lSZUFBbWc?oc=5",
-   "source": "뉴스투데이",
+   "title": "발전 5사 통합 과제? “재생에너지 확대와 고용보장”",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBTQ3lyVmdBNmlYTDBSeDBJdHRJcy05dzNQeVNBMlQzZlJjeTkwMWlGLU1jWmFUeXVWejNmSnRLeDBHaXpYZXVLMlM4Qm0xN3ZHREM0ZEk3VGd4OHEtODljTWI1blV2U1c3OTVvZFRhd1c?oc=5",
+   "source": "매일노동뉴스",
    "date": "2026-11-06",
    "tags": []
   },
   {
-   "title": "신정훈 의원, 발전공기업 통합 토론회 개최…“공공성 강화·정의로운 전환이 핵심”",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9VX08zS1FLVHBXSUt3N2k4UWx6YW1hWWdjUEV0cXFGcGJlbjhpcEdMaFVzQjJyVW0tME42b1lLRUdnblc0aDctdUJ6Q3BiQ2MzWnJlV1hRQlJhUWJ6Y1o5Z0hKSG8xTU9XcjFUbtIBcEFVX3lxTE1Mb3EyTllsQXJVbG9BUVM3YUI0TVhjTjg5N2RET0MtUlNzQ0EtQ0NYN2J2QU9Cdk1rUjA2MlZ5d01oSGZhOUNsODVGLUgtdFREZW1vUXMxazRxZWl1Z2xWX3RDV2FZRWE0S1ZhS1MxUDg?oc=5",
-   "source": "전기신문",
+   "title": "신정훈, 발전공기업 5사 통합 본사 '나주' 명문화…에너지산업 중심지 육성 박차",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9KeXNmQjE1X0ZpUmJIYjNHNThsUkpZbUFuY3ZnOUZud1ZsZW1nNTFlSS1Jb3ZORDU0ZlUybC0xTmNhZ1RsbGJMM0VmZzJsSmRIbVVhcmNyX3p3Sk8zWGRXTFlKTGVybjk5UE13SUp3?oc=5",
+   "source": "https://www.theleader.co.kr/",
    "date": "2026-11-05",
    "tags": []
   },
   {
-   "title": "경주시, 2027년 발전소 주변지역 지원사업 66억 원 규모 확정",
-   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9IQmVyenhvNzQ4WnZoRGtUTnhmX0kzdThQTi1lVGI5OGZ1WHBFOVphVWpUUTZKVkRZeDN4Y09adFRJT1R1NlhqcUM5aC1DckJwemZVdWE5cGFfR3JNYWszSVJkb01xbE1S?oc=5",
-   "source": "시사코리아저널",
+   "title": "발전 5사 통합, 한전 자회사 유지 우선 검토…“고용·공공성 보장해야”",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBGZGpZT3Vjb3c4OHIyenMyLTd5SGMwNndSWkhOajFBX0txaWhGNV90UnJINmM0d0w3M1BhdVRWeFRjdk5uMDZZN3N2NTRMcEVHWVFWUFdpQjJHLXhYQXFoODJLTUZVQV8zTEE?oc=5",
+   "source": "경남도민일보",
    "date": "2026-11-05",
    "tags": []
   },
   {
-   "title": "신정훈 의원, 5일 발전공기업 통합 토론회 공동 개최 - 머니투데이",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB2ZjBHOHNUU0g5TmpCM0NFbzVfTWhfZXg5ZTdRazVGRlBVVW9sdXpDMmFGV0J6UVUtcUdKclpwQW9ORTNVakc1QVR1bGlJdy1DUVVrVTljUFVSSGZWUndlSjZNbkFLQVFvZUHSAW9BVV95cUxOcHNTZGFXb0p0MXdMOTBjdm5jcWNZbnBodnc4dlBUSFRmT2M0TDhxNkpFQXVnLTlKV0ZTNDhXVkZ1QTV5NlpDbGZHYWM0NHZzX2VMclNFUXBJNXhLUmM3SXpGcGR2aE1WUDdCcjg1QXM?oc=5",
-   "source": "머니투데이",
-   "date": "2026-11-04",
+   "title": "발전공기업 통합본사 유치전 뛰어든 경남 진주의 도전",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA1ZC1vLUxTRlc1UmtaaVRXZ3llWEVhb2RzMlFndlNINGFjRjRfejc4cEw3TWtORmJMTEtLN2h2Tm9kdlNOUU9pUGsyZ0FMU2Mxc0ZxaEZqVTAyVlhNUksxMmo5bjJqZ1h0?oc=5",
+   "source": "신동아",
+   "date": "2026-11-05",
    "tags": []
   },
   {
-   "title": "RE100 기업 재생에너지 조달률 '12%'…전력계획 전면 손질 요구",
-   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE53eDB5V2dlRGw2OHI0UVJhTE9Beml2MWRHTzBUMmkwSE81YS1jWW1sWVFXR1dSUkdvazA5dHcwLVJJYkZGNnRCRnF3YTFlN3FDbFJ4d0RLcC1vN2RObzB6Q3V6eXlDcEV0?oc=5",
-   "source": "한국NGO신문",
-   "date": "2026-11-04",
-   "tags": []
+   "title": "전북특별자치도 새마을지도자 공동체 결의대회에서 발전공기업 통합본사 새만금 부안 유치 염원 결집",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9HdFFBSENyMGhJcGZVMGUtZXZHN3pLb2pYQkZBYkhPVzJvc1p3aUZfSWlGREVlMFJRbG1jV1pIbUJOclFVbDJZMXRrZGVQM19tUmtLLVFFUS1BMkp1eV9Sa2w0X2pZZG54b2c?oc=5",
+   "source": "전북도민일보",
+   "date": "2026-11-05",
+   "tags": [
+    "부안"
+   ]
   },
   {
    "title": "“전력 ‘지산지소’ 하려면, ‘전기본’부터 권역별 수급과 연계 수립해야”",
@@ -84,24 +93,10 @@
    "tags": []
   },
   {
-   "title": "RE100, 기후부에 성명…\"12차 전기본, 재생E 공급·조달 확대해야\"",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1oWFZsdm4tbjRQT3FTR3VGX3I2TkJ0U3hDS3JDSVp2MV9mdFlJcFNTS3g3dEVvX0hEczQ4NWhZMHpObFZzMHM0YUdvVURSLWI0Z1ZwNlc2RW9QSW9QZzVCRGt0Z25oSHZNX282Tw?oc=5",
-   "source": "ESG경제",
-   "date": "2026-11-03",
-   "tags": []
-  },
-  {
-   "title": "RE100 협의체 기후부에 서한, \"12차 전력수급기본계획에 재생에너지 확대 실현할 체계 마련해야\"",
-   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBMbURzOTFzaEhRLWh3VFlhWlBMUzdtNHpJWVZJQ0txQ1BMazd2T2g4NnVzTXpDbUQ1Mm9ibzRXOW5oUDhtUUs0M0liSndaX1M5LUtoOEVWbFZuZDh5X0hxSUVXeExYeTJ3b1R5NFZMTUdKM2M?oc=5",
-   "source": "비즈니스포스트",
-   "date": "2026-11-03",
-   "tags": []
-  },
-  {
-   "title": "하윤희 교수 “전력수급계획, 발전설비 넘어 수요·전력망까지 설계해야”",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB1QjhHdEFaM0ZnYkt2aWNadkl4RVh0RTMzVVhhUS1GdWxObGpFNG1IQXJTWkdrVW8zd1hNV0RMWGtDUkQ0R3ROSGVsWENuN0tmd25DTWxYejVrMnlTRGlwNzVZeU5mWkRCdVpUd9IBcEFVX3lxTE40NmgxMWtkSjdMYWExZ0pPNGZGeHFOSDRKVzF2YXhiUEptUlhXc3g1SGZVSEdOdzNqRHhtWGM4SnlWYWNWZmx0bFRHbW43YVl4YWFrU2hqODFtYzlsM2N4NEZNZFpJU0ZkYllhX1NNaFk?oc=5",
-   "source": "전기신문",
-   "date": "2026-11-03",
+   "title": "데이터전문가·대책위 “한전 송전망 투자, 이제는 ‘지산지소’로 전환해야” 주장",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFA0bkVwV2dBNzY3QlJKbjJ1QTZtZEdRTjZvb05PNjFNNXE4dEhJMWdYdXlVWEFmdkRXY1RoTVdoRHczT0x2NWthT1Q1THpYS0Z5SjNXS2ZpbjZFdHZna1dyLVotcllLc3c0V3ZKeW1R?oc=5",
+   "source": "아시아투데이",
+   "date": "2026-11-02",
    "tags": []
   },
   {
@@ -125,13 +120,6 @@
    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1tSGZEZnh0NUZGM2pPRjVCaUhRMlB0dDVFeWwxTW5Sbzdackd0YWRfc1lUTVVmczNCQnhhY2xxZHZKS2cxUU9wYmxGUl9TZHVfLVZMUVg1czkxQnc?oc=5",
    "source": "뉴스1",
    "date": "2026-10-21",
-   "tags": []
-  },
-  {
-   "title": "전력수급계획 목표 대비 발전설비 95% 구축, 송변전은 30% 그쳐",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBXUWpwaW5rX01PQnE2SmVJUGo5QlVXcUx3TXIyTFNNYVhJam9QTGUzLTR1VjdxRDFtQXZiajNXS3FXQy1Zby1CUDJEVnBEUkdIMURNYTZGbWRCMWFQMFVWeE9tZ2V6WXN6MTJMU9IBcEFVX3lxTE8tb0l4N3Bib1RmTnZfZTUzTEhtUmUzSHdta1c2My1XSzB0ajl2Mm5nX2tlbmo3R2tXQ3JtbXdrVzVJeDliajM4M1k4eG5OLU54MnJkdGtreHhMNkJpV3JrNGVDcnNYRHJnSDFnbzQ3UmM?oc=5",
-   "source": "에너지플랫폼뉴스",
-   "date": "2026-10-19",
    "tags": []
   }
  ]
