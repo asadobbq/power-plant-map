@@ -2,7 +2,9 @@ import L from 'leaflet'
 import 'leaflet/dist/leaflet.css'
 import type { MapPort, MarkerItem, LineItem, MapBounds } from './adapter'
 
-/** 개발·검증용 폴백 지도 (OSM 타일). VITE_NCP_KEY_ID 설정 시 네이버 지도로 자동 전환. */
+/** 대체 지도 (OSM 타일).
+ *  - 로컬 개발: VITE_NCP_KEY_ID 미설정 시 사용
+ *  - 운영: 네이버 지도 스크립트 로드 실패·키 인증 실패 시 App이 자동으로 이 지도로 교체 */
 export class LeafletMap implements MapPort {
   readonly kind = 'leaflet' as const
   private map: L.Map | null = null
@@ -10,7 +12,9 @@ export class LeafletMap implements MapPort {
   private lineLayer = L.layerGroup()
 
   async mount(el: HTMLElement): Promise<void> {
-    this.map = L.map(el, { center: [36.3, 127.8], zoom: 7, zoomControl: true })
+    // 확대 버튼은 좌하단 — 기본 위치(좌상단)는 상단 필터줄과 겹친다
+    this.map = L.map(el, { center: [36.3, 127.8], zoom: 7, zoomControl: false })
+    L.control.zoom({ position: 'bottomleft' }).addTo(this.map)
     L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
       maxZoom: 18,
       attribution: '&copy; OpenStreetMap contributors',

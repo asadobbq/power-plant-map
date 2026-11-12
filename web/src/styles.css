@@ -399,6 +399,9 @@ body {
   .map-banner { white-space: normal; text-align: center; border-radius: 12px; }
 }
 
+/* 운영 중 네이버 지도 장애로 대체 지도가 뜬 경우 — 상단 필터줄(약 17~48px)을 가리지 않게 그 아래에 둔다 */
+.map-banner-fallback { top: 58px; font-size: 11.5px; background: rgba(146, 64, 14, 0.88); }
+
 /* ---------- 마커 (네이버부동산식 핀) ---------- */
 .pp-divicon { background: none; border: none; }
 .leaflet-marker-icon:hover { z-index: 100000 !important; }

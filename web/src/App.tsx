@@ -1,8 +1,8 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import type { PlantData, Plant, NewsData, OverseasData, OverseasItem, JobsData, HrData } from './types'
 import { FUEL_COLORS, FUEL_ICONS, FUEL_ORDER, COMPANY_GROUPS, fmtMw, statusGroup, fuelLabel } from './types'
-import type { MapPort, MarkerItem, LineItem, MapBounds } from './map/adapter'
-import { createMap } from './map/adapter'
+import type { MapPort, MarkerItem, LineItem, MapBounds, MapFallbackReason } from './map/adapter'
+import { createMap, createFallbackMap } from './map/adapter'
 import BottomPanel from './components/BottomPanel'
 import DetailPanel from './components/DetailPanel'
 import MapControls from './components/MapControls'
@@ -130,6 +130,8 @@ export default function App() {
   const [showSmall, setShowSmall] = useState(false)
   const [search, setSearch] = useState('')
   const [mapKind, setMapKind] = useState<'naver' | 'leaflet' | null>(null)
+  // 대체 지도(OSM)로 표시 중인 이유 — 'nokey'(로컬 개발)일 때만 개발용 안내 배너를 띄운다
+  const [mapFallback, setMapFallback] = useState<MapFallbackReason | null>(null)
   const [zoom, setZoom] = useState(7)
   const [bounds, setBounds] = useState<MapBounds | null>(null)
   const [panelVh, setPanelVh] = useState(46)
@@ -216,15 +218,64 @@ export default function App() {
 
   useEffect(() => {
     let disposed = false
+    let fellBack = false
     if (!mapElRef.current) return
-    createMap().then(async port => {
-      if (disposed) return
-      await port.mount(mapElRef.current!)
+
+    const attach = (port: MapPort) => {
       port.onZoomChange(setZoom)
       mapRef.current = port
       setMapKind(port.kind)
       setZoom(port.getZoom())
-    })
+    }
+
+    // 네이버 지도를 쓸 수 없으면(스크립트 로드 실패·키 인증 실패) 같은 자리에 OSM 지도로 교체한다.
+    // 마커·연결선 갱신 effect가 mapKind에 묶여 있어 교체 즉시 다시 그려진다.
+    // 계기: 2026.11.24 네이버 AI·NAVER API 지도 종료 — 키 문제 하나로 서비스 전체가
+    // 빈 지도가 되는 단일 장애점을 없앤다.
+    const fallback = async (reason: MapFallbackReason) => {
+      if (disposed || fellBack) return
+      fellBack = true
+      try { mapRef.current?.destroy() } catch { /* noop */ }
+      mapRef.current = null
+      const el = mapElRef.current
+      if (!el) return
+      el.innerHTML = '' // 네이버 SDK가 남긴 DOM(인증 실패 안내 이미지 등) 제거
+      try {
+        const port = await createFallbackMap()
+        if (disposed) return
+        await port.mount(el)
+        attach(port)
+        setMapFallback(reason)
+        track('map_fallback', { reason })
+      } catch (e) {
+        console.error('대체 지도 초기화 실패', e)
+      }
+    }
+
+    createMap()
+      .then(async port => {
+        if (disposed) return
+        if (port.kind === 'leaflet') {
+          await port.mount(mapElRef.current!)
+          attach(port)
+          setMapFallback('nokey')
+          return
+        }
+        port.onAuthFailure?.(() => void fallback('auth'))
+        try {
+          await port.mount(mapElRef.current!)
+        } catch (e) {
+          console.error('네이버 지도 초기화 실패 — 대체 지도로 전환', e)
+          void fallback(port.authFailed ? 'auth' : 'load')
+          return
+        }
+        if (disposed || fellBack) return
+        attach(port)
+      })
+      .catch(e => {
+        console.error('지도 생성 실패 — 대체 지도로 전환', e)
+        void fallback('load')
+      })
     return () => {
       disposed = true
       mapRef.current?.destroy()
@@ -263,6 +314,14 @@ export default function App() {
     })
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [selected?.id])
+
+  // 운영 중 대체 지도로 교체된 직후 — 이미 선택된 발전소가 있으면(딥링크 진입 등) 그 위치로 다시 이동.
+  // 딥링크 이동은 진입 0.8초 뒤 한 번만 실행되므로, 그 뒤에 교체되면 지도가 전국 화면에 머문다.
+  useEffect(() => {
+    if (mapFallback !== 'auth' && mapFallback !== 'load') return
+    if (selected?.lat && selected?.lng) mapRef.current?.panTo(selected.lat, selected.lng, 11)
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [mapFallback])
 
   // 지도 이동/줌을 폴링으로 추적 (네이버 bounds 이벤트가 불안정)
   useEffect(() => {
@@ -487,9 +546,14 @@ export default function App() {
           count={visible.length}
           total={data?.plants.length ?? 0}
         />
-        {mapKind === 'leaflet' && (
+        {mapFallback === 'nokey' && (
           <div className="map-banner">
             개발용 지도(OSM)로 표시 중 — <b>네이버 지도 키(VITE_NCP_KEY_ID)</b> 설정 시 자동 전환됩니다
+          </div>
+        )}
+        {(mapFallback === 'auth' || mapFallback === 'load') && (
+          <div className="map-banner map-banner-fallback" role="status">
+            네이버 지도 연결이 원활하지 않아 대체 지도로 표시 중입니다 · 모든 기능은 정상 이용 가능
           </div>
         )}
         <AiChat onJump={handleSelect} />
