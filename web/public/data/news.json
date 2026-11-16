@@ -1,19 +1,42 @@
 {
- "updatedAt": "2026-11-15 10:25",
+ "updatedAt": "2026-11-16 10:28",
  "note": "구글 뉴스 검색 기반 자동 수집(제목·링크만 게시, 본문 미복제). 기사 내용·저작권은 각 언론사에 있음.",
  "items": [
+  {
+   "title": "한국중부발전·시에라베이스 ‘다바드림’ 팀, 국제로봇콘테스트 국무총리상 수상",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBVSFJJM1Z4VnlQMkh6X21UcF9tSW5KeTN3cmlwWHlmZUlVVER5WG14UDQ5LXU1b2NfMExYR2tWM0dwc3B5cEZFMHlpemxLMDM3YnY3cWlCeWhkNEU5ZUtFbGdUajM5QzUxY2lCdg?oc=5",
+   "source": "로봇신문",
+   "date": "2026-11-16",
+   "tags": []
+  },
+  {
+   "title": "발전 5사 통합본사 어디로…지자체 유치전 치열",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPVHRSZjJoZDJqVEM1MFZ3emZBR05faHZ6aWN5WjdLUWxaOWJDUEEweU51enpDY2g4ckdvYlpZRnFwdTVibFpEa3BhX3JLcFFBNk5nZW5Kcm9CTVY3NTBiVC13RnBrbmlGLWViSFFTTFJURjZubkY2NDlXVGxQLTc2cm9xV202eXdZdXc?oc=5",
+   "source": "글로벌이코노믹",
+   "date": "2026-11-16",
+   "tags": []
+  },
+  {
+   "title": "박지혜 의원, 자본금 2조원 ‘한국발전’ 설립안 발의…한전 지분 51% 이상",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBTWDRPekwtVTQxQWlPeVFyVkl6d0FTUzVJaGNSRDBMcExfWnloa3pJOTdMeU14a0kxZkF3aUFNdnYyRlpNUE5sWkRDMXRUalBKcV9sTk10UUpSVFdDSzQ5Zzh0S216TW8xM3EzajVtZEV2UQ?oc=5",
+   "source": "에너지데일리",
+   "date": "2026-11-15",
+   "tags": []
+  },
+  {
+   "title": "발전공기업 통합본사 울산 유치론 확산 가속",
+   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5JUTlfMkhNbWFyRmNMVTl5enA4NzZ2YXIzc2h3R09qQ19Qazk0ai1tZEREQzZnMWxuejFzQno2WUhzdmFiSmt0ejNhR3pGMUZiRFRkdWh5RkNXT2xDRGl1R2M5eTdSdw?oc=5",
+   "source": "울산제일일보",
+   "date": "2026-11-15",
+   "tags": [
+    "울산"
+   ]
+  },
   {
    "title": "빅테크, 가스터빈 '싹쓸이'…LNG 전환사업 31% '터빈 없다' [전력 확보 전쟁②]",
    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE43STdJWndBRjhVbV9TMGlZcTlNQ2VqamhnOW92UjhlM09jVVRaeVNuaGVQaFpBeTY0amJwRkJhZExzcmtyYk1naUtHQzhoVlhBbDJqRWdyZEN2VlMtM3M3SNIBeEFVX3lxTE0yM3NaZExUZzR2V25NTTFtMW1KdkdLZXZ5RzJBeDgySjNDRjlCQmtFQ0tQNFlUWWsyOGVuOXdJMmVEZUF3UFhqbFZjTk92R2Etb2FQQkFsNXZyc3VvZ0RjUUdZRjRhUnBhT3loTlV4cnhWQ3JhX2UtRQ?oc=5",
    "source": "뉴시스",
    "date": "2026-11-15",
-   "tags": []
-  },
-  {
-   "title": "가스·석유공사 통합 LNG물량 그대로…발전공기업 구매기능 일원화 해법",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5uaDNMb3RTcUdXbU1TT0lLTHRMZXhweHhpVTRyRnFIRjRGUUdlX0FfV1VwbE1IZVlLQnBvc3AxVXQ5OGZRMWVUNHNKQWxnNEVDdzdSbi1QRm1UZzNrR0RMdWk0Q0FlUWdya3Y0MA?oc=5",
-   "source": "에너지타임즈",
-   "date": "2026-11-14",
    "tags": []
   },
   {
@@ -26,23 +49,9 @@
    ]
   },
   {
-   "title": "발전공기업 통합·한전 지주회사 전환 추진…전기요금·전력시장도 개편",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBnY2kzemFDVV80Ym5SWkcyb3I5VF9ybngwbFhERjhvcFJhOVE0V3ZRZHBaY25GajJSTW9DVXN2TTF0WDdLY2lpY2dDdk9YTnR3bDNsZlVnQi13SVlydGo5dGZLMlBTbUZGYTZ4WkJzUnZQUQ?oc=5",
-   "source": "에너지데일리",
-   "date": "2026-11-13",
-   "tags": []
-  },
-  {
    "title": "예산 송전탑 반발에 충남도 “함께 대응”",
    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE52bDdnUEhqTFVsVU9FbmlYWDR0RHRjSkFoT3hPVTE1OGlZX1p5X0dKWHZIOFNaYXBiTEJ3VzN2TEc0SnM2WFVvZXlTdThOclNlXzk5cUxtN1pWRk5qemt1Rk9DWkMtTFBobDFVRm1n?oc=5",
    "source": "충남내포뉴스",
-   "date": "2026-11-13",
-   "tags": []
-  },
-  {
-   "title": "중부발전, 지역 특산물로 상생경제 키운다… '달달 발전소' 전국 판로 개척",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE55X2kzSDV6clpVWjdRSnh0c0FzNlM2UENOUFNGdTJGMFEyNktFOWlmUGJYM1JOWmc4MU5KRkt4XzRQdzBaTHhvX1Z3LTVnejlTZ2YtdS10WTl5R0kzQlYxdm51b1pHZXFQNXNwSVZISHhKZw?oc=5",
-   "source": "에너지데일리",
    "date": "2026-11-13",
    "tags": []
   },
@@ -70,20 +79,20 @@
    ]
   },
   {
-   "title": "보령시·한국중부발전, 석탄화력 폐지 대응 에너지 전환 협력 강화",
-   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5XNy1KdHZMeHJ4YWVzUGF6bVp6dWRqMERYWEFMWHAtSU9YTThZWjRZRUNZSlVudEM0TTZ1YngzVmk2X2V5RjlGVDBJSFYxSU1pLXI3Q1hJZjVfdWRkU1NrWE84dVBxR0ZteTVB?oc=5",
-   "source": "프레시안",
-   "date": "2026-11-12",
-   "tags": [
-    "보령"
-   ]
+   "title": "AI 전력 수요 LNG로 대응…골든타임 내 짓느냐가 관건[대한민국 전기국가 2035③]",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE00TmxQb2Z3VHM1UFROLVU3YlhIWnF6VGFKb3RRMUdfTXJEVUV0U1RGVFpDeVRiQjhrYUdXTHZoX0dZcVd0YjlPcnBGTEZQMS1MNENSNg?oc=5",
+   "source": "이투데이",
+   "date": "2026-11-13",
+   "tags": []
   },
   {
-   "title": "[여기는 진주] 혁신도시의 날 기념식…“발전공기업 통합 본사 유치” 외",
-   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1LS09hb0dJczRSQlRuZ1kwQ0ZnbWREQzZVbG9WZjRtSU0yMWtmMWtweno0bkluRFhQaTlhLUFhV3RtQmFlTDF5V1hmRENEa0FJRnQ0SFFyVU1pRDhCQ0k3a0MxQS1pUQ?oc=5",
-   "source": "KBS 뉴스",
-   "date": "2026-11-11",
-   "tags": []
+   "title": "에너지 공기업, 발전설비 전환·안전관리 속도…하동 LNG에 1조 3800억원",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1pN2VvdjlUUklfMUhnWHhYRURmWjh4ZktQSThYY3l4VmUzQ0xRd2hWVTZNQWJnUG5CQW5ZVEpMMkprZTN4Q00wMWFIZnVVYnVaYzFGVDdBRTU4TDBlTDhKcWFEWFo1Q3FTaFppdmVtYUXSAXRBVV95cUxPWmtsQjh1NkZIZ01zZERpUThJWDFiMU9qWmpZRkFZbDU5UDkyUTZkSlBGWFlZSjJ2X3BaRVFTTFdaZDNhMWZDM0pQYklxd0ZKWmN5VHpfb0JNVk03WGN6SFBzb1BMdGFCS1J6RGtCcThfNnlVVw?oc=5",
+   "source": "주간한국",
+   "date": "2026-11-12",
+   "tags": [
+    "하동"
+   ]
   },
   {
    "title": "발전공기업 본사 갈 곳 따져보니…\"충남이 최적지\"",
@@ -93,17 +102,6 @@
    "tags": []
   },
   {
-   "title": "당진·보령·태안, 발전공기업 통합본사 충남 유치 공동 대응",
-   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5lc0k4bFlVVV8yN0w0Zjc0ZVNBZkMyamRxdWJPcjJpaXpZVDk0MV9hM1hBeHV4ZWl6RGd3M05YSG1selN5QjNMbUJDR0xHbkcwRTRGOEc1WjJlOVFQS2cwM19xOURYUlFGNWhV?oc=5",
-   "source": "충청시사신문",
-   "date": "2026-11-11",
-   "tags": [
-    "보령",
-    "태안",
-    "당진"
-   ]
-  },
-  {
    "title": "당진, 석탄화력 폐지 대응…통합본사 충남 유치 힘 모은다",
    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9QSTAxNkNuNTBpVkFlUEx3bHpsMjMtaWRRdkhweDA5d1BTVXJZbnRtQTZteFNzSTZsNU9wRlo5Y0lpNW80eFpseF8tRnBHTjhSTlZxZ0NSb2lzZGlhZW56eFoxYlZlRjNlN2pnbTZoMlFjZw?oc=5",
    "source": "투데이충남",
@@ -111,13 +109,6 @@
    "tags": [
     "당진"
    ]
-  },
-  {
-   "title": "장동혁 “통합발전공기업 본사 최적지는 충남…국가 에너지 전환 중심지 돼야”",
-   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBqZmMwbG1xOC1oVmxMcHNIbWZ3SEpLY1VuaG80S1NEU3VfN29kYTR6YXc0a0ZXYkl2UF84YTVzQVhmc0x2NEdVYWJxb0s2WHhvNlp2eG5MMzlwdVVkQVE?oc=5",
-   "source": "기후에너지데이터뱅크",
-   "date": "2026-11-10",
-   "tags": []
   },
   {
    "title": "AI·반도체 전력수요 급증에 원전 역할 부각…정부 공론화 본격화",
