@@ -1,34 +1,39 @@
 {
- "updatedAt": "2026-11-20 11:45",
+ "updatedAt": "2026-11-21 11:55",
  "note": "구글 뉴스 검색 기반 자동 수집(제목·링크만 게시, 본문 미복제). 기사 내용·저작권은 각 언론사에 있음.",
  "items": [
   {
-   "title": "동서발전, 중기부 상생협력 우수기업 선정 장관상 수상",
-   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5sUjZrRHo4dnBQNHlnSGZmY2UwV2J3OHU1N3Z4ZUYyazgwQTJWa1U3N1hqcEh0Sk8yZUpsMXdyZDdKRF9nX2dUUGlPcVh6RFlZTEE?oc=5",
-   "source": "매일경제 마켓",
+   "title": "\"농지 임대 수익 10배\"…석탄발전소 지원금으로 일군 '햇빛 배당'[넷제로케이스스터디] - 머니투데이",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5CUVlZYVBKQWQwckVRNTZiM2NUeHlGUkUtcVNzcHh2TktWOHExUWJyczEwQzkySGxpTzk0Z3ZiN0FFLVZyRzdXdi10cVpJUXZOd3hOQWgxTHdkOTltVC1nZUFEcndDRXBvakdRei1OeGw0UdIBckFVX3lxTE5CUVlZYVBKQWQwckVRNTZiM2NUeHlGUkUtcVNzcHh2TktWOHExUWJyczEwQzkySGxpTzk0Z3ZiN0FFLVZyRzdXdi10cVpJUXZOd3hOQWgxTHdkOTltVC1nZUFEcndDRXBvakdRei1OeGw0UQ?oc=5",
+   "source": "머니투데이",
+   "date": "2026-11-21",
+   "tags": []
+  },
+  {
+   "title": "[산업X파일] ‘작은 원전’ SMR, 곳곳서 차질… 한국 계획은 괜찮나",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPNF9RV0ZYVWYtUUdzaDkyVUhUUS1yUXpUenZwQTFIcm1LQVh6T05sdkZ0TnNBeUtxLVQtYUlIa2hTcTRKNjBDY0hhSEIzMVpsRTN3Zi1EQXh3U016WkNTOU9CbVZFSGhDbm1rakRaTGhFVzRDclN4ODlBVEhGQVg3cUZCZTdBQTQzOEU3OFh3?oc=5",
+   "source": "조선일보",
+   "date": "2026-11-21",
+   "tags": []
+  },
+  {
+   "title": "[초점]한·베 에너지 협력 ‘MOU→프로젝트’ 전환…원전·LNG발전·전력·재생에너지 사업화",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9GMzdVTlotZ2ZiRGJIRjI1aUdTdUlUYTJYVnpVZ1l1dDlQZkR1SE0tVHlTSlVxUXpuNTlPaFpQTEJMWUdpN2Z2MXhHV21VVDBUUnZUT215UXZUSTRGVDdfNU1ubHRubVNuVGQ2N2JxQnRYQQ?oc=5",
+   "source": "에너지데일리",
    "date": "2026-11-20",
    "tags": []
   },
   {
-   "title": "[인터뷰] 엄승용 보령시장 \"발전공기업 통합본사 유치, 보령이 최적지…정주 여건부터 바꾸겠다\"",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE84VElLUmRhdGcxbkstQ1VzRlB5M0xteXktN29fYmh2WWhLazBMNGc1Q3Zkb1g5QUstWFJSaXFaZEFqUVc2R2dYUDdUVzhTaHRsYnotRjM4dl8zZ1I4bmNqVQ?oc=5",
-   "source": "프라임경제",
-   "date": "2026-11-20",
-   "tags": [
-    "보령"
-   ]
-  },
-  {
-   "title": "발전 5사 통합본사 나주 유치 한목소리…국회 앞 350명 결집",
-   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1uLTgwUTh1Z09mV3NnUjhRZ2IyOUV1c0Zhdl80bEdsclNMNU9Zb19HZzYxeU90Q1k1eGVfOV9GR3ZsQ2ZnSV8xRHpVVk12M3ZiLU1FVlVqSGJ2TEU1R2RYRG1nT2s?oc=5",
-   "source": "매일일보",
+   "title": "[데스크칼럼] 왜 지금 신규 원전 건설을 결정해야 하는가",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBTQlJvOGlDMDB6Nk1Ja0J1bGx6MXN1b0hmRTltVkVVdDUwWXlPS2U2TE9helZQMkpwZlU3SjFia2dDcDNWbmR6aDl2eGdDYkJGbkUwQnBxUHN0cEtKLS1V?oc=5",
+   "source": "스마트투데이",
    "date": "2026-11-20",
    "tags": []
   },
   {
-   "title": "[현장] 발전 5사 통합본사 나주로… 광주·전남 의원들 국회서 유치 촉구",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE44ZHZETWRrLU9lVHR0ekxKUXR4WjEyS3htNV9xMzBEQklTdEYzYldYQjZ5bGlFdGxKMldjMlFlR2pBcUZzQWRJUGlFak1JU2VBTFZnQy16cEZLSlRJRDZtbjNLaWh1blVFVk0zYg?oc=5",
-   "source": "이코노미톡뉴스",
+   "title": "동서발전, 발전공기업 최초 '강원형 바람연금' 시대 연다",
+   "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxPMHZ4MGlVTnFVSWpmVk5Lakhtc3VrVlFfYWIyZlkzTGZwQTVIV29lNm9WNUVETzdjelYtVjBSX1I3S3Z6bV9FblF2eDJDOE1RWGxfcGtiTUhxSjlLQ0l5VkpvNEYzckRYcjc3RC1oY2hGMnJrenlTLURtQnRXMThWOExjTi1tcml0NlRGTHlfOHFkb2E5WDdJQkVlN2toRjFZdjh3V29sYkdoQnVzY1IwbW1VZlljSm5Td3c4V1lYT1JROG5STElEdE1YTkc3VmdiZDlVRVpZRDNUX3ltdUdvcWM2aVZxbXBJZFpLTm5TR1NXY2l4dDBlWXZjM0dFeFhGLTNBbjdDSEJpWGFuYzk0Tlh6bU9kM2NkS192MVR1T2NCTjQ?oc=5",
+   "source": "데일리안",
    "date": "2026-11-20",
    "tags": []
   },
@@ -47,34 +52,6 @@
    "tags": []
   },
   {
-   "title": "동서발전, 발전공기업 최초 ‘강원형 바람연금’ 시대 연다",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9jMnludlV0SmpuTmZ1QTM1b2JfbGtIUV9sUWM1b2hkZzUwc0M5MVdISXNiY2N4SmtEUGR0eFM3RmQ1U19LUzhmN1FyaVFBdzZNMkJ1bjk4VUVFX3hmdDdITHgtdVU3T3o0dEE?oc=5",
-   "source": "한국전력신문",
-   "date": "2026-11-19",
-   "tags": []
-  },
-  {
-   "title": "나주에 발전공기업 5사 통합본사 유치···지역사회 결집",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5HWUdYVm5aRVd6ZzJwWGt1enFaZ196aDZnT1UteElZQ2dRc2FYcHpjczQ3QkFjVDBMeW4yV3JvWEx6RG5CNlZ4N0E1R3dYZmdxWGNEYmxTNFQ2NVVqLXJteEZZaWQzbDk4bmc?oc=5",
-   "source": "서울파이낸스",
-   "date": "2026-11-19",
-   "tags": []
-  },
-  {
-   "title": "‘벼락치기’ 원전 공론화…16일 학습해 15년 전력계획 논의",
-   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9sR0gzWnZzdXVyZmwzRHgxaVdEUVNvX1lyU0pSb2xYVGpWeHpmZU5vVlVzY2xPWmgwWE4wZmRvOXRKRHNFVzNha2dOWjZ3a2QtTVNCSlNZZU5sOEZBM2M4bjE0T3l2aldZNzh4OHV3?oc=5",
-   "source": "아시아투데이",
-   "date": "2026-11-19",
-   "tags": []
-  },
-  {
-   "title": "석탄화력 폐지 앞둔 노동자·지역, '정의로운 전환' 해법 찾는다",
-   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1LQWxmNlB2QlZrSUp2cUtXcm5oeWFObFNhRFVnTEV4Um9YaElFX29uclAwMTF1dVU3alZ0WkZWdXpjY1AwaHVTQTZ1UWdrVUYtOG85OXVOS1c5MGJiUThpYk9NQ285cXNyNnhBVTdQc9IBb0FVX3lxTE1LQWxmNlB2QlZrSUp2cUtXcm5oeWFObFNhRFVnTEV4Um9YaElFX29uclAwMTF1dVU3alZ0WkZWdXpjY1AwaHVTQTZ1UWdrVUYtOG85OXVOS1c5MGJiUThpYk9NQ285cXNyNnhBVTdQcw?oc=5",
-   "source": "당진시대",
-   "date": "2026-11-19",
-   "tags": []
-  },
-  {
    "title": "충남 당진 어기구 의원 , 석탄화력 폐지지역 정의로운 전환의 길을 찾다 국회토론회 개최",
    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5Db1hfazNBX2htNFhGMWIxaWRoRE5jNkYtNEROSlBSQXJOeVVLUGU3cXl1Z1lYWFhtVXNfbEhkdDNNQnIyVTdDR1JlbXVUVjBSLW1kRW00WXlnUHZvLUZDekNJR3gzNjMzbmc?oc=5",
    "source": "충청매일",
@@ -84,16 +61,16 @@
    ]
   },
   {
-   "title": "통합 발전공사 법안 지분구조·투자재원 쟁점…한전-발전노조 엇갈려",
-   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB5NnMzVjh6V0w0dFI5M01vUGZ5RFZES3BuSzBiMERxU2FBUzBoQ0doSW16WTJWNVpYWXZ0YzIwaGZlZnMzT3paWjVLdmQzZHlaRl9ZQ1N0RlNkLWdQVXc?oc=5",
-   "source": "기후에너지데이터뱅크",
+   "title": "충남 ‘석탄화력 3기 폐지’ 국제무대서 해법 공유…일자리 전환·지역경제 회복이 관건",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBkQUxGallBSV81S3NMeWYyRGRwc19sWXA0YV9xd1QwMHhIbWFTX1FVdkN3UUd1NUFiRE9VN2tXbF80el9zVUVpX2drQmNkNktuY3YwLXF0aVFnR01BVFRkclZlR1k4NmpD?oc=5",
+   "source": "녹색경제신문",
    "date": "2026-11-19",
    "tags": []
   },
   {
-   "title": "충남 ‘석탄화력 3기 폐지’ 국제무대서 해법 공유…일자리 전환·지역경제 회복이 관건",
-   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBkQUxGallBSV81S3NMeWYyRGRwc19sWXA0YV9xd1QwMHhIbWFTX1FVdkN3UUd1NUFiRE9VN2tXbF80el9zVUVpX2drQmNkNktuY3YwLXF0aVFnR01BVFRkclZlR1k4NmpD?oc=5",
-   "source": "녹색경제신문",
+   "title": "어기구 의원, “석탄화력 폐지 부담, 노동자·지역에 떠넘겨선 안 돼”",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9fWFhPV2NsYm54WUFZaDdYNm1MUTRqR3p2d2FscmJfdEVlejRtN0RWYkdsZmo4bUUwM1BIYWxMNTltLW1PbjN1cTI3SkV0NTNEaXFVbzZqenRMWkpXbDNCS3NSMDZjenhNenfSAW5BVV95cUxQbTBuWlBVbDB2UVNMcGN2b2FtXy13bjlUN19CbUt1SGJQOFY3b0RDLTZLZGZnWlJJOU5qRW9vcU96Zlk4M2QyTlBXalhOTVUyanpIQjlQdzZ6UGJjOU1YSmY5cFNoQmp0eTBVVl90dw?oc=5",
+   "source": "중부매일",
    "date": "2026-11-19",
    "tags": []
   },
@@ -112,13 +89,6 @@
    "tags": []
   },
   {
-   "title": "남동발전, 500MW 송산빛그린 건설사업 주요 인허가 완료",
-   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9JOW8yQ09WNkJBYndyb2g5M2Z4cFphRWlheVJIbkJyZ3NFUGt4QlRTNHFUWmd2X0l3bElkaTFTa1g1bnNBM3FfQWFqUzlJaHVORzQyVjJLeE9VTk5tS2lHcW5Qa3M1QTJYYm40?oc=5",
-   "source": "일간투데이",
-   "date": "2026-11-19",
-   "tags": []
-  },
-  {
    "title": "석탄발전 3기 폐지, 일자리는 어떻게",
    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5hMlVWWGtlZG1vZG5FdkNrOC1MY3dQUUZzMC1NWXVvMUowbGs1aEpVTTVZelNvekZzYzVrbjdXSnVONktNeXZDblJDZEktQlRqd0xIT09vdEJiU1pfNWxWUkc4VFRhWDVqM2dHNFVB?oc=5",
    "source": "충남내포뉴스",
@@ -126,18 +96,45 @@
    "tags": []
   },
   {
-   "title": "GS파워, 부천 오정동 취약계층 겨울나기 지원…발전소 인근 지역상생 지속",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE84N1pTMDF5S083S0Z4M3NqZks2dEFwWTNPR0tKdzZ4aWJHSzcySzNLSnB2UXJjTVJUYVhCc0FJcGVZUUNVZE9qUnotQWJqaWg4cHlXdnRxSTE3aDMySi1mcXMtQndaRmM2aVBPSDF6T3dldw?oc=5",
-   "source": "에너지데일리",
+   "title": "“금융·항만·물류 갖춘 우리가 적지” PK도 유치전 불붙었다 [발전공기업 5사 통합 입법 본격화]",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBBdDNJbFYwWk8xMUZSNTA2SDZmLTVwYWlOWWJwUFBIUVRxeVR6Yy10RnhNaEhBZ0ExTWdReWV1VjJiRjZPdG9paVQ2c0tKbC1pNzFkallNMkx6dVFfNzdMZ1JpaTFIcmZZWkh6WDVDM1ZmbzcwSTBQZQ?oc=5",
+   "source": "부산일보",
    "date": "2026-11-18",
    "tags": []
   },
   {
-   "title": "LNG 열병합발전 시장 커진다…건설업계, 반도체·AI 전력 인프라 수주 경쟁 본격화",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBfZEFuQzlKa2xQVlFSVzJlSUVXbVk3cm9BNTZ6WFJiNVd0aEtES1JmNnpxeW41Si1ZbkxSQ0R5aTBXeG41US1uSmhPelNDRDcwcjhIajgtWUIwNk1ySC1YZzNLRmwwUDJOSFh6YnF6TE0?oc=5",
-   "source": "https://www.thedailyeconomy.kr/",
+   "title": "발전공기업 통합만으론 부족…에너지 전환 실행력 확보 촉구",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5IcElndkdLM2NIMzBqbDJYQ3R6UmNsdXZoNE8yNGhzRHVKVWpBR0RKNE5BVnpKbWstdlNXcGhMWlZsVzg1Y18xeFRqbGlGd25wY0VLbFBhS1lmN1NVRmR0V01tNDNsLWpWZmJzQw?oc=5",
+   "source": "에너지타임즈",
    "date": "2026-11-18",
    "tags": []
+  },
+  {
+   "title": "“또다시 희생 강요하나”···보령시, 발전공기업 통합본사 유치전 뛰어들어",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9ZcTg3U1JtN3BNQ3VWLWZ4T0xqclpUbTdPZWNpQklJVk9xYjVzajJQWDdYTERsSXU0R1F0Mm94TTBmcGcxU0tiZ3pzaExJWkJNQVlDVEF2Ukt6Z9IBX0FVX3lxTE5wREJkWnd6RUo1c1VjMVk1U09LNUZxMDlMRU1KdG9OSDRJeGtDT3U3NDRxUHY5aFZYNDZQY3RCVU5RZnJoYnoweFdkbGxSNHA4dHVoVEp1c0NWZG9zZmZJ?oc=5",
+   "source": "경향신문",
+   "date": "2026-11-18",
+   "tags": [
+    "보령"
+   ]
+  },
+  {
+   "title": "보령시·의회, 발전공기업 통합본사 유치 한목소리",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB4Nkt4WWt0elNWbHNFQ19GcG5sSXN6YXRCWUlxenNZeGVSaXJCT0ZvZlY0VG9qV2dYSndWam8yZ21PZmZ5UTI3VzBpSDdNMEdxYnFEanB1b0ZpU1hYZG5JTtIBeEFVX3lxTE9qNUsyRVV4ZG5udE92ZW05b0xhRzM0anNkX2FRZklKRTk0MDJjZEZ5cUdGNjU0dzhFQ0g3VUpOWEp2dW1GOVFLc3p6TWxjRFlYZWlCT29iWjZOMUh4aFd6NDJON3Jrb2FIOGVNM1pDZTNoRUtZREFsWg?oc=5",
+   "source": "뉴시스",
+   "date": "2026-11-18",
+   "tags": [
+    "보령"
+   ]
+  },
+  {
+   "title": "“발전공기업 통합본사는 보령으로”",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9XTzZqTE1Da2Z2ajNNZ2QwOVBxOEw4UW1qeU5VZnROdVBlcUlTakdIVkFDeHFXRmRnTGVhVTF0YU00eXFhY3VrRlZBYlFOLTBTanZvOUtKaS1ka0ZxVE1TdFZIZElBNXNnRUE?oc=5",
+   "source": "충청매일",
+   "date": "2026-11-18",
+   "tags": [
+    "보령"
+   ]
   },
   {
    "title": "LNG 열병합발전소 발주 확대⋯건설사 에너지 인프라 수주전",
@@ -154,18 +151,15 @@
    "tags": []
   },
   {
-   "title": "재생에너지 100GW 목표 ‘빨간불’… 기후솔루션, ‘재생에너지 100GW 신호등’ 공개",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1pZ1VlY0dwYWt4UWszclFXUFJfclV5VWtVZ3V5QUwydXh1MldEQ3RwbDlNM2UzSzliM3YyTklMcjlyQTRjR3dKRVNHbDRYalBPS01ORGdhdG1sUW95cnp1OFNZMUYyb0c3N0hhdE9UOGs?oc=5",
-   "source": "솔라투데이",
-   "date": "2026-11-16",
-   "tags": []
-  },
-  {
-   "title": "빅테크, 가스터빈 '싹쓸이'…LNG 전환사업 31% '터빈 없다' [전력 확보 전쟁②]",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE43STdJWndBRjhVbV9TMGlZcTlNQ2VqamhnOW92UjhlM09jVVRaeVNuaGVQaFpBeTY0amJwRkJhZExzcmtyYk1naUtHQzhoVlhBbDJqRWdyZEN2VlMtM3M3SNIBeEFVX3lxTE0yM3NaZExUZzR2V25NTTFtMW1KdkdLZXZ5RzJBeDgySjNDRjlCQmtFQ0tQNFlUWWsyOGVuOXdJMmVEZUF3UFhqbFZjTk92R2Etb2FQQkFsNXZyc3VvZ0RjUUdZRjRhUnBhT3loTlV4cnhWQ3JhX2UtRQ?oc=5",
-   "source": "뉴시스",
-   "date": "2026-11-15",
-   "tags": []
+   "title": "보령시, 오천항·외연도항 국비 건의…석탄화력 폐지지역 지원도 국회에 요청",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9UQTVfX1BPUkEzOU5XVkJBS1NMTW41UHcydV9oVWNUWFJ3QWlQQXRHbmRxanFiNVp1LVJIMXlmMGVTdHF5U0JaRktxenZ5MEJsTVZaVktvS3pSUTNmUWI4VVJPcnJjaWs0LVk5OQ?oc=5",
+   "source": "농수축산신문",
+   "date": "2026-11-17",
+   "tags": [
+    "외연도",
+    "연도",
+    "보령"
+   ]
   },
   {
    "title": "경주시, 발전소 주변지역 지원사업 확정",
@@ -182,6 +176,13 @@
    "tags": [
     "하동"
    ]
+  },
+  {
+   "title": "경주시, 2027년 발전소 주변지역 지원사업 66억 원 규모 확정",
+   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE42c0NPcWpERElvdkVKbkVlLWVZNk11T01EYjFqYzJYU0RHdnUtNUppUEhXdHpHYjV5NHNOSEpfVFpKU2c5cmVoMjNRb1Bmd2d5RG9nZDF5eWNvcGhhT2JvZlp0SC1ZUQ?oc=5",
+   "source": "데일리대구경북뉴스",
+   "date": "2026-11-04",
+   "tags": []
   }
  ]
 }
